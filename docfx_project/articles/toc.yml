@@ -1,2 +1,4 @@
 - name: Homepage
   href: home.md
+- name: Scripting Overview
+  href: scripting-documentation.md

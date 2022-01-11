@@ -1,0 +1,3 @@
+[submodule "docfx_project/src/unity-pomodoro"]
+	path = docfx_project/src/unity-pomodoro
+	url = https://github.com/adrian-miasik/unity-pomodoro

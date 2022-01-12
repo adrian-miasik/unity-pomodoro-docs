@@ -286,6 +286,7 @@ article section {
   width: 100%;
 }
 #autocollapse .navbar-header {
+  padding: 5px;
   margin-left: 0;
   margin-right: 0;
 }
@@ -310,6 +311,7 @@ article section {
 }
 .navbar .navbar-nav {
   display: inline-block;
+  padding: 5px;
 }
 .docs-search {
   background: white;

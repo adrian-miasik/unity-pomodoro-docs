@@ -633,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "DOfbt6aV63QcXMWx5Wf+JRUUmjiW4sjBMaA5tSJQRCI="
+          "hash": "ZUpB5iU70q/6tngkhKgNKFYjemgOFdf98R98vEWQY1k="
         }
       },
       "is_incremental": true,
@@ -657,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "documents/deprecated/keyboard-controls-prior-to-1.7.0.html",
-          "hash": "iikS77OJ6vylHnQzr5nvQe5nijriN+7f0z2oF8q/UPM="
+          "hash": "VZLQP1SApMKAau8CkMTk9ICgLA1p7AYXjGfCda+EPIk="
         }
       },
       "is_incremental": true,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "documents/digit-formats.html",
-          "hash": "UBb6WBQSpJ3ljj+QndL1y2X3GYZ8HPt8jW0VqGFQKQw="
+          "hash": "j99zglH3u2dLjgbT+y9luyD5FAm1gxJhvnb3IQhDqIs="
         }
       },
       "is_incremental": true,
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "documents/github-labels.html",
-          "hash": "9unHSHStP5NrR3hD2SvnNoSxUiW0/Yt9l5cmGWwE+Bc="
+          "hash": "JoWY1Eec5eiOyrXTApdaI5ipTjyEc2NUkuRUaeMTc1Q="
         }
       },
       "is_incremental": true,
@@ -693,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "documents/home.html",
-          "hash": "eTzUWE6e/dw2zXNGHwrA+T7rSkmtap7XkBcQX9uj9r8="
+          "hash": "1L4Du5d2+jRmxaDycHin0Ixvj8BV1kRCEfRd8cEUtpI="
         }
       },
       "is_incremental": true,
@@ -705,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "documents/keyboard-controls.html",
-          "hash": "w29vltRcnMTGeWdhCl9nFkH3Bmhgf3cSpuHh5Db8vFU="
+          "hash": "OBkcs7E3RHRDREJtGADVQBjJoMeFBmDOeIJ7vx0ac3E="
         }
       },
       "is_incremental": true,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "documents/scripting-documentation.html",
-          "hash": "/91HzMSTXyxno/7fd2Ks7SlpxuJsdVyyiKj+re5MSUg="
+          "hash": "zXSD2xYLYe81uxsadCHp+r2d5qZmjpmePWxX/LPAuxA="
         }
       },
       "is_incremental": true,
@@ -752,7 +752,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "xYCVd6cKnOydvVmaQqUy0x5A9YGFJq5P+1z4G9fmrWs="
+          "hash": "IiD02uV2qPYyBZQq7+mjX9yTo4gZQNQ2I+QKjdGoFPA="
         }
       },
       "is_incremental": true,

@@ -4,7 +4,7 @@
 `unity-pomodoro-docs` is documentation mostly generated from our [`unity-pomodoro`](https://github.com/adrian-miasik/unity-pomodoro) source code using [DocFX](https://github.com/dotnet/docfx).
 However, we also have numerous articles that were written by me to help support and get developers to better understanding the `unity-pomodoro` source code.
 
-**Version**:  0.1.0
+**Version**:  0.0.1
 
 **Author**:  **[`Adrian Miasik`](https://adrian-miasik.com)**
 

@@ -70,7 +70,7 @@
 <h1 id="scripting-documentation">Scripting Documentation</h1>
 
 <h2 id="entry-point">Entry Point</h2>
-<p><strong><a href="AdrianMiasik.PomodoroTimer.html">PomodoroTimer.cs</a></strong>: Our main class / component.
+<p><strong><a href="../api/AdrianMiasik.PomodoroTimer.html">PomodoroTimer.cs</a></strong>: Our main class / component.
 Responsible for controlling the main timer logic, configuring settings, and initializing our related components.
 This class also includes many helper functions such as:</p>
 <ul>
@@ -78,9 +78,9 @@ This class also includes many helper functions such as:</p>
 <li><code>Pause()</code></li>
 <li><code>Restart()</code></li>
 <li><code>SwitchState()</code></li>
-<li>and many more...See the <a href="AdrianMiasik.PomodoroTimer.html">class</a> for a full list of methods.</li>
+<li>and many more...See the <a href="../api/AdrianMiasik.PomodoroTimer.html">class</a> for a full list of methods.</li>
 </ul>
-<h2 id="components"><a href="AdrianMiasik.Components.html">Components</a></h2>
+<h2 id="components"><a href="../api/AdrianMiasik.Components.html">Components</a></h2>
 <p>Components scripts are intended to be used for a <strong>specific purpose</strong>.</p>
 <table>
 <thead>
@@ -92,108 +92,108 @@ This class also includes many helper functions such as:</p>
 </thead>
 <tbody>
 <tr>
-<td><a href="AdrianMiasik.Components.AboutPanel.html">AboutPanel.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.AboutPanel.html">AboutPanel.cs</a></td>
 <td>A theme element page used to display information about our application. Includes a description, social buttons, version number, and a copyright disclaimer.</td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.Background.html">Background.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.Background.html">Background.cs</a></td>
 <td>A theme element image used to pull focus off selected elements. The background is our default selection.</td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.CompletionLabel.html">CompletionLabel.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.CompletionLabel.html">CompletionLabel.cs</a></td>
 <td>A theme element used to update the color of the referenced &quot;timer completed&quot; labels.</td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.ConfirmationDialog.html">ConfirmationDialog.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.ConfirmationDialog.html">ConfirmationDialog.cs</a></td>
 <td>A theme element associated with a prefab. Used to prompt the user with yes/no questions. Such as confirming their action that can interrupt the active running timer.</td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.CreditsBubble.html">CreditsBubble.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.CreditsBubble.html">CreditsBubble.cs</a></td>
 <td>A timed based element used for displaying the author of the app. Intended to minimize itself after a couple seconds with the use of the TimerProgress base class.</td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.DigitFormat.html">DigitFormat.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.DigitFormat.html">DigitFormat.cs</a></td>
 <td>A theme element that is responsible for generating/creating/managing a digit format which consists of DoubleDigit's and DigitSeparators. This class is also responsible for displaying our timer digits.</td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.DigitSeparator.html">DigitSeparator.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.DigitSeparator.html">DigitSeparator.cs</a></td>
 <td>A class used to update the color of the referenced text component.</td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.DoubleDigit.html">DoubleDigit.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.DoubleDigit.html">DoubleDigit.cs</a></td>
 <td>A text field that displays two digits to the user which is intended to be manipulated by our DigitFormat class.. Intended to represent either HOURS, MINUTES, or SECONDS. (See PomodoroTimer.Digits enum)</td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.HotkeyDetector.html">HotkeyDetector.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.HotkeyDetector.html">HotkeyDetector.cs</a></td>
 <td>Responsible for our detecting and executing our keyboard shortcut actions. Single keys are processed in <code>ProcessKeys()</code>, and multi-keys are processed in <code>ProcessKeybinds()</code>.</td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.LabelledDropdown.html">LabelledDropdown.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.LabelledDropdown.html">LabelledDropdown.cs</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.RightButton.html">RightButton.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.RightButton.html">RightButton.cs</a></td>
 <td>A button used to play/pause the timer. Not a ClickButton since this component relies on the pomodoro timer state and has custom functionality based on the state. Intended to be used in conjunction with a ClickButton core component though.</td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.SettingsPanel.html">SettingsPanel.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.SettingsPanel.html">SettingsPanel.cs</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.Sidebar.html">Sidebar.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.Sidebar.html">Sidebar.cs</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.SidebarRow.html">SidebarRow.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.SidebarRow.html">SidebarRow.cs</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.SocialButtons.html">SocialButtons.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.SocialButtons.html">SocialButtons.cs</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.ThemeSlider.html">ThemeSlider.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.ThemeSlider.html">ThemeSlider.cs</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.Tomato.html">Tomato.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.Tomato.html">Tomato.cs</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.TomatoCounter.html">TomatoCounter.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.TomatoCounter.html">TomatoCounter.cs</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.UPIcon.html">UPIcon.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.UPIcon.html">UPIcon.cs</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td><a href="AdrianMiasik.Components.WriteVersionNumber.html">WriteVersionNumber.cs</a></td>
+<td><a href="../api/AdrianMiasik.Components.WriteVersionNumber.html">WriteVersionNumber.cs</a></td>
 <td>A script that will write the users current software version to a specific text label.</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<h3 id="core"><a href="AdrianMiasik.Components.Core.html">Core</a></h3>
+<h3 id="core"><a href="../api/AdrianMiasik.Components.Core.html">Core</a></h3>
 <p>Core scripts are intended to be used for a <strong>generic purpose</strong>.</p>
 <table>
 <thead>
@@ -263,7 +263,7 @@ This class also includes many helper functions such as:</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro-docs/blob/local/docfx_project/api/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro-docs/blob/local/docfx_project/documents/scripting-documentation.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

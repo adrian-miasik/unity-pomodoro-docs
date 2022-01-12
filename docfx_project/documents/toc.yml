@@ -1,0 +1,10 @@
+- name: Table of Contents
+  href: home.md
+- name: Digit Formats
+  href: digit-formats.md
+- name: GitHub Labels
+  href: github-labels.md
+- name: Keyboard Controls
+  href: keyboard-controls.md
+- name: Scripting Overview
+  href: scripting-documentation.md

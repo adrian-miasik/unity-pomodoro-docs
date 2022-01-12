@@ -1,2 +1,1 @@
-# PLACEHOLDER
-TODO: Add .NET projects to the *src* folder and run `docfx` to generate **REAL** *API Documentation*!
+[!include[scripting-doc](../documents/scripting-documentation.md)]

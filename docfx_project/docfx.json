@@ -47,11 +47,11 @@
         ]
       }
     ],
-    "dest": "_site",
+    "dest": "../docs",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "templates/unity-pomodoro"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",

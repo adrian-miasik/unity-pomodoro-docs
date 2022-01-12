@@ -51,7 +51,7 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "templates/unity-pomodoro"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",

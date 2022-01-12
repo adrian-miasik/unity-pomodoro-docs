@@ -9,6 +9,18 @@ This class also includes many helper functions such as:
 - `SwitchState()`
 - and many more...See the [class](../api/AdrianMiasik.PomodoroTimer.yml) for a full list of methods.
 
+## [Core](../api/AdrianMiasik.Components.Core.yml)
+Core scripts are intended to be used for a **generic purpose**.
+
+| Script/Class Name     | Purpose                                                                                                                                                                                        | High Level Use                                                                                                         |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| AudioMimic.cs         | A singleton class that allows us to transfer audio from a hidden/destroyed gameobject and play it here instead. Limited to only 1 sound mimic at the moment.                                   |                                                                                                                        |
+| BooleanSlider.cs      | A generic toggle in the form of a slider that is used to switch between two states.                                                                                                            | Used for switching the timer from work to break mode. (and vice versa)                                                 |
+| BooleanToggle.cs      | A generic toggle in the form of a flip/flop sprite. Supports the following property changes: sprite, tint, and z-rotation. Perfect for 2D use.                                                 | Used on the information button on the top right for switching between timer controls and the information / about page. |
+| ClickButton.cs        | A generic button that is used to interact with the software and trigger events based on user input. Supports animations, click hold curves, unity events, and sound FX (with pitch variation). | Used on all of our application buttons.                                                                                |
+| ThemeElement.cs       |                                                                                                                                                                                                |                                                                                                                        |
+| ThemeElementToggle.cs |
+
 ## [Components](../api/AdrianMiasik.Components.yml)
 Components scripts are intended to be used for a **specific purpose**.
 
@@ -35,22 +47,10 @@ Components scripts are intended to be used for a **specific purpose**.
 | [UPIcon.cs](../api/AdrianMiasik.Components.UPIcon.yml)                         |                                                                                                                                                                                                                                                |                |
 | [WriteVersionNumber.cs](../api/AdrianMiasik.Components.WriteVersionNumber.yml) | A script that will write the users current software version to a specific text label.                                                                                                                                                          |                |
 
-### [Core](../api/AdrianMiasik.Components.Core.yml)
-Core scripts are intended to be used for a **generic purpose**.
-
-| Script/Class Name     | Purpose                                                                                                                                                                                        | High Level Use                                                                                                         |
-|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| AudioMimic.cs         | A singleton class that allows us to transfer audio from a hidden/destroyed gameobject and play it here instead. Limited to only 1 sound mimic at the moment.                                   |                                                                                                                        |
-| BooleanSlider.cs      | A generic toggle in the form of a slider that is used to switch between two states.                                                                                                            | Used for switching the timer from work to break mode. (and vice versa)                                                 |
-| BooleanToggle.cs      | A generic toggle in the form of a flip/flop sprite. Supports the following property changes: sprite, tint, and z-rotation. Perfect for 2D use.                                                 | Used on the information button on the top right for switching between timer controls and the information / about page. |
-| ClickButton.cs        | A generic button that is used to interact with the software and trigger events based on user input. Supports animations, click hold curves, unity events, and sound FX (with pitch variation). | Used on all of our application buttons.                                                                                |
-| ThemeElement.cs       |                                                                                                                                                                                                |                                                                                                                        |
-| ThemeElementToggle.cs |                                                                                                                                                                                                |                                                                                                                        |
-
-### Helpers
+## Helpers
 // TODO
 
-### Wrappers
+## Wrappers
 // TODO
 
 ## Interfaces

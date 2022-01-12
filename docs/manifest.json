@@ -5,59 +5,11 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/AdrianMiasik.BooleanToggleEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AdrianMiasik.BooleanToggleEditor.html",
-          "hash": "XPmTnmad9wUqg8dyFfN3n3CpZkYH5IADUExRNpf/5Es="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/AdrianMiasik.ClickButtonEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AdrianMiasik.ClickButtonEditor.html",
-          "hash": "Z5FUqTXd8X9UQ1Qu5LzAe46RLm1PvPz6+lPwa97vqQk="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/AdrianMiasik.ClickButtonIconEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AdrianMiasik.ClickButtonIconEditor.html",
-          "hash": "1VGUVdlLjcHmAIGkdajXBWBK7/PS7pbAMiRwOiKaVk4="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/AdrianMiasik.ClickButtonTextEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/AdrianMiasik.ClickButtonTextEditor.html",
-          "hash": "9M39vgCvIp88wKO6JbOdcqz5uMwoQXLKDsVdcEKhyY4="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/AdrianMiasik.Components.AboutPanel.yml",
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.AboutPanel.html",
-          "hash": "xOUes0BaOCGWOTcTCq7t1ipC/GBpyyaoNX+2y/NA2Ks="
+          "hash": "0c/Xo13jMmerYWiv7f2+VONqzUk0DxPop51AcUyxVUE="
         }
       },
       "is_incremental": true,
@@ -69,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Background.html",
-          "hash": "74we4yDpo37UUPQ+mDSaOB+lT8kcnQe5pL2jvXPt+X0="
+          "hash": "EAE89Ka0rJSLUdXqiApVnHUnNa/KOOHd5ZvDzWuYWtY="
         }
       },
       "is_incremental": true,
@@ -81,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.CompletionLabel.html",
-          "hash": "gW3xDtKxCsXytHqr4dDX3+4nShESDKBB8pZhsMfMRHc="
+          "hash": "rIbxXmLABgkbgroGGQzSu8xMLdkNXxdT+CUivSmnV2U="
         }
       },
       "is_incremental": true,
@@ -93,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.ConfirmationDialog.html",
-          "hash": "9fmxJxuxzrPxRzN3dImsw9xpgBKliUs3D1VUFg+DdPA="
+          "hash": "rlWDrytHWVLd5YWny8FSatpztSGgjFA2JcG0M1Wna6w="
         }
       },
       "is_incremental": true,
@@ -105,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Core.AudioMimic.html",
-          "hash": "39yqhVe7xMpam/6c3mhYdCw/po8T+sYP4UydMw/lGS0="
+          "hash": "utdcsSId0xjiUku5HfhJgLKaMMgi4o+FzN4ynoCRzFI="
         }
       },
       "is_incremental": true,
@@ -117,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Core.BooleanSlider.html",
-          "hash": "RKcraJz0z6befskNAFZJiSb2362tOpzfVMKJ0L6zY/8="
+          "hash": "sgpMkcmv/aQ0iP34shjgZp9fhUeICW8dQjW2FWKTmpk="
         }
       },
       "is_incremental": true,
@@ -129,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Core.BooleanToggle.html",
-          "hash": "xgqWZsCak/BYzOuYYtPOXJ/g379ogNh+4/lWEH+lkRM="
+          "hash": "gl4Mxd/u2/go4Go+U1ic7gkWtxJEzgdGdIz/4S1XWdM="
         }
       },
       "is_incremental": true,
@@ -141,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Core.ClickButton.html",
-          "hash": "5YX63mSEmTPb4QLWpzrmF1PqhX9qKvG2ijOUJLTl6cM="
+          "hash": "/71xFuaIAjPzDEBIJzHHTgh9YxwkQC2hKru3yXf0N58="
         }
       },
       "is_incremental": true,
@@ -153,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Core.ThemeElement.html",
-          "hash": "g75l5RH5LuzaRSsxuEcEnCMEafTa7HroNDBt+NjdamU="
+          "hash": "EoS6ZtAbXVJhj7D/a79/OXl/Kvg9YP/2h01F5M7e9uc="
         }
       },
       "is_incremental": true,
@@ -165,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Core.ThemeElementToggle.html",
-          "hash": "bq33ZrZMmnLqPVbz/VBMl1gflpgq3Zu0Cwo+IepvmLE="
+          "hash": "+RoEprE80rZQTi3991IUkq6U3k8f4EMLs/No1GWj+DE="
         }
       },
       "is_incremental": true,
@@ -177,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Core.TimerProgress.html",
-          "hash": "e+S4eAcNTany0qTjfZMTcaibcsae4TZ4o6y0r4W+T1E="
+          "hash": "5IiIOtBaZNodeQGwnNgOWdxmaHGID3rN1iTUS3GhFKY="
         }
       },
       "is_incremental": true,
@@ -201,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.CreditsBubble.html",
-          "hash": "Egi5f4PXtaTM4VZNLfkyhCJ3MnIOa19/h2Xb8L8/RX8="
+          "hash": "EaLJLfOElmjilJ4hK1To/5nMU1YxSiK7qdNlSUNLCqA="
         }
       },
       "is_incremental": true,
@@ -213,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.DigitFormat.Digits.html",
-          "hash": "W6a2Ig9x0Zqz/mYc3hTmHZXP10hcvkAWCi6iGeHNs/4="
+          "hash": "Aig3zOLcRhhuf9TsvyeNn4xyKisYnrW6Y5Lzjw4stjQ="
         }
       },
       "is_incremental": true,
@@ -225,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.DigitFormat.SupportedFormats.html",
-          "hash": "7JGoOOKYjtH1jKcar2x+zB+paOMswBrwIklQtOeRykY="
+          "hash": "yvsgzNWb4qZskWlPqGNMMxpQRtzQ34eoFBCUAHEA08g="
         }
       },
       "is_incremental": true,
@@ -237,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.DigitFormat.html",
-          "hash": "m1+QDbrrEap7qBs+znC1Z+T7j3SY3VzaZtmRoGGWLbk="
+          "hash": "BhpbMLsqRBqv4xC78kpnxMpV+Dt2QJVXAg1nGxmEklk="
         }
       },
       "is_incremental": true,
@@ -249,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.DigitSeparator.html",
-          "hash": "O16qTThoWgY6bUWoqGte9guT06VR8KNQNALq7iRzwUY="
+          "hash": "3RLGmLjqISCQHDR1y0ovg9l0P3ICmdXd6p+mbnQE35I="
         }
       },
       "is_incremental": true,
@@ -261,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.DoubleDigit.html",
-          "hash": "2BoBtIjy2Xqh7DkK/tqbadgeZcdihwVrG/rrfZppuYU="
+          "hash": "twR1lxWjYplplDH7qd1DpxOP1yjUx3F9zbG0nhEQ9nk="
         }
       },
       "is_incremental": true,
@@ -273,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Helpers.ListHelper.html",
-          "hash": "N23jTGxKaQ70YbPx/7JVJAFmWaqDnJrOvipDXPKYdTs="
+          "hash": "OPjy/eJDDR2OF71ko0TN1mfYtNxLLUEtJUblszHoXP4="
         }
       },
       "is_incremental": true,
@@ -297,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.HotkeyDetector.html",
-          "hash": "Fy1IZUxi/kMlDgF1qu37uw+GvV+YTBCz/EKeCGycN9o="
+          "hash": "RIP95ftjU82TunJyxCH91DLrMI3i6H0ZpjpnpAzBD1Y="
         }
       },
       "is_incremental": true,
@@ -309,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.LabelledDropdown.html",
-          "hash": "4e4OYRe/ZoJfAZaZ0sArFeHzXzgL1f2HOGE9U0dnjFo="
+          "hash": "xnvXLvxtLplpRbqMStiOrI+yaqPU9V1aU1l7rNKFVcA="
         }
       },
       "is_incremental": true,
@@ -321,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.RightButton.html",
-          "hash": "4+IqjucDFkWe3BGTXzqDyxzMtgt/kX4fSHprTcfcAyU="
+          "hash": "Orlx2A/V8+iJAHCOn0POSj4wmEPxxOJb7/vyyfmzhXs="
         }
       },
       "is_incremental": true,
@@ -333,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.SettingsPanel.html",
-          "hash": "ll28PxOKOL79RPXuNBTLTnDDfhmfiwqYia+v7ygt9ok="
+          "hash": "ZpmGUsX1++guRmy2pU4ZGuTM5FiyNvRNOBvE5uX7BXM="
         }
       },
       "is_incremental": true,
@@ -345,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Sidebar.html",
-          "hash": "J2nRn94Y+F9x+LmxN+oAe/8b/D8dTF+8xYEQP8mmzuY="
+          "hash": "BZb8ycdbRs7Yeu2UBbbLMzkVRgLI60G3eqC1iQuI+Xc="
         }
       },
       "is_incremental": true,
@@ -357,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.SidebarRow.html",
-          "hash": "G1nND+nS5qAwz/bBjKqDuAsP5rupd6NTpXO58wYTdeo="
+          "hash": "qo2oaEfVxCF0wG2IIGHkVFJ6gIwo7us38B4VsIBJX/4="
         }
       },
       "is_incremental": true,
@@ -369,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.SocialButtons.html",
-          "hash": "3689Oi6Btu92CiSrT3K6i2+LoyocQJw4WWeKye/MDR0="
+          "hash": "TwJqjLPQkQLJcWyqpK5kzZGqmhTORW2gcgCmszKXrXY="
         }
       },
       "is_incremental": true,
@@ -381,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.ThemeSlider.html",
-          "hash": "hkXTqjsTzyqyhSILvRId2Ii4n7HpdWtUTGRR8XW94vQ="
+          "hash": "Ppi7k7v/81FluvTSjR4iL6ASJeQd6ipDZsV8vYWYu9s="
         }
       },
       "is_incremental": true,
@@ -393,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Tomato.html",
-          "hash": "+5clOxPVs24EOxbippKSy+OVuGDu5K3AsS9PvcGa7/A="
+          "hash": "8VkUNT/ac1dRAD+8nMB9mMdG3WZJeAscBDAB1HZI4rc="
         }
       },
       "is_incremental": true,
@@ -405,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.TomatoCounter.html",
-          "hash": "8HVsR6/REFB4CQR8J6txAdgekTGYBLi5iES+N8iRYRA="
+          "hash": "dne5mgA3JH5bbWBUsCNAnr+NDU9w+W5QovOhjkdOptI="
         }
       },
       "is_incremental": true,
@@ -417,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.UPIcon.html",
-          "hash": "s0bK6cAaNDEOBH9BzkUkmK5/O0ZjmGHgmCaZg4XuaaE="
+          "hash": "edwHWMYxqEpBHSWlCF4mcVMwt+VzyMALRUzOyvKtDxk="
         }
       },
       "is_incremental": true,
@@ -429,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Wrappers.ClickButtonIcon.html",
-          "hash": "oV3R4JcB+qu69rrYFbq8slS10VWYw73YVWwlDzOGnHE="
+          "hash": "H7Eh6NdJCt0dQSHh85kCIEpcEG9fBzJSjAPJ+ikK0fE="
         }
       },
       "is_incremental": true,
@@ -441,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Wrappers.ClickButtonText.html",
-          "hash": "Fc7mvPRPyYkrMAcp9LRzXI905eBp1W24VhexmeAyOCE="
+          "hash": "/6II9gsw4yXE3gZzXaUr2Z2o0trEqRWXHfDNAsG9G4k="
         }
       },
       "is_incremental": true,
@@ -465,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.WriteVersionNumber.html",
-          "hash": "3rYGDTQRPOw5v1TRI+YeNW3TZVGvpFPziuY431hgCpg="
+          "hash": "r0SDt5s4kcLtVwynWorlWPQNl7J0NuWIONhlWkZhReI="
         }
       },
       "is_incremental": true,
@@ -485,11 +437,71 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/AdrianMiasik.Editor.BooleanToggleEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AdrianMiasik.Editor.BooleanToggleEditor.html",
+          "hash": "qKdxzX6Bz/hM/EKXanMu6B9i9PADojgWhYFZCD23w4E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AdrianMiasik.Editor.ClickButtonEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AdrianMiasik.Editor.ClickButtonEditor.html",
+          "hash": "SJDZvGRdUKE1XGpvhvLFuaouywPVo+J0xn4sPRlmL7s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AdrianMiasik.Editor.ClickButtonIconEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AdrianMiasik.Editor.ClickButtonIconEditor.html",
+          "hash": "uPEnaBGX9mxAOTWNkiFra0TEfiaBsxf7U1CcrkxKjzQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AdrianMiasik.Editor.ClickButtonTextEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AdrianMiasik.Editor.ClickButtonTextEditor.html",
+          "hash": "WZQSxio46Ap9lwdyF0zfyCFDERseac30uueiGVmQchY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AdrianMiasik.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AdrianMiasik.Editor.html",
+          "hash": "pNEgnIwXTmRJc/u+jBq6SwS0B0cxtwbfSbb1V+GJmQM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/AdrianMiasik.Interfaces.IColorHook.yml",
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Interfaces.IColorHook.html",
-          "hash": "DAhnFRhxWmVpFwfN/952eiEeQm23FFmBVH34aqauDKo="
+          "hash": "zfCHSXpG4kZLjowPi6I6BieoOR7E8lbxc3Xdj7vyUMw="
         }
       },
       "is_incremental": true,
@@ -501,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Interfaces.ITimerState.html",
-          "hash": "eeVZUgGCUkz3IhWZhajo1hXHgRiZWl0BoyyzTsdBD1M="
+          "hash": "q+yv1f3dEs2CdVDyr3nAj2xCRNcX0ti2yzpfZVDqILc="
         }
       },
       "is_incremental": true,
@@ -525,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.PomodoroTimer.States.html",
-          "hash": "/qfwyWJmWX0YOFXcjwzWhEP6+NeThfJC+hc5jP3lhaQ="
+          "hash": "ieMXxOKrm9paGzJW3bQ9ZPuD56jdiUc7G9vhkEP2Nyw="
         }
       },
       "is_incremental": true,
@@ -537,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.PomodoroTimer.html",
-          "hash": "F98ppNoL/xNN1Cle3I+AHmJsQUF2CYpHdu085rus8Ng="
+          "hash": "rFkNCGllweY6Uec7xF60NKHsvvF+wKDvXMatPYo5U9U="
         }
       },
       "is_incremental": true,
@@ -549,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.ScriptableObjects.ColorScheme.html",
-          "hash": "cPbnsHcTxdXXlyxZCKAYEXPonQbvTzjYoAjVnXkDr/g="
+          "hash": "5riM86c3QtP0PjbbhDv5zSe2Lc3Z2OkkZVScE2G7JSg="
         }
       },
       "is_incremental": true,
@@ -561,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.ScriptableObjects.Theme.html",
-          "hash": "MS9ep6DyxzwgPqVABSmEK3qvaHzIu/z8XSObrNrbPws="
+          "hash": "eIRP8hKp0XexJLmbjOYWsbxLfoIvHA6I7whsBK9db5c="
         }
       },
       "is_incremental": true,
@@ -585,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.UWP.NotificationManager.html",
-          "hash": "sM3jGWyE6sjuM56js7a0jQYoNj6yEyD1vdErpJepBfE="
+          "hash": "+l55DLQW3yv/OZKzyTRsOZ5jotx8EFVBggDYYLBelEc="
         }
       },
       "is_incremental": true,
@@ -609,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.html",
-          "hash": "kSmIUXh0QZR5Y52AQ7s8IQCdsyOYYC64PTa19FvCOd4="
+          "hash": "N4sXW5W9a7MSJqxPNB64LRqrzxz0pMxUZqGKfOe4Bkc="
         }
       },
       "is_incremental": true,
@@ -633,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "XtwH1YHv5AxQHMZWVAb20wVo6cQ6NEjQIc1rpaDJWQg="
+          "hash": "wO+U4bCS2KBpG+pQjHNSGmRtIydgukYBx8crwYvKYOI="
         }
       },
       "is_incremental": false,
@@ -777,8 +789,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 51,
-          "skipped_file_count": 51
+          "total_file_count": 52,
+          "skipped_file_count": 52
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

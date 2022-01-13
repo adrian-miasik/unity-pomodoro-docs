@@ -3447,32 +3447,6 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.PomodoroTimer.SwitchTheme
   nameWithType: PomodoroTimer.SwitchTheme
-- uid: AdrianMiasik.PomodoroTimer.SwitchToBreakTimer
-  name: SwitchToBreakTimer()
-  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_SwitchToBreakTimer
-  commentId: M:AdrianMiasik.PomodoroTimer.SwitchToBreakTimer
-  fullName: AdrianMiasik.PomodoroTimer.SwitchToBreakTimer()
-  nameWithType: PomodoroTimer.SwitchToBreakTimer()
-- uid: AdrianMiasik.PomodoroTimer.SwitchToBreakTimer*
-  name: SwitchToBreakTimer
-  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_SwitchToBreakTimer_
-  commentId: Overload:AdrianMiasik.PomodoroTimer.SwitchToBreakTimer
-  isSpec: "True"
-  fullName: AdrianMiasik.PomodoroTimer.SwitchToBreakTimer
-  nameWithType: PomodoroTimer.SwitchToBreakTimer
-- uid: AdrianMiasik.PomodoroTimer.SwitchToWorkTimer
-  name: SwitchToWorkTimer()
-  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_SwitchToWorkTimer
-  commentId: M:AdrianMiasik.PomodoroTimer.SwitchToWorkTimer
-  fullName: AdrianMiasik.PomodoroTimer.SwitchToWorkTimer()
-  nameWithType: PomodoroTimer.SwitchToWorkTimer()
-- uid: AdrianMiasik.PomodoroTimer.SwitchToWorkTimer*
-  name: SwitchToWorkTimer
-  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_SwitchToWorkTimer_
-  commentId: Overload:AdrianMiasik.PomodoroTimer.SwitchToWorkTimer
-  isSpec: "True"
-  fullName: AdrianMiasik.PomodoroTimer.SwitchToWorkTimer
-  nameWithType: PomodoroTimer.SwitchToWorkTimer
 - uid: AdrianMiasik.PomodoroTimer.TriggerPlayPause
   name: TriggerPlayPause()
   href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_TriggerPlayPause
@@ -3557,6 +3531,32 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.PomodoroTimer.TryRestart
   nameWithType: PomodoroTimer.TryRestart
+- uid: AdrianMiasik.PomodoroTimer.TrySwitchToBreakTimer
+  name: TrySwitchToBreakTimer()
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_TrySwitchToBreakTimer
+  commentId: M:AdrianMiasik.PomodoroTimer.TrySwitchToBreakTimer
+  fullName: AdrianMiasik.PomodoroTimer.TrySwitchToBreakTimer()
+  nameWithType: PomodoroTimer.TrySwitchToBreakTimer()
+- uid: AdrianMiasik.PomodoroTimer.TrySwitchToBreakTimer*
+  name: TrySwitchToBreakTimer
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_TrySwitchToBreakTimer_
+  commentId: Overload:AdrianMiasik.PomodoroTimer.TrySwitchToBreakTimer
+  isSpec: "True"
+  fullName: AdrianMiasik.PomodoroTimer.TrySwitchToBreakTimer
+  nameWithType: PomodoroTimer.TrySwitchToBreakTimer
+- uid: AdrianMiasik.PomodoroTimer.TrySwitchToWorkTimer
+  name: TrySwitchToWorkTimer()
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_TrySwitchToWorkTimer
+  commentId: M:AdrianMiasik.PomodoroTimer.TrySwitchToWorkTimer
+  fullName: AdrianMiasik.PomodoroTimer.TrySwitchToWorkTimer()
+  nameWithType: PomodoroTimer.TrySwitchToWorkTimer()
+- uid: AdrianMiasik.PomodoroTimer.TrySwitchToWorkTimer*
+  name: TrySwitchToWorkTimer
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_TrySwitchToWorkTimer_
+  commentId: Overload:AdrianMiasik.PomodoroTimer.TrySwitchToWorkTimer
+  isSpec: "True"
+  fullName: AdrianMiasik.PomodoroTimer.TrySwitchToWorkTimer
+  nameWithType: PomodoroTimer.TrySwitchToWorkTimer
 - uid: AdrianMiasik.ScriptableObjects
   name: AdrianMiasik.ScriptableObjects
   href: api/AdrianMiasik.ScriptableObjects.html

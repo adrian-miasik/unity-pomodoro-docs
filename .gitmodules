@@ -1,4 +1,3 @@
-[submodule "docfx_project/src/unity-pomodoro"]
-	path = docfx_project/src/unity-pomodoro
-	url = https://github.com/adrian-miasik/unity-pomodoro
-	branch = develop
+[submodule "docfx_project/src/-f"]
+	path = docfx_project/src/-f
+	url = https://github.com/adrian-miasik/unity-pomodoro.git

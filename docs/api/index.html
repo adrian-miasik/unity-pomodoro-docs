@@ -80,6 +80,49 @@ This class also includes many helper functions such as:</p>
 <li><code>SwitchState()</code></li>
 <li>and many more...See the <a href="AdrianMiasik.PomodoroTimer.html">class</a> for a full list of methods.</li>
 </ul>
+<h2 id="core"><a href="AdrianMiasik.Components.Core.html">Core</a></h2>
+<p>Core scripts are intended to be used for a <strong>generic purpose</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Script/Class Name</th>
+<th>Purpose</th>
+<th>High Level Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AudioMimic.cs</td>
+<td>A singleton class that allows us to transfer audio from a hidden/destroyed gameobject and play it here instead. Limited to only 1 sound mimic at the moment.</td>
+<td></td>
+</tr>
+<tr>
+<td>BooleanSlider.cs</td>
+<td>A generic toggle in the form of a slider that is used to switch between two states.</td>
+<td>Used for switching the timer from work to break mode. (and vice versa)</td>
+</tr>
+<tr>
+<td>BooleanToggle.cs</td>
+<td>A generic toggle in the form of a flip/flop sprite. Supports the following property changes: sprite, tint, and z-rotation. Perfect for 2D use.</td>
+<td>Used on the information button on the top right for switching between timer controls and the information / about page.</td>
+</tr>
+<tr>
+<td>ClickButton.cs</td>
+<td>A generic button that is used to interact with the software and trigger events based on user input. Supports animations, click hold curves, unity events, and sound FX (with pitch variation).</td>
+<td>Used on all of our application buttons.</td>
+</tr>
+<tr>
+<td>ThemeElement.cs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ThemeElementToggle.cs</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="components"><a href="AdrianMiasik.Components.html">Components</a></h2>
 <p>Components scripts are intended to be used for a <strong>specific purpose</strong>.</p>
 <table>
@@ -193,52 +236,9 @@ This class also includes many helper functions such as:</p>
 </tr>
 </tbody>
 </table>
-<h3 id="core"><a href="AdrianMiasik.Components.Core.html">Core</a></h3>
-<p>Core scripts are intended to be used for a <strong>generic purpose</strong>.</p>
-<table>
-<thead>
-<tr>
-<th>Script/Class Name</th>
-<th>Purpose</th>
-<th>High Level Use</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>AudioMimic.cs</td>
-<td>A singleton class that allows us to transfer audio from a hidden/destroyed gameobject and play it here instead. Limited to only 1 sound mimic at the moment.</td>
-<td></td>
-</tr>
-<tr>
-<td>BooleanSlider.cs</td>
-<td>A generic toggle in the form of a slider that is used to switch between two states.</td>
-<td>Used for switching the timer from work to break mode. (and vice versa)</td>
-</tr>
-<tr>
-<td>BooleanToggle.cs</td>
-<td>A generic toggle in the form of a flip/flop sprite. Supports the following property changes: sprite, tint, and z-rotation. Perfect for 2D use.</td>
-<td>Used on the information button on the top right for switching between timer controls and the information / about page.</td>
-</tr>
-<tr>
-<td>ClickButton.cs</td>
-<td>A generic button that is used to interact with the software and trigger events based on user input. Supports animations, click hold curves, unity events, and sound FX (with pitch variation).</td>
-<td>Used on all of our application buttons.</td>
-</tr>
-<tr>
-<td>ThemeElement.cs</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>ThemeElementToggle.cs</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h3 id="helpers">Helpers</h3>
+<h2 id="helpers">Helpers</h2>
 <p>// TODO</p>
-<h3 id="wrappers">Wrappers</h3>
+<h2 id="wrappers">Wrappers</h2>
 <p>// TODO</p>
 <h2 id="interfaces">Interfaces</h2>
 <ul>

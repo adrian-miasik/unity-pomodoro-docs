@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.AboutPanel.html",
-          "hash": "VzeQNd+cdbtTxslSNE7LZ0eg4NyfmDeyuDSJtwjXn5I="
+          "hash": "lBFMFqCuYhJNWH5Z0Kjz9qmsB6mreKRp5hs5EQGP+0g="
         }
       },
       "is_incremental": true,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Background.html",
-          "hash": "VNjRNDjcd9ZFGdozIH5PUKThP3Vbaajjn/uPSx9OikY="
+          "hash": "jWQ3zpPwLSo3Pg1NglUACk5eROhhs1/Li0F/tZjnaXs="
         }
       },
       "is_incremental": true,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.CompletionLabel.html",
-          "hash": "4RouhnIn/6DCiCT9RTEKxFNp6I6rsT/Lwk4+TPr4plk="
+          "hash": "W20sA2wg+1QcGP3V+rRS1FiNdYgWqnBZD0r73LaHIEc="
         }
       },
       "is_incremental": true,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.ConfirmationDialog.html",
-          "hash": "RsaT0pEbgZSLs1kPC3OHE7qwqeTcUfS62AE4ge/6Pbk="
+          "hash": "v6jok+zBNh2zxgskpMj7CTCEylUKtXPjX2NJWJBbzG0="
         }
       },
       "is_incremental": true,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Core.AudioMimic.html",
-          "hash": "+sNsuyCgzmmqZF2UpnaWQF01BDGJjxCLwBjHGF3hHLs="
+          "hash": "bDdv/HluA6abTvO6G1s3mm2ySzg5WrbsslNN97cWFQY="
         }
       },
       "is_incremental": true,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Core.BooleanSlider.html",
-          "hash": "2U2V9DhT71ympHBR5QwgFa7IpK1YOH9kp04U/CCSMnI="
+          "hash": "Kcx3l+KWSB6+eNsx9ZqBSjt90X8Ltao7A+fuBaFZZ7w="
         }
       },
       "is_incremental": true,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Core.BooleanToggle.html",
-          "hash": "Wbc2NPtmxMm/Mg6HuemPGcnOrrobClhsm57772wzoRU="
+          "hash": "C+xgvHpaDqsEj5bxa+XYu1JVdLln5nBtj2bzPyno5Og="
         }
       },
       "is_incremental": true,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Core.ClickButton.html",
-          "hash": "dTbjmHhLnZeZEzl12SD0nfjjJRKXhqb4PwwKyIZ01zQ="
+          "hash": "eWnFRqoUUKJdMFhoFriBF2PJza1k9tRt8nv5RuzuAe0="
         }
       },
       "is_incremental": true,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Core.ThemeElement.html",
-          "hash": "kJm6WXw6GQ3aSebwNgiIIWJAJf52DnHPxrafsKec0Hs="
+          "hash": "PSflcuFpra/+t2S0GruGLjzXW2j2pG9Lrqx2AXCPMf4="
         }
       },
       "is_incremental": true,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Core.ThemeElementToggle.html",
-          "hash": "gmS+dno09QP2gXmE3gwhIQhRzuE+TqeQPrUtLpxCWHI="
+          "hash": "50j6ljIPX9SbgM3N+88iPB7u8a2Sqj/tD66YIf2tQUY="
         }
       },
       "is_incremental": true,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Core.TimerProgress.html",
-          "hash": "xtlVRk6KITEKabxqdSRUMfIu/Rlk/FxlLKP1GkbcxC8="
+          "hash": "hr84ieuAl1o6ib4STjvLNKJaeRZnMe7xrwHE3s/V5lk="
         }
       },
       "is_incremental": true,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.CreditsBubble.html",
-          "hash": "DnaAzKTTYnp4rn6hUZKjCsSjyO3rDhcqLr/8Ocf8p54="
+          "hash": "5pXqUeIbrqnGwkwUf4LbKUCohG2HXaKjrNp1xG8SkW8="
         }
       },
       "is_incremental": true,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.DigitFormat.Digits.html",
-          "hash": "kXP9rDqq8glvfR1WOyqfLaVPOoC8CJ3sfh4SRkLfdTk="
+          "hash": "hvR8X1yAVNyKs98hwCR++O82puU6SSQxVhWVysoJ6Qk="
         }
       },
       "is_incremental": true,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.DigitFormat.SupportedFormats.html",
-          "hash": "1H7VJAiOVohvkM9aK+e5rtX086E+oZW5uq4pDQ8+aT0="
+          "hash": "/GPxTwfMlrSf+ndAH0oEyReseEushnkhlgoxpqcLOro="
         }
       },
       "is_incremental": true,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.DigitFormat.html",
-          "hash": "/GnSMi/etvxz99M4lA7wolJugC6CNpht92lGT5sgYgU="
+          "hash": "GW+DcTnF5B5oqOPd5+CX1ZJEKbuey8ejlQl7syFHXbk="
         }
       },
       "is_incremental": true,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.DigitSeparator.html",
-          "hash": "N/QMwRG+eoayYjSwNOLl58LPDPwxfCA0z3l+ipjGYIE="
+          "hash": "drsxsFyiDIfUIRdVBlMqw2kR/ZAuIr+mYNZ8cZNjHzE="
         }
       },
       "is_incremental": true,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.DoubleDigit.html",
-          "hash": "O/eqC4bBszGluElW82f/mb39Gd5dHqfzJhESUafDM60="
+          "hash": "y7Sn+ISn5CO92bp5CzMgZM85UMSUTx7o/wS3Cdqo/L8="
         }
       },
       "is_incremental": true,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Helpers.ListHelper.html",
-          "hash": "KabzcpuffLAPsWV+MfU/fuyyj3t0LzAVRYmabZureCw="
+          "hash": "6N6JBPiLyUqhCLt4SYgQp9LDFYz4SUUSt31eTZxO+p8="
         }
       },
       "is_incremental": true,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.HotkeyDetector.html",
-          "hash": "KWFtqlC2Qztne53BABNGQB7FwW3FFvTugM5ipfnYf6g="
+          "hash": "PEg1t93zeKzne6xgBPxjtObj+Buy9wLkhVP993bMFkA="
         }
       },
       "is_incremental": true,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.LabelledDropdown.html",
-          "hash": "coQ87Bznb9i61DlcK0RLOW87lrIiCyfpihuRtO7FUOg="
+          "hash": "pmnGKnUa6DFuAep3RJAPEokOf1BCcRVqQN2fdQeYU8s="
         }
       },
       "is_incremental": true,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.RightButton.html",
-          "hash": "p5AaGZpGWAPfKrRCjZCeq+Hd3rFNzdtrDg8Cs3i1CFg="
+          "hash": "8Y8leH3OsUyNoZA8+LKf7OUao2Ifhd/NEQgch0kPLOA="
         }
       },
       "is_incremental": true,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.SettingsPanel.html",
-          "hash": "Y15ZDy9rlBqd4cK3OOoeQNNKeQc/Q147V8uK0JX7jBY="
+          "hash": "lVCAPjlPnnEXNZrr4x9NjTvyonsxNArUzbqdQhtSOgs="
         }
       },
       "is_incremental": true,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Sidebar.html",
-          "hash": "XdJ+dfLSHutF5MDid6g4PyDTT3HX2he94uRsGO6uRoU="
+          "hash": "4qB5RGmSRmNSHP3zVEbs3V0fMS/pfohTacVAznlKOgk="
         }
       },
       "is_incremental": true,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.SidebarRow.html",
-          "hash": "H29N+21mlAaDNLJhmD1a3TSLDMn5k2CAM4oUDARaH/8="
+          "hash": "eK680QfmKS3bKq2DxxtVOqSP31paP44CxX0x67/m2eo="
         }
       },
       "is_incremental": true,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.SocialButtons.html",
-          "hash": "4Ww3DHPYrkMwoDjFswtK40dibh/vWDXIyAtTle39GVc="
+          "hash": "HgpLKYbxqBW4xp1KtTAmVK7NfqQcxEpcYh5dW0jtXTc="
         }
       },
       "is_incremental": true,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.ThemeSlider.html",
-          "hash": "msmqf9Iw5U30PtOtiVsnhxbaiyVpUZEF9ZmugpxCgXg="
+          "hash": "i3+83xMLEOLKDh1Cvi2fqmDx2jdn9NrMq5wRzo1zZqo="
         }
       },
       "is_incremental": true,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Tomato.html",
-          "hash": "Dui4UNmR6bkrTeuA9YiHxbbmyMhwkQQwmT/KC2huR1k="
+          "hash": "4F8RKcaAan0212xImPS4QrbKptnj2GjutTXNIaw4LoE="
         }
       },
       "is_incremental": true,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.TomatoCounter.html",
-          "hash": "neDuDDHi5Z/k7bDcPOablFrdfS0oHAsjWnG5Zhc2ePY="
+          "hash": "cNxLWOxaryUsserb/Nvq3M9HmRJYQbGaZNQPNptcjd8="
         }
       },
       "is_incremental": true,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.UPIcon.html",
-          "hash": "9jDAf2FGcG9a2m0w6eYpVpwm+Wqockk4obuSmDRpBz0="
+          "hash": "0vjKJNJtr5j8WtoItnL1ZEJpdqN7/c/iI6mvBe2SOFE="
         }
       },
       "is_incremental": true,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Wrappers.ClickButtonIcon.html",
-          "hash": "Y+cXnyG+gP1VOY5258KfAuxXiPjp5BG9Ql+KpbvPmIw="
+          "hash": "L0So+XfD0bbGQO7qLRrtkHSlME7yQ/vwYwAyjhuk//A="
         }
       },
       "is_incremental": true,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.Wrappers.ClickButtonText.html",
-          "hash": "uFbFzSFMO71TuYWe9nI8ahI6qGRVpO5lzE6Kwxwls9o="
+          "hash": "didJq9IzS0ZgavEOaWdqIYeVTip+Y9VVFo6mn78b+0w="
         }
       },
       "is_incremental": true,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.WriteVersionNumber.html",
-          "hash": "BvdMqQOs37f+IJkvgan7uUnlyrvTjiXOcXu2krMZrsk="
+          "hash": "prZ8Fx3pRQKe3S+A++RdcpOOkln7YPrTXBL1u2KVI6E="
         }
       },
       "is_incremental": true,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Components.html",
-          "hash": "M8azHjSTVndRdFOsX6ahuW4+4VzfhFnMC9HRZlojEgw="
+          "hash": "Q2q6LOB1zeUbS2zCF+jORO20VJSmzxy7gnIfYilVIG8="
         }
       },
       "is_incremental": true,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Editor.BooleanToggleEditor.html",
-          "hash": "2ueqBVlWAMGbifmgbNNNlgWUsNMASndF6+RzidjfO/0="
+          "hash": "Sgr64QRh4AdLmxniOdaeZo5B3lsb3VlS15Ww1cTtrF0="
         }
       },
       "is_incremental": true,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Editor.ClickButtonEditor.html",
-          "hash": "2/+7qI3gIU9AuotUiAO1jb3E2Nkyye44OlED3Sa9Vwk="
+          "hash": "sSOk7JU+84k/JkKrmft/LKVfxdAo8aDErWMQIM/Ym7Y="
         }
       },
       "is_incremental": true,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Editor.ClickButtonIconEditor.html",
-          "hash": "KqRlnNtSGHHLTXwfs4mqGU9e3sKF5kysdg2HUgdpigQ="
+          "hash": "sjlXq15rUCtpopx2fJr7R2CEol6s3EpqRnfQGfMzYhE="
         }
       },
       "is_incremental": true,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Editor.ClickButtonTextEditor.html",
-          "hash": "GTYrfamOQP3Dv0uL7REnePkM4GubI7Pkgm9CXtwlCv0="
+          "hash": "NBoY7RSwcVmQnQe/yvaUzrYIUk9mSNawyTOb9xgNaws="
         }
       },
       "is_incremental": true,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Interfaces.IColorHook.html",
-          "hash": "pXqJv7DziRLhhTIl202htbNEo1lfR+8sooN1nqJoTQc="
+          "hash": "DN+Ijvg9abHqO68Bu+zqKe30PrEBypcH0uK5/+t8WUw="
         }
       },
       "is_incremental": true,
@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.Interfaces.ITimerState.html",
-          "hash": "QJUUGetpfnieEAWYzkLVm7TfUbUa+znPc/SZUophN9s="
+          "hash": "BgnERuilgDfYmAmUyl+6nJYdTrD4IqlE/yOpwODUvAU="
         }
       },
       "is_incremental": true,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.PomodoroTimer.States.html",
-          "hash": "XDTiDolQ47wS74JEBKbyWb86IHOLzL4CvgnWU4Rybt8="
+          "hash": "9C4q4SxH/Qak1eUXh5yOrp2CUgE3URtGj7fDA6UM6yo="
         }
       },
       "is_incremental": true,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.PomodoroTimer.html",
-          "hash": "aF1SzIYUv+nC/G7sNYmJOxqHRyvqSHmBELE90RgDWlQ="
+          "hash": "9BMdHhxcIOzfH9LjmKSPc9QOaIe9/VL1yoAyMiRlp14="
         }
       },
       "is_incremental": true,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.ScriptableObjects.ColorScheme.html",
-          "hash": "S0YtZmtX76dg+ivQHj/dYx39oh5kmBd4AyUSw9+Yt8c="
+          "hash": "vRjrU9EQUyOP5na96NsnzJJx8yRjxpibj4BJetlXfSo="
         }
       },
       "is_incremental": true,
@@ -573,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.ScriptableObjects.Theme.html",
-          "hash": "Wng4WGqtpI9n+Xk2j4n7F6gPyh7BqmP9lHcWd7leQTY="
+          "hash": "8L1Q5N5sldpKV58pRZrLaefKkWsdDfNBZNgvjGpY1WE="
         }
       },
       "is_incremental": true,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AdrianMiasik.UWP.NotificationManager.html",
-          "hash": "9L00q/l9V2DRq0NsVMXnygtLCA+LRwxwV8QH6wbMiZ0="
+          "hash": "PelfmTEXieZdk9qmYNON0KZdVE5PJp0ZYHF5V8RvA1M="
         }
       },
       "is_incremental": true,

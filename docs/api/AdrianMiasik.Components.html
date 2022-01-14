@@ -83,50 +83,58 @@ Includes a description, social buttons (<a class="xref" href="AdrianMiasik.Compo
 copyright disclaimer.</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.Background.html">Background</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.CompletionLabel.html">CompletionLabel</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.ConfirmationDialog.html">ConfirmationDialog</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.CreditsBubble.html">CreditsBubble</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.DigitFormat.html">DigitFormat</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.DigitSeparator.html">DigitSeparator</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.DoubleDigit.html">DoubleDigit</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.HotkeyDetector.html">HotkeyDetector</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.LabelledDropdown.html">LabelledDropdown</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.RightButton.html">RightButton</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.SettingsPanel.html">SettingsPanel</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.Sidebar.html">Sidebar</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.SidebarRow.html">SidebarRow</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.SocialButtons.html">SocialButtons</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.ThemeSlider.html">ThemeSlider</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.Tomato.html">Tomato</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.TomatoCounter.html">TomatoCounter</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.UPIcon.html">UPIcon</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.WriteVersionNumber.html">WriteVersionNumber</a></h4>
-      <section><p>Writes the current unity application player settings bundle number to the referenced text field.</p>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> image used to pull focus off selected elements.
+The background is our default selection for Unity's EventSystem.</p>
 </section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="AdrianMiasik.Components.DigitFormat.Digits.html">DigitFormat.Digits</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a></h4>
-      <section></section>
+      <h4><a class="xref" href="AdrianMiasik.Components.CompletionLabel.html">CompletionLabel</a></h4>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> used primarily to update the color of the referenced
+&quot;TIMER COMPLETE&quot; labels via <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a> ColorUpdate.</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.CreditsBubble.html">CreditsBubble</a></h4>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.TimerProgress.html">TimerProgress</a> inheritor used for displaying the authors name of the app. Intended to minimize
+after a couple seconds via the base class.</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.HotkeyDetector.html">HotkeyDetector</a></h4>
+      <section><p>Responsible for our detecting and executing our keyboard shortcut actions.
+Single keys are processed in <code>ProcessKeys()</code>,
+and multi-keys are processed in <code>ProcessKeybinds()</code>.</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.LabelledDropdown.html">LabelledDropdown</a></h4>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> dropdown with a label.
+Intended to be used for 'switch digit format' settings option.</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.RightButton.html">RightButton</a></h4>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> button used to play/pause the timer. Implements <a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a>
+to change graphics depending on the <a class="xref" href="AdrianMiasik.PomodoroTimer.html">PomodoroTimer</a>'s current state.
+(See <a class="xref" href="AdrianMiasik.PomodoroTimer.States.html">PomodoroTimer.States</a>)
+<remarks>Explicitly not a <a class="xref" href="AdrianMiasik.Components.Core.ClickButton.html">ClickButton</a> since this component relies on the pomodoro timer state.
+But intended to be used in conjunction with a <a class="xref" href="AdrianMiasik.Components.Core.ClickButton.html">ClickButton</a> core component.</remarks></p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.SettingsPanel.html">SettingsPanel</a></h4>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> page used to display a set of interactable user options. Currently supports
+switching between different digit formats and muting our application when it's not in focus.
+See: <a class="xref" href="AdrianMiasik.Components.Core.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a>.</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.SocialButtons.html">SocialButtons</a></h4>
+      <section><p>Holds a list of <a class="xref" href="AdrianMiasik.Components.Core.ThemeIcon.html">ThemeIcon</a>'s and updates their color's based on the current <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a>.
+Intended to be used in the <a class="xref" href="AdrianMiasik.Components.AboutPanel.html">AboutPanel</a>.</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.ThemeSlider.html">ThemeSlider</a></h4>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> boolean slider with a label. Intended for the theme toggle (light / dark).</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.Tomato.html">Tomato</a></h4>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> image used to represent a tomato in two states: incomplete / complete.
+(hollow / filled-in)</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.TomatoCounter.html">TomatoCounter</a></h4>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> horizontal layout group that holds <a class="xref" href="AdrianMiasik.Components.Tomato.html">Tomato</a>es (Pomodoros) and
+manipulates their state as a group. Such as completing/filling each sequential <a class="xref" href="AdrianMiasik.Components.Tomato.html">Tomato</a> in.
+Includes a trashcan that is used to wipe tomato/pomodoro progression. Intended to be used to determine when
+to take long breaks.</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.WriteVersionNumber.html">WriteVersionNumber</a></h4>
+      <section><p>Writes the current Unity application version (bundleVersion) to the referenced text field.</p>
+</section>
 </article>
           </div>
           

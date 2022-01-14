@@ -105,7 +105,7 @@ after a couple seconds via the base class.</p>
 See <a class="xref" href="AdrianMiasik.Components.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a> using our <a class="xref" href="AdrianMiasik.Components.DigitFormat.Digits.html">DigitFormat.Digits</a>.</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.DigitSeparator.html">DigitSeparator</a></h4>
-      <section><p>A single <span class="xref">TMPro.TMP_Text</span> component used to hold reference and set it's color.</p>
+      <section><p>A single text component used to hold reference and set it's color.</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.DoubleDigit.html">DoubleDigit</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> used as an interactable/lockable input field that's designed to hold two numerical
@@ -114,13 +114,24 @@ Intended to be used within a <a class="xref" href="AdrianMiasik.Components.Digit
 <remarks>Has two layers of selections. One for itself, another for the input field.</remarks></p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.HotkeyDetector.html">HotkeyDetector</a></h4>
-      <section></section>
+      <section><p>Responsible for our detecting and executing our keyboard shortcut actions.
+Single keys are processed in <span class="xref">AdrianMiasik.Components.HotkeyDetector.ProcessKeys</span>,
+and multi-keys are processed in <span class="xref">AdrianMiasik.Components.HotkeyDetector.ProcessKeybinds</span>.</p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.LabelledDropdown.html">LabelledDropdown</a></h4>
       <section></section>
       <h4><a class="xref" href="AdrianMiasik.Components.RightButton.html">RightButton</a></h4>
-      <section></section>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> button used to play/pause the timer. Implements <a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a>
+to change graphics depending on the <a class="xref" href="AdrianMiasik.PomodoroTimer.html">PomodoroTimer</a>'s current state.
+(See <a class="xref" href="AdrianMiasik.PomodoroTimer.States.html">PomodoroTimer.States</a>)
+<remarks>Explicitly not a <a class="xref" href="AdrianMiasik.Components.Core.ClickButton.html">ClickButton</a> since this component relies on the pomodoro timer state.
+But intended to be used in conjunction with a <a class="xref" href="AdrianMiasik.Components.Core.ClickButton.html">ClickButton</a> core component.</remarks></p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.SettingsPanel.html">SettingsPanel</a></h4>
-      <section></section>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> page used to display a set of interactable user options. Currently supports
+switching between different digit formats and muting our application when it's not in focus.
+See: <a class="xref" href="AdrianMiasik.Components.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a>.</p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.Sidebar.html">Sidebar</a></h4>
       <section></section>
       <h4><a class="xref" href="AdrianMiasik.Components.SidebarRow.html">SidebarRow</a></h4>
@@ -130,9 +141,15 @@ Intended to be used within a <a class="xref" href="AdrianMiasik.Components.Digit
       <h4><a class="xref" href="AdrianMiasik.Components.ThemeSlider.html">ThemeSlider</a></h4>
       <section></section>
       <h4><a class="xref" href="AdrianMiasik.Components.Tomato.html">Tomato</a></h4>
-      <section></section>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> image used to represent a tomato in two states: incomplete / complete.
+(hollow / filled-in)</p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.TomatoCounter.html">TomatoCounter</a></h4>
-      <section></section>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> horizontal layout group that holds <a class="xref" href="AdrianMiasik.Components.Tomato.html">Tomato</a>es (Pomodoros) and
+manipulates their state as a group. Such as completing/filling each sequential <a class="xref" href="AdrianMiasik.Components.Tomato.html">Tomato</a> in.
+Includes a trashcan that is used to wipe tomato progression. Intended to be used to determine when
+to take long breaks.</p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.UPIcon.html">UPIcon</a></h4>
       <section></section>
       <h4><a class="xref" href="AdrianMiasik.Components.WriteVersionNumber.html">WriteVersionNumber</a></h4>

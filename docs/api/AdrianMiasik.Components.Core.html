@@ -82,26 +82,63 @@
 gameobject and play it here instead. Limited to only 1 sound mimic at the moment.</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.Core.BooleanSlider.html">BooleanSlider</a></h4>
-      <section></section>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> toggle in the form of a boolean slider</p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.Core.BooleanToggle.html">BooleanToggle</a></h4>
-      <section></section>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> <a class="xref" href="AdrianMiasik.Components.Core.Toggle.html">Toggle</a> in the form of a two-state sprite switch. (e.g. checkbox, icon / invisible)</p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.Core.ClickButton.html">ClickButton</a></h4>
       <section><p>A generic button that is used to interact with the software and trigger events based on user input.
 Supports animations, click hold curves, unity events, and sound FX (with pitch variation).
 <remarks>Intended to be used on all our application buttons.</remarks></p>
 </section>
+      <h4><a class="xref" href="AdrianMiasik.Components.Core.ConfirmationDialog.html">ConfirmationDialog</a></h4>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> associated with a prefab. Used to prompt the user with yes/no questions.
+Such as confirming their action that can interrupt the active running timer. Supports custom text.</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.Core.DigitFormat.html">DigitFormat</a></h4>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> used primarily for generating and managing our <a class="xref" href="AdrianMiasik.Components.Core.DoubleDigit.html">DoubleDigit</a>'s and
+<a class="xref" href="AdrianMiasik.Components.Core.DigitSeparator.html">DigitSeparator</a>'s components. Includes support for multiple layouts:
+See <a class="xref" href="AdrianMiasik.Components.Core.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a> using our <a class="xref" href="AdrianMiasik.Components.Core.DigitFormat.Digits.html">DigitFormat.Digits</a>.</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.Core.DigitSeparator.html">DigitSeparator</a></h4>
+      <section><p>A single text component used to hold reference and set it's color.</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.Core.DoubleDigit.html">DoubleDigit</a></h4>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> used as an interactable/lockable input field that's designed to hold two numerical
+values. Can be interacted by the user via the increment / decrement arrows.
+Intended to be used within a <a class="xref" href="AdrianMiasik.Components.Core.DigitFormat.html">DigitFormat</a>.
+<remarks>Has two layers of selections. One for itself, another for the input field.</remarks></p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.Core.Sidebar.html">Sidebar</a></h4>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> page that holds <a class="xref" href="AdrianMiasik.Components.Core.SidebarRow.html">SidebarRow</a>'s and deals with group selections and
+animations.</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.Core.SidebarRow.html">SidebarRow</a></h4>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> used to display an icon, and a text label. Includes <a class="xref" href="AdrianMiasik.Components.Core.ClickButton.html">ClickButton</a>,
+and a spawn animation. Intended to be used by <span class="xref">AdrianMiasik.Components.Core.SidebarRow.sidebar</span>.</p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a></h4>
       <section><p>A base class that is intended to be used on any component/class that needs theming
 (that's automatically updated), and needs reference to our main class: <a class="xref" href="AdrianMiasik.PomodoroTimer.html">PomodoroTimer</a>.</p>
 </section>
-      <h4><a class="xref" href="AdrianMiasik.Components.Core.ThemeElementToggle.html">ThemeElementToggle</a></h4>
-      <section><p>A blank toggle that implements <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a>.
-<remarks>Intended to be used by <a class="xref" href="AdrianMiasik.Components.Core.BooleanToggle.html">BooleanToggle</a></remarks></p>
+      <h4><a class="xref" href="AdrianMiasik.Components.Core.ThemeIcon.html">ThemeIcon</a></h4>
+      <section><p>An SVG image component that flips between two sprites. One for each theme (light / dark).</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.Core.TimerProgress.html">TimerProgress</a></h4>
       <section><p>An abstract base timer class that is intended to be used on any component/class that needs something to
 happen after <code>X</code> couple seconds. Supports duration, and the ability to loop.</p>
 </section>
+      <h4><a class="xref" href="AdrianMiasik.Components.Core.Toggle.html">Toggle</a></h4>
+      <section><p>A blank toggle that implements <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a>. (See <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> logic)
+<remarks>Intended to be used by <a class="xref" href="AdrianMiasik.Components.Core.BooleanToggle.html">BooleanToggle</a> and <a class="xref" href="AdrianMiasik.Components.Core.BooleanSlider.html">BooleanSlider</a></remarks></p>
+</section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="AdrianMiasik.Components.Core.DigitFormat.Digits.html">DigitFormat.Digits</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AdrianMiasik.Components.Core.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a></h4>
+      <section></section>
 </article>
           </div>
           

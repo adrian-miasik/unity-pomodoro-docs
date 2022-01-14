@@ -90,27 +90,9 @@ The background is our default selection for Unity's EventSystem.</p>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> used primarily to update the color of the referenced
 &quot;TIMER COMPLETE&quot; labels via <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a> ColorUpdate.</p>
 </section>
-      <h4><a class="xref" href="AdrianMiasik.Components.ConfirmationDialog.html">ConfirmationDialog</a></h4>
-      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> associated with a prefab. Used to prompt the user with yes/no questions.
-Such as confirming their action that can interrupt the active running timer. Supports custom text.</p>
-</section>
       <h4><a class="xref" href="AdrianMiasik.Components.CreditsBubble.html">CreditsBubble</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.TimerProgress.html">TimerProgress</a> inheritor used for displaying the authors name of the app. Intended to minimize
 after a couple seconds via the base class.</p>
-</section>
-      <h4><a class="xref" href="AdrianMiasik.Components.DigitFormat.html">DigitFormat</a></h4>
-      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> used primarily for generating and managing our <a class="xref" href="AdrianMiasik.Components.DoubleDigit.html">DoubleDigit</a>'s and
-<a class="xref" href="AdrianMiasik.Components.DigitSeparator.html">DigitSeparator</a>'s components. Includes support for multiple layouts:
-See <a class="xref" href="AdrianMiasik.Components.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a> using our <a class="xref" href="AdrianMiasik.Components.DigitFormat.Digits.html">DigitFormat.Digits</a>.</p>
-</section>
-      <h4><a class="xref" href="AdrianMiasik.Components.DigitSeparator.html">DigitSeparator</a></h4>
-      <section><p>A single text component used to hold reference and set it's color.</p>
-</section>
-      <h4><a class="xref" href="AdrianMiasik.Components.DoubleDigit.html">DoubleDigit</a></h4>
-      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> used as an interactable/lockable input field that's designed to hold two numerical
-values. Can be interacted by the user via the increment / decrement arrows.
-Intended to be used within a <a class="xref" href="AdrianMiasik.Components.DigitFormat.html">DigitFormat</a>.
-<remarks>Has two layers of selections. One for itself, another for the input field.</remarks></p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.HotkeyDetector.html">HotkeyDetector</a></h4>
       <section><p>Responsible for our detecting and executing our keyboard shortcut actions.
@@ -118,7 +100,9 @@ Single keys are processed in <code>ProcessKeys()</code>,
 and multi-keys are processed in <code>ProcessKeybinds()</code>.</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.LabelledDropdown.html">LabelledDropdown</a></h4>
-      <section></section>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> dropdown with a label.
+Intended to be used for 'switch digit format' settings option.</p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.RightButton.html">RightButton</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> button used to play/pause the timer. Implements <a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a>
 to change graphics depending on the <a class="xref" href="AdrianMiasik.PomodoroTimer.html">PomodoroTimer</a>'s current state.
@@ -129,20 +113,11 @@ But intended to be used in conjunction with a <a class="xref" href="AdrianMiasik
       <h4><a class="xref" href="AdrianMiasik.Components.SettingsPanel.html">SettingsPanel</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> page used to display a set of interactable user options. Currently supports
 switching between different digit formats and muting our application when it's not in focus.
-See: <a class="xref" href="AdrianMiasik.Components.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a>.</p>
+See: <a class="xref" href="AdrianMiasik.Components.Core.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a>.</p>
 </section>
-      <h4><a class="xref" href="AdrianMiasik.Components.Sidebar.html">Sidebar</a></h4>
-      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> page that holds <a class="xref" href="AdrianMiasik.Components.SidebarRow.html">SidebarRow</a>'s and deals with group selections and
-animations.</p>
-</section>
-      <h4><a class="xref" href="AdrianMiasik.Components.SidebarRow.html">SidebarRow</a></h4>
-      <section></section>
       <h4><a class="xref" href="AdrianMiasik.Components.SocialButtons.html">SocialButtons</a></h4>
-      <section><p>Holds a list of <a class="xref" href="AdrianMiasik.Components.ThemeIcon.html">ThemeIcon</a>'s and updates their color's based on the current <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a>.
+      <section><p>Holds a list of <a class="xref" href="AdrianMiasik.Components.Core.ThemeIcon.html">ThemeIcon</a>'s and updates their color's based on the current <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a>.
 Intended to be used in the <a class="xref" href="AdrianMiasik.Components.AboutPanel.html">AboutPanel</a>.</p>
-</section>
-      <h4><a class="xref" href="AdrianMiasik.Components.ThemeIcon.html">ThemeIcon</a></h4>
-      <section><p>An SVG image component that flips between two sprites. One for each theme (light / dark).</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.ThemeSlider.html">ThemeSlider</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> boolean slider with a label. Intended for the theme toggle (light / dark).</p>
@@ -160,12 +135,6 @@ to take long breaks.</p>
       <h4><a class="xref" href="AdrianMiasik.Components.WriteVersionNumber.html">WriteVersionNumber</a></h4>
       <section><p>Writes the current Unity application version (bundleVersion) to the referenced text field.</p>
 </section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="AdrianMiasik.Components.DigitFormat.Digits.html">DigitFormat.Digits</a></h4>
-      <section></section>
-      <h4><a class="xref" href="AdrianMiasik.Components.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a></h4>
-      <section></section>
 </article>
           </div>
           

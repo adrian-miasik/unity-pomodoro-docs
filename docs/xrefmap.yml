@@ -1920,19 +1920,6 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.DoubleDigit.SetTextLabel
   nameWithType: DoubleDigit.SetTextLabel
-- uid: AdrianMiasik.Components.DoubleDigit.SetTextScale(System.Single)
-  name: SetTextScale(Single)
-  href: api/AdrianMiasik.Components.DoubleDigit.html#AdrianMiasik_Components_DoubleDigit_SetTextScale_System_Single_
-  commentId: M:AdrianMiasik.Components.DoubleDigit.SetTextScale(System.Single)
-  fullName: AdrianMiasik.Components.DoubleDigit.SetTextScale(System.Single)
-  nameWithType: DoubleDigit.SetTextScale(Single)
-- uid: AdrianMiasik.Components.DoubleDigit.SetTextScale*
-  name: SetTextScale
-  href: api/AdrianMiasik.Components.DoubleDigit.html#AdrianMiasik_Components_DoubleDigit_SetTextScale_
-  commentId: Overload:AdrianMiasik.Components.DoubleDigit.SetTextScale
-  isSpec: "True"
-  fullName: AdrianMiasik.Components.DoubleDigit.SetTextScale
-  nameWithType: DoubleDigit.SetTextScale
 - uid: AdrianMiasik.Components.DoubleDigit.SetValue(System.Int32)
   name: SetValue(Int32)
   href: api/AdrianMiasik.Components.DoubleDigit.html#AdrianMiasik_Components_DoubleDigit_SetValue_System_Int32_

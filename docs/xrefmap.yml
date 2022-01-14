@@ -852,12 +852,12 @@ references:
   commentId: T:AdrianMiasik.Components.Core.TimerProgress
   fullName: AdrianMiasik.Components.Core.TimerProgress
   nameWithType: TimerProgress
-- uid: AdrianMiasik.Components.Core.TimerProgress.Initialize(System.Single)
-  name: Initialize(Single)
-  href: api/AdrianMiasik.Components.Core.TimerProgress.html#AdrianMiasik_Components_Core_TimerProgress_Initialize_System_Single_
-  commentId: M:AdrianMiasik.Components.Core.TimerProgress.Initialize(System.Single)
-  fullName: AdrianMiasik.Components.Core.TimerProgress.Initialize(System.Single)
-  nameWithType: TimerProgress.Initialize(Single)
+- uid: AdrianMiasik.Components.Core.TimerProgress.Initialize(System.Single,System.Boolean)
+  name: Initialize(Single, Boolean)
+  href: api/AdrianMiasik.Components.Core.TimerProgress.html#AdrianMiasik_Components_Core_TimerProgress_Initialize_System_Single_System_Boolean_
+  commentId: M:AdrianMiasik.Components.Core.TimerProgress.Initialize(System.Single,System.Boolean)
+  fullName: AdrianMiasik.Components.Core.TimerProgress.Initialize(System.Single, System.Boolean)
+  nameWithType: TimerProgress.Initialize(Single, Boolean)
 - uid: AdrianMiasik.Components.Core.TimerProgress.Initialize*
   name: Initialize
   href: api/AdrianMiasik.Components.Core.TimerProgress.html#AdrianMiasik_Components_Core_TimerProgress_Initialize_
@@ -897,6 +897,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.TimerProgress.OnComplete
   nameWithType: TimerProgress.OnComplete
+- uid: AdrianMiasik.Components.Core.TimerProgress.OnStart
+  name: OnStart()
+  href: api/AdrianMiasik.Components.Core.TimerProgress.html#AdrianMiasik_Components_Core_TimerProgress_OnStart
+  commentId: M:AdrianMiasik.Components.Core.TimerProgress.OnStart
+  fullName: AdrianMiasik.Components.Core.TimerProgress.OnStart()
+  nameWithType: TimerProgress.OnStart()
+- uid: AdrianMiasik.Components.Core.TimerProgress.OnStart*
+  name: OnStart
+  href: api/AdrianMiasik.Components.Core.TimerProgress.html#AdrianMiasik_Components_Core_TimerProgress_OnStart_
+  commentId: Overload:AdrianMiasik.Components.Core.TimerProgress.OnStart
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.TimerProgress.OnStart
+  nameWithType: TimerProgress.OnStart
 - uid: AdrianMiasik.Components.Core.TimerProgress.OnUpdate(System.Single)
   name: OnUpdate(Single)
   href: api/AdrianMiasik.Components.Core.TimerProgress.html#AdrianMiasik_Components_Core_TimerProgress_OnUpdate_System_Single_
@@ -1059,6 +1072,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.CreditsBubble.OnPointerExit
   nameWithType: CreditsBubble.OnPointerExit
+- uid: AdrianMiasik.Components.CreditsBubble.OnStart
+  name: OnStart()
+  href: api/AdrianMiasik.Components.CreditsBubble.html#AdrianMiasik_Components_CreditsBubble_OnStart
+  commentId: M:AdrianMiasik.Components.CreditsBubble.OnStart
+  fullName: AdrianMiasik.Components.CreditsBubble.OnStart()
+  nameWithType: CreditsBubble.OnStart()
+- uid: AdrianMiasik.Components.CreditsBubble.OnStart*
+  name: OnStart
+  href: api/AdrianMiasik.Components.CreditsBubble.html#AdrianMiasik_Components_CreditsBubble_OnStart_
+  commentId: Overload:AdrianMiasik.Components.CreditsBubble.OnStart
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.CreditsBubble.OnStart
+  nameWithType: CreditsBubble.OnStart
 - uid: AdrianMiasik.Components.CreditsBubble.OnUpdate(System.Single)
   name: OnUpdate(Single)
   href: api/AdrianMiasik.Components.CreditsBubble.html#AdrianMiasik_Components_CreditsBubble_OnUpdate_System_Single_

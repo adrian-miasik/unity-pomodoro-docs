@@ -2505,6 +2505,25 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.SocialButtons.ColorUpdate
   nameWithType: SocialButtons.ColorUpdate
+- uid: AdrianMiasik.Components.ThemeIcon
+  name: ThemeIcon
+  href: api/AdrianMiasik.Components.ThemeIcon.html
+  commentId: T:AdrianMiasik.Components.ThemeIcon
+  fullName: AdrianMiasik.Components.ThemeIcon
+  nameWithType: ThemeIcon
+- uid: AdrianMiasik.Components.ThemeIcon.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  name: ColorUpdate(Theme)
+  href: api/AdrianMiasik.Components.ThemeIcon.html#AdrianMiasik_Components_ThemeIcon_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_
+  commentId: M:AdrianMiasik.Components.ThemeIcon.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  fullName: AdrianMiasik.Components.ThemeIcon.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  nameWithType: ThemeIcon.ColorUpdate(Theme)
+- uid: AdrianMiasik.Components.ThemeIcon.ColorUpdate*
+  name: ColorUpdate
+  href: api/AdrianMiasik.Components.ThemeIcon.html#AdrianMiasik_Components_ThemeIcon_ColorUpdate_
+  commentId: Overload:AdrianMiasik.Components.ThemeIcon.ColorUpdate
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.ThemeIcon.ColorUpdate
+  nameWithType: ThemeIcon.ColorUpdate
 - uid: AdrianMiasik.Components.ThemeSlider
   name: ThemeSlider
   href: api/AdrianMiasik.Components.ThemeSlider.html
@@ -2692,25 +2711,6 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.TomatoCounter.TrashTomatoes
   nameWithType: TomatoCounter.TrashTomatoes
-- uid: AdrianMiasik.Components.UPIcon
-  name: UPIcon
-  href: api/AdrianMiasik.Components.UPIcon.html
-  commentId: T:AdrianMiasik.Components.UPIcon
-  fullName: AdrianMiasik.Components.UPIcon
-  nameWithType: UPIcon
-- uid: AdrianMiasik.Components.UPIcon.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
-  name: ColorUpdate(Theme)
-  href: api/AdrianMiasik.Components.UPIcon.html#AdrianMiasik_Components_UPIcon_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_
-  commentId: M:AdrianMiasik.Components.UPIcon.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
-  fullName: AdrianMiasik.Components.UPIcon.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
-  nameWithType: UPIcon.ColorUpdate(Theme)
-- uid: AdrianMiasik.Components.UPIcon.ColorUpdate*
-  name: ColorUpdate
-  href: api/AdrianMiasik.Components.UPIcon.html#AdrianMiasik_Components_UPIcon_ColorUpdate_
-  commentId: Overload:AdrianMiasik.Components.UPIcon.ColorUpdate
-  isSpec: "True"
-  fullName: AdrianMiasik.Components.UPIcon.ColorUpdate
-  nameWithType: UPIcon.ColorUpdate
 - uid: AdrianMiasik.Components.Wrappers
   name: AdrianMiasik.Components.Wrappers
   href: api/AdrianMiasik.Components.Wrappers.html

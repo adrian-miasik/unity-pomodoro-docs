@@ -88,12 +88,11 @@ The background is our default selection for Unity's EventSystem.</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.CompletionLabel.html">CompletionLabel</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> used primarily to update the color of the referenced
-&quot;timer completed&quot; labels via <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a> ColorUpdate();</p>
+&quot;TIMER COMPLETE&quot; labels via <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a> ColorUpdate.</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.ConfirmationDialog.html">ConfirmationDialog</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> associated with a prefab. Used to prompt the user with yes/no questions.
-Such as confirming their action that can interrupt the active running timer. You can set the text displayed
-in this prompt.</p>
+Such as confirming their action that can interrupt the active running timer. Supports custom text.</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.CreditsBubble.html">CreditsBubble</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.TimerProgress.html">TimerProgress</a> inheritor used for displaying the authors name of the app. Intended to minimize
@@ -115,8 +114,8 @@ Intended to be used within a <a class="xref" href="AdrianMiasik.Components.Digit
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.HotkeyDetector.html">HotkeyDetector</a></h4>
       <section><p>Responsible for our detecting and executing our keyboard shortcut actions.
-Single keys are processed in <span class="xref">AdrianMiasik.Components.HotkeyDetector.ProcessKeys</span>,
-and multi-keys are processed in <span class="xref">AdrianMiasik.Components.HotkeyDetector.ProcessKeybinds</span>.</p>
+Single keys are processed in <code>ProcessKeys()</code>,
+and multi-keys are processed in <code>ProcessKeybinds()</code>.</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.LabelledDropdown.html">LabelledDropdown</a></h4>
       <section></section>
@@ -133,13 +132,21 @@ switching between different digit formats and muting our application when it's n
 See: <a class="xref" href="AdrianMiasik.Components.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a>.</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.Sidebar.html">Sidebar</a></h4>
-      <section></section>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> page that holds <a class="xref" href="AdrianMiasik.Components.SidebarRow.html">SidebarRow</a>'s and deals with group selections and
+animations.</p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.SidebarRow.html">SidebarRow</a></h4>
       <section></section>
       <h4><a class="xref" href="AdrianMiasik.Components.SocialButtons.html">SocialButtons</a></h4>
-      <section></section>
+      <section><p>Holds a list of <a class="xref" href="AdrianMiasik.Components.ThemeIcon.html">ThemeIcon</a>'s and updates their color's based on the current <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a>.
+Intended to be used in the <a class="xref" href="AdrianMiasik.Components.AboutPanel.html">AboutPanel</a>.</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.ThemeIcon.html">ThemeIcon</a></h4>
+      <section><p>An SVG image component that flips between two sprites. One for each theme (light / dark).</p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.ThemeSlider.html">ThemeSlider</a></h4>
-      <section></section>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> boolean slider with a label. Intended for the theme toggle (light / dark).</p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.Tomato.html">Tomato</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> image used to represent a tomato in two states: incomplete / complete.
 (hollow / filled-in)</p>
@@ -147,11 +154,9 @@ See: <a class="xref" href="AdrianMiasik.Components.DigitFormat.SupportedFormats.
       <h4><a class="xref" href="AdrianMiasik.Components.TomatoCounter.html">TomatoCounter</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a> horizontal layout group that holds <a class="xref" href="AdrianMiasik.Components.Tomato.html">Tomato</a>es (Pomodoros) and
 manipulates their state as a group. Such as completing/filling each sequential <a class="xref" href="AdrianMiasik.Components.Tomato.html">Tomato</a> in.
-Includes a trashcan that is used to wipe tomato progression. Intended to be used to determine when
+Includes a trashcan that is used to wipe tomato/pomodoro progression. Intended to be used to determine when
 to take long breaks.</p>
 </section>
-      <h4><a class="xref" href="AdrianMiasik.Components.UPIcon.html">UPIcon</a></h4>
-      <section></section>
       <h4><a class="xref" href="AdrianMiasik.Components.WriteVersionNumber.html">WriteVersionNumber</a></h4>
       <section><p>Writes the current Unity application version (bundleVersion) to the referenced text field.</p>
 </section>

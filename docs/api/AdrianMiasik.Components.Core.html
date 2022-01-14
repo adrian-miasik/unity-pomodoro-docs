@@ -78,19 +78,26 @@
     <h3 id="classes">Classes
   </h3>
       <h4><a class="xref" href="AdrianMiasik.Components.Core.AudioMimic.html">AudioMimic</a></h4>
-      <section></section>
+      <section><p>A Singleton class that allows us to transfer one <span class="xref">UnityEngine.AudioClip</span> from an about to be hidden/destroyed
+gameobject and play it here instead. Limited to only 1 sound mimic at the moment.</p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.Core.BooleanSlider.html">BooleanSlider</a></h4>
       <section></section>
       <h4><a class="xref" href="AdrianMiasik.Components.Core.BooleanToggle.html">BooleanToggle</a></h4>
       <section></section>
       <h4><a class="xref" href="AdrianMiasik.Components.Core.ClickButton.html">ClickButton</a></h4>
-      <section></section>
+      <section><p>A generic button that is used to interact with the software and trigger events based on user input.
+Supports animations, click hold curves, unity events, and sound FX (with pitch variation).
+<remarks>Intended to be used on all our application buttons.</remarks></p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.Core.ThemeElement.html">ThemeElement</a></h4>
       <section><p>A base class that is intended to be used on any component/class that needs theming
 (that's automatically updated), and needs reference to our main class: <a class="xref" href="AdrianMiasik.PomodoroTimer.html">PomodoroTimer</a>.</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.Core.ThemeElementToggle.html">ThemeElementToggle</a></h4>
-      <section></section>
+      <section><p>A blank toggle that implements <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a>.
+<remarks>Intended to be used by <a class="xref" href="AdrianMiasik.Components.Core.BooleanToggle.html">BooleanToggle</a></remarks></p>
+</section>
       <h4><a class="xref" href="AdrianMiasik.Components.Core.TimerProgress.html">TimerProgress</a></h4>
       <section><p>An abstract base timer class that is intended to be used on any component/class that needs something to
 happen after <code>X</code> couple seconds. Supports duration, and the ability to loop.</p>

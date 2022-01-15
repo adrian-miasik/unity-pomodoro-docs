@@ -1,0 +1,496 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ToggleSlider
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ToggleSlider
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Components.Core.ToggleSlider">
+  
+  
+  <h1 id="AdrianMiasik_Components_Core_ToggleSlider" data-uid="AdrianMiasik.Components.Core.ToggleSlider" class="text-break">Class ToggleSlider
+  </h1>
+  <div class="markdown level0 summary"><p>A <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a> <a class="xref" href="AdrianMiasik.Components.Base.Toggle.html">Toggle</a> in the form of a boolean slider.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a></div>
+    <div class="level6"><span class="xref">ToggleSlider</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_Timer">ThemeElement.Timer</a>
+    </div>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_IsInitialized">ThemeElement.IsInitialized()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_OnDestroy">ThemeElement.OnDestroy()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Core.html">AdrianMiasik.Components.Core</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AdrianMiasik_Components_Core_ToggleSlider_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ToggleSlider : ThemeElement, IColorHook, IPointerClickHandler, IEventSystemHandler</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_ToggleSlider_m_background.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ToggleSlider.m_background%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ToggleSlider.cs/#L18">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_Core_ToggleSlider_m_background" data-uid="AdrianMiasik.Components.Core.ToggleSlider.m_background">m_background</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+public SVGImage m_background</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Unity.VectorGraphics.SVGImage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_ToggleSlider_m_onClick.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ToggleSlider.m_onClick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ToggleSlider.cs/#L29">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_Core_ToggleSlider_m_onClick" data-uid="AdrianMiasik.Components.Core.ToggleSlider.m_onClick">m_onClick</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent m_onClick</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Events.UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_ToggleSlider_m_onSetToFalseClick.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ToggleSlider.m_onSetToFalseClick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ToggleSlider.cs/#L28">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_Core_ToggleSlider_m_onSetToFalseClick" data-uid="AdrianMiasik.Components.Core.ToggleSlider.m_onSetToFalseClick">m_onSetToFalseClick</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent m_onSetToFalseClick</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Events.UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_ToggleSlider_m_onSetToTrueClick.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ToggleSlider.m_onSetToTrueClick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ToggleSlider.cs/#L27">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_Core_ToggleSlider_m_onSetToTrueClick" data-uid="AdrianMiasik.Components.Core.ToggleSlider.m_onSetToTrueClick">m_onSetToTrueClick</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent m_onSetToTrueClick</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Events.UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_ToggleSlider_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ToggleSlider.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ToggleSlider.cs/#L154">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_ToggleSlider_ColorUpdate_" data-uid="AdrianMiasik.Components.Core.ToggleSlider.ColorUpdate*"></a>
+  <h4 id="AdrianMiasik_Components_Core_ToggleSlider_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_" data-uid="AdrianMiasik.Components.Core.ToggleSlider.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)">ColorUpdate(Theme)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ColorUpdate(Theme theme)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a></td>
+        <td><span class="parametername">theme</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_">ThemeElement.ColorUpdate(Theme)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_ToggleSlider_Initialize_AdrianMiasik_Components_PomodoroTimer_System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ToggleSlider.Initialize(AdrianMiasik.Components.PomodoroTimer%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ToggleSlider.cs/#L71">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_ToggleSlider_Initialize_" data-uid="AdrianMiasik.Components.Core.ToggleSlider.Initialize*"></a>
+  <h4 id="AdrianMiasik_Components_Core_ToggleSlider_Initialize_AdrianMiasik_Components_PomodoroTimer_System_Boolean_" data-uid="AdrianMiasik.Components.Core.ToggleSlider.Initialize(AdrianMiasik.Components.PomodoroTimer,System.Boolean)">Initialize(PomodoroTimer, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize(PomodoroTimer timer, bool isOn)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.PomodoroTimer.html">PomodoroTimer</a></td>
+        <td><span class="parametername">timer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isOn</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_Initialize_AdrianMiasik_Components_PomodoroTimer_System_Boolean_">ThemeElement.Initialize(PomodoroTimer, Boolean)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_ToggleSlider_OnPointerClick_UnityEngine_EventSystems_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ToggleSlider.OnPointerClick(UnityEngine.EventSystems.PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ToggleSlider.cs/#L97">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_ToggleSlider_OnPointerClick_" data-uid="AdrianMiasik.Components.Core.ToggleSlider.OnPointerClick*"></a>
+  <h4 id="AdrianMiasik_Components_Core_ToggleSlider_OnPointerClick_UnityEngine_EventSystems_PointerEventData_" data-uid="AdrianMiasik.Components.Core.ToggleSlider.OnPointerClick(UnityEngine.EventSystems.PointerEventData)">OnPointerClick(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerClick(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_ToggleSlider_OverrideDotColor_UnityEngine_Color_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ToggleSlider.OverrideDotColor(UnityEngine.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ToggleSlider.cs/#L65">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_ToggleSlider_OverrideDotColor_" data-uid="AdrianMiasik.Components.Core.ToggleSlider.OverrideDotColor*"></a>
+  <h4 id="AdrianMiasik_Components_Core_ToggleSlider_OverrideDotColor_UnityEngine_Color_" data-uid="AdrianMiasik.Components.Core.ToggleSlider.OverrideDotColor(UnityEngine.Color)">OverrideDotColor(Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OverrideDotColor(Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_ToggleSlider_OverrideFalseColor_UnityEngine_Color_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ToggleSlider.OverrideFalseColor(UnityEngine.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ToggleSlider.cs/#L53">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_ToggleSlider_OverrideFalseColor_" data-uid="AdrianMiasik.Components.Core.ToggleSlider.OverrideFalseColor*"></a>
+  <h4 id="AdrianMiasik_Components_Core_ToggleSlider_OverrideFalseColor_UnityEngine_Color_" data-uid="AdrianMiasik.Components.Core.ToggleSlider.OverrideFalseColor(UnityEngine.Color)">OverrideFalseColor(Color)</h4>
+  <div class="markdown level1 summary"><p>Note: Needs to be invoked before initialize.<a class="xref" href="AdrianMiasik.Components.Core.ToggleSlider.html#AdrianMiasik_Components_Core_ToggleSlider_Initialize_AdrianMiasik_Components_PomodoroTimer_System_Boolean_">Initialize(PomodoroTimer, Boolean)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OverrideFalseColor(Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_ToggleSlider_OverrideTrueColor_UnityEngine_Color_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ToggleSlider.OverrideTrueColor(UnityEngine.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ToggleSlider.cs/#L59">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_ToggleSlider_OverrideTrueColor_" data-uid="AdrianMiasik.Components.Core.ToggleSlider.OverrideTrueColor*"></a>
+  <h4 id="AdrianMiasik_Components_Core_ToggleSlider_OverrideTrueColor_UnityEngine_Color_" data-uid="AdrianMiasik.Components.Core.ToggleSlider.OverrideTrueColor(UnityEngine.Color)">OverrideTrueColor(Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OverrideTrueColor(Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_ToggleSlider_Press.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ToggleSlider.Press%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ToggleSlider.cs/#L92">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_ToggleSlider_Press_" data-uid="AdrianMiasik.Components.Core.ToggleSlider.Press*"></a>
+  <h4 id="AdrianMiasik_Components_Core_ToggleSlider_Press" data-uid="AdrianMiasik.Components.Core.ToggleSlider.Press">Press()</h4>
+  <div class="markdown level1 summary"><p>Changes the visibility of the boolean slider to the ON or OFF position. Position depends on current state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Press()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_ToggleSlider.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ToggleSlider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ToggleSlider.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

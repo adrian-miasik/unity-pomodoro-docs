@@ -1,0 +1,1153 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DigitFormat
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DigitFormat
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat">
+  
+  
+  <h1 id="AdrianMiasik_Components_Core_Containers_DigitFormat" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat" class="text-break">Class DigitFormat
+  </h1>
+  <div class="markdown level0 summary"><p>A <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a> used primarily for generating and managing our <a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a>'s and
+<a class="xref" href="AdrianMiasik.Components.Core.Items.DigitSeparator.html">DigitSeparator</a>'s components. Includes support for multiple layouts:
+See <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a></div>
+    <div class="level6"><span class="xref">DigitFormat</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_Timer">ThemeElement.Timer</a>
+    </div>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_IsInitialized">ThemeElement.IsInitialized()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_OnDestroy">ThemeElement.OnDestroy()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Core.Containers.html">AdrianMiasik.Components.Core.Containers</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AdrianMiasik_Components_Core_Containers_DigitFormat_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DigitFormat : ThemeElement, IColorHook</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_m_isOnBreak.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.m_isOnBreak%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L56">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_m_isOnBreak" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.m_isOnBreak">m_isOnBreak</h4>
+  <div class="markdown level1 summary"><p>Is this digit format on break?
+<remarks>If <code>False</code> then this digit format is in work mode. If <code>True</code> this digit format is either
+on break / or on a long break.</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool m_isOnBreak</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_m_isOnLongBreak.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.m_isOnLongBreak%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L62">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_m_isOnLongBreak" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.m_isOnLongBreak">m_isOnLongBreak</h4>
+  <div class="markdown level1 summary"><p>Is this digit format on a long break?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool m_isOnLongBreak</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_ActivateLongBreak.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.ActivateLongBreak%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L872">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_ActivateLongBreak_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.ActivateLongBreak*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_ActivateLongBreak" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.ActivateLongBreak">ActivateLongBreak()</h4>
+  <div class="markdown level1 summary"><p>Sets this digit format to be using the long break dataset. (work / break / long break)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ActivateLongBreak()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_CanDecrementOne_AdrianMiasik_Components_Core_Containers_DigitFormat_Digits_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.CanDecrementOne(AdrianMiasik.Components.Core.Containers.DigitFormat.Digits)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L804">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_CanDecrementOne_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.CanDecrementOne*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_CanDecrementOne_AdrianMiasik_Components_Core_Containers_DigitFormat_Digits_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.CanDecrementOne(AdrianMiasik.Components.Core.Containers.DigitFormat.Digits)">CanDecrementOne(DigitFormat.Digits)</h4>
+  <div class="markdown level1 summary"><p>Returns <code>True</code> if you can subtract one from this digit without hitting it's floor, otherwise returns
+<code>False</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanDecrementOne(DigitFormat.Digits digit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.Digits.html">DigitFormat.Digits</a></td>
+        <td><span class="parametername">digit</span></td>
+        <td><p>The <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.Digits.html">DigitFormat.Digits</a> you want to check if it can be decremented by one.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_CanIncrementOne_AdrianMiasik_Components_Core_Containers_DigitFormat_Digits_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.CanIncrementOne(AdrianMiasik.Components.Core.Containers.DigitFormat.Digits)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L788">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_CanIncrementOne_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.CanIncrementOne*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_CanIncrementOne_AdrianMiasik_Components_Core_Containers_DigitFormat_Digits_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.CanIncrementOne(AdrianMiasik.Components.Core.Containers.DigitFormat.Digits)">CanIncrementOne(DigitFormat.Digits)</h4>
+  <div class="markdown level1 summary"><p>Returns <code>True</code> if you can add one to this digit without hitting it's ceiling, otherwise returns <code>False</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanIncrementOne(DigitFormat.Digits digit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.Digits.html">DigitFormat.Digits</a></td>
+        <td><span class="parametername">digit</span></td>
+        <td><p>The <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.Digits.html">DigitFormat.Digits</a> you want to check if it can be decremented by one.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_ClearTimerSelection.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.ClearTimerSelection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L818">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_ClearTimerSelection_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.ClearTimerSelection*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_ClearTimerSelection" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.ClearTimerSelection">ClearTimerSelection()</h4>
+  <div class="markdown level1 summary"><p>Clears our digit selection and sets the selection to the <a class="xref" href="AdrianMiasik.Components.Specific.Background.html">Background</a> (our default).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTimerSelection()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L560">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_ColorUpdate_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.ColorUpdate*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)">ColorUpdate(Theme)</h4>
+  <div class="markdown level1 summary"><p>Applies our <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a> changes to our components when necessary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ColorUpdate(Theme theme)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a></td>
+        <td><span class="parametername">theme</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_">ThemeElement.ColorUpdate(Theme)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_CorrectTickAnimVisuals.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.CorrectTickAnimVisuals%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L656">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_CorrectTickAnimVisuals_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.CorrectTickAnimVisuals*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_CorrectTickAnimVisuals" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.CorrectTickAnimVisuals">CorrectTickAnimVisuals()</h4>
+  <div class="markdown level1 summary"><p>Prevents all our digits tick animation from holding, especially useful for when the gameobjects are no
+longer active and need to be re-enabled (Such as switching between pages).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CorrectTickAnimVisuals()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_DeactivateLongBreak.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.DeactivateLongBreak%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L880">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_DeactivateLongBreak_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.DeactivateLongBreak*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_DeactivateLongBreak" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.DeactivateLongBreak">DeactivateLongBreak()</h4>
+  <div class="markdown level1 summary"><p>Sets this digit to be using the break dataset. (work / break / long break)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeactivateLongBreak()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_DecrementOne_AdrianMiasik_Components_Core_Containers_DigitFormat_Digits_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.DecrementOne(AdrianMiasik.Components.Core.Containers.DigitFormat.Digits)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L680">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_DecrementOne_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.DecrementOne*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_DecrementOne_AdrianMiasik_Components_Core_Containers_DigitFormat_Digits_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.DecrementOne(AdrianMiasik.Components.Core.Containers.DigitFormat.Digits)">DecrementOne(DigitFormat.Digits)</h4>
+  <div class="markdown level1 summary"><p>Decrements the provided digit by one. (-1)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DecrementOne(DigitFormat.Digits digits)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.Digits.html">DigitFormat.Digits</a></td>
+        <td><span class="parametername">digits</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_FlipIsOnBreakBool.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.FlipIsOnBreakBool%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L239">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_FlipIsOnBreakBool_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.FlipIsOnBreakBool*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_FlipIsOnBreakBool" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.FlipIsOnBreakBool">FlipIsOnBreakBool()</h4>
+  <div class="markdown level1 summary"><p>Presses our break boolean.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FlipIsOnBreakBool()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_GenerateFormat.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.GenerateFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L110">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_GenerateFormat_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GenerateFormat*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_GenerateFormat" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GenerateFormat">GenerateFormat()</h4>
+  <div class="markdown level1 summary"><p>Generates/creates our digit format using <a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a>'s and <a class="xref" href="AdrianMiasik.Components.Core.Items.DigitSeparator.html">DigitSeparator</a>'s.
+See <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.html#AdrianMiasik_Components_Core_Containers_DigitFormat_SwitchFormat_AdrianMiasik_Components_Core_Containers_DigitFormat_SupportedFormats_">SwitchFormat(DigitFormat.SupportedFormats)</a> if you'd like to change your preferred <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a>, then
+invoke this function again to generate your new preferred format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ContextMenu(&quot;Generate Format&quot;)]
+public void GenerateFormat()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_GetDigits.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.GetDigits%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L621">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_GetDigits_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GetDigits*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_GetDigits" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GetDigits">GetDigits()</h4>
+  <div class="markdown level1 summary"><p>Returns our list of generated <a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a>'s</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;DoubleDigit&gt; GetDigits()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_GetDigitValue_AdrianMiasik_Components_Core_Containers_DigitFormat_Digits_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.GetDigitValue(AdrianMiasik.Components.Core.Containers.DigitFormat.Digits)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L768">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_GetDigitValue_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GetDigitValue*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_GetDigitValue_AdrianMiasik_Components_Core_Containers_DigitFormat_Digits_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GetDigitValue(AdrianMiasik.Components.Core.Containers.DigitFormat.Digits)">GetDigitValue(DigitFormat.Digits)</h4>
+  <div class="markdown level1 summary"><p>Returns the provided <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.Digits.html">DigitFormat.Digits</a> value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetDigitValue(DigitFormat.Digits digit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.Digits.html">DigitFormat.Digits</a></td>
+        <td><span class="parametername">digit</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_GetFormatIndex.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.GetFormatIndex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L864">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_GetFormatIndex_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GetFormatIndex*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_GetFormatIndex" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GetFormatIndex">GetFormatIndex()</h4>
+  <div class="markdown level1 summary"><p>Return the current format index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetFormatIndex()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_GetPreviousFormatSelection.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.GetPreviousFormatSelection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L855">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_GetPreviousFormatSelection_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GetPreviousFormatSelection*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_GetPreviousFormatSelection" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GetPreviousFormatSelection">GetPreviousFormatSelection()</h4>
+  <div class="markdown level1 summary"><p>Returns the previously selected format index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetPreviousFormatSelection()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_GetTime.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.GetTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L249">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_GetTime_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GetTime*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_GetTime" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GetTime">GetTime()</h4>
+  <div class="markdown level1 summary"><p>Returns the users own set times (depending on the state, you could get one of three datasets: work /
+break / long break)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan GetTime()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_GetTimerState.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.GetTimerState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L827">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_GetTimerState_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GetTimerState*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_GetTimerState" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GetTimerState">GetTimerState()</h4>
+  <div class="markdown level1 summary"><p>Returns <a class="xref" href="AdrianMiasik.Components.PomodoroTimer.html">PomodoroTimer</a>'s current state. (See: <a class="xref" href="AdrianMiasik.Components.PomodoroTimer.States.html">PomodoroTimer.States</a>)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PomodoroTimer.States GetTimerState()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.PomodoroTimer.States.html">PomodoroTimer.States</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_GetTimerString.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.GetTimerString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L631">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_GetTimerString_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GetTimerString*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_GetTimerString" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.GetTimerString">GetTimerString()</h4>
+  <div class="markdown level1 summary"><p>Returns our current timer values in a <span class="xref">System.String</span>.
+<example>Such as &quot;00:24:35&quot; (without the quotation marks)</example></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetTimerString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Our current timer value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_Hide.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.Hide%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L551">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_Hide_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.Hide*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_Hide" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.Hide">Hide()</h4>
+  <div class="markdown level1 summary"><p>Disables this gameobject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Hide()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_IncrementOne_AdrianMiasik_Components_Core_Containers_DigitFormat_Digits_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.IncrementOne(AdrianMiasik.Components.Core.Containers.DigitFormat.Digits)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L671">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_IncrementOne_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.IncrementOne*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_IncrementOne_AdrianMiasik_Components_Core_Containers_DigitFormat_Digits_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.IncrementOne(AdrianMiasik.Components.Core.Containers.DigitFormat.Digits)">IncrementOne(DigitFormat.Digits)</h4>
+  <div class="markdown level1 summary"><p>Increments the provided digit by one. (+1)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void IncrementOne(DigitFormat.Digits digits)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.Digits.html">DigitFormat.Digits</a></td>
+        <td><span class="parametername">digits</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_Initialize_AdrianMiasik_Components_PomodoroTimer_System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.Initialize(AdrianMiasik.Components.PomodoroTimer%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L95">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_Initialize_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.Initialize*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_Initialize_AdrianMiasik_Components_PomodoroTimer_System_Boolean_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.Initialize(AdrianMiasik.Components.PomodoroTimer,System.Boolean)">Initialize(PomodoroTimer, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Switches then generates our preferred digit format and updating the relevant components using the
+current active <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize(PomodoroTimer pomodoroTimer, bool updateColors = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.PomodoroTimer.html">PomodoroTimer</a></td>
+        <td><span class="parametername">pomodoroTimer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">updateColors</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_Initialize_AdrianMiasik_Components_PomodoroTimer_System_Boolean_">ThemeElement.Initialize(PomodoroTimer, Boolean)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_Lock.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.Lock%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L598">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_Lock_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.Lock*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_Lock" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.Lock">Lock()</h4>
+  <div class="markdown level1 summary"><p>Prevents our generated <a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a>'s to be interacted with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Lock()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_RefreshDigitVisuals.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.RefreshDigitVisuals%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L154">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_RefreshDigitVisuals_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.RefreshDigitVisuals*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_RefreshDigitVisuals" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.RefreshDigitVisuals">RefreshDigitVisuals()</h4>
+  <div class="markdown level1 summary"><p>Updates our generated <a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a>'s using our cached values and hides our increment and
+decrement arrows.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RefreshDigitVisuals()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_ResetTextPositions.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.ResetTextPositions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L609">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_ResetTextPositions_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.ResetTextPositions*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_ResetTextPositions" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.ResetTextPositions">ResetTextPositions()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetTextPositions()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_SetDigit_AdrianMiasik_Components_Core_Containers_DigitFormat_Digits_System_Int32_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.SetDigit(AdrianMiasik.Components.Core.Containers.DigitFormat.Digits%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L690">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_SetDigit_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.SetDigit*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_SetDigit_AdrianMiasik_Components_Core_Containers_DigitFormat_Digits_System_Int32_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.SetDigit(AdrianMiasik.Components.Core.Containers.DigitFormat.Digits,System.Int32)">SetDigit(DigitFormat.Digits, Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets the provided digit to it's provided new value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDigit(DigitFormat.Digits digit, int newValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.Digits.html">DigitFormat.Digits</a></td>
+        <td><span class="parametername">digit</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">newValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_SetDigitColor_UnityEngine_Color_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.SetDigitColor(UnityEngine.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L576">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_SetDigitColor_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.SetDigitColor*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_SetDigitColor_UnityEngine_Color_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.SetDigitColor(UnityEngine.Color)">SetDigitColor(Color)</h4>
+  <div class="markdown level1 summary"><p>Sets the color of our generated <a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a>'s to the provided color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDigitColor(Color newColor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">newColor</span></td>
+        <td><p>The color you want to set all our <a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a>'s to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_SetTime_System_TimeSpan_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.SetTime(System.TimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L462">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_SetTime_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.SetTime*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_SetTime_System_TimeSpan_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.SetTime(System.TimeSpan)">SetTime(TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Sets the generated <a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a>'s to the provided <span class="xref">System.TimeSpan</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTime(TimeSpan ts)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">ts</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_SetTimerSelection_AdrianMiasik_Components_Core_Items_DoubleDigit_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.SetTimerSelection(AdrianMiasik.Components.Core.Items.DoubleDigit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L836">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_SetTimerSelection_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.SetTimerSelection*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_SetTimerSelection_AdrianMiasik_Components_Core_Items_DoubleDigit_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.SetTimerSelection(AdrianMiasik.Components.Core.Items.DoubleDigit)">SetTimerSelection(DoubleDigit)</h4>
+  <div class="markdown level1 summary"><p>Sets the <a class="xref" href="AdrianMiasik.Components.PomodoroTimer.html">PomodoroTimer</a>'s selection to the provided <a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTimerSelection(DoubleDigit digitToSelect)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a></td>
+        <td><span class="parametername">digitToSelect</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_SetTimerValue_System_String_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.SetTimerValue(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L715">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_SetTimerValue_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.SetTimerValue*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_SetTimerValue_System_String_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.SetTimerValue(System.String)">SetTimerValue(String)</h4>
+  <div class="markdown level1 summary"><p>Sets the value of the timer using the provided formatted string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTimerValue(string formattedString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">formattedString</span></td>
+        <td><p>Expected format of &quot;00:25:00&quot; (Without the quotation marks).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_Show.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.Show%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L543">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_Show_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.Show*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_Show" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.Show">Show()</h4>
+  <div class="markdown level1 summary"><p>Enables this gameobject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Show()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_ShowTime_System_TimeSpan_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.ShowTime(System.TimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L422">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_ShowTime_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.ShowTime*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_ShowTime_System_TimeSpan_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.ShowTime(System.TimeSpan)">ShowTime(TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Sets the generated <a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a>'s text label to the provided <span class="xref">System.TimeSpan</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowTime(TimeSpan ts)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">ts</span></td>
+        <td><p>The <span class="xref">System.TimeSpan</span> you want to display to the user.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_SwitchFormat_AdrianMiasik_Components_Core_Containers_DigitFormat_SupportedFormats_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.SwitchFormat(AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L845">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_SwitchFormat_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.SwitchFormat*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_SwitchFormat_AdrianMiasik_Components_Core_Containers_DigitFormat_SupportedFormats_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.SwitchFormat(AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats)">SwitchFormat(DigitFormat.SupportedFormats)</h4>
+  <div class="markdown level1 summary"><p>Switches your format to the provided format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SwitchFormat(DigitFormat.SupportedFormats desiredFormat)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a></td>
+        <td><span class="parametername">desiredFormat</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat_Unlock.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat.Unlock%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L587">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Containers_DigitFormat_Unlock_" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.Unlock*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Containers_DigitFormat_Unlock" data-uid="AdrianMiasik.Components.Core.Containers.DigitFormat.Unlock">Unlock()</h4>
+  <div class="markdown level1 summary"><p>Allows our generated <a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a>'s to be interacted with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Unlock()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_Core_Containers_DigitFormat.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Containers.DigitFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Containers/DigitFormat.cs/#L19" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

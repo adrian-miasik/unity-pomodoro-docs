@@ -1,0 +1,1335 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PomodoroTimer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PomodoroTimer
+   ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Components.PomodoroTimer">
+  
+  
+  <h1 id="AdrianMiasik_Components_PomodoroTimer" data-uid="AdrianMiasik.Components.PomodoroTimer" class="text-break">Class PomodoroTimer
+  </h1>
+  <div class="markdown level0 summary"><p>Our main class / component. Responsible for controlling the main timer logic, configuring settings,
+initializing, and manipulating our components.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">PomodoroTimer</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.html">AdrianMiasik.Components</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AdrianMiasik_Components_PomodoroTimer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PomodoroTimer : MonoBehaviour, IColorHook</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_m_onRingPulse.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.m_onRingPulse%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L89">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_m_onRingPulse" data-uid="AdrianMiasik.Components.PomodoroTimer.m_onRingPulse">m_onRingPulse</h4>
+  <div class="markdown level1 summary"><p>A <span class="xref">UnityEngine.Events.UnityEvent</span> that gets invoked when the ring / timer alarm pulses.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Unity Events&quot;)]
+public UnityEvent m_onRingPulse</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Events.UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_m_onTimerCompletion.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.m_onTimerCompletion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L94">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_m_onTimerCompletion" data-uid="AdrianMiasik.Components.PomodoroTimer.m_onTimerCompletion">m_onTimerCompletion</h4>
+  <div class="markdown level1 summary"><p>A <span class="xref">UnityEngine.Events.UnityEvent</span> that gets invoked when the timer finishes. (<a class="xref" href="AdrianMiasik.Components.PomodoroTimer.States.html#AdrianMiasik_Components_PomodoroTimer_States_COMPLETE">COMPLETE</a>)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent m_onTimerCompletion</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Events.UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_m_state.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.m_state%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L51">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_m_state" data-uid="AdrianMiasik.Components.PomodoroTimer.m_state">m_state</h4>
+  <div class="markdown level1 summary"><p>The timer's current state. See enum <a class="xref" href="AdrianMiasik.Components.PomodoroTimer.States.html">PomodoroTimer.States</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PomodoroTimer.States m_state</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.PomodoroTimer.States.html">PomodoroTimer.States</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_ActivateLongBreak.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.ActivateLongBreak%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L1215">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_ActivateLongBreak_" data-uid="AdrianMiasik.Components.PomodoroTimer.ActivateLongBreak*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_ActivateLongBreak" data-uid="AdrianMiasik.Components.PomodoroTimer.ActivateLongBreak">ActivateLongBreak()</h4>
+  <div class="markdown level1 summary"><p>Sets our <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.html">DigitFormat</a> to long break mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ActivateLongBreak()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_ClearCurrentDialogPopup.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.ClearCurrentDialogPopup%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L1203">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_ClearCurrentDialogPopup_" data-uid="AdrianMiasik.Components.PomodoroTimer.ClearCurrentDialogPopup*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_ClearCurrentDialogPopup" data-uid="AdrianMiasik.Components.PomodoroTimer.ClearCurrentDialogPopup">ClearCurrentDialogPopup()</h4>
+  <div class="markdown level1 summary"><p>Clears and destroys the current timer popup so it's no longer visible to the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearCurrentDialogPopup()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_ClearDialogPopup_AdrianMiasik_Components_Core_ConfirmationDialog_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.ClearDialogPopup(AdrianMiasik.Components.Core.ConfirmationDialog)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L1192">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_ClearDialogPopup_" data-uid="AdrianMiasik.Components.PomodoroTimer.ClearDialogPopup*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_ClearDialogPopup_AdrianMiasik_Components_Core_ConfirmationDialog_" data-uid="AdrianMiasik.Components.PomodoroTimer.ClearDialogPopup(AdrianMiasik.Components.Core.ConfirmationDialog)">ClearDialogPopup(ConfirmationDialog)</h4>
+  <div class="markdown level1 summary"><p>Clear our current timer popup reference.
+<remarks>Should be done when destroying our popup dialog.</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearDialogPopup(ConfirmationDialog dialog)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.Core.ConfirmationDialog.html">ConfirmationDialog</a></td>
+        <td><span class="parametername">dialog</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_ClearSelection.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.ClearSelection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L380">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_ClearSelection_" data-uid="AdrianMiasik.Components.PomodoroTimer.ClearSelection*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_ClearSelection" data-uid="AdrianMiasik.Components.PomodoroTimer.ClearSelection">ClearSelection()</h4>
+  <div class="markdown level1 summary"><p>Removes any digit selection, and selects the background (our default selection).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearSelection()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L1012">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_ColorUpdate_" data-uid="AdrianMiasik.Components.PomodoroTimer.ColorUpdate*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_" data-uid="AdrianMiasik.Components.PomodoroTimer.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)">ColorUpdate(Theme)</h4>
+  <div class="markdown level1 summary"><p>Applies our <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a> changes to our referenced components when necessary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ColorUpdate(Theme theme)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a></td>
+        <td><span class="parametername">theme</span></td>
+        <td><p>The theme to apply on our referenced components.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_ColorUpdateCreditsBubble.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.ColorUpdateCreditsBubble%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L1133">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_ColorUpdateCreditsBubble_" data-uid="AdrianMiasik.Components.PomodoroTimer.ColorUpdateCreditsBubble*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_ColorUpdateCreditsBubble" data-uid="AdrianMiasik.Components.PomodoroTimer.ColorUpdateCreditsBubble">ColorUpdateCreditsBubble()</h4>
+  <div class="markdown level1 summary"><p>Triggers a <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a> ColorUpdate() on our <a class="xref" href="AdrianMiasik.Components.Specific.CreditsBubble.html">CreditsBubble</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ColorUpdateCreditsBubble()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_DeactivateLongBreak.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.DeactivateLongBreak%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L1224">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_DeactivateLongBreak_" data-uid="AdrianMiasik.Components.PomodoroTimer.DeactivateLongBreak*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_DeactivateLongBreak" data-uid="AdrianMiasik.Components.PomodoroTimer.DeactivateLongBreak">DeactivateLongBreak()</h4>
+  <div class="markdown level1 summary"><p>Sets our <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.html">DigitFormat</a> to not use long break mode. (<a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.html">DigitFormat</a> could still be
+in a work / break mode)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeactivateLongBreak()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_GetDigitFormat.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.GetDigitFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L882">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_GetDigitFormat_" data-uid="AdrianMiasik.Components.PomodoroTimer.GetDigitFormat*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_GetDigitFormat" data-uid="AdrianMiasik.Components.PomodoroTimer.GetDigitFormat">GetDigitFormat()</h4>
+  <div class="markdown level1 summary"><p>Returns our currently selected <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a>'s index value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetDigitFormat()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A number representing our enum index. See <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_GetSelections.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.GetSelections%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L893">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_GetSelections_" data-uid="AdrianMiasik.Components.PomodoroTimer.GetSelections*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_GetSelections" data-uid="AdrianMiasik.Components.PomodoroTimer.GetSelections">GetSelections()</h4>
+  <div class="markdown level1 summary"><p>Returns a list of our current selected element.
+<remarks>Will return a list of <span class="xref">UnityEngine.UI.Selectable</span>'s, not specifically <a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a>'s.
+</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Selectable&gt; GetSelections()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.UI.Selectable</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_GetTheme.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.GetTheme%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L1090">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_GetTheme_" data-uid="AdrianMiasik.Components.PomodoroTimer.GetTheme*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_GetTheme" data-uid="AdrianMiasik.Components.PomodoroTimer.GetTheme">GetTheme()</h4>
+  <div class="markdown level1 summary"><p>Returns our current active <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Theme GetTheme()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_GetTimerString.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.GetTimerString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L873">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_GetTimerString_" data-uid="AdrianMiasik.Components.PomodoroTimer.GetTimerString*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_GetTimerString" data-uid="AdrianMiasik.Components.PomodoroTimer.GetTimerString">GetTimerString()</h4>
+  <div class="markdown level1 summary"><p>Returns our current timer values in a <span class="xref">System.String</span>.
+<example>Such as &quot;00:24:35&quot; (without the quotation marks)</example></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetTimerString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Our current timer value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_IsAboutPageOpen.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.IsAboutPageOpen%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L920">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_IsAboutPageOpen_" data-uid="AdrianMiasik.Components.PomodoroTimer.IsAboutPageOpen*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_IsAboutPageOpen" data-uid="AdrianMiasik.Components.PomodoroTimer.IsAboutPageOpen">IsAboutPageOpen()</h4>
+  <div class="markdown level1 summary"><p>Is our <a class="xref" href="AdrianMiasik.Components.Specific.AboutPanel.html">AboutPanel</a> currently open and visible?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAboutPageOpen()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_IsConfirmationDialogInterruptible.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.IsConfirmationDialogInterruptible%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L1182">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_IsConfirmationDialogInterruptible_" data-uid="AdrianMiasik.Components.PomodoroTimer.IsConfirmationDialogInterruptible*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_IsConfirmationDialogInterruptible" data-uid="AdrianMiasik.Components.PomodoroTimer.IsConfirmationDialogInterruptible">IsConfirmationDialogInterruptible()</h4>
+  <div class="markdown level1 summary"><p>Is our current <a class="xref" href="AdrianMiasik.Components.Core.ConfirmationDialog.html">ConfirmationDialog</a> interruptible by our timer?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsConfirmationDialogInterruptible()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_IsOnBreak.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.IsOnBreak%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L902">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_IsOnBreak_" data-uid="AdrianMiasik.Components.PomodoroTimer.IsOnBreak*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_IsOnBreak" data-uid="AdrianMiasik.Components.PomodoroTimer.IsOnBreak">IsOnBreak()</h4>
+  <div class="markdown level1 summary"><p>Is our <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.html">DigitFormat</a> in break mode?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOnBreak()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_IsOnLongBreak.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.IsOnLongBreak%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L911">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_IsOnLongBreak_" data-uid="AdrianMiasik.Components.PomodoroTimer.IsOnLongBreak*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_IsOnLongBreak" data-uid="AdrianMiasik.Components.PomodoroTimer.IsOnLongBreak">IsOnLongBreak()</h4>
+  <div class="markdown level1 summary"><p>Is our <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.html">DigitFormat</a> in long break mode?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOnLongBreak()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_IsSidebarOpen.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.IsSidebarOpen%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L929">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_IsSidebarOpen_" data-uid="AdrianMiasik.Components.PomodoroTimer.IsSidebarOpen*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_IsSidebarOpen" data-uid="AdrianMiasik.Components.PomodoroTimer.IsSidebarOpen">IsSidebarOpen()</h4>
+  <div class="markdown level1 summary"><p>Is our <a class="xref" href="AdrianMiasik.Components.Core.Containers.Sidebar.html">Sidebar</a> currently open and visible?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSidebarOpen()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_MuteSoundWhenOutOfFocus.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.MuteSoundWhenOutOfFocus%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L1143">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_MuteSoundWhenOutOfFocus_" data-uid="AdrianMiasik.Components.PomodoroTimer.MuteSoundWhenOutOfFocus*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_MuteSoundWhenOutOfFocus" data-uid="AdrianMiasik.Components.PomodoroTimer.MuteSoundWhenOutOfFocus">MuteSoundWhenOutOfFocus()</h4>
+  <div class="markdown level1 summary"><p>Does the user want to mute the application when it's not currently in focus?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool MuteSoundWhenOutOfFocus()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The users settings preference for muting the application when out of focus.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_OnDestroy.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.OnDestroy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L260">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_OnDestroy_" data-uid="AdrianMiasik.Components.PomodoroTimer.OnDestroy*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_OnDestroy" data-uid="AdrianMiasik.Components.PomodoroTimer.OnDestroy">OnDestroy()</h4>
+  <div class="markdown level1 summary"><p>Unity's OnDestroy() - Deregister self from <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a> on destruction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDestroy()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_Pause.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.Pause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L691">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_Pause_" data-uid="AdrianMiasik.Components.PomodoroTimer.Pause*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_Pause" data-uid="AdrianMiasik.Components.PomodoroTimer.Pause">Pause()</h4>
+  <div class="markdown level1 summary"><p>Transitions timer into States.PAUSED mode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Pause()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_Play.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.Play%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L670">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_Play_" data-uid="AdrianMiasik.Components.PomodoroTimer.Play*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_Play" data-uid="AdrianMiasik.Components.PomodoroTimer.Play">Play()</h4>
+  <div class="markdown level1 summary"><p>Transitions timer into States.RUNNING mode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Play()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_PlaySpawnAnimation.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.PlaySpawnAnimation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L371">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_PlaySpawnAnimation_" data-uid="AdrianMiasik.Components.PomodoroTimer.PlaySpawnAnimation*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_PlaySpawnAnimation" data-uid="AdrianMiasik.Components.PomodoroTimer.PlaySpawnAnimation">PlaySpawnAnimation()</h4>
+  <div class="markdown level1 summary"><p>Plays our timer spawning animation.
+<remarks>Used as a UnityEvent</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlaySpawnAnimation()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_Restart_System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.Restart(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L776">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_Restart_" data-uid="AdrianMiasik.Components.PomodoroTimer.Restart*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_Restart_System_Boolean_" data-uid="AdrianMiasik.Components.PomodoroTimer.Restart(System.Boolean)">Restart(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Directly toggles the timer mode to it's opposite mode (break/work) and transitions timer into States.SETUP.
+Note: If you want to verify this action, <a class="xref" href="AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_TryRestart_System_Boolean_">TryRestart(Boolean)</a>. <a class="xref" href="AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_TryRestart_System_Boolean_">TryRestart(Boolean)</a> will prompt the
+user with a confirmation dialog if necessary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Restart(bool isCompleted)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isCompleted</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_SelectAll.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.SelectAll%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L830">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_SelectAll_" data-uid="AdrianMiasik.Components.PomodoroTimer.SelectAll*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_SelectAll" data-uid="AdrianMiasik.Components.PomodoroTimer.SelectAll">SelectAll()</h4>
+  <div class="markdown level1 summary"><p>Selects all the digits in our <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.html">DigitFormat</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SelectAll()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_SetBackgroundNavigation_UnityEngine_UI_Navigation_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.SetBackgroundNavigation(UnityEngine.UI.Navigation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L957">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_SetBackgroundNavigation_" data-uid="AdrianMiasik.Components.PomodoroTimer.SetBackgroundNavigation*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_SetBackgroundNavigation_UnityEngine_UI_Navigation_" data-uid="AdrianMiasik.Components.PomodoroTimer.SetBackgroundNavigation(UnityEngine.UI.Navigation)">SetBackgroundNavigation(Navigation)</h4>
+  <div class="markdown level1 summary"><p>Sets our background's selection navigation to the provided <span class="xref">UnityEngine.UI.Navigation</span>.
+<remarks>Intended to change focus to our digits when attempting to select left / right
+from the background.</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBackgroundNavigation(Navigation backgroundNav)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.Navigation</span></td>
+        <td><span class="parametername">backgroundNav</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_SetMuteSoundWhenOutOfFocus_System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.SetMuteSoundWhenOutOfFocus(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L1153">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_SetMuteSoundWhenOutOfFocus_" data-uid="AdrianMiasik.Components.PomodoroTimer.SetMuteSoundWhenOutOfFocus*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_SetMuteSoundWhenOutOfFocus_System_Boolean_" data-uid="AdrianMiasik.Components.PomodoroTimer.SetMuteSoundWhenOutOfFocus(System.Boolean)">SetMuteSoundWhenOutOfFocus(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the users setting preference to mute the application when out of focus using the provided
+<span class="xref">System.Boolean</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMuteSoundWhenOutOfFocus(bool state = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>Do you want to mute this application when it's out of focus?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_SetSelection_AdrianMiasik_Components_Core_Items_DoubleDigit_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.SetSelection(AdrianMiasik.Components.Core.Items.DoubleDigit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L391">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_SetSelection_" data-uid="AdrianMiasik.Components.PomodoroTimer.SetSelection*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_SetSelection_AdrianMiasik_Components_Core_Items_DoubleDigit_" data-uid="AdrianMiasik.Components.PomodoroTimer.SetSelection(AdrianMiasik.Components.Core.Items.DoubleDigit)">SetSelection(DoubleDigit)</h4>
+  <div class="markdown level1 summary"><p>Sets the selection to a single <a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a> and calculates text visibility based on new
+selection data. If you'd like to select multiple digits: See <span class="xref">AdrianMiasik.Components.PomodoroTimer.AddSelection(AdrianMiasik.Components.Core.Items.DoubleDigit)</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSelection(DoubleDigit currentDigit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a></td>
+        <td><span class="parametername">currentDigit</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_SetTimerValue_System_String_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.SetTimerValue(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L940">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_SetTimerValue_" data-uid="AdrianMiasik.Components.PomodoroTimer.SetTimerValue*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_SetTimerValue_System_String_" data-uid="AdrianMiasik.Components.PomodoroTimer.SetTimerValue(System.String)">SetTimerValue(String)</h4>
+  <div class="markdown level1 summary"><p>Sets our <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.html">DigitFormat</a> timer to the provided string. Intended to be used when pasting
+values in from our clipboard.
+<remarks>This will only work if the timer is in <a class="xref" href="AdrianMiasik.Components.PomodoroTimer.States.html#AdrianMiasik_Components_PomodoroTimer_States_SETUP">SETUP</a> mode.</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTimerValue(string timeString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">timeString</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_SetToDarkMode.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.SetToDarkMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L1108">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_SetToDarkMode_" data-uid="AdrianMiasik.Components.PomodoroTimer.SetToDarkMode*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_SetToDarkMode" data-uid="AdrianMiasik.Components.PomodoroTimer.SetToDarkMode">SetToDarkMode()</h4>
+  <div class="markdown level1 summary"><p>Sets our <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a> preference to dark mode, and update's all our necessary components.
+<remarks>Used as a UnityEvent on our <span class="xref">AdrianMiasik.Components.PomodoroTimer.m_themeSlider</span>.</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetToDarkMode()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_SetToLightMode.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.SetToLightMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L1099">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_SetToLightMode_" data-uid="AdrianMiasik.Components.PomodoroTimer.SetToLightMode*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_SetToLightMode" data-uid="AdrianMiasik.Components.PomodoroTimer.SetToLightMode">SetToLightMode()</h4>
+  <div class="markdown level1 summary"><p>Sets our <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a> preference to light mode, and update's all our necessary components.
+<remarks>Used as a UnityEvent on our <span class="xref">AdrianMiasik.Components.PomodoroTimer.m_themeSlider</span>.</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetToLightMode()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_ShowAbout.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.ShowAbout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L592">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_ShowAbout_" data-uid="AdrianMiasik.Components.PomodoroTimer.ShowAbout*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_ShowAbout" data-uid="AdrianMiasik.Components.PomodoroTimer.ShowAbout">ShowAbout()</h4>
+  <div class="markdown level1 summary"><p>Shows about content, hides main content, and shows credits bubble.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowAbout()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_ShowMainContent.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.ShowMainContent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L621">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_ShowMainContent_" data-uid="AdrianMiasik.Components.PomodoroTimer.ShowMainContent*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_ShowMainContent" data-uid="AdrianMiasik.Components.PomodoroTimer.ShowMainContent">ShowMainContent()</h4>
+  <div class="markdown level1 summary"><p>Shows main content, hides info, and hides credits bubble</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowMainContent()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_ShowSettings.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.ShowSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L648">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_ShowSettings_" data-uid="AdrianMiasik.Components.PomodoroTimer.ShowSettings*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_ShowSettings" data-uid="AdrianMiasik.Components.PomodoroTimer.ShowSettings">ShowSettings()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowSettings()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_SpawnConfirmationDialog_System_Action_System_Action_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.SpawnConfirmationDialog(System.Action%2CSystem.Action%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L1167">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_SpawnConfirmationDialog_" data-uid="AdrianMiasik.Components.PomodoroTimer.SpawnConfirmationDialog*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_SpawnConfirmationDialog_System_Action_System_Action_System_String_System_String_System_Boolean_" data-uid="AdrianMiasik.Components.PomodoroTimer.SpawnConfirmationDialog(System.Action,System.Action,System.String,System.String,System.Boolean)">SpawnConfirmationDialog(Action, Action, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a custom <a class="xref" href="AdrianMiasik.Components.Core.ConfirmationDialog.html">ConfirmationDialog</a> if one is currently not present/visible.
+<remarks>Either the submit/close buttons will trigger the dialog to close.</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SpawnConfirmationDialog(Action onSubmit, Action onCancel = null, string topText = null, string bottomText = null, bool interruptible = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">onSubmit</span></td>
+        <td><p>What do you want to do when the user presses yes?</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">onCancel</span></td>
+        <td><p>What do you want to do when the user presses no?</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">topText</span></td>
+        <td><p>What primary string do you want to display to the user?</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bottomText</span></td>
+        <td><p>What secondary string do you want to display to the user?</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">interruptible</span></td>
+        <td><p>Can this popup be closed by our timer?</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_SwitchTheme_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.SwitchTheme(AdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L1118">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_SwitchTheme_" data-uid="AdrianMiasik.Components.PomodoroTimer.SwitchTheme*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_SwitchTheme_AdrianMiasik_ScriptableObjects_Theme_" data-uid="AdrianMiasik.Components.PomodoroTimer.SwitchTheme(AdrianMiasik.ScriptableObjects.Theme)">SwitchTheme(Theme)</h4>
+  <div class="markdown level1 summary"><p>Sets our current active <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a> to the provided <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a>. This will transfer
+all our <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a> element's to the new <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a> as well.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SwitchTheme(Theme desiredTheme)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a></td>
+        <td><span class="parametername">desiredTheme</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_TriggerPlayPause.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.TriggerPlayPause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L797">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_TriggerPlayPause_" data-uid="AdrianMiasik.Components.PomodoroTimer.TriggerPlayPause*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_TriggerPlayPause" data-uid="AdrianMiasik.Components.PomodoroTimer.TriggerPlayPause">TriggerPlayPause()</h4>
+  <div class="markdown level1 summary"><p>Presses the play/pause button.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TriggerPlayPause()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_TriggerThemeSwitch.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.TriggerThemeSwitch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L821">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_TriggerThemeSwitch_" data-uid="AdrianMiasik.Components.PomodoroTimer.TriggerThemeSwitch*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_TriggerThemeSwitch" data-uid="AdrianMiasik.Components.PomodoroTimer.TriggerThemeSwitch">TriggerThemeSwitch()</h4>
+  <div class="markdown level1 summary"><p>Presses the boolean slider to toggle between light/dark themes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TriggerThemeSwitch()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_TriggerTimerRestart.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.TriggerTimerRestart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L813">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_TriggerTimerRestart_" data-uid="AdrianMiasik.Components.PomodoroTimer.TriggerTimerRestart*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_TriggerTimerRestart" data-uid="AdrianMiasik.Components.PomodoroTimer.TriggerTimerRestart">TriggerTimerRestart()</h4>
+  <div class="markdown level1 summary"><p>Presses the restart button.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TriggerTimerRestart()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_TriggerTimerSwitch.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.TriggerTimerSwitch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L805">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_TriggerTimerSwitch_" data-uid="AdrianMiasik.Components.PomodoroTimer.TriggerTimerSwitch*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_TriggerTimerSwitch" data-uid="AdrianMiasik.Components.PomodoroTimer.TriggerTimerSwitch">TriggerTimerSwitch()</h4>
+  <div class="markdown level1 summary"><p>Presses the boolean slider to toggle between our <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.html">DigitFormat</a> to work/break mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TriggerTimerSwitch()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_TryChangeFormat_AdrianMiasik_Components_Core_Containers_DigitFormat_SupportedFormats_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.TryChangeFormat(AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L977">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_TryChangeFormat_" data-uid="AdrianMiasik.Components.PomodoroTimer.TryChangeFormat*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_TryChangeFormat_AdrianMiasik_Components_Core_Containers_DigitFormat_SupportedFormats_" data-uid="AdrianMiasik.Components.PomodoroTimer.TryChangeFormat(AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats)">TryChangeFormat(DigitFormat.SupportedFormats)</h4>
+  <div class="markdown level1 summary"><p>Attempts to change our <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.html">DigitFormat</a> to the provided <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a>,
+will prompt user with confirmation dialog if necessary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TryChangeFormat(DigitFormat.SupportedFormats desiredFormat)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a></td>
+        <td><span class="parametername">desiredFormat</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_TryChangeFormat_System_Int32_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.TryChangeFormat(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L967">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_TryChangeFormat_" data-uid="AdrianMiasik.Components.PomodoroTimer.TryChangeFormat*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_TryChangeFormat_System_Int32_" data-uid="AdrianMiasik.Components.PomodoroTimer.TryChangeFormat(System.Int32)">TryChangeFormat(Int32)</h4>
+  <div class="markdown level1 summary"><p>Attempts to change the digit format using enum index, will prompt user with confirmation dialog
+if necessary. See <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TryChangeFormat(int i)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">i</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_TryRestart_System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.TryRestart(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L755">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_TryRestart_" data-uid="AdrianMiasik.Components.PomodoroTimer.TryRestart*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_TryRestart_System_Boolean_" data-uid="AdrianMiasik.Components.PomodoroTimer.TryRestart(System.Boolean)">TryRestart(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Attempts to restart the timer, will prompt user with confirmation dialog if necessary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TryRestart(bool isComplete)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isComplete</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_TrySwitchToBreakTimer.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.TrySwitchToBreakTimer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L701">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_TrySwitchToBreakTimer_" data-uid="AdrianMiasik.Components.PomodoroTimer.TrySwitchToBreakTimer*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_TrySwitchToBreakTimer" data-uid="AdrianMiasik.Components.PomodoroTimer.TrySwitchToBreakTimer">TrySwitchToBreakTimer()</h4>
+  <div class="markdown level1 summary"><p>Attempts to transition timer into <a class="xref" href="AdrianMiasik.Components.PomodoroTimer.States.html#AdrianMiasik_Components_PomodoroTimer_States_SETUP">SETUP</a> and sets our <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.html">DigitFormat</a> to break
+mode, will prompt user with confirmation dialog if necessary.
+<remarks>Used as a <span class="xref">UnityEngine.Events.UnityEvent</span> on our timer switch.</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TrySwitchToBreakTimer()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer_TrySwitchToWorkTimer.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer.TrySwitchToWorkTimer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L734">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_PomodoroTimer_TrySwitchToWorkTimer_" data-uid="AdrianMiasik.Components.PomodoroTimer.TrySwitchToWorkTimer*"></a>
+  <h4 id="AdrianMiasik_Components_PomodoroTimer_TrySwitchToWorkTimer" data-uid="AdrianMiasik.Components.PomodoroTimer.TrySwitchToWorkTimer">TrySwitchToWorkTimer()</h4>
+  <div class="markdown level1 summary"><p>Attempts to transition timer into <a class="xref" href="AdrianMiasik.Components.PomodoroTimer.States.html#AdrianMiasik_Components_PomodoroTimer_States_SETUP">SETUP</a> and sets our <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.html">DigitFormat</a> to work
+mode, will prompt user with confirmation dialog if necessary.
+<remarks>Used as a <span class="xref">UnityEngine.Events.UnityEvent</span> on our timer switch.</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TrySwitchToWorkTimer()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7ab42f3422bab4433362df3dc5331dd376683c24/apiSpec/new?filename=AdrianMiasik_Components_PomodoroTimer.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.PomodoroTimer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7ab42f3422bab4433362df3dc5331dd376683c24/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/PomodoroTimer.cs/#L23" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

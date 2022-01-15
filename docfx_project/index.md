@@ -20,11 +20,11 @@
 `unity-pomodoro-docs` is a documentation website mostly generated from our [`unity-pomodoro`](https://github.com/adrian-miasik/unity-pomodoro) source code using [`DocFX`](https://github.com/dotnet/docfx).
 However, we also have numerous [documents](documents/home.md) that were written to help support and get developers to better understand the source code and architecture.
 
-**Documentation Version**:  0.0.4 
+**API Version**: 1.7.0 
 
 > [!NOTE]
-> The documentation version should align up with your [`unity-pomodoro`'s](https://github.com/adrian-miasik/unity-pomodoro) project version to view the corresponding API.
-> Meaning if you are on unity-pomodoro `1.7.0`, you should be reading unity-pomodoro-docs `1.7.0`.
+> The API version should align up with your [`unity-pomodoro`'s](https://github.com/adrian-miasik/unity-pomodoro) project version to view the corresponding API.
+> Meaning if you are on unity-pomodoro `1.7.0`, you should be reading unity-pomodoro-docs `1.7.0`. (Initial documentation release is `1.7.0`)
 
 **Author**:  **[`Adrian Miasik`](https://adrian-miasik.com)**
 

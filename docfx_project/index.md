@@ -4,17 +4,9 @@
   <img src="images/logo.png" width="64">
 </p>
 
-> [!WARNING]
-> This documentation site is a work in progress.
-
 ## Table of Contents
-- [**Home**](index.md)
 - [Documents](documents/home.md)
 - [API](api/index.md)
-
-## Source Code
-- [Project](https://github.com/adrian-miasik/unity-pomodoro)
-- [Documentation](https://github.com/adrian-miasik/unity-pomodoro-docs)
 
 ## About
 `unity-pomodoro-docs` is a documentation website mostly generated from our [`unity-pomodoro`](https://github.com/adrian-miasik/unity-pomodoro) source code using [`DocFX`](https://github.com/dotnet/docfx).
@@ -32,6 +24,10 @@ However, we also have numerous [documents](documents/home.md) that were written 
 
 **Contributor(s)**: `-`  
 Want to help? If you're interested in contributing to the project, please see the <a href="#contribute">contribute</a> section.
+
+## Source Code
+- [Project](https://github.com/adrian-miasik/unity-pomodoro)
+- [Documentation](https://github.com/adrian-miasik/unity-pomodoro-docs)
 
 ## Donate
 If you'd like to support my work, you can donate to help support this project via [GitHub Sponsors](https://github.com/sponsors/adrian-miasik) ❤️

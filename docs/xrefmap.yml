@@ -266,6 +266,12 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Base.ThemeElement.Initialize
   nameWithType: ThemeElement.Initialize
+- uid: AdrianMiasik.Components.Base.ThemeElement.Initialized
+  name: Initialized
+  href: api/AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_Initialized
+  commentId: F:AdrianMiasik.Components.Base.ThemeElement.Initialized
+  fullName: AdrianMiasik.Components.Base.ThemeElement.Initialized
+  nameWithType: ThemeElement.Initialized
 - uid: AdrianMiasik.Components.Base.ThemeElement.IsInitialized
   name: IsInitialized()
   href: api/AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_IsInitialized
@@ -496,44 +502,82 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.AudioMimic.PlaySound
   nameWithType: AudioMimic.PlaySound
-- uid: AdrianMiasik.Components.Core.ClickButtonIcon
-  name: ClickButtonIcon
-  href: api/AdrianMiasik.Components.Core.ClickButtonIcon.html
-  commentId: T:AdrianMiasik.Components.Core.ClickButtonIcon
-  fullName: AdrianMiasik.Components.Core.ClickButtonIcon
-  nameWithType: ClickButtonIcon
-- uid: AdrianMiasik.Components.Core.ClickButtonIcon.Hide
+- uid: AdrianMiasik.Components.Core.ClickButtonImageIcon
+  name: ClickButtonImageIcon
+  href: api/AdrianMiasik.Components.Core.ClickButtonImageIcon.html
+  commentId: T:AdrianMiasik.Components.Core.ClickButtonImageIcon
+  fullName: AdrianMiasik.Components.Core.ClickButtonImageIcon
+  nameWithType: ClickButtonImageIcon
+- uid: AdrianMiasik.Components.Core.ClickButtonImageIcon.Hide
   name: Hide()
-  href: api/AdrianMiasik.Components.Core.ClickButtonIcon.html#AdrianMiasik_Components_Core_ClickButtonIcon_Hide
-  commentId: M:AdrianMiasik.Components.Core.ClickButtonIcon.Hide
-  fullName: AdrianMiasik.Components.Core.ClickButtonIcon.Hide()
-  nameWithType: ClickButtonIcon.Hide()
-- uid: AdrianMiasik.Components.Core.ClickButtonIcon.Hide*
+  href: api/AdrianMiasik.Components.Core.ClickButtonImageIcon.html#AdrianMiasik_Components_Core_ClickButtonImageIcon_Hide
+  commentId: M:AdrianMiasik.Components.Core.ClickButtonImageIcon.Hide
+  fullName: AdrianMiasik.Components.Core.ClickButtonImageIcon.Hide()
+  nameWithType: ClickButtonImageIcon.Hide()
+- uid: AdrianMiasik.Components.Core.ClickButtonImageIcon.Hide*
   name: Hide
-  href: api/AdrianMiasik.Components.Core.ClickButtonIcon.html#AdrianMiasik_Components_Core_ClickButtonIcon_Hide_
-  commentId: Overload:AdrianMiasik.Components.Core.ClickButtonIcon.Hide
+  href: api/AdrianMiasik.Components.Core.ClickButtonImageIcon.html#AdrianMiasik_Components_Core_ClickButtonImageIcon_Hide_
+  commentId: Overload:AdrianMiasik.Components.Core.ClickButtonImageIcon.Hide
   isSpec: "True"
-  fullName: AdrianMiasik.Components.Core.ClickButtonIcon.Hide
-  nameWithType: ClickButtonIcon.Hide
-- uid: AdrianMiasik.Components.Core.ClickButtonIcon.m_icon
+  fullName: AdrianMiasik.Components.Core.ClickButtonImageIcon.Hide
+  nameWithType: ClickButtonImageIcon.Hide
+- uid: AdrianMiasik.Components.Core.ClickButtonImageIcon.m_icon
   name: m_icon
-  href: api/AdrianMiasik.Components.Core.ClickButtonIcon.html#AdrianMiasik_Components_Core_ClickButtonIcon_m_icon
-  commentId: F:AdrianMiasik.Components.Core.ClickButtonIcon.m_icon
-  fullName: AdrianMiasik.Components.Core.ClickButtonIcon.m_icon
-  nameWithType: ClickButtonIcon.m_icon
-- uid: AdrianMiasik.Components.Core.ClickButtonIcon.Show
+  href: api/AdrianMiasik.Components.Core.ClickButtonImageIcon.html#AdrianMiasik_Components_Core_ClickButtonImageIcon_m_icon
+  commentId: F:AdrianMiasik.Components.Core.ClickButtonImageIcon.m_icon
+  fullName: AdrianMiasik.Components.Core.ClickButtonImageIcon.m_icon
+  nameWithType: ClickButtonImageIcon.m_icon
+- uid: AdrianMiasik.Components.Core.ClickButtonImageIcon.Show
   name: Show()
-  href: api/AdrianMiasik.Components.Core.ClickButtonIcon.html#AdrianMiasik_Components_Core_ClickButtonIcon_Show
-  commentId: M:AdrianMiasik.Components.Core.ClickButtonIcon.Show
-  fullName: AdrianMiasik.Components.Core.ClickButtonIcon.Show()
-  nameWithType: ClickButtonIcon.Show()
-- uid: AdrianMiasik.Components.Core.ClickButtonIcon.Show*
+  href: api/AdrianMiasik.Components.Core.ClickButtonImageIcon.html#AdrianMiasik_Components_Core_ClickButtonImageIcon_Show
+  commentId: M:AdrianMiasik.Components.Core.ClickButtonImageIcon.Show
+  fullName: AdrianMiasik.Components.Core.ClickButtonImageIcon.Show()
+  nameWithType: ClickButtonImageIcon.Show()
+- uid: AdrianMiasik.Components.Core.ClickButtonImageIcon.Show*
   name: Show
-  href: api/AdrianMiasik.Components.Core.ClickButtonIcon.html#AdrianMiasik_Components_Core_ClickButtonIcon_Show_
-  commentId: Overload:AdrianMiasik.Components.Core.ClickButtonIcon.Show
+  href: api/AdrianMiasik.Components.Core.ClickButtonImageIcon.html#AdrianMiasik_Components_Core_ClickButtonImageIcon_Show_
+  commentId: Overload:AdrianMiasik.Components.Core.ClickButtonImageIcon.Show
   isSpec: "True"
-  fullName: AdrianMiasik.Components.Core.ClickButtonIcon.Show
-  nameWithType: ClickButtonIcon.Show
+  fullName: AdrianMiasik.Components.Core.ClickButtonImageIcon.Show
+  nameWithType: ClickButtonImageIcon.Show
+- uid: AdrianMiasik.Components.Core.ClickButtonSVGIcon
+  name: ClickButtonSVGIcon
+  href: api/AdrianMiasik.Components.Core.ClickButtonSVGIcon.html
+  commentId: T:AdrianMiasik.Components.Core.ClickButtonSVGIcon
+  fullName: AdrianMiasik.Components.Core.ClickButtonSVGIcon
+  nameWithType: ClickButtonSVGIcon
+- uid: AdrianMiasik.Components.Core.ClickButtonSVGIcon.Hide
+  name: Hide()
+  href: api/AdrianMiasik.Components.Core.ClickButtonSVGIcon.html#AdrianMiasik_Components_Core_ClickButtonSVGIcon_Hide
+  commentId: M:AdrianMiasik.Components.Core.ClickButtonSVGIcon.Hide
+  fullName: AdrianMiasik.Components.Core.ClickButtonSVGIcon.Hide()
+  nameWithType: ClickButtonSVGIcon.Hide()
+- uid: AdrianMiasik.Components.Core.ClickButtonSVGIcon.Hide*
+  name: Hide
+  href: api/AdrianMiasik.Components.Core.ClickButtonSVGIcon.html#AdrianMiasik_Components_Core_ClickButtonSVGIcon_Hide_
+  commentId: Overload:AdrianMiasik.Components.Core.ClickButtonSVGIcon.Hide
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.ClickButtonSVGIcon.Hide
+  nameWithType: ClickButtonSVGIcon.Hide
+- uid: AdrianMiasik.Components.Core.ClickButtonSVGIcon.m_icon
+  name: m_icon
+  href: api/AdrianMiasik.Components.Core.ClickButtonSVGIcon.html#AdrianMiasik_Components_Core_ClickButtonSVGIcon_m_icon
+  commentId: F:AdrianMiasik.Components.Core.ClickButtonSVGIcon.m_icon
+  fullName: AdrianMiasik.Components.Core.ClickButtonSVGIcon.m_icon
+  nameWithType: ClickButtonSVGIcon.m_icon
+- uid: AdrianMiasik.Components.Core.ClickButtonSVGIcon.Show
+  name: Show()
+  href: api/AdrianMiasik.Components.Core.ClickButtonSVGIcon.html#AdrianMiasik_Components_Core_ClickButtonSVGIcon_Show
+  commentId: M:AdrianMiasik.Components.Core.ClickButtonSVGIcon.Show
+  fullName: AdrianMiasik.Components.Core.ClickButtonSVGIcon.Show()
+  nameWithType: ClickButtonSVGIcon.Show()
+- uid: AdrianMiasik.Components.Core.ClickButtonSVGIcon.Show*
+  name: Show
+  href: api/AdrianMiasik.Components.Core.ClickButtonSVGIcon.html#AdrianMiasik_Components_Core_ClickButtonSVGIcon_Show_
+  commentId: Overload:AdrianMiasik.Components.Core.ClickButtonSVGIcon.Show
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.ClickButtonSVGIcon.Show
+  nameWithType: ClickButtonSVGIcon.Show
 - uid: AdrianMiasik.Components.Core.ClickButtonText
   name: ClickButtonText
   href: api/AdrianMiasik.Components.Core.ClickButtonText.html
@@ -630,6 +674,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.ConfirmationDialog.Initialize
   nameWithType: ConfirmationDialog.Initialize
+- uid: AdrianMiasik.Components.Core.ConfirmationDialog.Show
+  name: Show()
+  href: api/AdrianMiasik.Components.Core.ConfirmationDialog.html#AdrianMiasik_Components_Core_ConfirmationDialog_Show
+  commentId: M:AdrianMiasik.Components.Core.ConfirmationDialog.Show
+  fullName: AdrianMiasik.Components.Core.ConfirmationDialog.Show()
+  nameWithType: ConfirmationDialog.Show()
+- uid: AdrianMiasik.Components.Core.ConfirmationDialog.Show*
+  name: Show
+  href: api/AdrianMiasik.Components.Core.ConfirmationDialog.html#AdrianMiasik_Components_Core_ConfirmationDialog_Show_
+  commentId: Overload:AdrianMiasik.Components.Core.ConfirmationDialog.Show
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.ConfirmationDialog.Show
+  nameWithType: ConfirmationDialog.Show
 - uid: AdrianMiasik.Components.Core.ConfirmationDialog.Submit
   name: Submit()
   href: api/AdrianMiasik.Components.Core.ConfirmationDialog.html#AdrianMiasik_Components_Core_ConfirmationDialog_Submit
@@ -925,6 +982,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Containers.DigitFormat.Hide
   nameWithType: DigitFormat.Hide
+- uid: AdrianMiasik.Components.Core.Containers.DigitFormat.HideArrows
+  name: HideArrows()
+  href: api/AdrianMiasik.Components.Core.Containers.DigitFormat.html#AdrianMiasik_Components_Core_Containers_DigitFormat_HideArrows
+  commentId: M:AdrianMiasik.Components.Core.Containers.DigitFormat.HideArrows
+  fullName: AdrianMiasik.Components.Core.Containers.DigitFormat.HideArrows()
+  nameWithType: DigitFormat.HideArrows()
+- uid: AdrianMiasik.Components.Core.Containers.DigitFormat.HideArrows*
+  name: HideArrows
+  href: api/AdrianMiasik.Components.Core.Containers.DigitFormat.html#AdrianMiasik_Components_Core_Containers_DigitFormat_HideArrows_
+  commentId: Overload:AdrianMiasik.Components.Core.Containers.DigitFormat.HideArrows
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Containers.DigitFormat.HideArrows
+  nameWithType: DigitFormat.HideArrows
 - uid: AdrianMiasik.Components.Core.Containers.DigitFormat.IncrementOne(AdrianMiasik.Components.Core.Containers.DigitFormat.Digits)
   name: IncrementOne(DigitFormat.Digits)
   href: api/AdrianMiasik.Components.Core.Containers.DigitFormat.html#AdrianMiasik_Components_Core_Containers_DigitFormat_IncrementOne_AdrianMiasik_Components_Core_Containers_DigitFormat_Digits_
@@ -1161,6 +1231,19 @@ references:
   commentId: T:AdrianMiasik.Components.Core.Containers.Sidebar
   fullName: AdrianMiasik.Components.Core.Containers.Sidebar
   nameWithType: Sidebar
+- uid: AdrianMiasik.Components.Core.Containers.Sidebar.CalculateSidebarWidth
+  name: CalculateSidebarWidth()
+  href: api/AdrianMiasik.Components.Core.Containers.Sidebar.html#AdrianMiasik_Components_Core_Containers_Sidebar_CalculateSidebarWidth
+  commentId: M:AdrianMiasik.Components.Core.Containers.Sidebar.CalculateSidebarWidth
+  fullName: AdrianMiasik.Components.Core.Containers.Sidebar.CalculateSidebarWidth()
+  nameWithType: Sidebar.CalculateSidebarWidth()
+- uid: AdrianMiasik.Components.Core.Containers.Sidebar.CalculateSidebarWidth*
+  name: CalculateSidebarWidth
+  href: api/AdrianMiasik.Components.Core.Containers.Sidebar.html#AdrianMiasik_Components_Core_Containers_Sidebar_CalculateSidebarWidth_
+  commentId: Overload:AdrianMiasik.Components.Core.Containers.Sidebar.CalculateSidebarWidth
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Containers.Sidebar.CalculateSidebarWidth
+  nameWithType: Sidebar.CalculateSidebarWidth
 - uid: AdrianMiasik.Components.Core.Containers.Sidebar.Close
   name: Close()
   href: api/AdrianMiasik.Components.Core.Containers.Sidebar.html#AdrianMiasik_Components_Core_Containers_Sidebar_Close
@@ -1187,6 +1270,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Containers.Sidebar.ColorUpdate
   nameWithType: Sidebar.ColorUpdate
+- uid: AdrianMiasik.Components.Core.Containers.Sidebar.HideOverlay
+  name: HideOverlay()
+  href: api/AdrianMiasik.Components.Core.Containers.Sidebar.html#AdrianMiasik_Components_Core_Containers_Sidebar_HideOverlay
+  commentId: M:AdrianMiasik.Components.Core.Containers.Sidebar.HideOverlay
+  fullName: AdrianMiasik.Components.Core.Containers.Sidebar.HideOverlay()
+  nameWithType: Sidebar.HideOverlay()
+- uid: AdrianMiasik.Components.Core.Containers.Sidebar.HideOverlay*
+  name: HideOverlay
+  href: api/AdrianMiasik.Components.Core.Containers.Sidebar.html#AdrianMiasik_Components_Core_Containers_Sidebar_HideOverlay_
+  commentId: Overload:AdrianMiasik.Components.Core.Containers.Sidebar.HideOverlay
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Containers.Sidebar.HideOverlay
+  nameWithType: Sidebar.HideOverlay
 - uid: AdrianMiasik.Components.Core.Containers.Sidebar.Initialize(AdrianMiasik.Components.PomodoroTimer)
   name: Initialize(PomodoroTimer)
   href: api/AdrianMiasik.Components.Core.Containers.Sidebar.html#AdrianMiasik_Components_Core_Containers_Sidebar_Initialize_AdrianMiasik_Components_PomodoroTimer_
@@ -1239,6 +1335,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Containers.Sidebar.SelectRow
   nameWithType: Sidebar.SelectRow
+- uid: AdrianMiasik.Components.Core.Containers.Sidebar.ShowOverlay
+  name: ShowOverlay()
+  href: api/AdrianMiasik.Components.Core.Containers.Sidebar.html#AdrianMiasik_Components_Core_Containers_Sidebar_ShowOverlay
+  commentId: M:AdrianMiasik.Components.Core.Containers.Sidebar.ShowOverlay
+  fullName: AdrianMiasik.Components.Core.Containers.Sidebar.ShowOverlay()
+  nameWithType: Sidebar.ShowOverlay()
+- uid: AdrianMiasik.Components.Core.Containers.Sidebar.ShowOverlay*
+  name: ShowOverlay
+  href: api/AdrianMiasik.Components.Core.Containers.Sidebar.html#AdrianMiasik_Components_Core_Containers_Sidebar_ShowOverlay_
+  commentId: Overload:AdrianMiasik.Components.Core.Containers.Sidebar.ShowOverlay
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Containers.Sidebar.ShowOverlay
+  nameWithType: Sidebar.ShowOverlay
 - uid: AdrianMiasik.Components.Core.Containers.ThemeIconContainer
   name: ThemeIconContainer
   href: api/AdrianMiasik.Components.Core.Containers.ThemeIconContainer.html
@@ -1290,6 +1399,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Containers.TomatoCounter.FillTomato
   nameWithType: TomatoCounter.FillTomato
+- uid: AdrianMiasik.Components.Core.Containers.TomatoCounter.HasProgression
+  name: HasProgression()
+  href: api/AdrianMiasik.Components.Core.Containers.TomatoCounter.html#AdrianMiasik_Components_Core_Containers_TomatoCounter_HasProgression
+  commentId: M:AdrianMiasik.Components.Core.Containers.TomatoCounter.HasProgression
+  fullName: AdrianMiasik.Components.Core.Containers.TomatoCounter.HasProgression()
+  nameWithType: TomatoCounter.HasProgression()
+- uid: AdrianMiasik.Components.Core.Containers.TomatoCounter.HasProgression*
+  name: HasProgression
+  href: api/AdrianMiasik.Components.Core.Containers.TomatoCounter.html#AdrianMiasik_Components_Core_Containers_TomatoCounter_HasProgression_
+  commentId: Overload:AdrianMiasik.Components.Core.Containers.TomatoCounter.HasProgression
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Containers.TomatoCounter.HasProgression
+  nameWithType: TomatoCounter.HasProgression
 - uid: AdrianMiasik.Components.Core.Containers.TomatoCounter.Initialize(AdrianMiasik.Components.PomodoroTimer,System.Boolean)
   name: Initialize(PomodoroTimer, Boolean)
   href: api/AdrianMiasik.Components.Core.Containers.TomatoCounter.html#AdrianMiasik_Components_Core_Containers_TomatoCounter_Initialize_AdrianMiasik_Components_PomodoroTimer_System_Boolean_
@@ -1476,6 +1598,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.HideArrows
   nameWithType: DoubleDigit.HideArrows
+- uid: AdrianMiasik.Components.Core.Items.DoubleDigit.HideTickAnimation
+  name: HideTickAnimation()
+  href: api/AdrianMiasik.Components.Core.Items.DoubleDigit.html#AdrianMiasik_Components_Core_Items_DoubleDigit_HideTickAnimation
+  commentId: M:AdrianMiasik.Components.Core.Items.DoubleDigit.HideTickAnimation
+  fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.HideTickAnimation()
+  nameWithType: DoubleDigit.HideTickAnimation()
+- uid: AdrianMiasik.Components.Core.Items.DoubleDigit.HideTickAnimation*
+  name: HideTickAnimation
+  href: api/AdrianMiasik.Components.Core.Items.DoubleDigit.html#AdrianMiasik_Components_Core_Items_DoubleDigit_HideTickAnimation_
+  commentId: Overload:AdrianMiasik.Components.Core.Items.DoubleDigit.HideTickAnimation
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.HideTickAnimation
+  nameWithType: DoubleDigit.HideTickAnimation
 - uid: AdrianMiasik.Components.Core.Items.DoubleDigit.Highlight
   name: Highlight()
   href: api/AdrianMiasik.Components.Core.Items.DoubleDigit.html#AdrianMiasik_Components_Core_Items_DoubleDigit_Highlight
@@ -1515,19 +1650,6 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.Initialize
   nameWithType: DoubleDigit.Initialize
-- uid: AdrianMiasik.Components.Core.Items.DoubleDigit.IsTickAnimationPlaying
-  name: IsTickAnimationPlaying()
-  href: api/AdrianMiasik.Components.Core.Items.DoubleDigit.html#AdrianMiasik_Components_Core_Items_DoubleDigit_IsTickAnimationPlaying
-  commentId: M:AdrianMiasik.Components.Core.Items.DoubleDigit.IsTickAnimationPlaying
-  fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.IsTickAnimationPlaying()
-  nameWithType: DoubleDigit.IsTickAnimationPlaying()
-- uid: AdrianMiasik.Components.Core.Items.DoubleDigit.IsTickAnimationPlaying*
-  name: IsTickAnimationPlaying
-  href: api/AdrianMiasik.Components.Core.Items.DoubleDigit.html#AdrianMiasik_Components_Core_Items_DoubleDigit_IsTickAnimationPlaying_
-  commentId: Overload:AdrianMiasik.Components.Core.Items.DoubleDigit.IsTickAnimationPlaying
-  isSpec: "True"
-  fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.IsTickAnimationPlaying
-  nameWithType: DoubleDigit.IsTickAnimationPlaying
 - uid: AdrianMiasik.Components.Core.Items.DoubleDigit.Lock
   name: Lock()
   href: api/AdrianMiasik.Components.Core.Items.DoubleDigit.html#AdrianMiasik_Components_Core_Items_DoubleDigit_Lock
@@ -1773,6 +1895,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Items.SidebarRow.Initialize
   nameWithType: SidebarRow.Initialize
+- uid: AdrianMiasik.Components.Core.Items.SidebarRow.IsSelectable
+  name: IsSelectable()
+  href: api/AdrianMiasik.Components.Core.Items.SidebarRow.html#AdrianMiasik_Components_Core_Items_SidebarRow_IsSelectable
+  commentId: M:AdrianMiasik.Components.Core.Items.SidebarRow.IsSelectable
+  fullName: AdrianMiasik.Components.Core.Items.SidebarRow.IsSelectable()
+  nameWithType: SidebarRow.IsSelectable()
+- uid: AdrianMiasik.Components.Core.Items.SidebarRow.IsSelectable*
+  name: IsSelectable
+  href: api/AdrianMiasik.Components.Core.Items.SidebarRow.html#AdrianMiasik_Components_Core_Items_SidebarRow_IsSelectable_
+  commentId: Overload:AdrianMiasik.Components.Core.Items.SidebarRow.IsSelectable
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Items.SidebarRow.IsSelectable
+  nameWithType: SidebarRow.IsSelectable
 - uid: AdrianMiasik.Components.Core.Items.SidebarRow.IsSelected
   name: IsSelected()
   href: api/AdrianMiasik.Components.Core.Items.SidebarRow.html#AdrianMiasik_Components_Core_Items_SidebarRow_IsSelected
@@ -1799,6 +1934,32 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Items.SidebarRow.OnClick
   nameWithType: SidebarRow.OnClick
+- uid: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  name: OnPointerEnter(PointerEventData)
+  href: api/AdrianMiasik.Components.Core.Items.SidebarRow.html#AdrianMiasik_Components_Core_Items_SidebarRow_OnPointerEnter_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  nameWithType: SidebarRow.OnPointerEnter(PointerEventData)
+- uid: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerEnter*
+  name: OnPointerEnter
+  href: api/AdrianMiasik.Components.Core.Items.SidebarRow.html#AdrianMiasik_Components_Core_Items_SidebarRow_OnPointerEnter_
+  commentId: Overload:AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerEnter
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerEnter
+  nameWithType: SidebarRow.OnPointerEnter
+- uid: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  name: OnPointerExit(PointerEventData)
+  href: api/AdrianMiasik.Components.Core.Items.SidebarRow.html#AdrianMiasik_Components_Core_Items_SidebarRow_OnPointerExit_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  nameWithType: SidebarRow.OnPointerExit(PointerEventData)
+- uid: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerExit*
+  name: OnPointerExit
+  href: api/AdrianMiasik.Components.Core.Items.SidebarRow.html#AdrianMiasik_Components_Core_Items_SidebarRow_OnPointerExit_
+  commentId: Overload:AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerExit
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerExit
+  nameWithType: SidebarRow.OnPointerExit
 - uid: AdrianMiasik.Components.Core.Items.SidebarRow.PlaySpawnAnimation
   name: PlaySpawnAnimation()
   href: api/AdrianMiasik.Components.Core.Items.SidebarRow.html#AdrianMiasik_Components_Core_Items_SidebarRow_PlaySpawnAnimation
@@ -1857,6 +2018,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Items.Tomato.Complete
   nameWithType: Tomato.Complete
+- uid: AdrianMiasik.Components.Core.Items.Tomato.Initialize(AdrianMiasik.Components.PomodoroTimer,System.Boolean)
+  name: Initialize(PomodoroTimer, Boolean)
+  href: api/AdrianMiasik.Components.Core.Items.Tomato.html#AdrianMiasik_Components_Core_Items_Tomato_Initialize_AdrianMiasik_Components_PomodoroTimer_System_Boolean_
+  commentId: M:AdrianMiasik.Components.Core.Items.Tomato.Initialize(AdrianMiasik.Components.PomodoroTimer,System.Boolean)
+  fullName: AdrianMiasik.Components.Core.Items.Tomato.Initialize(AdrianMiasik.Components.PomodoroTimer, System.Boolean)
+  nameWithType: Tomato.Initialize(PomodoroTimer, Boolean)
+- uid: AdrianMiasik.Components.Core.Items.Tomato.Initialize*
+  name: Initialize
+  href: api/AdrianMiasik.Components.Core.Items.Tomato.html#AdrianMiasik_Components_Core_Items_Tomato_Initialize_
+  commentId: Overload:AdrianMiasik.Components.Core.Items.Tomato.Initialize
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Items.Tomato.Initialize
+  nameWithType: Tomato.Initialize
 - uid: AdrianMiasik.Components.Core.Items.Tomato.Reset
   name: Reset()
   href: api/AdrianMiasik.Components.Core.Items.Tomato.html#AdrianMiasik_Components_Core_Items_Tomato_Reset
@@ -1927,6 +2101,12 @@ references:
   commentId: F:AdrianMiasik.Components.Core.ToggleSlider.m_background
   fullName: AdrianMiasik.Components.Core.ToggleSlider.m_background
   nameWithType: ToggleSlider.m_background
+- uid: AdrianMiasik.Components.Core.ToggleSlider.m_dot
+  name: m_dot
+  href: api/AdrianMiasik.Components.Core.ToggleSlider.html#AdrianMiasik_Components_Core_ToggleSlider_m_dot
+  commentId: F:AdrianMiasik.Components.Core.ToggleSlider.m_dot
+  fullName: AdrianMiasik.Components.Core.ToggleSlider.m_dot
+  nameWithType: ToggleSlider.m_dot
 - uid: AdrianMiasik.Components.Core.ToggleSlider.m_onClick
   name: m_onClick
   href: api/AdrianMiasik.Components.Core.ToggleSlider.html#AdrianMiasik_Components_Core_ToggleSlider_m_onClick
@@ -2010,6 +2190,58 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.ToggleSlider.Press
   nameWithType: ToggleSlider.Press
+- uid: AdrianMiasik.Components.Core.ToggleSlider.SetEditorVisualToDisable
+  name: SetEditorVisualToDisable()
+  href: api/AdrianMiasik.Components.Core.ToggleSlider.html#AdrianMiasik_Components_Core_ToggleSlider_SetEditorVisualToDisable
+  commentId: M:AdrianMiasik.Components.Core.ToggleSlider.SetEditorVisualToDisable
+  fullName: AdrianMiasik.Components.Core.ToggleSlider.SetEditorVisualToDisable()
+  nameWithType: ToggleSlider.SetEditorVisualToDisable()
+- uid: AdrianMiasik.Components.Core.ToggleSlider.SetEditorVisualToDisable*
+  name: SetEditorVisualToDisable
+  href: api/AdrianMiasik.Components.Core.ToggleSlider.html#AdrianMiasik_Components_Core_ToggleSlider_SetEditorVisualToDisable_
+  commentId: Overload:AdrianMiasik.Components.Core.ToggleSlider.SetEditorVisualToDisable
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.ToggleSlider.SetEditorVisualToDisable
+  nameWithType: ToggleSlider.SetEditorVisualToDisable
+- uid: AdrianMiasik.Components.Core.ToggleSlider.SetEditorVisualToEnable
+  name: SetEditorVisualToEnable()
+  href: api/AdrianMiasik.Components.Core.ToggleSlider.html#AdrianMiasik_Components_Core_ToggleSlider_SetEditorVisualToEnable
+  commentId: M:AdrianMiasik.Components.Core.ToggleSlider.SetEditorVisualToEnable
+  fullName: AdrianMiasik.Components.Core.ToggleSlider.SetEditorVisualToEnable()
+  nameWithType: ToggleSlider.SetEditorVisualToEnable()
+- uid: AdrianMiasik.Components.Core.ToggleSlider.SetEditorVisualToEnable*
+  name: SetEditorVisualToEnable
+  href: api/AdrianMiasik.Components.Core.ToggleSlider.html#AdrianMiasik_Components_Core_ToggleSlider_SetEditorVisualToEnable_
+  commentId: Overload:AdrianMiasik.Components.Core.ToggleSlider.SetEditorVisualToEnable
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.ToggleSlider.SetEditorVisualToEnable
+  nameWithType: ToggleSlider.SetEditorVisualToEnable
+- uid: AdrianMiasik.Components.Core.ToggleSlider.SetVisualToDisable
+  name: SetVisualToDisable()
+  href: api/AdrianMiasik.Components.Core.ToggleSlider.html#AdrianMiasik_Components_Core_ToggleSlider_SetVisualToDisable
+  commentId: M:AdrianMiasik.Components.Core.ToggleSlider.SetVisualToDisable
+  fullName: AdrianMiasik.Components.Core.ToggleSlider.SetVisualToDisable()
+  nameWithType: ToggleSlider.SetVisualToDisable()
+- uid: AdrianMiasik.Components.Core.ToggleSlider.SetVisualToDisable*
+  name: SetVisualToDisable
+  href: api/AdrianMiasik.Components.Core.ToggleSlider.html#AdrianMiasik_Components_Core_ToggleSlider_SetVisualToDisable_
+  commentId: Overload:AdrianMiasik.Components.Core.ToggleSlider.SetVisualToDisable
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.ToggleSlider.SetVisualToDisable
+  nameWithType: ToggleSlider.SetVisualToDisable
+- uid: AdrianMiasik.Components.Core.ToggleSlider.SetVisualToEnable
+  name: SetVisualToEnable()
+  href: api/AdrianMiasik.Components.Core.ToggleSlider.html#AdrianMiasik_Components_Core_ToggleSlider_SetVisualToEnable
+  commentId: M:AdrianMiasik.Components.Core.ToggleSlider.SetVisualToEnable
+  fullName: AdrianMiasik.Components.Core.ToggleSlider.SetVisualToEnable()
+  nameWithType: ToggleSlider.SetVisualToEnable()
+- uid: AdrianMiasik.Components.Core.ToggleSlider.SetVisualToEnable*
+  name: SetVisualToEnable
+  href: api/AdrianMiasik.Components.Core.ToggleSlider.html#AdrianMiasik_Components_Core_ToggleSlider_SetVisualToEnable_
+  commentId: Overload:AdrianMiasik.Components.Core.ToggleSlider.SetVisualToEnable
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.ToggleSlider.SetVisualToEnable
+  nameWithType: ToggleSlider.SetVisualToEnable
 - uid: AdrianMiasik.Components.Core.ToggleSprite
   name: ToggleSprite
   href: api/AdrianMiasik.Components.Core.ToggleSprite.html
@@ -2226,6 +2458,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.PomodoroTimer.ClearSelection
   nameWithType: PomodoroTimer.ClearSelection
+- uid: AdrianMiasik.Components.PomodoroTimer.CloseOutCreditsBubble
+  name: CloseOutCreditsBubble()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_CloseOutCreditsBubble
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.CloseOutCreditsBubble
+  fullName: AdrianMiasik.Components.PomodoroTimer.CloseOutCreditsBubble()
+  nameWithType: PomodoroTimer.CloseOutCreditsBubble()
+- uid: AdrianMiasik.Components.PomodoroTimer.CloseOutCreditsBubble*
+  name: CloseOutCreditsBubble
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_CloseOutCreditsBubble_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.CloseOutCreditsBubble
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.CloseOutCreditsBubble
+  nameWithType: PomodoroTimer.CloseOutCreditsBubble
 - uid: AdrianMiasik.Components.PomodoroTimer.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
   name: ColorUpdate(Theme)
   href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_
@@ -2252,6 +2497,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.PomodoroTimer.ColorUpdateCreditsBubble
   nameWithType: PomodoroTimer.ColorUpdateCreditsBubble
+- uid: AdrianMiasik.Components.PomodoroTimer.ConformCreditsBubbleToSidebar(System.Single,System.Single)
+  name: ConformCreditsBubbleToSidebar(Single, Single)
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_ConformCreditsBubbleToSidebar_System_Single_System_Single_
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.ConformCreditsBubbleToSidebar(System.Single,System.Single)
+  fullName: AdrianMiasik.Components.PomodoroTimer.ConformCreditsBubbleToSidebar(System.Single, System.Single)
+  nameWithType: PomodoroTimer.ConformCreditsBubbleToSidebar(Single, Single)
+- uid: AdrianMiasik.Components.PomodoroTimer.ConformCreditsBubbleToSidebar*
+  name: ConformCreditsBubbleToSidebar
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_ConformCreditsBubbleToSidebar_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.ConformCreditsBubbleToSidebar
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.ConformCreditsBubbleToSidebar
+  nameWithType: PomodoroTimer.ConformCreditsBubbleToSidebar
 - uid: AdrianMiasik.Components.PomodoroTimer.DeactivateLongBreak
   name: DeactivateLongBreak()
   href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_DeactivateLongBreak
@@ -2265,6 +2523,110 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.PomodoroTimer.DeactivateLongBreak
   nameWithType: PomodoroTimer.DeactivateLongBreak
+- uid: AdrianMiasik.Components.PomodoroTimer.DisableBreakSlider
+  name: DisableBreakSlider()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_DisableBreakSlider
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.DisableBreakSlider
+  fullName: AdrianMiasik.Components.PomodoroTimer.DisableBreakSlider()
+  nameWithType: PomodoroTimer.DisableBreakSlider()
+- uid: AdrianMiasik.Components.PomodoroTimer.DisableBreakSlider*
+  name: DisableBreakSlider
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_DisableBreakSlider_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.DisableBreakSlider
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.DisableBreakSlider
+  nameWithType: PomodoroTimer.DisableBreakSlider
+- uid: AdrianMiasik.Components.PomodoroTimer.DisableCompletionAnimation
+  name: DisableCompletionAnimation()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_DisableCompletionAnimation
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.DisableCompletionAnimation
+  fullName: AdrianMiasik.Components.PomodoroTimer.DisableCompletionAnimation()
+  nameWithType: PomodoroTimer.DisableCompletionAnimation()
+- uid: AdrianMiasik.Components.PomodoroTimer.DisableCompletionAnimation*
+  name: DisableCompletionAnimation
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_DisableCompletionAnimation_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.DisableCompletionAnimation
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.DisableCompletionAnimation
+  nameWithType: PomodoroTimer.DisableCompletionAnimation
+- uid: AdrianMiasik.Components.PomodoroTimer.DisableDarkModeToggle
+  name: DisableDarkModeToggle()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_DisableDarkModeToggle
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.DisableDarkModeToggle
+  fullName: AdrianMiasik.Components.PomodoroTimer.DisableDarkModeToggle()
+  nameWithType: PomodoroTimer.DisableDarkModeToggle()
+- uid: AdrianMiasik.Components.PomodoroTimer.DisableDarkModeToggle*
+  name: DisableDarkModeToggle
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_DisableDarkModeToggle_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.DisableDarkModeToggle
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.DisableDarkModeToggle
+  nameWithType: PomodoroTimer.DisableDarkModeToggle
+- uid: AdrianMiasik.Components.PomodoroTimer.EnableBreakSlider
+  name: EnableBreakSlider()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_EnableBreakSlider
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.EnableBreakSlider
+  fullName: AdrianMiasik.Components.PomodoroTimer.EnableBreakSlider()
+  nameWithType: PomodoroTimer.EnableBreakSlider()
+- uid: AdrianMiasik.Components.PomodoroTimer.EnableBreakSlider*
+  name: EnableBreakSlider
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_EnableBreakSlider_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.EnableBreakSlider
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.EnableBreakSlider
+  nameWithType: PomodoroTimer.EnableBreakSlider
+- uid: AdrianMiasik.Components.PomodoroTimer.EnableDarkModeToggle
+  name: EnableDarkModeToggle()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_EnableDarkModeToggle
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.EnableDarkModeToggle
+  fullName: AdrianMiasik.Components.PomodoroTimer.EnableDarkModeToggle()
+  nameWithType: PomodoroTimer.EnableDarkModeToggle()
+- uid: AdrianMiasik.Components.PomodoroTimer.EnableDarkModeToggle*
+  name: EnableDarkModeToggle
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_EnableDarkModeToggle_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.EnableDarkModeToggle
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.EnableDarkModeToggle
+  nameWithType: PomodoroTimer.EnableDarkModeToggle
+- uid: AdrianMiasik.Components.PomodoroTimer.FadeCreditsBubble(System.Boolean)
+  name: FadeCreditsBubble(Boolean)
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_FadeCreditsBubble_System_Boolean_
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.FadeCreditsBubble(System.Boolean)
+  fullName: AdrianMiasik.Components.PomodoroTimer.FadeCreditsBubble(System.Boolean)
+  nameWithType: PomodoroTimer.FadeCreditsBubble(Boolean)
+- uid: AdrianMiasik.Components.PomodoroTimer.FadeCreditsBubble*
+  name: FadeCreditsBubble
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_FadeCreditsBubble_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.FadeCreditsBubble
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.FadeCreditsBubble
+  nameWithType: PomodoroTimer.FadeCreditsBubble
+- uid: AdrianMiasik.Components.PomodoroTimer.GetCurrentConfirmationDialog
+  name: GetCurrentConfirmationDialog()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_GetCurrentConfirmationDialog
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.GetCurrentConfirmationDialog
+  fullName: AdrianMiasik.Components.PomodoroTimer.GetCurrentConfirmationDialog()
+  nameWithType: PomodoroTimer.GetCurrentConfirmationDialog()
+- uid: AdrianMiasik.Components.PomodoroTimer.GetCurrentConfirmationDialog*
+  name: GetCurrentConfirmationDialog
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_GetCurrentConfirmationDialog_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.GetCurrentConfirmationDialog
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.GetCurrentConfirmationDialog
+  nameWithType: PomodoroTimer.GetCurrentConfirmationDialog
+- uid: AdrianMiasik.Components.PomodoroTimer.GetCurrentTime
+  name: GetCurrentTime()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_GetCurrentTime
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.GetCurrentTime
+  fullName: AdrianMiasik.Components.PomodoroTimer.GetCurrentTime()
+  nameWithType: PomodoroTimer.GetCurrentTime()
+- uid: AdrianMiasik.Components.PomodoroTimer.GetCurrentTime*
+  name: GetCurrentTime
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_GetCurrentTime_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.GetCurrentTime
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.GetCurrentTime
+  nameWithType: PomodoroTimer.GetCurrentTime
 - uid: AdrianMiasik.Components.PomodoroTimer.GetDigitFormat
   name: GetDigitFormat()
   href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_GetDigitFormat
@@ -2317,6 +2679,58 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.PomodoroTimer.GetTimerString
   nameWithType: PomodoroTimer.GetTimerString
+- uid: AdrianMiasik.Components.PomodoroTimer.HasTomatoProgression
+  name: HasTomatoProgression()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_HasTomatoProgression
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.HasTomatoProgression
+  fullName: AdrianMiasik.Components.PomodoroTimer.HasTomatoProgression()
+  nameWithType: PomodoroTimer.HasTomatoProgression()
+- uid: AdrianMiasik.Components.PomodoroTimer.HasTomatoProgression*
+  name: HasTomatoProgression
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_HasTomatoProgression_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.HasTomatoProgression
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.HasTomatoProgression
+  nameWithType: PomodoroTimer.HasTomatoProgression
+- uid: AdrianMiasik.Components.PomodoroTimer.HideCreditsBubble
+  name: HideCreditsBubble()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_HideCreditsBubble
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.HideCreditsBubble
+  fullName: AdrianMiasik.Components.PomodoroTimer.HideCreditsBubble()
+  nameWithType: PomodoroTimer.HideCreditsBubble()
+- uid: AdrianMiasik.Components.PomodoroTimer.HideCreditsBubble*
+  name: HideCreditsBubble
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_HideCreditsBubble_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.HideCreditsBubble
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.HideCreditsBubble
+  nameWithType: PomodoroTimer.HideCreditsBubble
+- uid: AdrianMiasik.Components.PomodoroTimer.HideSidebar
+  name: HideSidebar()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_HideSidebar
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.HideSidebar
+  fullName: AdrianMiasik.Components.PomodoroTimer.HideSidebar()
+  nameWithType: PomodoroTimer.HideSidebar()
+- uid: AdrianMiasik.Components.PomodoroTimer.HideSidebar*
+  name: HideSidebar
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_HideSidebar_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.HideSidebar
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.HideSidebar
+  nameWithType: PomodoroTimer.HideSidebar
+- uid: AdrianMiasik.Components.PomodoroTimer.IfSetupTriggerRebuild
+  name: IfSetupTriggerRebuild()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_IfSetupTriggerRebuild
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.IfSetupTriggerRebuild
+  fullName: AdrianMiasik.Components.PomodoroTimer.IfSetupTriggerRebuild()
+  nameWithType: PomodoroTimer.IfSetupTriggerRebuild()
+- uid: AdrianMiasik.Components.PomodoroTimer.IfSetupTriggerRebuild*
+  name: IfSetupTriggerRebuild
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_IfSetupTriggerRebuild_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.IfSetupTriggerRebuild
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.IfSetupTriggerRebuild
+  nameWithType: PomodoroTimer.IfSetupTriggerRebuild
 - uid: AdrianMiasik.Components.PomodoroTimer.IsAboutPageOpen
   name: IsAboutPageOpen()
   href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_IsAboutPageOpen
@@ -2343,6 +2757,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.PomodoroTimer.IsConfirmationDialogInterruptible
   nameWithType: PomodoroTimer.IsConfirmationDialogInterruptible
+- uid: AdrianMiasik.Components.PomodoroTimer.IsMainContentOpen
+  name: IsMainContentOpen()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_IsMainContentOpen
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.IsMainContentOpen
+  fullName: AdrianMiasik.Components.PomodoroTimer.IsMainContentOpen()
+  nameWithType: PomodoroTimer.IsMainContentOpen()
+- uid: AdrianMiasik.Components.PomodoroTimer.IsMainContentOpen*
+  name: IsMainContentOpen
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_IsMainContentOpen_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.IsMainContentOpen
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.IsMainContentOpen
+  nameWithType: PomodoroTimer.IsMainContentOpen
 - uid: AdrianMiasik.Components.PomodoroTimer.IsOnBreak
   name: IsOnBreak()
   href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_IsOnBreak
@@ -2388,6 +2815,12 @@ references:
   commentId: F:AdrianMiasik.Components.PomodoroTimer.m_onRingPulse
   fullName: AdrianMiasik.Components.PomodoroTimer.m_onRingPulse
   nameWithType: PomodoroTimer.m_onRingPulse
+- uid: AdrianMiasik.Components.PomodoroTimer.m_onSpawnCompletion
+  name: m_onSpawnCompletion
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_m_onSpawnCompletion
+  commentId: F:AdrianMiasik.Components.PomodoroTimer.m_onSpawnCompletion
+  fullName: AdrianMiasik.Components.PomodoroTimer.m_onSpawnCompletion
+  nameWithType: PomodoroTimer.m_onSpawnCompletion
 - uid: AdrianMiasik.Components.PomodoroTimer.m_onTimerCompletion
   name: m_onTimerCompletion
   href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_m_onTimerCompletion
@@ -2400,19 +2833,6 @@ references:
   commentId: F:AdrianMiasik.Components.PomodoroTimer.m_state
   fullName: AdrianMiasik.Components.PomodoroTimer.m_state
   nameWithType: PomodoroTimer.m_state
-- uid: AdrianMiasik.Components.PomodoroTimer.MuteSoundWhenOutOfFocus
-  name: MuteSoundWhenOutOfFocus()
-  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_MuteSoundWhenOutOfFocus
-  commentId: M:AdrianMiasik.Components.PomodoroTimer.MuteSoundWhenOutOfFocus
-  fullName: AdrianMiasik.Components.PomodoroTimer.MuteSoundWhenOutOfFocus()
-  nameWithType: PomodoroTimer.MuteSoundWhenOutOfFocus()
-- uid: AdrianMiasik.Components.PomodoroTimer.MuteSoundWhenOutOfFocus*
-  name: MuteSoundWhenOutOfFocus
-  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_MuteSoundWhenOutOfFocus_
-  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.MuteSoundWhenOutOfFocus
-  isSpec: "True"
-  fullName: AdrianMiasik.Components.PomodoroTimer.MuteSoundWhenOutOfFocus
-  nameWithType: PomodoroTimer.MuteSoundWhenOutOfFocus
 - uid: AdrianMiasik.Components.PomodoroTimer.OnDestroy
   name: OnDestroy()
   href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_OnDestroy
@@ -2465,6 +2885,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.PomodoroTimer.PlaySpawnAnimation
   nameWithType: PomodoroTimer.PlaySpawnAnimation
+- uid: AdrianMiasik.Components.PomodoroTimer.ResetCreditsBubbleSidebarConformity
+  name: ResetCreditsBubbleSidebarConformity()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_ResetCreditsBubbleSidebarConformity
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.ResetCreditsBubbleSidebarConformity
+  fullName: AdrianMiasik.Components.PomodoroTimer.ResetCreditsBubbleSidebarConformity()
+  nameWithType: PomodoroTimer.ResetCreditsBubbleSidebarConformity()
+- uid: AdrianMiasik.Components.PomodoroTimer.ResetCreditsBubbleSidebarConformity*
+  name: ResetCreditsBubbleSidebarConformity
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_ResetCreditsBubbleSidebarConformity_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.ResetCreditsBubbleSidebarConformity
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.ResetCreditsBubbleSidebarConformity
+  nameWithType: PomodoroTimer.ResetCreditsBubbleSidebarConformity
 - uid: AdrianMiasik.Components.PomodoroTimer.Restart(System.Boolean)
   name: Restart(Boolean)
   href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_Restart_System_Boolean_
@@ -2504,19 +2937,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.PomodoroTimer.SetBackgroundNavigation
   nameWithType: PomodoroTimer.SetBackgroundNavigation
-- uid: AdrianMiasik.Components.PomodoroTimer.SetMuteSoundWhenOutOfFocus(System.Boolean)
-  name: SetMuteSoundWhenOutOfFocus(Boolean)
-  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SetMuteSoundWhenOutOfFocus_System_Boolean_
-  commentId: M:AdrianMiasik.Components.PomodoroTimer.SetMuteSoundWhenOutOfFocus(System.Boolean)
-  fullName: AdrianMiasik.Components.PomodoroTimer.SetMuteSoundWhenOutOfFocus(System.Boolean)
-  nameWithType: PomodoroTimer.SetMuteSoundWhenOutOfFocus(Boolean)
-- uid: AdrianMiasik.Components.PomodoroTimer.SetMuteSoundWhenOutOfFocus*
-  name: SetMuteSoundWhenOutOfFocus
-  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SetMuteSoundWhenOutOfFocus_
-  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.SetMuteSoundWhenOutOfFocus
+- uid: AdrianMiasik.Components.PomodoroTimer.SetCurrentTime(System.Single)
+  name: SetCurrentTime(Single)
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SetCurrentTime_System_Single_
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.SetCurrentTime(System.Single)
+  fullName: AdrianMiasik.Components.PomodoroTimer.SetCurrentTime(System.Single)
+  nameWithType: PomodoroTimer.SetCurrentTime(Single)
+- uid: AdrianMiasik.Components.PomodoroTimer.SetCurrentTime*
+  name: SetCurrentTime
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SetCurrentTime_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.SetCurrentTime
   isSpec: "True"
-  fullName: AdrianMiasik.Components.PomodoroTimer.SetMuteSoundWhenOutOfFocus
-  nameWithType: PomodoroTimer.SetMuteSoundWhenOutOfFocus
+  fullName: AdrianMiasik.Components.PomodoroTimer.SetCurrentTime
+  nameWithType: PomodoroTimer.SetCurrentTime
 - uid: AdrianMiasik.Components.PomodoroTimer.SetSelection(AdrianMiasik.Components.Core.Items.DoubleDigit)
   name: SetSelection(DoubleDigit)
   href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SetSelection_AdrianMiasik_Components_Core_Items_DoubleDigit_
@@ -2530,6 +2963,32 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.PomodoroTimer.SetSelection
   nameWithType: PomodoroTimer.SetSelection
+- uid: AdrianMiasik.Components.PomodoroTimer.SetSettingLongBreaks(System.Boolean)
+  name: SetSettingLongBreaks(Boolean)
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SetSettingLongBreaks_System_Boolean_
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.SetSettingLongBreaks(System.Boolean)
+  fullName: AdrianMiasik.Components.PomodoroTimer.SetSettingLongBreaks(System.Boolean)
+  nameWithType: PomodoroTimer.SetSettingLongBreaks(Boolean)
+- uid: AdrianMiasik.Components.PomodoroTimer.SetSettingLongBreaks*
+  name: SetSettingLongBreaks
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SetSettingLongBreaks_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.SetSettingLongBreaks
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.SetSettingLongBreaks
+  nameWithType: PomodoroTimer.SetSettingLongBreaks
+- uid: AdrianMiasik.Components.PomodoroTimer.SetSettingMuteSoundWhenOutOfFocus(System.Boolean)
+  name: SetSettingMuteSoundWhenOutOfFocus(Boolean)
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SetSettingMuteSoundWhenOutOfFocus_System_Boolean_
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.SetSettingMuteSoundWhenOutOfFocus(System.Boolean)
+  fullName: AdrianMiasik.Components.PomodoroTimer.SetSettingMuteSoundWhenOutOfFocus(System.Boolean)
+  nameWithType: PomodoroTimer.SetSettingMuteSoundWhenOutOfFocus(Boolean)
+- uid: AdrianMiasik.Components.PomodoroTimer.SetSettingMuteSoundWhenOutOfFocus*
+  name: SetSettingMuteSoundWhenOutOfFocus
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SetSettingMuteSoundWhenOutOfFocus_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.SetSettingMuteSoundWhenOutOfFocus
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.SetSettingMuteSoundWhenOutOfFocus
+  nameWithType: PomodoroTimer.SetSettingMuteSoundWhenOutOfFocus
 - uid: AdrianMiasik.Components.PomodoroTimer.SetTimerValue(System.String)
   name: SetTimerValue(String)
   href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SetTimerValue_System_String_
@@ -2582,6 +3041,32 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.PomodoroTimer.ShowAbout
   nameWithType: PomodoroTimer.ShowAbout
+- uid: AdrianMiasik.Components.PomodoroTimer.ShowCreditsBubble
+  name: ShowCreditsBubble()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_ShowCreditsBubble
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.ShowCreditsBubble
+  fullName: AdrianMiasik.Components.PomodoroTimer.ShowCreditsBubble()
+  nameWithType: PomodoroTimer.ShowCreditsBubble()
+- uid: AdrianMiasik.Components.PomodoroTimer.ShowCreditsBubble*
+  name: ShowCreditsBubble
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_ShowCreditsBubble_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.ShowCreditsBubble
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.ShowCreditsBubble
+  nameWithType: PomodoroTimer.ShowCreditsBubble
+- uid: AdrianMiasik.Components.PomodoroTimer.ShowEndTimestampBubble
+  name: ShowEndTimestampBubble()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_ShowEndTimestampBubble
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.ShowEndTimestampBubble
+  fullName: AdrianMiasik.Components.PomodoroTimer.ShowEndTimestampBubble()
+  nameWithType: PomodoroTimer.ShowEndTimestampBubble()
+- uid: AdrianMiasik.Components.PomodoroTimer.ShowEndTimestampBubble*
+  name: ShowEndTimestampBubble
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_ShowEndTimestampBubble_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.ShowEndTimestampBubble
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.ShowEndTimestampBubble
+  nameWithType: PomodoroTimer.ShowEndTimestampBubble
 - uid: AdrianMiasik.Components.PomodoroTimer.ShowMainContent
   name: ShowMainContent()
   href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_ShowMainContent
@@ -2608,6 +3093,32 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.PomodoroTimer.ShowSettings
   nameWithType: PomodoroTimer.ShowSettings
+- uid: AdrianMiasik.Components.PomodoroTimer.ShowSidebar
+  name: ShowSidebar()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_ShowSidebar
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.ShowSidebar
+  fullName: AdrianMiasik.Components.PomodoroTimer.ShowSidebar()
+  nameWithType: PomodoroTimer.ShowSidebar()
+- uid: AdrianMiasik.Components.PomodoroTimer.ShowSidebar*
+  name: ShowSidebar
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_ShowSidebar_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.ShowSidebar
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.ShowSidebar
+  nameWithType: PomodoroTimer.ShowSidebar
+- uid: AdrianMiasik.Components.PomodoroTimer.Skip
+  name: Skip()
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_Skip
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.Skip
+  fullName: AdrianMiasik.Components.PomodoroTimer.Skip()
+  nameWithType: PomodoroTimer.Skip()
+- uid: AdrianMiasik.Components.PomodoroTimer.Skip*
+  name: Skip
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_Skip_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.Skip
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.Skip
+  nameWithType: PomodoroTimer.Skip
 - uid: AdrianMiasik.Components.PomodoroTimer.SpawnConfirmationDialog(System.Action,System.Action,System.String,System.String,System.Boolean)
   name: SpawnConfirmationDialog(Action, Action, String, String, Boolean)
   href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SpawnConfirmationDialog_System_Action_System_Action_System_String_System_String_System_Boolean_
@@ -2651,6 +3162,19 @@ references:
   commentId: F:AdrianMiasik.Components.PomodoroTimer.States.SETUP
   fullName: AdrianMiasik.Components.PomodoroTimer.States.SETUP
   nameWithType: PomodoroTimer.States.SETUP
+- uid: AdrianMiasik.Components.PomodoroTimer.SwitchState(AdrianMiasik.Components.PomodoroTimer.States)
+  name: SwitchState(PomodoroTimer.States)
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SwitchState_AdrianMiasik_Components_PomodoroTimer_States_
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.SwitchState(AdrianMiasik.Components.PomodoroTimer.States)
+  fullName: AdrianMiasik.Components.PomodoroTimer.SwitchState(AdrianMiasik.Components.PomodoroTimer.States)
+  nameWithType: PomodoroTimer.SwitchState(PomodoroTimer.States)
+- uid: AdrianMiasik.Components.PomodoroTimer.SwitchState*
+  name: SwitchState
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SwitchState_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.SwitchState
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.SwitchState
+  nameWithType: PomodoroTimer.SwitchState
 - uid: AdrianMiasik.Components.PomodoroTimer.SwitchTheme(AdrianMiasik.ScriptableObjects.Theme)
   name: SwitchTheme(Theme)
   href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SwitchTheme_AdrianMiasik_ScriptableObjects_Theme_
@@ -2664,6 +3188,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.PomodoroTimer.SwitchTheme
   nameWithType: PomodoroTimer.SwitchTheme
+- uid: AdrianMiasik.Components.PomodoroTimer.SwitchTimer(System.Boolean)
+  name: SwitchTimer(Boolean)
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SwitchTimer_System_Boolean_
+  commentId: M:AdrianMiasik.Components.PomodoroTimer.SwitchTimer(System.Boolean)
+  fullName: AdrianMiasik.Components.PomodoroTimer.SwitchTimer(System.Boolean)
+  nameWithType: PomodoroTimer.SwitchTimer(Boolean)
+- uid: AdrianMiasik.Components.PomodoroTimer.SwitchTimer*
+  name: SwitchTimer
+  href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_SwitchTimer_
+  commentId: Overload:AdrianMiasik.Components.PomodoroTimer.SwitchTimer
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.PomodoroTimer.SwitchTimer
+  nameWithType: PomodoroTimer.SwitchTimer
 - uid: AdrianMiasik.Components.PomodoroTimer.TriggerPlayPause
   name: TriggerPlayPause()
   href: api/AdrianMiasik.Components.PomodoroTimer.html#AdrianMiasik_Components_PomodoroTimer_TriggerPlayPause
@@ -2838,6 +3375,37 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.AboutPanel.Show
   nameWithType: AboutPanel.Show
+- uid: AdrianMiasik.Components.Specific.Automation
+  name: AdrianMiasik.Components.Specific.Automation
+  href: api/AdrianMiasik.Components.Specific.Automation.html
+  commentId: N:AdrianMiasik.Components.Specific.Automation
+  fullName: AdrianMiasik.Components.Specific.Automation
+  nameWithType: AdrianMiasik.Components.Specific.Automation
+- uid: AdrianMiasik.Components.Specific.Automation.MediaCapture
+  name: MediaCapture
+  href: api/AdrianMiasik.Components.Specific.Automation.MediaCapture.html
+  commentId: T:AdrianMiasik.Components.Specific.Automation.MediaCapture
+  fullName: AdrianMiasik.Components.Specific.Automation.MediaCapture
+  nameWithType: MediaCapture
+- uid: AdrianMiasik.Components.Specific.Automation.MediaCapture.CaptureScreenshot(System.String,System.Action)
+  name: CaptureScreenshot(String, Action)
+  href: api/AdrianMiasik.Components.Specific.Automation.MediaCapture.html#AdrianMiasik_Components_Specific_Automation_MediaCapture_CaptureScreenshot_System_String_System_Action_
+  commentId: M:AdrianMiasik.Components.Specific.Automation.MediaCapture.CaptureScreenshot(System.String,System.Action)
+  fullName: AdrianMiasik.Components.Specific.Automation.MediaCapture.CaptureScreenshot(System.String, System.Action)
+  nameWithType: MediaCapture.CaptureScreenshot(String, Action)
+- uid: AdrianMiasik.Components.Specific.Automation.MediaCapture.CaptureScreenshot*
+  name: CaptureScreenshot
+  href: api/AdrianMiasik.Components.Specific.Automation.MediaCapture.html#AdrianMiasik_Components_Specific_Automation_MediaCapture_CaptureScreenshot_
+  commentId: Overload:AdrianMiasik.Components.Specific.Automation.MediaCapture.CaptureScreenshot
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.Automation.MediaCapture.CaptureScreenshot
+  nameWithType: MediaCapture.CaptureScreenshot
+- uid: AdrianMiasik.Components.Specific.Automation.MediaCreator
+  name: MediaCreator
+  href: api/AdrianMiasik.Components.Specific.Automation.MediaCreator.html
+  commentId: T:AdrianMiasik.Components.Specific.Automation.MediaCreator
+  fullName: AdrianMiasik.Components.Specific.Automation.MediaCreator
+  nameWithType: MediaCreator
 - uid: AdrianMiasik.Components.Specific.Background
   name: Background
   href: api/AdrianMiasik.Components.Specific.Background.html
@@ -2902,6 +3470,58 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.CompletionLabel.ColorUpdate
   nameWithType: CompletionLabel.ColorUpdate
+- uid: AdrianMiasik.Components.Specific.CompletionLabel.HideCompletionAnimation
+  name: HideCompletionAnimation()
+  href: api/AdrianMiasik.Components.Specific.CompletionLabel.html#AdrianMiasik_Components_Specific_CompletionLabel_HideCompletionAnimation
+  commentId: M:AdrianMiasik.Components.Specific.CompletionLabel.HideCompletionAnimation
+  fullName: AdrianMiasik.Components.Specific.CompletionLabel.HideCompletionAnimation()
+  nameWithType: CompletionLabel.HideCompletionAnimation()
+- uid: AdrianMiasik.Components.Specific.CompletionLabel.HideCompletionAnimation*
+  name: HideCompletionAnimation
+  href: api/AdrianMiasik.Components.Specific.CompletionLabel.html#AdrianMiasik_Components_Specific_CompletionLabel_HideCompletionAnimation_
+  commentId: Overload:AdrianMiasik.Components.Specific.CompletionLabel.HideCompletionAnimation
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.CompletionLabel.HideCompletionAnimation
+  nameWithType: CompletionLabel.HideCompletionAnimation
+- uid: AdrianMiasik.Components.Specific.CompletionLabel.MoveAnchors(System.Boolean)
+  name: MoveAnchors(Boolean)
+  href: api/AdrianMiasik.Components.Specific.CompletionLabel.html#AdrianMiasik_Components_Specific_CompletionLabel_MoveAnchors_System_Boolean_
+  commentId: M:AdrianMiasik.Components.Specific.CompletionLabel.MoveAnchors(System.Boolean)
+  fullName: AdrianMiasik.Components.Specific.CompletionLabel.MoveAnchors(System.Boolean)
+  nameWithType: CompletionLabel.MoveAnchors(Boolean)
+- uid: AdrianMiasik.Components.Specific.CompletionLabel.MoveAnchors*
+  name: MoveAnchors
+  href: api/AdrianMiasik.Components.Specific.CompletionLabel.html#AdrianMiasik_Components_Specific_CompletionLabel_MoveAnchors_
+  commentId: Overload:AdrianMiasik.Components.Specific.CompletionLabel.MoveAnchors
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.CompletionLabel.MoveAnchors
+  nameWithType: CompletionLabel.MoveAnchors
+- uid: AdrianMiasik.Components.Specific.CompletionLabel.SetScale(System.Single)
+  name: SetScale(Single)
+  href: api/AdrianMiasik.Components.Specific.CompletionLabel.html#AdrianMiasik_Components_Specific_CompletionLabel_SetScale_System_Single_
+  commentId: M:AdrianMiasik.Components.Specific.CompletionLabel.SetScale(System.Single)
+  fullName: AdrianMiasik.Components.Specific.CompletionLabel.SetScale(System.Single)
+  nameWithType: CompletionLabel.SetScale(Single)
+- uid: AdrianMiasik.Components.Specific.CompletionLabel.SetScale*
+  name: SetScale
+  href: api/AdrianMiasik.Components.Specific.CompletionLabel.html#AdrianMiasik_Components_Specific_CompletionLabel_SetScale_
+  commentId: Overload:AdrianMiasik.Components.Specific.CompletionLabel.SetScale
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.CompletionLabel.SetScale
+  nameWithType: CompletionLabel.SetScale
+- uid: AdrianMiasik.Components.Specific.CompletionLabel.StateUpdate(AdrianMiasik.Components.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
+  name: StateUpdate(PomodoroTimer.States, Theme)
+  href: api/AdrianMiasik.Components.Specific.CompletionLabel.html#AdrianMiasik_Components_Specific_CompletionLabel_StateUpdate_AdrianMiasik_Components_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_
+  commentId: M:AdrianMiasik.Components.Specific.CompletionLabel.StateUpdate(AdrianMiasik.Components.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
+  fullName: AdrianMiasik.Components.Specific.CompletionLabel.StateUpdate(AdrianMiasik.Components.PomodoroTimer.States, AdrianMiasik.ScriptableObjects.Theme)
+  nameWithType: CompletionLabel.StateUpdate(PomodoroTimer.States, Theme)
+- uid: AdrianMiasik.Components.Specific.CompletionLabel.StateUpdate*
+  name: StateUpdate
+  href: api/AdrianMiasik.Components.Specific.CompletionLabel.html#AdrianMiasik_Components_Specific_CompletionLabel_StateUpdate_
+  commentId: Overload:AdrianMiasik.Components.Specific.CompletionLabel.StateUpdate
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.CompletionLabel.StateUpdate
+  nameWithType: CompletionLabel.StateUpdate
 - uid: AdrianMiasik.Components.Specific.CreditsBubble
   name: CreditsBubble
   href: api/AdrianMiasik.Components.Specific.CreditsBubble.html
@@ -2921,12 +3541,12 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.CreditsBubble.ColorUpdate
   nameWithType: CreditsBubble.ColorUpdate
-- uid: AdrianMiasik.Components.Specific.CreditsBubble.FadeIn
-  name: FadeIn()
-  href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_FadeIn
-  commentId: M:AdrianMiasik.Components.Specific.CreditsBubble.FadeIn
-  fullName: AdrianMiasik.Components.Specific.CreditsBubble.FadeIn()
-  nameWithType: CreditsBubble.FadeIn()
+- uid: AdrianMiasik.Components.Specific.CreditsBubble.FadeIn(System.Boolean)
+  name: FadeIn(Boolean)
+  href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_FadeIn_System_Boolean_
+  commentId: M:AdrianMiasik.Components.Specific.CreditsBubble.FadeIn(System.Boolean)
+  fullName: AdrianMiasik.Components.Specific.CreditsBubble.FadeIn(System.Boolean)
+  nameWithType: CreditsBubble.FadeIn(Boolean)
 - uid: AdrianMiasik.Components.Specific.CreditsBubble.FadeIn*
   name: FadeIn
   href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_FadeIn_
@@ -2934,12 +3554,12 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.CreditsBubble.FadeIn
   nameWithType: CreditsBubble.FadeIn
-- uid: AdrianMiasik.Components.Specific.CreditsBubble.FadeOut
-  name: FadeOut()
-  href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_FadeOut
-  commentId: M:AdrianMiasik.Components.Specific.CreditsBubble.FadeOut
-  fullName: AdrianMiasik.Components.Specific.CreditsBubble.FadeOut()
-  nameWithType: CreditsBubble.FadeOut()
+- uid: AdrianMiasik.Components.Specific.CreditsBubble.FadeOut(System.Boolean)
+  name: FadeOut(Boolean)
+  href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_FadeOut_System_Boolean_
+  commentId: M:AdrianMiasik.Components.Specific.CreditsBubble.FadeOut(System.Boolean)
+  fullName: AdrianMiasik.Components.Specific.CreditsBubble.FadeOut(System.Boolean)
+  nameWithType: CreditsBubble.FadeOut(Boolean)
 - uid: AdrianMiasik.Components.Specific.CreditsBubble.FadeOut*
   name: FadeOut
   href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_FadeOut_
@@ -3051,6 +3671,58 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.CreditsBubble.OnUpdate
   nameWithType: CreditsBubble.OnUpdate
+- uid: AdrianMiasik.Components.Specific.CreditsBubble.ResetRightOffset
+  name: ResetRightOffset()
+  href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_ResetRightOffset
+  commentId: M:AdrianMiasik.Components.Specific.CreditsBubble.ResetRightOffset
+  fullName: AdrianMiasik.Components.Specific.CreditsBubble.ResetRightOffset()
+  nameWithType: CreditsBubble.ResetRightOffset()
+- uid: AdrianMiasik.Components.Specific.CreditsBubble.ResetRightOffset*
+  name: ResetRightOffset
+  href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_ResetRightOffset_
+  commentId: Overload:AdrianMiasik.Components.Specific.CreditsBubble.ResetRightOffset
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.CreditsBubble.ResetRightOffset
+  nameWithType: CreditsBubble.ResetRightOffset
+- uid: AdrianMiasik.Components.Specific.CreditsBubble.ResetWidth
+  name: ResetWidth()
+  href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_ResetWidth
+  commentId: M:AdrianMiasik.Components.Specific.CreditsBubble.ResetWidth
+  fullName: AdrianMiasik.Components.Specific.CreditsBubble.ResetWidth()
+  nameWithType: CreditsBubble.ResetWidth()
+- uid: AdrianMiasik.Components.Specific.CreditsBubble.ResetWidth*
+  name: ResetWidth
+  href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_ResetWidth_
+  commentId: Overload:AdrianMiasik.Components.Specific.CreditsBubble.ResetWidth
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.CreditsBubble.ResetWidth
+  nameWithType: CreditsBubble.ResetWidth
+- uid: AdrianMiasik.Components.Specific.CreditsBubble.SetRightOffset(System.Single)
+  name: SetRightOffset(Single)
+  href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_SetRightOffset_System_Single_
+  commentId: M:AdrianMiasik.Components.Specific.CreditsBubble.SetRightOffset(System.Single)
+  fullName: AdrianMiasik.Components.Specific.CreditsBubble.SetRightOffset(System.Single)
+  nameWithType: CreditsBubble.SetRightOffset(Single)
+- uid: AdrianMiasik.Components.Specific.CreditsBubble.SetRightOffset*
+  name: SetRightOffset
+  href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_SetRightOffset_
+  commentId: Overload:AdrianMiasik.Components.Specific.CreditsBubble.SetRightOffset
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.CreditsBubble.SetRightOffset
+  nameWithType: CreditsBubble.SetRightOffset
+- uid: AdrianMiasik.Components.Specific.CreditsBubble.SetWidth(System.Single)
+  name: SetWidth(Single)
+  href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_SetWidth_System_Single_
+  commentId: M:AdrianMiasik.Components.Specific.CreditsBubble.SetWidth(System.Single)
+  fullName: AdrianMiasik.Components.Specific.CreditsBubble.SetWidth(System.Single)
+  nameWithType: CreditsBubble.SetWidth(Single)
+- uid: AdrianMiasik.Components.Specific.CreditsBubble.SetWidth*
+  name: SetWidth
+  href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_SetWidth_
+  commentId: Overload:AdrianMiasik.Components.Specific.CreditsBubble.SetWidth
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.CreditsBubble.SetWidth
+  nameWithType: CreditsBubble.SetWidth
 - uid: AdrianMiasik.Components.Specific.CreditsBubble.Unlock
   name: Unlock()
   href: api/AdrianMiasik.Components.Specific.CreditsBubble.html#AdrianMiasik_Components_Specific_CreditsBubble_Unlock
@@ -3122,6 +3794,64 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.DigitFormatDropdown.SetDropdownValue
   nameWithType: DigitFormatDropdown.SetDropdownValue
+- uid: AdrianMiasik.Components.Specific.EndTimestampBubble
+  name: EndTimestampBubble
+  href: api/AdrianMiasik.Components.Specific.EndTimestampBubble.html
+  commentId: T:AdrianMiasik.Components.Specific.EndTimestampBubble
+  fullName: AdrianMiasik.Components.Specific.EndTimestampBubble
+  nameWithType: EndTimestampBubble
+- uid: AdrianMiasik.Components.Specific.EndTimestampBubble.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  name: ColorUpdate(Theme)
+  href: api/AdrianMiasik.Components.Specific.EndTimestampBubble.html#AdrianMiasik_Components_Specific_EndTimestampBubble_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_
+  commentId: M:AdrianMiasik.Components.Specific.EndTimestampBubble.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  fullName: AdrianMiasik.Components.Specific.EndTimestampBubble.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  nameWithType: EndTimestampBubble.ColorUpdate(Theme)
+- uid: AdrianMiasik.Components.Specific.EndTimestampBubble.ColorUpdate*
+  name: ColorUpdate
+  href: api/AdrianMiasik.Components.Specific.EndTimestampBubble.html#AdrianMiasik_Components_Specific_EndTimestampBubble_ColorUpdate_
+  commentId: Overload:AdrianMiasik.Components.Specific.EndTimestampBubble.ColorUpdate
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.EndTimestampBubble.ColorUpdate
+  nameWithType: EndTimestampBubble.ColorUpdate
+- uid: AdrianMiasik.Components.Specific.EndTimestampBubble.FadeIn(System.Boolean)
+  name: FadeIn(Boolean)
+  href: api/AdrianMiasik.Components.Specific.EndTimestampBubble.html#AdrianMiasik_Components_Specific_EndTimestampBubble_FadeIn_System_Boolean_
+  commentId: M:AdrianMiasik.Components.Specific.EndTimestampBubble.FadeIn(System.Boolean)
+  fullName: AdrianMiasik.Components.Specific.EndTimestampBubble.FadeIn(System.Boolean)
+  nameWithType: EndTimestampBubble.FadeIn(Boolean)
+- uid: AdrianMiasik.Components.Specific.EndTimestampBubble.FadeIn*
+  name: FadeIn
+  href: api/AdrianMiasik.Components.Specific.EndTimestampBubble.html#AdrianMiasik_Components_Specific_EndTimestampBubble_FadeIn_
+  commentId: Overload:AdrianMiasik.Components.Specific.EndTimestampBubble.FadeIn
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.EndTimestampBubble.FadeIn
+  nameWithType: EndTimestampBubble.FadeIn
+- uid: AdrianMiasik.Components.Specific.EndTimestampBubble.FadeOut(System.Boolean)
+  name: FadeOut(Boolean)
+  href: api/AdrianMiasik.Components.Specific.EndTimestampBubble.html#AdrianMiasik_Components_Specific_EndTimestampBubble_FadeOut_System_Boolean_
+  commentId: M:AdrianMiasik.Components.Specific.EndTimestampBubble.FadeOut(System.Boolean)
+  fullName: AdrianMiasik.Components.Specific.EndTimestampBubble.FadeOut(System.Boolean)
+  nameWithType: EndTimestampBubble.FadeOut(Boolean)
+- uid: AdrianMiasik.Components.Specific.EndTimestampBubble.FadeOut*
+  name: FadeOut
+  href: api/AdrianMiasik.Components.Specific.EndTimestampBubble.html#AdrianMiasik_Components_Specific_EndTimestampBubble_FadeOut_
+  commentId: Overload:AdrianMiasik.Components.Specific.EndTimestampBubble.FadeOut
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.EndTimestampBubble.FadeOut
+  nameWithType: EndTimestampBubble.FadeOut
+- uid: AdrianMiasik.Components.Specific.EndTimestampBubble.StateUpdate(AdrianMiasik.Components.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
+  name: StateUpdate(PomodoroTimer.States, Theme)
+  href: api/AdrianMiasik.Components.Specific.EndTimestampBubble.html#AdrianMiasik_Components_Specific_EndTimestampBubble_StateUpdate_AdrianMiasik_Components_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_
+  commentId: M:AdrianMiasik.Components.Specific.EndTimestampBubble.StateUpdate(AdrianMiasik.Components.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
+  fullName: AdrianMiasik.Components.Specific.EndTimestampBubble.StateUpdate(AdrianMiasik.Components.PomodoroTimer.States, AdrianMiasik.ScriptableObjects.Theme)
+  nameWithType: EndTimestampBubble.StateUpdate(PomodoroTimer.States, Theme)
+- uid: AdrianMiasik.Components.Specific.EndTimestampBubble.StateUpdate*
+  name: StateUpdate
+  href: api/AdrianMiasik.Components.Specific.EndTimestampBubble.html#AdrianMiasik_Components_Specific_EndTimestampBubble_StateUpdate_
+  commentId: Overload:AdrianMiasik.Components.Specific.EndTimestampBubble.StateUpdate
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.EndTimestampBubble.StateUpdate
+  nameWithType: EndTimestampBubble.StateUpdate
 - uid: AdrianMiasik.Components.Specific.HotkeyDetector
   name: HotkeyDetector
   href: api/AdrianMiasik.Components.Specific.HotkeyDetector.html
@@ -3141,6 +3871,57 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.HotkeyDetector.Initialize
   nameWithType: HotkeyDetector.Initialize
+- uid: AdrianMiasik.Components.Specific.LongBreakSetting
+  name: LongBreakSetting
+  href: api/AdrianMiasik.Components.Specific.LongBreakSetting.html
+  commentId: T:AdrianMiasik.Components.Specific.LongBreakSetting
+  fullName: AdrianMiasik.Components.Specific.LongBreakSetting
+  nameWithType: LongBreakSetting
+- uid: AdrianMiasik.Components.Specific.LongBreakSetting.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  name: ColorUpdate(Theme)
+  href: api/AdrianMiasik.Components.Specific.LongBreakSetting.html#AdrianMiasik_Components_Specific_LongBreakSetting_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_
+  commentId: M:AdrianMiasik.Components.Specific.LongBreakSetting.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  fullName: AdrianMiasik.Components.Specific.LongBreakSetting.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  nameWithType: LongBreakSetting.ColorUpdate(Theme)
+- uid: AdrianMiasik.Components.Specific.LongBreakSetting.ColorUpdate*
+  name: ColorUpdate
+  href: api/AdrianMiasik.Components.Specific.LongBreakSetting.html#AdrianMiasik_Components_Specific_LongBreakSetting_ColorUpdate_
+  commentId: Overload:AdrianMiasik.Components.Specific.LongBreakSetting.ColorUpdate
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.LongBreakSetting.ColorUpdate
+  nameWithType: LongBreakSetting.ColorUpdate
+- uid: AdrianMiasik.Components.Specific.LongBreakSetting.Initialize(AdrianMiasik.Components.PomodoroTimer,AdrianMiasik.ScriptableObjects.Settings)
+  name: Initialize(PomodoroTimer, Settings)
+  href: api/AdrianMiasik.Components.Specific.LongBreakSetting.html#AdrianMiasik_Components_Specific_LongBreakSetting_Initialize_AdrianMiasik_Components_PomodoroTimer_AdrianMiasik_ScriptableObjects_Settings_
+  commentId: M:AdrianMiasik.Components.Specific.LongBreakSetting.Initialize(AdrianMiasik.Components.PomodoroTimer,AdrianMiasik.ScriptableObjects.Settings)
+  fullName: AdrianMiasik.Components.Specific.LongBreakSetting.Initialize(AdrianMiasik.Components.PomodoroTimer, AdrianMiasik.ScriptableObjects.Settings)
+  nameWithType: LongBreakSetting.Initialize(PomodoroTimer, Settings)
+- uid: AdrianMiasik.Components.Specific.LongBreakSetting.Initialize*
+  name: Initialize
+  href: api/AdrianMiasik.Components.Specific.LongBreakSetting.html#AdrianMiasik_Components_Specific_LongBreakSetting_Initialize_
+  commentId: Overload:AdrianMiasik.Components.Specific.LongBreakSetting.Initialize
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.LongBreakSetting.Initialize
+  nameWithType: LongBreakSetting.Initialize
+- uid: AdrianMiasik.Components.Specific.LongBreakSetting.m_longBreakToggle
+  name: m_longBreakToggle
+  href: api/AdrianMiasik.Components.Specific.LongBreakSetting.html#AdrianMiasik_Components_Specific_LongBreakSetting_m_longBreakToggle
+  commentId: F:AdrianMiasik.Components.Specific.LongBreakSetting.m_longBreakToggle
+  fullName: AdrianMiasik.Components.Specific.LongBreakSetting.m_longBreakToggle
+  nameWithType: LongBreakSetting.m_longBreakToggle
+- uid: AdrianMiasik.Components.Specific.LongBreakSetting.SetSettingLongBreak(System.Boolean)
+  name: SetSettingLongBreak(Boolean)
+  href: api/AdrianMiasik.Components.Specific.LongBreakSetting.html#AdrianMiasik_Components_Specific_LongBreakSetting_SetSettingLongBreak_System_Boolean_
+  commentId: M:AdrianMiasik.Components.Specific.LongBreakSetting.SetSettingLongBreak(System.Boolean)
+  fullName: AdrianMiasik.Components.Specific.LongBreakSetting.SetSettingLongBreak(System.Boolean)
+  nameWithType: LongBreakSetting.SetSettingLongBreak(Boolean)
+- uid: AdrianMiasik.Components.Specific.LongBreakSetting.SetSettingLongBreak*
+  name: SetSettingLongBreak
+  href: api/AdrianMiasik.Components.Specific.LongBreakSetting.html#AdrianMiasik_Components_Specific_LongBreakSetting_SetSettingLongBreak_
+  commentId: Overload:AdrianMiasik.Components.Specific.LongBreakSetting.SetSettingLongBreak
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.LongBreakSetting.SetSettingLongBreak
+  nameWithType: LongBreakSetting.SetSettingLongBreak
 - uid: AdrianMiasik.Components.Specific.RightButton
   name: RightButton
   href: api/AdrianMiasik.Components.Specific.RightButton.html
@@ -3268,12 +4049,12 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.SettingsPanel.HideMuteSoundOutOfFocusOption
   nameWithType: SettingsPanel.HideMuteSoundOutOfFocusOption
-- uid: AdrianMiasik.Components.Specific.SettingsPanel.Initialize(AdrianMiasik.Components.PomodoroTimer)
-  name: Initialize(PomodoroTimer)
-  href: api/AdrianMiasik.Components.Specific.SettingsPanel.html#AdrianMiasik_Components_Specific_SettingsPanel_Initialize_AdrianMiasik_Components_PomodoroTimer_
-  commentId: M:AdrianMiasik.Components.Specific.SettingsPanel.Initialize(AdrianMiasik.Components.PomodoroTimer)
-  fullName: AdrianMiasik.Components.Specific.SettingsPanel.Initialize(AdrianMiasik.Components.PomodoroTimer)
-  nameWithType: SettingsPanel.Initialize(PomodoroTimer)
+- uid: AdrianMiasik.Components.Specific.SettingsPanel.Initialize(AdrianMiasik.Components.PomodoroTimer,AdrianMiasik.ScriptableObjects.Settings)
+  name: Initialize(PomodoroTimer, Settings)
+  href: api/AdrianMiasik.Components.Specific.SettingsPanel.html#AdrianMiasik_Components_Specific_SettingsPanel_Initialize_AdrianMiasik_Components_PomodoroTimer_AdrianMiasik_ScriptableObjects_Settings_
+  commentId: M:AdrianMiasik.Components.Specific.SettingsPanel.Initialize(AdrianMiasik.Components.PomodoroTimer,AdrianMiasik.ScriptableObjects.Settings)
+  fullName: AdrianMiasik.Components.Specific.SettingsPanel.Initialize(AdrianMiasik.Components.PomodoroTimer, AdrianMiasik.ScriptableObjects.Settings)
+  nameWithType: SettingsPanel.Initialize(PomodoroTimer, Settings)
 - uid: AdrianMiasik.Components.Specific.SettingsPanel.Initialize*
   name: Initialize
   href: api/AdrianMiasik.Components.Specific.SettingsPanel.html#AdrianMiasik_Components_Specific_SettingsPanel_Initialize_
@@ -3346,6 +4127,51 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.SettingsPanel.UpdateDropdown
   nameWithType: SettingsPanel.UpdateDropdown
+- uid: AdrianMiasik.Components.Specific.SkipButton
+  name: SkipButton
+  href: api/AdrianMiasik.Components.Specific.SkipButton.html
+  commentId: T:AdrianMiasik.Components.Specific.SkipButton
+  fullName: AdrianMiasik.Components.Specific.SkipButton
+  nameWithType: SkipButton
+- uid: AdrianMiasik.Components.Specific.SkipButton.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  name: ColorUpdate(Theme)
+  href: api/AdrianMiasik.Components.Specific.SkipButton.html#AdrianMiasik_Components_Specific_SkipButton_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_
+  commentId: M:AdrianMiasik.Components.Specific.SkipButton.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  fullName: AdrianMiasik.Components.Specific.SkipButton.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  nameWithType: SkipButton.ColorUpdate(Theme)
+- uid: AdrianMiasik.Components.Specific.SkipButton.ColorUpdate*
+  name: ColorUpdate
+  href: api/AdrianMiasik.Components.Specific.SkipButton.html#AdrianMiasik_Components_Specific_SkipButton_ColorUpdate_
+  commentId: Overload:AdrianMiasik.Components.Specific.SkipButton.ColorUpdate
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.SkipButton.ColorUpdate
+  nameWithType: SkipButton.ColorUpdate
+- uid: AdrianMiasik.Components.Specific.SkipButton.Initialize(AdrianMiasik.Components.PomodoroTimer,System.Boolean)
+  name: Initialize(PomodoroTimer, Boolean)
+  href: api/AdrianMiasik.Components.Specific.SkipButton.html#AdrianMiasik_Components_Specific_SkipButton_Initialize_AdrianMiasik_Components_PomodoroTimer_System_Boolean_
+  commentId: M:AdrianMiasik.Components.Specific.SkipButton.Initialize(AdrianMiasik.Components.PomodoroTimer,System.Boolean)
+  fullName: AdrianMiasik.Components.Specific.SkipButton.Initialize(AdrianMiasik.Components.PomodoroTimer, System.Boolean)
+  nameWithType: SkipButton.Initialize(PomodoroTimer, Boolean)
+- uid: AdrianMiasik.Components.Specific.SkipButton.Initialize*
+  name: Initialize
+  href: api/AdrianMiasik.Components.Specific.SkipButton.html#AdrianMiasik_Components_Specific_SkipButton_Initialize_
+  commentId: Overload:AdrianMiasik.Components.Specific.SkipButton.Initialize
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.SkipButton.Initialize
+  nameWithType: SkipButton.Initialize
+- uid: AdrianMiasik.Components.Specific.SkipButton.StateUpdate(AdrianMiasik.Components.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
+  name: StateUpdate(PomodoroTimer.States, Theme)
+  href: api/AdrianMiasik.Components.Specific.SkipButton.html#AdrianMiasik_Components_Specific_SkipButton_StateUpdate_AdrianMiasik_Components_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_
+  commentId: M:AdrianMiasik.Components.Specific.SkipButton.StateUpdate(AdrianMiasik.Components.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
+  fullName: AdrianMiasik.Components.Specific.SkipButton.StateUpdate(AdrianMiasik.Components.PomodoroTimer.States, AdrianMiasik.ScriptableObjects.Theme)
+  nameWithType: SkipButton.StateUpdate(PomodoroTimer.States, Theme)
+- uid: AdrianMiasik.Components.Specific.SkipButton.StateUpdate*
+  name: StateUpdate
+  href: api/AdrianMiasik.Components.Specific.SkipButton.html#AdrianMiasik_Components_Specific_SkipButton_StateUpdate_
+  commentId: Overload:AdrianMiasik.Components.Specific.SkipButton.StateUpdate
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.SkipButton.StateUpdate
+  nameWithType: SkipButton.StateUpdate
 - uid: AdrianMiasik.Components.Specific.ThemeSlider
   name: ThemeSlider
   href: api/AdrianMiasik.Components.Specific.ThemeSlider.html
@@ -3404,6 +4230,32 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.ThemeSlider.OverrideTrueColor
   nameWithType: ThemeSlider.OverrideTrueColor
+- uid: AdrianMiasik.Components.Specific.ThemeSlider.SetVisualToDisable
+  name: SetVisualToDisable()
+  href: api/AdrianMiasik.Components.Specific.ThemeSlider.html#AdrianMiasik_Components_Specific_ThemeSlider_SetVisualToDisable
+  commentId: M:AdrianMiasik.Components.Specific.ThemeSlider.SetVisualToDisable
+  fullName: AdrianMiasik.Components.Specific.ThemeSlider.SetVisualToDisable()
+  nameWithType: ThemeSlider.SetVisualToDisable()
+- uid: AdrianMiasik.Components.Specific.ThemeSlider.SetVisualToDisable*
+  name: SetVisualToDisable
+  href: api/AdrianMiasik.Components.Specific.ThemeSlider.html#AdrianMiasik_Components_Specific_ThemeSlider_SetVisualToDisable_
+  commentId: Overload:AdrianMiasik.Components.Specific.ThemeSlider.SetVisualToDisable
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.ThemeSlider.SetVisualToDisable
+  nameWithType: ThemeSlider.SetVisualToDisable
+- uid: AdrianMiasik.Components.Specific.ThemeSlider.SetVisualToEnable
+  name: SetVisualToEnable()
+  href: api/AdrianMiasik.Components.Specific.ThemeSlider.html#AdrianMiasik_Components_Specific_ThemeSlider_SetVisualToEnable
+  commentId: M:AdrianMiasik.Components.Specific.ThemeSlider.SetVisualToEnable
+  fullName: AdrianMiasik.Components.Specific.ThemeSlider.SetVisualToEnable()
+  nameWithType: ThemeSlider.SetVisualToEnable()
+- uid: AdrianMiasik.Components.Specific.ThemeSlider.SetVisualToEnable*
+  name: SetVisualToEnable
+  href: api/AdrianMiasik.Components.Specific.ThemeSlider.html#AdrianMiasik_Components_Specific_ThemeSlider_SetVisualToEnable_
+  commentId: Overload:AdrianMiasik.Components.Specific.ThemeSlider.SetVisualToEnable
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.ThemeSlider.SetVisualToEnable
+  nameWithType: ThemeSlider.SetVisualToEnable
 - uid: AdrianMiasik.Editor
   name: AdrianMiasik.Editor
   href: api/AdrianMiasik.Editor.html
@@ -3461,25 +4313,44 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Editor.ClickButtonEditor.OnInspectorGUI
   nameWithType: ClickButtonEditor.OnInspectorGUI
-- uid: AdrianMiasik.Editor.ClickButtonIconEditor
-  name: ClickButtonIconEditor
-  href: api/AdrianMiasik.Editor.ClickButtonIconEditor.html
-  commentId: T:AdrianMiasik.Editor.ClickButtonIconEditor
-  fullName: AdrianMiasik.Editor.ClickButtonIconEditor
-  nameWithType: ClickButtonIconEditor
-- uid: AdrianMiasik.Editor.ClickButtonIconEditor.DrawInheritorFields(AdrianMiasik.Components.Base.ClickButton)
+- uid: AdrianMiasik.Editor.ClickButtonImageIconEditor
+  name: ClickButtonImageIconEditor
+  href: api/AdrianMiasik.Editor.ClickButtonImageIconEditor.html
+  commentId: T:AdrianMiasik.Editor.ClickButtonImageIconEditor
+  fullName: AdrianMiasik.Editor.ClickButtonImageIconEditor
+  nameWithType: ClickButtonImageIconEditor
+- uid: AdrianMiasik.Editor.ClickButtonImageIconEditor.DrawInheritorFields(AdrianMiasik.Components.Base.ClickButton)
   name: DrawInheritorFields(ClickButton)
-  href: api/AdrianMiasik.Editor.ClickButtonIconEditor.html#AdrianMiasik_Editor_ClickButtonIconEditor_DrawInheritorFields_AdrianMiasik_Components_Base_ClickButton_
-  commentId: M:AdrianMiasik.Editor.ClickButtonIconEditor.DrawInheritorFields(AdrianMiasik.Components.Base.ClickButton)
-  fullName: AdrianMiasik.Editor.ClickButtonIconEditor.DrawInheritorFields(AdrianMiasik.Components.Base.ClickButton)
-  nameWithType: ClickButtonIconEditor.DrawInheritorFields(ClickButton)
-- uid: AdrianMiasik.Editor.ClickButtonIconEditor.DrawInheritorFields*
+  href: api/AdrianMiasik.Editor.ClickButtonImageIconEditor.html#AdrianMiasik_Editor_ClickButtonImageIconEditor_DrawInheritorFields_AdrianMiasik_Components_Base_ClickButton_
+  commentId: M:AdrianMiasik.Editor.ClickButtonImageIconEditor.DrawInheritorFields(AdrianMiasik.Components.Base.ClickButton)
+  fullName: AdrianMiasik.Editor.ClickButtonImageIconEditor.DrawInheritorFields(AdrianMiasik.Components.Base.ClickButton)
+  nameWithType: ClickButtonImageIconEditor.DrawInheritorFields(ClickButton)
+- uid: AdrianMiasik.Editor.ClickButtonImageIconEditor.DrawInheritorFields*
   name: DrawInheritorFields
-  href: api/AdrianMiasik.Editor.ClickButtonIconEditor.html#AdrianMiasik_Editor_ClickButtonIconEditor_DrawInheritorFields_
-  commentId: Overload:AdrianMiasik.Editor.ClickButtonIconEditor.DrawInheritorFields
+  href: api/AdrianMiasik.Editor.ClickButtonImageIconEditor.html#AdrianMiasik_Editor_ClickButtonImageIconEditor_DrawInheritorFields_
+  commentId: Overload:AdrianMiasik.Editor.ClickButtonImageIconEditor.DrawInheritorFields
   isSpec: "True"
-  fullName: AdrianMiasik.Editor.ClickButtonIconEditor.DrawInheritorFields
-  nameWithType: ClickButtonIconEditor.DrawInheritorFields
+  fullName: AdrianMiasik.Editor.ClickButtonImageIconEditor.DrawInheritorFields
+  nameWithType: ClickButtonImageIconEditor.DrawInheritorFields
+- uid: AdrianMiasik.Editor.ClickButtonSVGIconEditor
+  name: ClickButtonSVGIconEditor
+  href: api/AdrianMiasik.Editor.ClickButtonSVGIconEditor.html
+  commentId: T:AdrianMiasik.Editor.ClickButtonSVGIconEditor
+  fullName: AdrianMiasik.Editor.ClickButtonSVGIconEditor
+  nameWithType: ClickButtonSVGIconEditor
+- uid: AdrianMiasik.Editor.ClickButtonSVGIconEditor.DrawInheritorFields(AdrianMiasik.Components.Base.ClickButton)
+  name: DrawInheritorFields(ClickButton)
+  href: api/AdrianMiasik.Editor.ClickButtonSVGIconEditor.html#AdrianMiasik_Editor_ClickButtonSVGIconEditor_DrawInheritorFields_AdrianMiasik_Components_Base_ClickButton_
+  commentId: M:AdrianMiasik.Editor.ClickButtonSVGIconEditor.DrawInheritorFields(AdrianMiasik.Components.Base.ClickButton)
+  fullName: AdrianMiasik.Editor.ClickButtonSVGIconEditor.DrawInheritorFields(AdrianMiasik.Components.Base.ClickButton)
+  nameWithType: ClickButtonSVGIconEditor.DrawInheritorFields(ClickButton)
+- uid: AdrianMiasik.Editor.ClickButtonSVGIconEditor.DrawInheritorFields*
+  name: DrawInheritorFields
+  href: api/AdrianMiasik.Editor.ClickButtonSVGIconEditor.html#AdrianMiasik_Editor_ClickButtonSVGIconEditor_DrawInheritorFields_
+  commentId: Overload:AdrianMiasik.Editor.ClickButtonSVGIconEditor.DrawInheritorFields
+  isSpec: "True"
+  fullName: AdrianMiasik.Editor.ClickButtonSVGIconEditor.DrawInheritorFields
+  nameWithType: ClickButtonSVGIconEditor.DrawInheritorFields
 - uid: AdrianMiasik.Editor.ClickButtonTextEditor
   name: ClickButtonTextEditor
   href: api/AdrianMiasik.Editor.ClickButtonTextEditor.html
@@ -3635,6 +4506,37 @@ references:
   commentId: F:AdrianMiasik.ScriptableObjects.ColorScheme.m_running
   fullName: AdrianMiasik.ScriptableObjects.ColorScheme.m_running
   nameWithType: ColorScheme.m_running
+- uid: AdrianMiasik.ScriptableObjects.Settings
+  name: Settings
+  href: api/AdrianMiasik.ScriptableObjects.Settings.html
+  commentId: T:AdrianMiasik.ScriptableObjects.Settings
+  fullName: AdrianMiasik.ScriptableObjects.Settings
+  nameWithType: Settings
+- uid: AdrianMiasik.ScriptableObjects.Settings.ApplyPlatformDefaults
+  name: ApplyPlatformDefaults()
+  href: api/AdrianMiasik.ScriptableObjects.Settings.html#AdrianMiasik_ScriptableObjects_Settings_ApplyPlatformDefaults
+  commentId: M:AdrianMiasik.ScriptableObjects.Settings.ApplyPlatformDefaults
+  fullName: AdrianMiasik.ScriptableObjects.Settings.ApplyPlatformDefaults()
+  nameWithType: Settings.ApplyPlatformDefaults()
+- uid: AdrianMiasik.ScriptableObjects.Settings.ApplyPlatformDefaults*
+  name: ApplyPlatformDefaults
+  href: api/AdrianMiasik.ScriptableObjects.Settings.html#AdrianMiasik_ScriptableObjects_Settings_ApplyPlatformDefaults_
+  commentId: Overload:AdrianMiasik.ScriptableObjects.Settings.ApplyPlatformDefaults
+  isSpec: "True"
+  fullName: AdrianMiasik.ScriptableObjects.Settings.ApplyPlatformDefaults
+  nameWithType: Settings.ApplyPlatformDefaults
+- uid: AdrianMiasik.ScriptableObjects.Settings.m_longBreaks
+  name: m_longBreaks
+  href: api/AdrianMiasik.ScriptableObjects.Settings.html#AdrianMiasik_ScriptableObjects_Settings_m_longBreaks
+  commentId: F:AdrianMiasik.ScriptableObjects.Settings.m_longBreaks
+  fullName: AdrianMiasik.ScriptableObjects.Settings.m_longBreaks
+  nameWithType: Settings.m_longBreaks
+- uid: AdrianMiasik.ScriptableObjects.Settings.m_muteSoundWhenOutOfFocus
+  name: m_muteSoundWhenOutOfFocus
+  href: api/AdrianMiasik.ScriptableObjects.Settings.html#AdrianMiasik_ScriptableObjects_Settings_m_muteSoundWhenOutOfFocus
+  commentId: F:AdrianMiasik.ScriptableObjects.Settings.m_muteSoundWhenOutOfFocus
+  fullName: AdrianMiasik.ScriptableObjects.Settings.m_muteSoundWhenOutOfFocus
+  nameWithType: Settings.m_muteSoundWhenOutOfFocus
 - uid: AdrianMiasik.ScriptableObjects.Theme
   name: Theme
   href: api/AdrianMiasik.ScriptableObjects.Theme.html
@@ -3788,12 +4690,12 @@ references:
   commentId: T:AdrianMiasik.UWP.NotificationManager
   fullName: AdrianMiasik.UWP.NotificationManager
   nameWithType: NotificationManager
-- uid: AdrianMiasik.UWP.NotificationManager.Initialize(AdrianMiasik.Components.PomodoroTimer)
-  name: Initialize(PomodoroTimer)
-  href: api/AdrianMiasik.UWP.NotificationManager.html#AdrianMiasik_UWP_NotificationManager_Initialize_AdrianMiasik_Components_PomodoroTimer_
-  commentId: M:AdrianMiasik.UWP.NotificationManager.Initialize(AdrianMiasik.Components.PomodoroTimer)
-  fullName: AdrianMiasik.UWP.NotificationManager.Initialize(AdrianMiasik.Components.PomodoroTimer)
-  nameWithType: NotificationManager.Initialize(PomodoroTimer)
+- uid: AdrianMiasik.UWP.NotificationManager.Initialize(AdrianMiasik.ScriptableObjects.Settings)
+  name: Initialize(Settings)
+  href: api/AdrianMiasik.UWP.NotificationManager.html#AdrianMiasik_UWP_NotificationManager_Initialize_AdrianMiasik_ScriptableObjects_Settings_
+  commentId: M:AdrianMiasik.UWP.NotificationManager.Initialize(AdrianMiasik.ScriptableObjects.Settings)
+  fullName: AdrianMiasik.UWP.NotificationManager.Initialize(AdrianMiasik.ScriptableObjects.Settings)
+  nameWithType: NotificationManager.Initialize(Settings)
 - uid: AdrianMiasik.UWP.NotificationManager.Initialize*
   name: Initialize
   href: api/AdrianMiasik.UWP.NotificationManager.html#AdrianMiasik_UWP_NotificationManager_Initialize_

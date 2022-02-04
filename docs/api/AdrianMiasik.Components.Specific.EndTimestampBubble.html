@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CompletionLabel
+    <title>Class EndTimestampBubble
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CompletionLabel
+    <meta name="title" content="Class EndTimestampBubble
    ">
     <meta name="generator" content="docfx 2.58.9.0">
     
@@ -68,14 +68,13 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Components.Specific.CompletionLabel">
+            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Components.Specific.EndTimestampBubble">
   
   
-  <h1 id="AdrianMiasik_Components_Specific_CompletionLabel" data-uid="AdrianMiasik.Components.Specific.CompletionLabel" class="text-break">Class CompletionLabel
+  <h1 id="AdrianMiasik_Components_Specific_EndTimestampBubble" data-uid="AdrianMiasik.Components.Specific.EndTimestampBubble" class="text-break">Class EndTimestampBubble
   </h1>
-  <div class="markdown level0 summary"><p>A <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a> used primarily to update the color of the referenced
-&quot;TIMER COMPLETE&quot; labels via <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a> ColorUpdate. Also used for offsetting
-the labels depending on long break setting. <a class="xref" href="AdrianMiasik.ScriptableObjects.Settings.html">Settings</a></p>
+  <div class="markdown level0 summary"><p>Used to display the end local time for the current running timer.
+(E.g. It's 3:02pm with 3 minutes left on the timer. Thus this will display: &quot;3:05pm&quot;.)</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -86,7 +85,7 @@ the labels depending on long break setting. <a class="xref" href="AdrianMiasik.S
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
     <div class="level5"><a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a></div>
-    <div class="level6"><span class="xref">CompletionLabel</span></div>
+    <div class="level6"><span class="xref">EndTimestampBubble</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -113,23 +112,22 @@ the labels depending on long break setting. <a class="xref" href="AdrianMiasik.S
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Specific.html">AdrianMiasik.Components.Specific</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="AdrianMiasik_Components_Specific_CompletionLabel_syntax">Syntax</h5>
+  <h5 id="AdrianMiasik_Components_Specific_EndTimestampBubble_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CompletionLabel : ThemeElement, IColorHook, ITimerState</code></pre>
+    <pre><code class="lang-csharp hljs">public class EndTimestampBubble : ThemeElement, IColorHook, ITimerState</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/16e665d3fbb62968235e6aaa15acf927a1f5413a/apiSpec/new?filename=AdrianMiasik_Components_Specific_CompletionLabel_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CompletionLabel.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/16e665d3fbb62968235e6aaa15acf927a1f5413a/apiSpec/new?filename=AdrianMiasik_Components_Specific_EndTimestampBubble_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.EndTimestampBubble.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/16e665d3fbb62968235e6aaa15acf927a1f5413a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CompletionLabel.cs/#L29">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/16e665d3fbb62968235e6aaa15acf927a1f5413a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/EndTimestampBubble.cs/#L120">View Source</a>
   </span>
-  <a id="AdrianMiasik_Components_Specific_CompletionLabel_ColorUpdate_" data-uid="AdrianMiasik.Components.Specific.CompletionLabel.ColorUpdate*"></a>
-  <h4 id="AdrianMiasik_Components_Specific_CompletionLabel_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_" data-uid="AdrianMiasik.Components.Specific.CompletionLabel.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)">ColorUpdate(Theme)</h4>
-  <div class="markdown level1 summary"><p>Applies our <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a> changes to our referenced components when necessary.</p>
-</div>
+  <a id="AdrianMiasik_Components_Specific_EndTimestampBubble_ColorUpdate_" data-uid="AdrianMiasik.Components.Specific.EndTimestampBubble.ColorUpdate*"></a>
+  <h4 id="AdrianMiasik_Components_Specific_EndTimestampBubble_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_" data-uid="AdrianMiasik.Components.Specific.EndTimestampBubble.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)">ColorUpdate(Theme)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -148,8 +146,7 @@ the labels depending on long break setting. <a class="xref" href="AdrianMiasik.S
       <tr>
         <td><a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a></td>
         <td><span class="parametername">theme</span></td>
-        <td><p>The theme to apply on our referenced components.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -157,33 +154,18 @@ the labels depending on long break setting. <a class="xref" href="AdrianMiasik.S
   <div><a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_">ThemeElement.ColorUpdate(Theme)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/16e665d3fbb62968235e6aaa15acf927a1f5413a/apiSpec/new?filename=AdrianMiasik_Components_Specific_CompletionLabel_HideCompletionAnimation.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CompletionLabel.HideCompletionAnimation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/16e665d3fbb62968235e6aaa15acf927a1f5413a/apiSpec/new?filename=AdrianMiasik_Components_Specific_EndTimestampBubble_FadeIn_System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.EndTimestampBubble.FadeIn(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/16e665d3fbb62968235e6aaa15acf927a1f5413a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CompletionLabel.cs/#L76">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/16e665d3fbb62968235e6aaa15acf927a1f5413a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/EndTimestampBubble.cs/#L91">View Source</a>
   </span>
-  <a id="AdrianMiasik_Components_Specific_CompletionLabel_HideCompletionAnimation_" data-uid="AdrianMiasik.Components.Specific.CompletionLabel.HideCompletionAnimation*"></a>
-  <h4 id="AdrianMiasik_Components_Specific_CompletionLabel_HideCompletionAnimation" data-uid="AdrianMiasik.Components.Specific.CompletionLabel.HideCompletionAnimation">HideCompletionAnimation()</h4>
+  <a id="AdrianMiasik_Components_Specific_EndTimestampBubble_FadeIn_" data-uid="AdrianMiasik.Components.Specific.EndTimestampBubble.FadeIn*"></a>
+  <h4 id="AdrianMiasik_Components_Specific_EndTimestampBubble_FadeIn_System_Boolean_" data-uid="AdrianMiasik.Components.Specific.EndTimestampBubble.FadeIn(System.Boolean)">FadeIn(Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void HideCompletionAnimation()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/16e665d3fbb62968235e6aaa15acf927a1f5413a/apiSpec/new?filename=AdrianMiasik_Components_Specific_CompletionLabel_MoveAnchors_System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CompletionLabel.MoveAnchors(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/16e665d3fbb62968235e6aaa15acf927a1f5413a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CompletionLabel.cs/#L37">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Specific_CompletionLabel_MoveAnchors_" data-uid="AdrianMiasik.Components.Specific.CompletionLabel.MoveAnchors*"></a>
-  <h4 id="AdrianMiasik_Components_Specific_CompletionLabel_MoveAnchors_System_Boolean_" data-uid="AdrianMiasik.Components.Specific.CompletionLabel.MoveAnchors(System.Boolean)">MoveAnchors(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void MoveAnchors(bool isItLongBreak)</code></pre>
+    <pre><code class="lang-csharp hljs">public void FadeIn(bool instantly = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -197,27 +179,25 @@ the labels depending on long break setting. <a class="xref" href="AdrianMiasik.S
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">isItLongBreak</span></td>
+        <td><span class="parametername">instantly</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/16e665d3fbb62968235e6aaa15acf927a1f5413a/apiSpec/new?filename=AdrianMiasik_Components_Specific_CompletionLabel_SetScale_System_Single_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CompletionLabel.SetScale(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/16e665d3fbb62968235e6aaa15acf927a1f5413a/apiSpec/new?filename=AdrianMiasik_Components_Specific_EndTimestampBubble_FadeOut_System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.EndTimestampBubble.FadeOut(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/16e665d3fbb62968235e6aaa15acf927a1f5413a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CompletionLabel.cs/#L71">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/16e665d3fbb62968235e6aaa15acf927a1f5413a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/EndTimestampBubble.cs/#L72">View Source</a>
   </span>
-  <a id="AdrianMiasik_Components_Specific_CompletionLabel_SetScale_" data-uid="AdrianMiasik.Components.Specific.CompletionLabel.SetScale*"></a>
-  <h4 id="AdrianMiasik_Components_Specific_CompletionLabel_SetScale_System_Single_" data-uid="AdrianMiasik.Components.Specific.CompletionLabel.SetScale(System.Single)">SetScale(Single)</h4>
-  <div class="markdown level1 summary"><p>Sets the local scale of the completion label to the provided multiplier.
-<remarks>Intended to be used by pomodoro timer ring pulse animation.</remarks></p>
-</div>
+  <a id="AdrianMiasik_Components_Specific_EndTimestampBubble_FadeOut_" data-uid="AdrianMiasik.Components.Specific.EndTimestampBubble.FadeOut*"></a>
+  <h4 id="AdrianMiasik_Components_Specific_EndTimestampBubble_FadeOut_System_Boolean_" data-uid="AdrianMiasik.Components.Specific.EndTimestampBubble.FadeOut(System.Boolean)">FadeOut(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetScale(float desiredScale)</code></pre>
+    <pre><code class="lang-csharp hljs">public void FadeOut(bool instantly = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -230,21 +210,21 @@ the labels depending on long break setting. <a class="xref" href="AdrianMiasik.S
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">desiredScale</span></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">instantly</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/16e665d3fbb62968235e6aaa15acf927a1f5413a/apiSpec/new?filename=AdrianMiasik_Components_Specific_CompletionLabel_StateUpdate_AdrianMiasik_Components_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CompletionLabel.StateUpdate(AdrianMiasik.Components.PomodoroTimer.States%2CAdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/16e665d3fbb62968235e6aaa15acf927a1f5413a/apiSpec/new?filename=AdrianMiasik_Components_Specific_EndTimestampBubble_StateUpdate_AdrianMiasik_Components_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.EndTimestampBubble.StateUpdate(AdrianMiasik.Components.PomodoroTimer.States%2CAdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/16e665d3fbb62968235e6aaa15acf927a1f5413a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CompletionLabel.cs/#L51">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/16e665d3fbb62968235e6aaa15acf927a1f5413a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/EndTimestampBubble.cs/#L132">View Source</a>
   </span>
-  <a id="AdrianMiasik_Components_Specific_CompletionLabel_StateUpdate_" data-uid="AdrianMiasik.Components.Specific.CompletionLabel.StateUpdate*"></a>
-  <h4 id="AdrianMiasik_Components_Specific_CompletionLabel_StateUpdate_AdrianMiasik_Components_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_" data-uid="AdrianMiasik.Components.Specific.CompletionLabel.StateUpdate(AdrianMiasik.Components.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)">StateUpdate(PomodoroTimer.States, Theme)</h4>
+  <a id="AdrianMiasik_Components_Specific_EndTimestampBubble_StateUpdate_" data-uid="AdrianMiasik.Components.Specific.EndTimestampBubble.StateUpdate*"></a>
+  <h4 id="AdrianMiasik_Components_Specific_EndTimestampBubble_StateUpdate_AdrianMiasik_Components_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_" data-uid="AdrianMiasik.Components.Specific.EndTimestampBubble.StateUpdate(AdrianMiasik.Components.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)">StateUpdate(PomodoroTimer.States, Theme)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -288,10 +268,10 @@ the labels depending on long break setting. <a class="xref" href="AdrianMiasik.S
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/16e665d3fbb62968235e6aaa15acf927a1f5413a/apiSpec/new?filename=AdrianMiasik_Components_Specific_CompletionLabel.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CompletionLabel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/16e665d3fbb62968235e6aaa15acf927a1f5413a/apiSpec/new?filename=AdrianMiasik_Components_Specific_EndTimestampBubble.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.EndTimestampBubble%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/16e665d3fbb62968235e6aaa15acf927a1f5413a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CompletionLabel.cs/#L15" class="contribution-link">View Source</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/16e665d3fbb62968235e6aaa15acf927a1f5413a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/EndTimestampBubble.cs/#L17" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

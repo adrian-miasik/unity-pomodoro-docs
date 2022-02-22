@@ -1,5 +1,5 @@
 ﻿# Unity Store Asset Usage
-Here are the following assets we use and implement into Unity Pomodoro.
+Here are the following assets we use and implement into Unity Pomodoro:
 
 | Asset                                                                                                                   | Documentation                                                                             | Author                                | Version | Purpose                                                                                                     |
 |-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------------------------------------|---------|-------------------------------------------------------------------------------------------------------------|

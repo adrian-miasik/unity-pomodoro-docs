@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace AdrianMiasik.Components.Specific
    ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -89,15 +89,11 @@ The background is our default selection for Unity's EventSystem.</p>
       <h4><a class="xref" href="AdrianMiasik.Components.Specific.CompletionLabel.html">CompletionLabel</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a> used primarily to update the color of the referenced
 &quot;TIMER COMPLETE&quot; labels via <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a> ColorUpdate. Also used for offsetting
-the labels depending on long break setting. <a class="xref" href="AdrianMiasik.ScriptableObjects.Settings.html">Settings</a></p>
+the labels depending on long break setting. <a class="xref" href="AdrianMiasik.Components.Specific.Settings.html">AdrianMiasik.Components.Specific.Settings</a></p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.Specific.CreditsBubble.html">CreditsBubble</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Base.TimerProgress.html">TimerProgress</a> inheritor used for displaying the authors name of the app. Intended to minimize
 after a couple seconds via the base class.</p>
-</section>
-      <h4><a class="xref" href="AdrianMiasik.Components.Specific.DigitFormatDropdown.html">DigitFormatDropdown</a></h4>
-      <section><p>A <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a> dropdown with a label.
-Intended to be used for 'Set digit format' settings option. (See <a class="xref" href="AdrianMiasik.Components.Specific.SettingsPanel.html">SettingsPanel</a>)</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.Specific.EndTimestampBubble.html">EndTimestampBubble</a></h4>
       <section><p>Used to display the end local time for the current running timer.
@@ -108,26 +104,18 @@ Intended to be used for 'Set digit format' settings option. (See <a class="xref"
 Single keys are processed in <code>ProcessKeys()</code>,
 and multi-keys are processed in <code>ProcessKeybinds()</code>.</p>
 </section>
-      <h4><a class="xref" href="AdrianMiasik.Components.Specific.LongBreakSetting.html">LongBreakSetting</a></h4>
-      <section><p>A label with a boolean.
-Intended to be used for 'Enable long break' settings option. (See <a class="xref" href="AdrianMiasik.Components.Specific.SettingsPanel.html">SettingsPanel</a>)</p>
-</section>
       <h4><a class="xref" href="AdrianMiasik.Components.Specific.RightButton.html">RightButton</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a> button used to play/pause the timer. Implements <a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a>
-to change graphics depending on the <a class="xref" href="AdrianMiasik.Components.PomodoroTimer.html">PomodoroTimer</a>'s current state.
-(See <a class="xref" href="AdrianMiasik.Components.PomodoroTimer.States.html">PomodoroTimer.States</a>)
+to change graphics depending on the <a class="xref" href="AdrianMiasik.PomodoroTimer.html">PomodoroTimer</a>'s current state.
+(See <a class="xref" href="AdrianMiasik.PomodoroTimer.States.html">PomodoroTimer.States</a>)
 <remarks>Explicitly not a <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html">ClickButton</a> since this component relies on the pomodoro timer state.
 But intended to be used in conjunction with a <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html">ClickButton</a> core component.</remarks></p>
-</section>
-      <h4><a class="xref" href="AdrianMiasik.Components.Specific.SettingsPanel.html">SettingsPanel</a></h4>
-      <section><p>A <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a> page used to display a set of interactable user options. Currently supports
-switching between different digit formats and muting our application when it's not in focus.
-See: <a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats.html">DigitFormat.SupportedFormats</a>.</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.Specific.SkipButton.html">SkipButton</a></h4>
       <section></section>
       <h4><a class="xref" href="AdrianMiasik.Components.Specific.ThemeSlider.html">ThemeSlider</a></h4>
-      <section><p>A <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a> boolean slider with custom icon. Intended for the theme toggle (light / dark).</p>
+      <section><p>A <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a> boolean slider with a custom icon. Intended for toggling between our light / dark
+mode themes.</p>
 </section>
 </article>
           </div>

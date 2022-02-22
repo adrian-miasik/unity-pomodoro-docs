@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ThemeElement
    ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -74,7 +74,7 @@
   <h1 id="AdrianMiasik_Components_Base_ThemeElement" data-uid="AdrianMiasik.Components.Base.ThemeElement" class="text-break">Class ThemeElement
   </h1>
   <div class="markdown level0 summary"><p>A <strong>base</strong> class that is intended to be used on any component/class that needs theming
-(that's automatically updated), and needs reference to our main class: <a class="xref" href="AdrianMiasik.Components.PomodoroTimer.html">PomodoroTimer</a>.</p>
+(that's automatically updated), and needs reference to our main class: <a class="xref" href="AdrianMiasik.PomodoroTimer.html">PomodoroTimer</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -85,22 +85,26 @@
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
     <div class="level5"><span class="xref">ThemeElement</span></div>
+      <div class="level6"><a class="xref" href="AdrianMiasik.Components.Base.SettingsOptionDropdown.html">SettingsOptionDropdown</a></div>
+      <div class="level6"><a class="xref" href="AdrianMiasik.Components.Base.SettingsOptionToggleSlider.html">SettingsOptionToggleSlider</a></div>
+      <div class="level6"><a class="xref" href="AdrianMiasik.Components.Core.BlurOverlay.html">BlurOverlay</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Core.ConfirmationDialog.html">ConfirmationDialog</a></div>
+      <div class="level6"><a class="xref" href="AdrianMiasik.Components.Core.ConfirmationDialogManager.html">ConfirmationDialogManager</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Core.Containers.DigitFormat.html">DigitFormat</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Core.Containers.Sidebar.html">Sidebar</a></div>
+      <div class="level6"><a class="xref" href="AdrianMiasik.Components.Core.Containers.ThemeIconContainer.html">ThemeIconContainer</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Core.Containers.TomatoCounter.html">TomatoCounter</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Core.Items.DoubleDigit.html">DoubleDigit</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Core.Items.SidebarRow.html">SidebarRow</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Core.Items.Tomato.html">Tomato</a></div>
+      <div class="level6"><a class="xref" href="AdrianMiasik.Components.Core.ThemeIcon.html">ThemeIcon</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Core.ToggleSlider.html">ToggleSlider</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Specific.AboutPanel.html">AboutPanel</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Specific.Background.html">Background</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Specific.CompletionLabel.html">CompletionLabel</a></div>
-      <div class="level6"><a class="xref" href="AdrianMiasik.Components.Specific.DigitFormatDropdown.html">DigitFormatDropdown</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Specific.EndTimestampBubble.html">EndTimestampBubble</a></div>
-      <div class="level6"><a class="xref" href="AdrianMiasik.Components.Specific.LongBreakSetting.html">LongBreakSetting</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Specific.RightButton.html">RightButton</a></div>
-      <div class="level6"><a class="xref" href="AdrianMiasik.Components.Specific.SettingsPanel.html">SettingsPanel</a></div>
+      <div class="level6"><a class="xref" href="AdrianMiasik.Components.Specific.Settings.SettingsPanel.html">SettingsPanel</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Specific.SkipButton.html">SkipButton</a></div>
       <div class="level6"><a class="xref" href="AdrianMiasik.Components.Specific.ThemeSlider.html">ThemeSlider</a></div>
   </div>
@@ -118,39 +122,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ThemeElement_Initialized.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ThemeElement.Initialized%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/fb8d3cce7ca1e74b38fc9448bbd9c8c61eab6251/apiSpec/new?filename=AdrianMiasik_Components_Base_ThemeElement_Timer.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ThemeElement.Timer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ThemeElement.cs/#L14">View Source</a>
-  </span>
-  <h4 id="AdrianMiasik_Components_Base_ThemeElement_Initialized" data-uid="AdrianMiasik.Components.Base.ThemeElement.Initialized">Initialized</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool Initialized</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ThemeElement_Timer.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ThemeElement.Timer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ThemeElement.cs/#L13">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/fb8d3cce7ca1e74b38fc9448bbd9c8c61eab6251/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ThemeElement.cs/#L13">View Source</a>
   </span>
   <h4 id="AdrianMiasik_Components_Base_ThemeElement_Timer" data-uid="AdrianMiasik.Components.Base.ThemeElement.Timer">Timer</h4>
   <div class="markdown level1 summary"></div>
@@ -169,7 +144,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="AdrianMiasik.Components.PomodoroTimer.html">PomodoroTimer</a></td>
+        <td><a class="xref" href="AdrianMiasik.PomodoroTimer.html">PomodoroTimer</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -178,10 +153,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ThemeElement_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ThemeElement.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/fb8d3cce7ca1e74b38fc9448bbd9c8c61eab6251/apiSpec/new?filename=AdrianMiasik_Components_Base_ThemeElement_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ThemeElement.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ThemeElement.cs/#L48">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/fb8d3cce7ca1e74b38fc9448bbd9c8c61eab6251/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ThemeElement.cs/#L48">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ThemeElement_ColorUpdate_" data-uid="AdrianMiasik.Components.Base.ThemeElement.ColorUpdate*"></a>
   <h4 id="AdrianMiasik_Components_Base_ThemeElement_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_" data-uid="AdrianMiasik.Components.Base.ThemeElement.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)">ColorUpdate(Theme)</h4>
@@ -211,13 +186,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ThemeElement_Initialize_AdrianMiasik_Components_PomodoroTimer_System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ThemeElement.Initialize(AdrianMiasik.Components.PomodoroTimer%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/fb8d3cce7ca1e74b38fc9448bbd9c8c61eab6251/apiSpec/new?filename=AdrianMiasik_Components_Base_ThemeElement_Initialize_AdrianMiasik_PomodoroTimer_System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ThemeElement.Initialize(AdrianMiasik.PomodoroTimer%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ThemeElement.cs/#L19">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/fb8d3cce7ca1e74b38fc9448bbd9c8c61eab6251/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ThemeElement.cs/#L19">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ThemeElement_Initialize_" data-uid="AdrianMiasik.Components.Base.ThemeElement.Initialize*"></a>
-  <h4 id="AdrianMiasik_Components_Base_ThemeElement_Initialize_AdrianMiasik_Components_PomodoroTimer_System_Boolean_" data-uid="AdrianMiasik.Components.Base.ThemeElement.Initialize(AdrianMiasik.Components.PomodoroTimer,System.Boolean)">Initialize(PomodoroTimer, Boolean)</h4>
+  <h4 id="AdrianMiasik_Components_Base_ThemeElement_Initialize_AdrianMiasik_PomodoroTimer_System_Boolean_" data-uid="AdrianMiasik.Components.Base.ThemeElement.Initialize(AdrianMiasik.PomodoroTimer,System.Boolean)">Initialize(PomodoroTimer, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -235,7 +210,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="AdrianMiasik.Components.PomodoroTimer.html">PomodoroTimer</a></td>
+        <td><a class="xref" href="AdrianMiasik.PomodoroTimer.html">PomodoroTimer</a></td>
         <td><span class="parametername">pomodoroTimer</span></td>
         <td><p>Our main class</p>
 </td>
@@ -251,10 +226,10 @@ on initialization?</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ThemeElement_IsInitialized.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ThemeElement.IsInitialized%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/fb8d3cce7ca1e74b38fc9448bbd9c8c61eab6251/apiSpec/new?filename=AdrianMiasik_Components_Base_ThemeElement_IsInitialized.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ThemeElement.IsInitialized%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ThemeElement.cs/#L39">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/fb8d3cce7ca1e74b38fc9448bbd9c8c61eab6251/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ThemeElement.cs/#L39">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ThemeElement_IsInitialized_" data-uid="AdrianMiasik.Components.Base.ThemeElement.IsInitialized*"></a>
   <h4 id="AdrianMiasik_Components_Base_ThemeElement_IsInitialized" data-uid="AdrianMiasik.Components.Base.ThemeElement.IsInitialized">IsInitialized()</h4>
@@ -283,10 +258,10 @@ on initialization?</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ThemeElement_OnDestroy.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ThemeElement.OnDestroy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/fb8d3cce7ca1e74b38fc9448bbd9c8c61eab6251/apiSpec/new?filename=AdrianMiasik_Components_Base_ThemeElement_OnDestroy.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ThemeElement.OnDestroy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ThemeElement.cs/#L57">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/fb8d3cce7ca1e74b38fc9448bbd9c8c61eab6251/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ThemeElement.cs/#L57">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ThemeElement_OnDestroy_" data-uid="AdrianMiasik.Components.Base.ThemeElement.OnDestroy*"></a>
   <h4 id="AdrianMiasik_Components_Base_ThemeElement_OnDestroy" data-uid="AdrianMiasik.Components.Base.ThemeElement.OnDestroy">OnDestroy()</h4>
@@ -310,10 +285,10 @@ ColorUpdate() on a null reference.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ThemeElement.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ThemeElement%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/fb8d3cce7ca1e74b38fc9448bbd9c8c61eab6251/apiSpec/new?filename=AdrianMiasik_Components_Base_ThemeElement.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ThemeElement%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ThemeElement.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/fb8d3cce7ca1e74b38fc9448bbd9c8c61eab6251/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ThemeElement.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

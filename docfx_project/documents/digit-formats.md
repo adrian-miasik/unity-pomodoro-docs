@@ -1,4 +1,5 @@
-# Supported Formats
+# Digit Formats
+## Supported Formats
 | Name               | Structure      |
 |--------------------|----------------|
 | Full               | DD_HH_MM_SS_MS |
@@ -7,7 +8,7 @@
 | Simple             | MM_SS          |
 | Bare               | SS             | 
 
-# Abbreviations
+## Abbreviations
 | Abbreviation | Represents   | 
 |--------------|--------------|
 | DD           | Days         |

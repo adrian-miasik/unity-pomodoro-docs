@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class CreditsBubble
    ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -84,147 +84,67 @@ after a couple seconds via the base class.</p>
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><a class="xref" href="AdrianMiasik.Components.Base.TimerProgress.html">TimerProgress</a></div>
-    <div class="level6"><span class="xref">CreditsBubble</span></div>
+    <div class="level5"><a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a></div>
+    <div class="level6"><a class="xref" href="AdrianMiasik.Components.Base.Bubble.html">Bubble</a></div>
+    <div class="level7"><span class="xref">CreditsBubble</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a></div>
+    <div><a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="AdrianMiasik.Components.Base.TimerProgress.html#AdrianMiasik_Components_Base_TimerProgress_m_duration">TimerProgress.m_duration</a>
+      <a class="xref" href="AdrianMiasik.Components.Base.Bubble.html#AdrianMiasik_Components_Base_Bubble_m_icon">Bubble.m_icon</a>
     </div>
     <div>
-      <a class="xref" href="AdrianMiasik.Components.Base.TimerProgress.html#AdrianMiasik_Components_Base_TimerProgress_Initialize_System_Single_System_Boolean_">TimerProgress.Initialize(Single, Boolean)</a>
+      <a class="xref" href="AdrianMiasik.Components.Base.Bubble.html#AdrianMiasik_Components_Base_Bubble_m_text">Bubble.m_text</a>
     </div>
     <div>
-      <a class="xref" href="AdrianMiasik.Components.Base.TimerProgress.html#AdrianMiasik_Components_Base_TimerProgress_Restart">TimerProgress.Restart()</a>
+      <a class="xref" href="AdrianMiasik.Components.Base.Bubble.html#AdrianMiasik_Components_Base_Bubble_StateUpdate_AdrianMiasik_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_">Bubble.StateUpdate(PomodoroTimer.States, Theme)</a>
     </div>
     <div>
-      <a class="xref" href="AdrianMiasik.Components.Base.TimerProgress.html#AdrianMiasik_Components_Base_TimerProgress_IsRunning">TimerProgress.IsRunning()</a>
+      <a class="xref" href="AdrianMiasik.Components.Base.Bubble.html#AdrianMiasik_Components_Base_Bubble_FadeIn_System_Boolean_">Bubble.FadeIn(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.Bubble.html#AdrianMiasik_Components_Base_Bubble_FadeOut_System_Boolean_">Bubble.FadeOut(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.Bubble.html#AdrianMiasik_Components_Base_Bubble_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_">Bubble.ColorUpdate(Theme)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_Timer">ThemeElement.Timer</a>
+    </div>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_IsInitialized">ThemeElement.IsInitialized()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_OnDestroy">ThemeElement.OnDestroy()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Specific.html">AdrianMiasik.Components.Specific</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
   <h5 id="AdrianMiasik_Components_Specific_CreditsBubble_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CreditsBubble : TimerProgress, IPointerEnterHandler, IPointerExitHandler, IEventSystemHandler, IColorHook</code></pre>
+    <pre><code class="lang-csharp hljs">public class CreditsBubble : Bubble, IColorHook, ITimerState, IPointerEnterHandler, IPointerExitHandler, IEventSystemHandler</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/260f4cbb01cb23377085f0739f159446b80e9f74/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_Initialize_AdrianMiasik_PomodoroTimer_System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.Initialize(AdrianMiasik.PomodoroTimer%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L214">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Specific_CreditsBubble_ColorUpdate_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.ColorUpdate*"></a>
-  <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)">ColorUpdate(Theme)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ColorUpdate(Theme theme)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a></td>
-        <td><span class="parametername">theme</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_FadeIn_System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.FadeIn(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L141">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Specific_CreditsBubble_FadeIn_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.FadeIn*"></a>
-  <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_FadeIn_System_Boolean_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.FadeIn(System.Boolean)">FadeIn(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void FadeIn(bool instantly = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">instantly</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_FadeOut_System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.FadeOut(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L122">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Specific_CreditsBubble_FadeOut_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.FadeOut*"></a>
-  <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_FadeOut_System_Boolean_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.FadeOut(System.Boolean)">FadeOut(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void FadeOut(bool instantly = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">instantly</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_Initialize_AdrianMiasik_Components_PomodoroTimer_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.Initialize(AdrianMiasik.Components.PomodoroTimer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L52">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/260f4cbb01cb23377085f0739f159446b80e9f74/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L23">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Specific_CreditsBubble_Initialize_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.Initialize*"></a>
-  <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_Initialize_AdrianMiasik_Components_PomodoroTimer_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.Initialize(AdrianMiasik.Components.PomodoroTimer)">Initialize(PomodoroTimer)</h4>
-  <div class="markdown level1 summary"><p>Sets up our component, and registers the <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a> to the active <a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a>.</p>
-</div>
+  <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_Initialize_AdrianMiasik_PomodoroTimer_System_Boolean_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.Initialize(AdrianMiasik.PomodoroTimer,System.Boolean)">Initialize(PomodoroTimer, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize(PomodoroTimer pomodoroTimer)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Initialize(PomodoroTimer pomodoroTimer, bool updateColors = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -237,18 +157,25 @@ after a couple seconds via the base class.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="AdrianMiasik.Components.PomodoroTimer.html">PomodoroTimer</a></td>
+        <td><a class="xref" href="AdrianMiasik.PomodoroTimer.html">PomodoroTimer</a></td>
         <td><span class="parametername">pomodoroTimer</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">updateColors</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AdrianMiasik.Components.Base.Bubble.html#AdrianMiasik_Components_Base_Bubble_Initialize_AdrianMiasik_PomodoroTimer_System_Boolean_">Bubble.Initialize(PomodoroTimer, Boolean)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_Lock.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.Lock%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/260f4cbb01cb23377085f0739f159446b80e9f74/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_Lock.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.Lock%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L160">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/260f4cbb01cb23377085f0739f159446b80e9f74/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L53">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Specific_CreditsBubble_Lock_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.Lock*"></a>
   <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_Lock" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.Lock">Lock()</h4>
@@ -260,42 +187,10 @@ after a couple seconds via the base class.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_OnComplete.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.OnComplete%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/260f4cbb01cb23377085f0739f159446b80e9f74/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_OnPointerEnter_UnityEngine_EventSystems_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L79">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Specific_CreditsBubble_OnComplete_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.OnComplete*"></a>
-  <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_OnComplete" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.OnComplete">OnComplete()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnComplete()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="AdrianMiasik.Components.Base.TimerProgress.html#AdrianMiasik_Components_Base_TimerProgress_OnComplete">TimerProgress.OnComplete()</a></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_OnDestroy.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.OnDestroy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L226">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Specific_CreditsBubble_OnDestroy_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.OnDestroy*"></a>
-  <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_OnDestroy" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.OnDestroy">OnDestroy()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnDestroy()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_OnPointerEnter_UnityEngine_EventSystems_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L170">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/260f4cbb01cb23377085f0739f159446b80e9f74/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L63">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Specific_CreditsBubble_OnPointerEnter_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.OnPointerEnter*"></a>
   <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_OnPointerEnter_UnityEngine_EventSystems_PointerEventData_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)">OnPointerEnter(PointerEventData)</h4>
@@ -324,10 +219,10 @@ after a couple seconds via the base class.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_OnPointerExit_UnityEngine_EventSystems_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.OnPointerExit(UnityEngine.EventSystems.PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/260f4cbb01cb23377085f0739f159446b80e9f74/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_OnPointerExit_UnityEngine_EventSystems_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.OnPointerExit(UnityEngine.EventSystems.PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L182">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/260f4cbb01cb23377085f0739f159446b80e9f74/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L75">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Specific_CreditsBubble_OnPointerExit_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.OnPointerExit*"></a>
   <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_OnPointerExit_UnityEngine_EventSystems_PointerEventData_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.OnPointerExit(UnityEngine.EventSystems.PointerEventData)">OnPointerExit(PointerEventData)</h4>
@@ -356,61 +251,10 @@ after a couple seconds via the base class.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_OnStart.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.OnStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/260f4cbb01cb23377085f0739f159446b80e9f74/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_ResetRightOffset.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.ResetRightOffset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L69">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Specific_CreditsBubble_OnStart_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.OnStart*"></a>
-  <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_OnStart" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.OnStart">OnStart()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnStart()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="AdrianMiasik.Components.Base.TimerProgress.html#AdrianMiasik_Components_Base_TimerProgress_OnStart">TimerProgress.OnStart()</a></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_OnUpdate_System_Single_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.OnUpdate(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L74">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Specific_CreditsBubble_OnUpdate_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.OnUpdate*"></a>
-  <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_OnUpdate_System_Single_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.OnUpdate(System.Single)">OnUpdate(Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnUpdate(float progress)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">progress</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="AdrianMiasik.Components.Base.TimerProgress.html#AdrianMiasik_Components_Base_TimerProgress_OnUpdate_System_Single_">TimerProgress.OnUpdate(Single)</a></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_ResetRightOffset.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.ResetRightOffset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L209">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/260f4cbb01cb23377085f0739f159446b80e9f74/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L102">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Specific_CreditsBubble_ResetRightOffset_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.ResetRightOffset*"></a>
   <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_ResetRightOffset" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.ResetRightOffset">ResetRightOffset()</h4>
@@ -422,10 +266,10 @@ after a couple seconds via the base class.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_ResetWidth.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.ResetWidth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/260f4cbb01cb23377085f0739f159446b80e9f74/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_ResetWidth.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.ResetWidth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L204">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/260f4cbb01cb23377085f0739f159446b80e9f74/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L97">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Specific_CreditsBubble_ResetWidth_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.ResetWidth*"></a>
   <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_ResetWidth" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.ResetWidth">ResetWidth()</h4>
@@ -437,10 +281,10 @@ after a couple seconds via the base class.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_SetRightOffset_System_Single_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.SetRightOffset(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/260f4cbb01cb23377085f0739f159446b80e9f74/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_SetRightOffset_System_Single_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.SetRightOffset(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L199">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/260f4cbb01cb23377085f0739f159446b80e9f74/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L92">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Specific_CreditsBubble_SetRightOffset_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.SetRightOffset*"></a>
   <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_SetRightOffset_System_Single_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.SetRightOffset(System.Single)">SetRightOffset(Single)</h4>
@@ -469,10 +313,10 @@ after a couple seconds via the base class.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_SetWidth_System_Single_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.SetWidth(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/260f4cbb01cb23377085f0739f159446b80e9f74/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_SetWidth_System_Single_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.SetWidth(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L194">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/260f4cbb01cb23377085f0739f159446b80e9f74/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L87">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Specific_CreditsBubble_SetWidth_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.SetWidth*"></a>
   <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_SetWidth_System_Single_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.SetWidth(System.Single)">SetWidth(Single)</h4>
@@ -501,10 +345,10 @@ after a couple seconds via the base class.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_Unlock.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.Unlock%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/260f4cbb01cb23377085f0739f159446b80e9f74/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_Unlock.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.Unlock%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L165">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/260f4cbb01cb23377085f0739f159446b80e9f74/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L58">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Specific_CreditsBubble_Unlock_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.Unlock*"></a>
   <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_Unlock" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.Unlock">Unlock()</h4>
@@ -514,26 +358,12 @@ after a couple seconds via the base class.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Unlock()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble_Update.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble.Update%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L95">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Specific_CreditsBubble_Update_" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.Update*"></a>
-  <h4 id="AdrianMiasik_Components_Specific_CreditsBubble_Update" data-uid="AdrianMiasik.Components.Specific.CreditsBubble.Update">Update()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Update()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="AdrianMiasik.Components.Base.TimerProgress.html#AdrianMiasik_Components_Base_TimerProgress_Update">TimerProgress.Update()</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a>
+  </div>
+  <div>
+      <a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a>
   </div>
 </article>
           </div>
@@ -543,10 +373,10 @@ after a couple seconds via the base class.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/260f4cbb01cb23377085f0739f159446b80e9f74/apiSpec/new?filename=AdrianMiasik_Components_Specific_CreditsBubble.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.CreditsBubble%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L18" class="contribution-link">View Source</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/260f4cbb01cb23377085f0739f159446b80e9f74/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/CreditsBubble.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

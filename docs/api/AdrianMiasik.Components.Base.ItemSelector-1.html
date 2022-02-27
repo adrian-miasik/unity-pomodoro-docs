@@ -1,0 +1,654 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ItemSelector&lt;T&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ItemSelector&lt;T&gt;
+   ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Components.Base.ItemSelector`1">
+  
+  
+  <h1 id="AdrianMiasik_Components_Base_ItemSelector_1" data-uid="AdrianMiasik.Components.Base.ItemSelector`1" class="text-break">Class ItemSelector&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>A <strong>generic</strong> class that keeps track of our current (and previous) generic item selection in a collection.
+(e.g. radio button, selecting one element out of a list).</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a></div>
+    <div class="level6"><span class="xref">ItemSelector&lt;T&gt;</span></div>
+      <div class="level7"><a class="xref" href="AdrianMiasik.Components.Specific.Pages.SidebarPages.html">SidebarPages</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_Timer">ThemeElement.Timer</a>
+    </div>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_Initialize_AdrianMiasik_PomodoroTimer_System_Boolean_">ThemeElement.Initialize(PomodoroTimer, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_IsInitialized">ThemeElement.IsInitialized()</a>
+    </div>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_">ThemeElement.ColorUpdate(Theme)</a>
+    </div>
+    <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html#AdrianMiasik_Components_Base_ThemeElement_OnDestroy">ThemeElement.OnDestroy()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Base.html">AdrianMiasik.Components.Base</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AdrianMiasik_Components_Base_ItemSelector_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ItemSelector&lt;T&gt; : ThemeElement, IColorHook</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_m_items.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.m_items%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L14">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_m_items" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.m_items">m_items</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected Collection&lt;T&gt; m_items</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.Collection</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_onDeselected.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.onDeselected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L41">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_onDeselected" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.onDeselected">onDeselected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelector&lt;T&gt;.OnDeselected onDeselected</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.Base.ItemSelector-1.OnDeselected.html">ItemSelector.OnDeselected</a>&lt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_onSelected.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.onSelected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L34">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_onSelected" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.onSelected">onSelected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelector&lt;T&gt;.OnSelected onSelected</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.Base.ItemSelector-1.OnSelected.html">ItemSelector.OnSelected</a>&lt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_onSelectionChange.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.onSelectionChange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L27">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_onSelectionChange" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.onSelectionChange">onSelectionChange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelector&lt;T&gt;.OnSelectionChange onSelectionChange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.Components.Base.ItemSelector-1.OnSelectionChange.html">ItemSelector.OnSelectionChange</a>&lt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_AddItem__0_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.AddItem(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L74">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Base_ItemSelector_1_AddItem_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.AddItem*"></a>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_AddItem__0_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.AddItem(`0)">AddItem(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddItem(T item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_Clear.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L68">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Base_ItemSelector_1_Clear_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.Clear*"></a>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_Clear" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.Clear">Clear()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_GetCount.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.GetCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L184">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Base_ItemSelector_1_GetCount_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.GetCount*"></a>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_GetCount" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.GetCount">GetCount()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetCount()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_GetCurrentIndex.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.GetCurrentIndex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L179">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Base_ItemSelector_1_GetCurrentIndex_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.GetCurrentIndex*"></a>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_GetCurrentIndex" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.GetCurrentIndex">GetCurrentIndex()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetCurrentIndex()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_GetCurrentItem.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.GetCurrentItem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L174">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Base_ItemSelector_1_GetCurrentItem_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.GetCurrentItem*"></a>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_GetCurrentItem" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.GetCurrentItem">GetCurrentItem()</h4>
+  <div class="markdown level1 summary"><p>Returns the current visible item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetCurrentItem()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_GetItems.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.GetItems%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L194">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Base_ItemSelector_1_GetItems_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.GetItems*"></a>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_GetItems" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.GetItems">GetItems()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collection&lt;T&gt; GetItems()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.Collection</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_GetLastSelectedItem.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.GetLastSelectedItem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L189">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Base_ItemSelector_1_GetLastSelectedItem_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.GetLastSelectedItem*"></a>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_GetLastSelectedItem" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.GetLastSelectedItem">GetLastSelectedItem()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetLastSelectedItem()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_Initialize_AdrianMiasik_PomodoroTimer_System_Collections_Generic_IEnumerable__0__System_Boolean_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.Initialize(AdrianMiasik.PomodoroTimer%2CSystem.Collections.Generic.IEnumerable%7B%600%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L56">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Base_ItemSelector_1_Initialize_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.Initialize*"></a>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_Initialize_AdrianMiasik_PomodoroTimer_System_Collections_Generic_IEnumerable__0__System_Boolean_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.Initialize(AdrianMiasik.PomodoroTimer,System.Collections.Generic.IEnumerable{`0},System.Boolean)">Initialize(PomodoroTimer, IEnumerable&lt;T&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initializes with a specific set of objects</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Initialize(PomodoroTimer pomodoroTimer, IEnumerable&lt;T&gt; allSelectionItems, bool updateColors = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.PomodoroTimer.html">PomodoroTimer</a></td>
+        <td><span class="parametername">pomodoroTimer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="parametername">allSelectionItems</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">updateColors</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_NextItem.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.NextItem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L96">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Base_ItemSelector_1_NextItem_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.NextItem*"></a>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_NextItem" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.NextItem">NextItem()</h4>
+  <div class="markdown level1 summary"><p>Selects the next item in the collection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NextItem()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_PreviousItem.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.PreviousItem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L87">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Base_ItemSelector_1_PreviousItem_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.PreviousItem*"></a>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_PreviousItem" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.PreviousItem">PreviousItem()</h4>
+  <div class="markdown level1 summary"><p>Selects the previous item in the collection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PreviousItem()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_RemoveItem__0_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.RemoveItem(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L79">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Base_ItemSelector_1_RemoveItem_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.RemoveItem*"></a>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_RemoveItem__0_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.RemoveItem(`0)">RemoveItem(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveItem(T item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1_Select__0_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601.Select(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L116">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Base_ItemSelector_1_Select_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.Select*"></a>
+  <h4 id="AdrianMiasik_Components_Base_ItemSelector_1_Select__0_" data-uid="AdrianMiasik.Components.Base.ItemSelector`1.Select(`0)">Select(T)</h4>
+  <div class="markdown level1 summary"><p>If your item is within our list, we will set the current item to it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Select(T itemInList)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">itemInList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/d07903845dd12e0abd4ee52807872899ba20190a/apiSpec/new?filename=AdrianMiasik_Components_Base_ItemSelector_1.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ItemSelector%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/d07903845dd12e0abd4ee52807872899ba20190a/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ItemSelector.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

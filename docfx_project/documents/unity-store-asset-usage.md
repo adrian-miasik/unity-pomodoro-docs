@@ -1,0 +1,6 @@
+﻿# Unity Store Asset Usage
+Here are the following assets we use and implement into Unity Pomodoro:
+
+| Asset                                                                                                                   | Documentation                                                                             | Author                                | Version | Purpose                                                                                                     |
+|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------------------------------------|---------|-------------------------------------------------------------------------------------------------------------|
+| [Translucent Image](https://assetstore.unity.com/packages/tools/gui/translucent-image-fast-blurred-background-ui-78464) | [Website](https://leloctai.com/asset/translucentimage/docs/articles/getting-started.html) | [Le Tai](support@letai.freshdesk.com) | 3.10.3  | Used alongside our confirmation dialogs. Specifically for blurring the background when a pop-up is present. |

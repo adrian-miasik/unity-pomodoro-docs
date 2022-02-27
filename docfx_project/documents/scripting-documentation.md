@@ -1,7 +1,7 @@
 # Scripting Documentation
 **For a full list of components, please select a namespace below:**
 
-## [Components](../api/AdrianMiasik.Components.yml)
+## Components
 All scripts intended to be used by our Unity GameObjects reside in this namespace.
 
 ### [Base](../api/AdrianMiasik.Components.Base.yml)
@@ -18,12 +18,22 @@ Intended to be used for a **generic purpose**. Can be used in more than one cont
   - A generic item intended to be **used alone** or **by a [container](../api/AdrianMiasik.Components.Core.Containers.yml)**.
 
 - [Helpers](../api/AdrianMiasik.Components.Core.Helpers.yml)
-  - A generic set of tools / **helper scripts**.
+  - A generic set of **tools** / helper scripts.
+
+- [Settings](../api/AdrianMiasik.Components.Core.Settings.yml)
+  - Scripts related to **saving and loading** user settings / **configurations.**
 
 ### [Specific](../api/AdrianMiasik.Components.Specific.yml)
 Intended to be used for a **specific purpose**. Used in a single context throughout the
 application.
 
+- [Automation](../api/AdrianMiasik.Components.Specific.Automation.yml)
+  - Scripts used for **running bulk actions**.
+- [Pages](../api/AdrianMiasik.Components.Specific.Pages.yml)
+  - Our **content** / contexts. (Only one 'page' is seen at any given moment to the user)
+- [Settings](../api/AdrianMiasik.Components.Specific.Settings.yml)
+  - Interactable **options**. (as seen in the settings page)
+  
 ---
 
 ## [Editor](../api/AdrianMiasik.Editor.yml)

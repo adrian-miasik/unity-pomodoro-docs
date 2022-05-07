@@ -7,6 +7,31 @@ references:
   commentId: N:AdrianMiasik
   fullName: AdrianMiasik
   nameWithType: AdrianMiasik
+- uid: AdrianMiasik.Android
+  name: AdrianMiasik.Android
+  href: api/AdrianMiasik.Android.html
+  commentId: N:AdrianMiasik.Android
+  fullName: AdrianMiasik.Android
+  nameWithType: AdrianMiasik.Android
+- uid: AdrianMiasik.Android.AndroidNotifications
+  name: AndroidNotifications
+  href: api/AdrianMiasik.Android.AndroidNotifications.html
+  commentId: T:AdrianMiasik.Android.AndroidNotifications
+  fullName: AdrianMiasik.Android.AndroidNotifications
+  nameWithType: AndroidNotifications
+- uid: AdrianMiasik.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
+  name: StateUpdate(PomodoroTimer.States, Theme)
+  href: api/AdrianMiasik.Android.AndroidNotifications.html#AdrianMiasik_Android_AndroidNotifications_StateUpdate_AdrianMiasik_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_
+  commentId: M:AdrianMiasik.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
+  fullName: AdrianMiasik.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States, AdrianMiasik.ScriptableObjects.Theme)
+  nameWithType: AndroidNotifications.StateUpdate(PomodoroTimer.States, Theme)
+- uid: AdrianMiasik.Android.AndroidNotifications.StateUpdate*
+  name: StateUpdate
+  href: api/AdrianMiasik.Android.AndroidNotifications.html#AdrianMiasik_Android_AndroidNotifications_StateUpdate_
+  commentId: Overload:AdrianMiasik.Android.AndroidNotifications.StateUpdate
+  isSpec: "True"
+  fullName: AdrianMiasik.Android.AndroidNotifications.StateUpdate
+  nameWithType: AndroidNotifications.StateUpdate
 - uid: AdrianMiasik.Components.Base
   name: AdrianMiasik.Components.Base
   href: api/AdrianMiasik.Components.Base.html
@@ -445,15 +470,15 @@ references:
   fullName.vb: AdrianMiasik.Components.Base.ItemSelector(Of T).GetLastSelectedItem
   nameWithType: ItemSelector<T>.GetLastSelectedItem
   nameWithType.vb: ItemSelector(Of T).GetLastSelectedItem
-- uid: AdrianMiasik.Components.Base.ItemSelector`1.Initialize(AdrianMiasik.PomodoroTimer,System.Collections.Generic.IEnumerable{`0},System.Boolean)
-  name: Initialize(PomodoroTimer, IEnumerable<T>, Boolean)
-  href: api/AdrianMiasik.Components.Base.ItemSelector-1.html#AdrianMiasik_Components_Base_ItemSelector_1_Initialize_AdrianMiasik_PomodoroTimer_System_Collections_Generic_IEnumerable__0__System_Boolean_
-  commentId: M:AdrianMiasik.Components.Base.ItemSelector`1.Initialize(AdrianMiasik.PomodoroTimer,System.Collections.Generic.IEnumerable{`0},System.Boolean)
-  name.vb: Initialize(PomodoroTimer, IEnumerable(Of T), Boolean)
-  fullName: AdrianMiasik.Components.Base.ItemSelector<T>.Initialize(AdrianMiasik.PomodoroTimer, System.Collections.Generic.IEnumerable<T>, System.Boolean)
-  fullName.vb: AdrianMiasik.Components.Base.ItemSelector(Of T).Initialize(AdrianMiasik.PomodoroTimer, System.Collections.Generic.IEnumerable(Of T), System.Boolean)
-  nameWithType: ItemSelector<T>.Initialize(PomodoroTimer, IEnumerable<T>, Boolean)
-  nameWithType.vb: ItemSelector(Of T).Initialize(PomodoroTimer, IEnumerable(Of T), Boolean)
+- uid: AdrianMiasik.Components.Base.ItemSelector`1.Initialize(System.Collections.Generic.IEnumerable{`0})
+  name: Initialize(IEnumerable<T>)
+  href: api/AdrianMiasik.Components.Base.ItemSelector-1.html#AdrianMiasik_Components_Base_ItemSelector_1_Initialize_System_Collections_Generic_IEnumerable__0__
+  commentId: M:AdrianMiasik.Components.Base.ItemSelector`1.Initialize(System.Collections.Generic.IEnumerable{`0})
+  name.vb: Initialize(IEnumerable(Of T))
+  fullName: AdrianMiasik.Components.Base.ItemSelector<T>.Initialize(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: AdrianMiasik.Components.Base.ItemSelector(Of T).Initialize(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ItemSelector<T>.Initialize(IEnumerable<T>)
+  nameWithType.vb: ItemSelector(Of T).Initialize(IEnumerable(Of T))
 - uid: AdrianMiasik.Components.Base.ItemSelector`1.Initialize*
   name: Initialize
   href: api/AdrianMiasik.Components.Base.ItemSelector-1.html#AdrianMiasik_Components_Base_ItemSelector_1_Initialize_
@@ -2095,19 +2120,6 @@ references:
   commentId: T:AdrianMiasik.Components.Core.Containers.ThemeIconContainer
   fullName: AdrianMiasik.Components.Core.Containers.ThemeIconContainer
   nameWithType: ThemeIconContainer
-- uid: AdrianMiasik.Components.Core.Containers.ThemeIconContainer.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
-  name: ColorUpdate(Theme)
-  href: api/AdrianMiasik.Components.Core.Containers.ThemeIconContainer.html#AdrianMiasik_Components_Core_Containers_ThemeIconContainer_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_
-  commentId: M:AdrianMiasik.Components.Core.Containers.ThemeIconContainer.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
-  fullName: AdrianMiasik.Components.Core.Containers.ThemeIconContainer.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
-  nameWithType: ThemeIconContainer.ColorUpdate(Theme)
-- uid: AdrianMiasik.Components.Core.Containers.ThemeIconContainer.ColorUpdate*
-  name: ColorUpdate
-  href: api/AdrianMiasik.Components.Core.Containers.ThemeIconContainer.html#AdrianMiasik_Components_Core_Containers_ThemeIconContainer_ColorUpdate_
-  commentId: Overload:AdrianMiasik.Components.Core.Containers.ThemeIconContainer.ColorUpdate
-  isSpec: "True"
-  fullName: AdrianMiasik.Components.Core.Containers.ThemeIconContainer.ColorUpdate
-  nameWithType: ThemeIconContainer.ColorUpdate
 - uid: AdrianMiasik.Components.Core.Containers.ThemeIconContainer.Initialize(AdrianMiasik.PomodoroTimer,System.Boolean)
   name: Initialize(PomodoroTimer, Boolean)
   href: api/AdrianMiasik.Components.Core.Containers.ThemeIconContainer.html#AdrianMiasik_Components_Core_Containers_ThemeIconContainer_Initialize_AdrianMiasik_PomodoroTimer_System_Boolean_
@@ -4155,6 +4167,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.Pages.SidebarPages.RefreshSettingsPage
   nameWithType: SidebarPages.RefreshSettingsPage
+- uid: AdrianMiasik.Components.Specific.Pages.SidebarPages.RefreshTimerPage
+  name: RefreshTimerPage()
+  href: api/AdrianMiasik.Components.Specific.Pages.SidebarPages.html#AdrianMiasik_Components_Specific_Pages_SidebarPages_RefreshTimerPage
+  commentId: M:AdrianMiasik.Components.Specific.Pages.SidebarPages.RefreshTimerPage
+  fullName: AdrianMiasik.Components.Specific.Pages.SidebarPages.RefreshTimerPage()
+  nameWithType: SidebarPages.RefreshTimerPage()
+- uid: AdrianMiasik.Components.Specific.Pages.SidebarPages.RefreshTimerPage*
+  name: RefreshTimerPage
+  href: api/AdrianMiasik.Components.Specific.Pages.SidebarPages.html#AdrianMiasik_Components_Specific_Pages_SidebarPages_RefreshTimerPage_
+  commentId: Overload:AdrianMiasik.Components.Specific.Pages.SidebarPages.RefreshTimerPage
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.Pages.SidebarPages.RefreshTimerPage
+  nameWithType: SidebarPages.RefreshTimerPage
 - uid: AdrianMiasik.Components.Specific.Pages.SidebarPages.SetSettingDigitFormatDropdown(System.Int32)
   name: SetSettingDigitFormatDropdown(Int32)
   href: api/AdrianMiasik.Components.Specific.Pages.SidebarPages.html#AdrianMiasik_Components_Specific_Pages_SidebarPages_SetSettingDigitFormatDropdown_System_Int32_
@@ -4239,6 +4264,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.Pages.TimerPage.ColorUpdate
   nameWithType: TimerPage.ColorUpdate
+- uid: AdrianMiasik.Components.Specific.Pages.TimerPage.Refresh
+  name: Refresh()
+  href: api/AdrianMiasik.Components.Specific.Pages.TimerPage.html#AdrianMiasik_Components_Specific_Pages_TimerPage_Refresh
+  commentId: M:AdrianMiasik.Components.Specific.Pages.TimerPage.Refresh
+  fullName: AdrianMiasik.Components.Specific.Pages.TimerPage.Refresh()
+  nameWithType: TimerPage.Refresh()
+- uid: AdrianMiasik.Components.Specific.Pages.TimerPage.Refresh*
+  name: Refresh
+  href: api/AdrianMiasik.Components.Specific.Pages.TimerPage.html#AdrianMiasik_Components_Specific_Pages_TimerPage_Refresh_
+  commentId: Overload:AdrianMiasik.Components.Specific.Pages.TimerPage.Refresh
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.Pages.TimerPage.Refresh
+  nameWithType: TimerPage.Refresh
 - uid: AdrianMiasik.Components.Specific.RightButton
   name: RightButton
   href: api/AdrianMiasik.Components.Specific.RightButton.html
@@ -5962,35 +6000,35 @@ references:
   commentId: N:AdrianMiasik.UWP
   fullName: AdrianMiasik.UWP
   nameWithType: AdrianMiasik.UWP
-- uid: AdrianMiasik.UWP.NotificationManager
-  name: NotificationManager
-  href: api/AdrianMiasik.UWP.NotificationManager.html
-  commentId: T:AdrianMiasik.UWP.NotificationManager
-  fullName: AdrianMiasik.UWP.NotificationManager
-  nameWithType: NotificationManager
-- uid: AdrianMiasik.UWP.NotificationManager.Initialize(AdrianMiasik.Components.Core.Settings.TimerSettings)
-  name: Initialize(TimerSettings)
-  href: api/AdrianMiasik.UWP.NotificationManager.html#AdrianMiasik_UWP_NotificationManager_Initialize_AdrianMiasik_Components_Core_Settings_TimerSettings_
-  commentId: M:AdrianMiasik.UWP.NotificationManager.Initialize(AdrianMiasik.Components.Core.Settings.TimerSettings)
-  fullName: AdrianMiasik.UWP.NotificationManager.Initialize(AdrianMiasik.Components.Core.Settings.TimerSettings)
-  nameWithType: NotificationManager.Initialize(TimerSettings)
-- uid: AdrianMiasik.UWP.NotificationManager.Initialize*
+- uid: AdrianMiasik.UWP.UWPNotifications
+  name: UWPNotifications
+  href: api/AdrianMiasik.UWP.UWPNotifications.html
+  commentId: T:AdrianMiasik.UWP.UWPNotifications
+  fullName: AdrianMiasik.UWP.UWPNotifications
+  nameWithType: UWPNotifications
+- uid: AdrianMiasik.UWP.UWPNotifications.Initialize(AdrianMiasik.Components.Core.Settings.SystemSettings)
+  name: Initialize(SystemSettings)
+  href: api/AdrianMiasik.UWP.UWPNotifications.html#AdrianMiasik_UWP_UWPNotifications_Initialize_AdrianMiasik_Components_Core_Settings_SystemSettings_
+  commentId: M:AdrianMiasik.UWP.UWPNotifications.Initialize(AdrianMiasik.Components.Core.Settings.SystemSettings)
+  fullName: AdrianMiasik.UWP.UWPNotifications.Initialize(AdrianMiasik.Components.Core.Settings.SystemSettings)
+  nameWithType: UWPNotifications.Initialize(SystemSettings)
+- uid: AdrianMiasik.UWP.UWPNotifications.Initialize*
   name: Initialize
-  href: api/AdrianMiasik.UWP.NotificationManager.html#AdrianMiasik_UWP_NotificationManager_Initialize_
-  commentId: Overload:AdrianMiasik.UWP.NotificationManager.Initialize
+  href: api/AdrianMiasik.UWP.UWPNotifications.html#AdrianMiasik_UWP_UWPNotifications_Initialize_
+  commentId: Overload:AdrianMiasik.UWP.UWPNotifications.Initialize
   isSpec: "True"
-  fullName: AdrianMiasik.UWP.NotificationManager.Initialize
-  nameWithType: NotificationManager.Initialize
-- uid: AdrianMiasik.UWP.NotificationManager.ShowToast
+  fullName: AdrianMiasik.UWP.UWPNotifications.Initialize
+  nameWithType: UWPNotifications.Initialize
+- uid: AdrianMiasik.UWP.UWPNotifications.ShowToast
   name: ShowToast()
-  href: api/AdrianMiasik.UWP.NotificationManager.html#AdrianMiasik_UWP_NotificationManager_ShowToast
-  commentId: M:AdrianMiasik.UWP.NotificationManager.ShowToast
-  fullName: AdrianMiasik.UWP.NotificationManager.ShowToast()
-  nameWithType: NotificationManager.ShowToast()
-- uid: AdrianMiasik.UWP.NotificationManager.ShowToast*
+  href: api/AdrianMiasik.UWP.UWPNotifications.html#AdrianMiasik_UWP_UWPNotifications_ShowToast
+  commentId: M:AdrianMiasik.UWP.UWPNotifications.ShowToast
+  fullName: AdrianMiasik.UWP.UWPNotifications.ShowToast()
+  nameWithType: UWPNotifications.ShowToast()
+- uid: AdrianMiasik.UWP.UWPNotifications.ShowToast*
   name: ShowToast
-  href: api/AdrianMiasik.UWP.NotificationManager.html#AdrianMiasik_UWP_NotificationManager_ShowToast_
-  commentId: Overload:AdrianMiasik.UWP.NotificationManager.ShowToast
+  href: api/AdrianMiasik.UWP.UWPNotifications.html#AdrianMiasik_UWP_UWPNotifications_ShowToast_
+  commentId: Overload:AdrianMiasik.UWP.UWPNotifications.ShowToast
   isSpec: "True"
-  fullName: AdrianMiasik.UWP.NotificationManager.ShowToast
-  nameWithType: NotificationManager.ShowToast
+  fullName: AdrianMiasik.UWP.UWPNotifications.ShowToast
+  nameWithType: UWPNotifications.ShowToast

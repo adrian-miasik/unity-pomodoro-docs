@@ -29,7 +29,7 @@ application.
 
 - [Automation](../api/AdrianMiasik.Components.Specific.Automation.yml)
   - Scripts used for **running bulk actions**.
-- [Pages](../api/AdrianMiasik.Components.Specific.Pages.yml)
+- [Pages](../api/AdrianMiasik.Components.Core.Items.Pages.yml)
   - Our **content** / contexts. (Only one 'page' is seen at any given moment to the user)
 - [Settings](../api/AdrianMiasik.Components.Specific.Settings.yml)
   - Interactable **options**. (as seen in the settings page)

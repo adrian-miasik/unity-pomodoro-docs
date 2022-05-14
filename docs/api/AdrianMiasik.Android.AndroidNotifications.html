@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CollectionHelper
+    <title>Class AndroidNotifications
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CollectionHelper
+    <meta name="title" content="Class AndroidNotifications
    ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -68,42 +68,52 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Components.Core.Helpers.CollectionHelper">
+            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Android.AndroidNotifications">
   
   
-  <h1 id="AdrianMiasik_Components_Core_Helpers_CollectionHelper" data-uid="AdrianMiasik.Components.Core.Helpers.CollectionHelper" class="text-break">Class CollectionHelper
+  <h1 id="AdrianMiasik_Android_AndroidNotifications" data-uid="AdrianMiasik.Android.AndroidNotifications" class="text-break">Class AndroidNotifications
   </h1>
-  <div class="markdown level0 summary"><p>Helper methods for collections.</p>
+  <div class="markdown level0 summary"><p>Used to serve Android OS level notifications/toasts to the user. Intended to be used with
+<a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a> to queue notifications when necessary.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CollectionHelper</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">AndroidNotifications</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Core.Helpers.html">AdrianMiasik.Components.Core.Helpers</a></h6>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Android.html">AdrianMiasik.Android</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="AdrianMiasik_Components_Core_Helpers_CollectionHelper_syntax">Syntax</h5>
+  <h5 id="AdrianMiasik_Android_AndroidNotifications_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class CollectionHelper</code></pre>
+    <pre><code class="lang-csharp hljs">public class AndroidNotifications : MonoBehaviour, ITimerState</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Core_Helpers_CollectionHelper_Wrap_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Helpers.CollectionHelper.Wrap(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Android_AndroidNotifications_StateUpdate_AdrianMiasik_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States%2CAdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Helpers/CollectionHelper.cs/#L17">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Android/AndroidNotifications.cs/#L124">View Source</a>
   </span>
-  <a id="AdrianMiasik_Components_Core_Helpers_CollectionHelper_Wrap_" data-uid="AdrianMiasik.Components.Core.Helpers.CollectionHelper.Wrap*"></a>
-  <h4 id="AdrianMiasik_Components_Core_Helpers_CollectionHelper_Wrap_System_Int32_System_Int32_" data-uid="AdrianMiasik.Components.Core.Helpers.CollectionHelper.Wrap(System.Int32,System.Int32)">Wrap(Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>Wraps an index within the bounds of a collection.</p>
+  <a id="AdrianMiasik_Android_AndroidNotifications_StateUpdate_" data-uid="AdrianMiasik.Android.AndroidNotifications.StateUpdate*"></a>
+  <h4 id="AdrianMiasik_Android_AndroidNotifications_StateUpdate_AdrianMiasik_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_" data-uid="AdrianMiasik.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)">StateUpdate(PomodoroTimer.States, Theme)</h4>
+  <div class="markdown level1 summary"><p>Determines what to do with our notifications based on Timer States. So if we return to setup mode,
+we discard our queued notifications, etc...</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int Wrap(int index, int length)</code></pre>
+    <pre><code class="lang-csharp hljs">public void StateUpdate(PomodoroTimer.States state, Theme theme)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -116,38 +126,36 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td><p>The index you are trying to get (can surpass the bounds of your collection, it will
-divide down to a value within the bounds of your provided collection length as the second param)</p>
-</td>
+        <td><a class="xref" href="AdrianMiasik.PomodoroTimer.States.html">PomodoroTimer.States</a></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">length</span></td>
-        <td><p>The length of the collection</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a></td>
+        <td><span class="parametername">theme</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="AdrianMiasik_Components_Core_Helpers_CollectionHelper_Wrap_System_Int32_System_Int32__examples">Examples</h5>
-  <p>(E.g: You provide index -1 with length 3, you get index (2). This works both negative and positive)</p>
-
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a>
+  </div>
 </article>
           </div>
           
@@ -156,10 +164,10 @@ divide down to a value within the bounds of your provided collection length as t
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Core_Helpers_CollectionHelper.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Helpers.CollectionHelper%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Android_AndroidNotifications.md&amp;value=---%0Auid%3A%20AdrianMiasik.Android.AndroidNotifications%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Helpers/CollectionHelper.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Android/AndroidNotifications.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -16,6 +16,8 @@ Intended to be used for a **generic purpose**. Can be used in more than one cont
 
 - [Items](../api/AdrianMiasik.Components.Core.Items.yml)
   - A generic item intended to be **used alone** or **by a [container](../api/AdrianMiasik.Components.Core.Containers.yml)**.
+    - [Pages](../api/AdrianMiasik.Components.Core.Items.Pages.yml)
+      - Our **content** / contexts. (Only one 'page' is seen at any given moment to the user)
 
 - [Helpers](../api/AdrianMiasik.Components.Core.Helpers.yml)
   - A generic set of **tools** / helper scripts.
@@ -29,8 +31,6 @@ application.
 
 - [Automation](../api/AdrianMiasik.Components.Specific.Automation.yml)
   - Scripts used for **running bulk actions**.
-- [Pages](../api/AdrianMiasik.Components.Core.Items.Pages.yml)
-  - Our **content** / contexts. (Only one 'page' is seen at any given moment to the user)
 - [Settings](../api/AdrianMiasik.Components.Specific.Settings.yml)
   - Interactable **options**. (as seen in the settings page)
   

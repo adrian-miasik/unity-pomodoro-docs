@@ -73,7 +73,9 @@
   
   <h1 id="AdrianMiasik_Android_AndroidNotifications" data-uid="AdrianMiasik.Android.AndroidNotifications" class="text-break">Class AndroidNotifications
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Used to serve Android OS level notifications/toasts to the user. Intended to be used with
+<a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a> to queue notifications when necessary.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -98,14 +100,16 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/784301836f8583dc75d91459d3fee3b2419d2b7d/apiSpec/new?filename=AdrianMiasik_Android_AndroidNotifications_StateUpdate_AdrianMiasik_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States%2CAdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/bb7d874c3b1236ef46111317c049d7424db02af6/apiSpec/new?filename=AdrianMiasik_Android_AndroidNotifications_StateUpdate_AdrianMiasik_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States%2CAdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/784301836f8583dc75d91459d3fee3b2419d2b7d/UnityPomodoro/Assets/AdrianMiasik/Scripts/Android/AndroidNotifications.cs/#L100">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/bb7d874c3b1236ef46111317c049d7424db02af6/UnityPomodoro/Assets/AdrianMiasik/Scripts/Android/AndroidNotifications.cs/#L124">View Source</a>
   </span>
   <a id="AdrianMiasik_Android_AndroidNotifications_StateUpdate_" data-uid="AdrianMiasik.Android.AndroidNotifications.StateUpdate*"></a>
   <h4 id="AdrianMiasik_Android_AndroidNotifications_StateUpdate_AdrianMiasik_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_" data-uid="AdrianMiasik.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)">StateUpdate(PomodoroTimer.States, Theme)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines what to do with our notifications based on Timer States. So if we return to setup mode,
+we discard our queued notifications, etc...</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -133,6 +137,21 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a>
@@ -145,10 +164,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/784301836f8583dc75d91459d3fee3b2419d2b7d/apiSpec/new?filename=AdrianMiasik_Android_AndroidNotifications.md&amp;value=---%0Auid%3A%20AdrianMiasik.Android.AndroidNotifications%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/bb7d874c3b1236ef46111317c049d7424db02af6/apiSpec/new?filename=AdrianMiasik_Android_AndroidNotifications.md&amp;value=---%0Auid%3A%20AdrianMiasik.Android.AndroidNotifications%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/784301836f8583dc75d91459d3fee3b2419d2b7d/UnityPomodoro/Assets/AdrianMiasik/Scripts/Android/AndroidNotifications.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/bb7d874c3b1236ef46111317c049d7424db02af6/UnityPomodoro/Assets/AdrianMiasik/Scripts/Android/AndroidNotifications.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

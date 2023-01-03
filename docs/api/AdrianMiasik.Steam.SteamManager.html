@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MediaCreator
+    <title>Class SteamManager
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MediaCreator
+    <meta name="title" content="Class SteamManager
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -68,17 +68,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Components.Specific.Automation.MediaCreator">
+            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Steam.SteamManager">
   
   
-  <h1 id="AdrianMiasik_Components_Specific_Automation_MediaCreator" data-uid="AdrianMiasik.Components.Specific.Automation.MediaCreator" class="text-break">Class MediaCreator
+  <h1 id="AdrianMiasik_Steam_SteamManager" data-uid="AdrianMiasik.Steam.SteamManager" class="text-break">Class SteamManager
   </h1>
-  <div class="markdown level0 summary"><p>Generates and creates our promotional screenshots automatically (Previously this was done manually).
-<remarks>Intended to be run for any new release so we can get the most up-to-date app media.</remarks>
-<remarks>To use this tool: Make sure your editor game view window matches your desired screenshot resolution.
-Then enter play mode. Once the timer spawn animation completes, right click the PomodoroTimer script in the
-Inspector, and press &quot;Create Media&quot;. This will start the screenshot scenarios and generate
-screenshots for our release. See console log for output details.</remarks></p>
+  <div class="markdown level0 summary"><p>A class responsible for initializing our Steamworks backend.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -88,13 +83,45 @@ screenshots for our release. See console log for output details.</remarks></p>
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">MediaCreator</span></div>
+    <div class="level5"><span class="xref">SteamManager</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Specific.Automation.html">AdrianMiasik.Components.Specific.Automation</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Steam.html">AdrianMiasik.Steam</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="AdrianMiasik_Components_Specific_Automation_MediaCreator_syntax">Syntax</h5>
+  <h5 id="AdrianMiasik_Steam_SteamManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MediaCreator : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class SteamManager : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Steam_SteamManager_Initialize.md&amp;value=---%0Auid%3A%20AdrianMiasik.Steam.SteamManager.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Steam/SteamManager.cs/#L14">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Steam_SteamManager_Initialize_" data-uid="AdrianMiasik.Steam.SteamManager.Initialize*"></a>
+  <h4 id="AdrianMiasik_Steam_SteamManager_Initialize" data-uid="AdrianMiasik.Steam.SteamManager.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Steam_SteamManager_Shutdown.md&amp;value=---%0Auid%3A%20AdrianMiasik.Steam.SteamManager.Shutdown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Steam/SteamManager.cs/#L43">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Steam_SteamManager_Shutdown_" data-uid="AdrianMiasik.Steam.SteamManager.Shutdown*"></a>
+  <h4 id="AdrianMiasik_Steam_SteamManager_Shutdown" data-uid="AdrianMiasik.Steam.SteamManager.Shutdown">Shutdown()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Shutdown()</code></pre>
   </div>
 </article>
           </div>
@@ -104,10 +131,10 @@ screenshots for our release. See console log for output details.</remarks></p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Specific_Automation_MediaCreator.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.Automation.MediaCreator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Steam_SteamManager.md&amp;value=---%0Auid%3A%20AdrianMiasik.Steam.SteamManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/Automation/MediaCreator.cs/#L16" class="contribution-link">View Source</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Steam/SteamManager.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

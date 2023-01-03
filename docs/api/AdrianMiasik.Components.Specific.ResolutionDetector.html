@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ImageHoverColorChange
+    <title>Class ResolutionDetector
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ImageHoverColorChange
+    <meta name="title" content="Class ResolutionDetector
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -68,13 +68,14 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Components.Core.ImageHoverColorChange">
+            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Components.Specific.ResolutionDetector">
   
   
-  <h1 id="AdrianMiasik_Components_Core_ImageHoverColorChange" data-uid="AdrianMiasik.Components.Core.ImageHoverColorChange" class="text-break">Class ImageHoverColorChange
+  <h1 id="AdrianMiasik_Components_Specific_ResolutionDetector" data-uid="AdrianMiasik.Components.Specific.ResolutionDetector" class="text-break">Class ResolutionDetector
   </h1>
-  <div class="markdown level0 summary"><p>Colors the referenced image using the provided hover color when the user's pointer enters this component, and
-reset's the color as well on user's pointer exit.</p>
+  <div class="markdown level0 summary"><p>Responsible for detecting when the application window size changes. By default, it checks the current
+windows size every second and compares it with its cache to determine if the window has been resized.
+If the window has been resized it will fire off an action upon checking.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -84,35 +85,62 @@ reset's the color as well on user's pointer exit.</p>
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">ImageHoverColorChange</span></div>
+    <div class="level5"><span class="xref">ResolutionDetector</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IPointerEnterHandler</span></div>
-    <div><span class="xref">IPointerExitHandler</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Core.html">AdrianMiasik.Components.Core</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Specific.html">AdrianMiasik.Components.Specific</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="AdrianMiasik_Components_Core_ImageHoverColorChange_syntax">Syntax</h5>
+  <h5 id="AdrianMiasik_Components_Specific_ResolutionDetector_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ImageHoverColorChange : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class ResolutionDetector : MonoBehaviour</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Specific_ResolutionDetector_onResolutionChange.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.ResolutionDetector.onResolutionChange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/ResolutionDetector.cs/#L20">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_Specific_ResolutionDetector_onResolutionChange" data-uid="AdrianMiasik.Components.Specific.ResolutionDetector.onResolutionChange">onResolutionChange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public UnityEvent onResolutionChange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Events.UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Core_ImageHoverColorChange_OnPointerEnter_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerEnter(PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Specific_ResolutionDetector_Initialize_AdrianMiasik_PomodoroTimer_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.ResolutionDetector.Initialize(AdrianMiasik.PomodoroTimer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ImageHoverColorChange.cs/#L18">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/ResolutionDetector.cs/#L22">View Source</a>
   </span>
-  <a id="AdrianMiasik_Components_Core_ImageHoverColorChange_OnPointerEnter_" data-uid="AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerEnter*"></a>
-  <h4 id="AdrianMiasik_Components_Core_ImageHoverColorChange_OnPointerEnter_PointerEventData_" data-uid="AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerEnter(PointerEventData)">OnPointerEnter(PointerEventData)</h4>
+  <a id="AdrianMiasik_Components_Specific_ResolutionDetector_Initialize_" data-uid="AdrianMiasik.Components.Specific.ResolutionDetector.Initialize*"></a>
+  <h4 id="AdrianMiasik_Components_Specific_ResolutionDetector_Initialize_AdrianMiasik_PomodoroTimer_" data-uid="AdrianMiasik.Components.Specific.ResolutionDetector.Initialize(AdrianMiasik.PomodoroTimer)">Initialize(PomodoroTimer)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPointerEnter(PointerEventData eventData)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Initialize(PomodoroTimer pomodoroTimer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -125,51 +153,12 @@ reset's the color as well on user's pointer exit.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">PointerEventData</span></td>
-        <td><span class="parametername">eventData</span></td>
+        <td><a class="xref" href="AdrianMiasik.PomodoroTimer.html">PomodoroTimer</a></td>
+        <td><span class="parametername">pomodoroTimer</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Core_ImageHoverColorChange_OnPointerExit_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerExit(PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ImageHoverColorChange.cs/#L24">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Core_ImageHoverColorChange_OnPointerExit_" data-uid="AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerExit*"></a>
-  <h4 id="AdrianMiasik_Components_Core_ImageHoverColorChange_OnPointerExit_PointerEventData_" data-uid="AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerExit(PointerEventData)">OnPointerExit(PointerEventData)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPointerExit(PointerEventData eventData)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PointerEventData</span></td>
-        <td><span class="parametername">eventData</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IPointerEnterHandler</span>
-  </div>
-  <div>
-      <span class="xref">IPointerExitHandler</span>
-  </div>
 </article>
           </div>
           
@@ -178,10 +167,10 @@ reset's the color as well on user's pointer exit.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Core_ImageHoverColorChange.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ImageHoverColorChange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Specific_ResolutionDetector.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.ResolutionDetector%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ImageHoverColorChange.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/ResolutionDetector.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

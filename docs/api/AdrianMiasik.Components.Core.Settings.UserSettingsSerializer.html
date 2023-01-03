@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class UserSettingsSerializer
    ">
-    <meta name="generator" content="docfx 2.59.2.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -73,8 +73,8 @@
   
   <h1 id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer" class="text-break">Class UserSettingsSerializer
   </h1>
-  <div class="markdown level0 summary"><p>Saves/loads our user settings to/from our persistent data paths respectively. (<a class="xref" href="AdrianMiasik.Components.Core.Settings.SystemSettings.html">SystemSettings</a> and
-<a class="xref" href="AdrianMiasik.Components.Core.Settings.TimerSettings.html">TimerSettings</a>)</p>
+  <div class="markdown level0 summary"><p>Saves/loads our user settings to/from either our persistent data paths (local storage) or Steam cloud (remote
+storage). The data we save/load are: (<a class="xref" href="AdrianMiasik.Components.Core.Settings.SystemSettings.html">SystemSettings</a> and <a class="xref" href="AdrianMiasik.Components.Core.Settings.TimerSettings.html">TimerSettings</a>).</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -92,20 +92,70 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_LoadSystemSettings.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.LoadSystemSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_DeleteSettingsFile_System_String_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.DeleteSettingsFile(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Settings/UserSettingsSerializer.cs/#L94">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Settings/UserSettingsSerializer.cs/#L380">View Source</a>
   </span>
-  <a id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_LoadSystemSettings_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.LoadSystemSettings*"></a>
-  <h4 id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_LoadSystemSettings" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.LoadSystemSettings">LoadSystemSettings()</h4>
-  <div class="markdown level1 summary"><p>Returns the system settings saved in our data file.</p>
-</div>
+  <a id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_DeleteSettingsFile_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.DeleteSettingsFile*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_DeleteSettingsFile_System_String_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.DeleteSettingsFile(System.String)">DeleteSettingsFile(String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SystemSettings LoadSystemSettings()</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DeleteSettingsFile(string fileName)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_LoadSettings__1_System_String_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.LoadSettings%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Settings/UserSettingsSerializer.cs/#L157">View Source</a>
+  </span>
+  <a id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_LoadSettings_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.LoadSettings*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_LoadSettings__1_System_String_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.LoadSettings``1(System.String)">LoadSettings&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T LoadSettings&lt;T&gt;(string fileName)
+
+    where T : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -116,57 +166,41 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="AdrianMiasik.Components.Core.Settings.SystemSettings.html">SystemSettings</a></td>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_LoadTimerSettings.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.LoadTimerSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_SaveSettingsFile__1___0_System_String_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.SaveSettingsFile%60%601(%60%600%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Settings/UserSettingsSerializer.cs/#L71">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Settings/UserSettingsSerializer.cs/#L86">View Source</a>
   </span>
-  <a id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_LoadTimerSettings_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.LoadTimerSettings*"></a>
-  <h4 id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_LoadTimerSettings" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.LoadTimerSettings">LoadTimerSettings()</h4>
-  <div class="markdown level1 summary"><p>Returns the timer settings saved in  our data file.</p>
+  <a id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_SaveSettingsFile_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.SaveSettingsFile*"></a>
+  <h4 id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_SaveSettingsFile__1___0_System_String_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.SaveSettingsFile``1(``0,System.String)">SaveSettingsFile&lt;T&gt;(T, String)</h4>
+  <div class="markdown level1 summary"><p>Saves the provided file to both the Steam cloud (remote storage) and local storage.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TimerSettings LoadTimerSettings()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AdrianMiasik.Components.Core.Settings.TimerSettings.html">TimerSettings</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_Save_AdrianMiasik_Components_Core_Settings_SystemSettings_AdrianMiasik_Components_Core_Settings_TimerSettings_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.Save(AdrianMiasik.Components.Core.Settings.SystemSettings%2CAdrianMiasik.Components.Core.Settings.TimerSettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Settings/UserSettingsSerializer.cs/#L20">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_Save_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.Save*"></a>
-  <h4 id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_Save_AdrianMiasik_Components_Core_Settings_SystemSettings_AdrianMiasik_Components_Core_Settings_TimerSettings_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.Save(AdrianMiasik.Components.Core.Settings.SystemSettings,AdrianMiasik.Components.Core.Settings.TimerSettings)">Save(SystemSettings, TimerSettings)</h4>
-  <div class="markdown level1 summary"><p>Creates two data files in our persistent path. One for system settings, and one for timer settings.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Save(SystemSettings systemSettings, TimerSettings timerSettings)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void SaveSettingsFile&lt;T&gt;(T type, string fileName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -179,111 +213,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="AdrianMiasik.Components.Core.Settings.SystemSettings.html">SystemSettings</a></td>
-        <td><span class="parametername">systemSettings</span></td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">type</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="AdrianMiasik.Components.Core.Settings.TimerSettings.html">TimerSettings</a></td>
-        <td><span class="parametername">timerSettings</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_SaveSystemSettings_AdrianMiasik_Components_Core_Settings_SystemSettings_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.SaveSystemSettings(AdrianMiasik.Components.Core.Settings.SystemSettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Settings/UserSettingsSerializer.cs/#L37">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_SaveSystemSettings_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.SaveSystemSettings*"></a>
-  <h4 id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_SaveSystemSettings_AdrianMiasik_Components_Core_Settings_SystemSettings_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.SaveSystemSettings(AdrianMiasik.Components.Core.Settings.SystemSettings)">SaveSystemSettings(SystemSettings)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SaveSystemSettings(SystemSettings systemSettings)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="AdrianMiasik.Components.Core.Settings.SystemSettings.html">SystemSettings</a></td>
-        <td><span class="parametername">systemSettings</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_SaveTimerSettings_AdrianMiasik_Components_Core_Settings_TimerSettings_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.SaveTimerSettings(AdrianMiasik.Components.Core.Settings.TimerSettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Settings/UserSettingsSerializer.cs/#L52">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_SaveTimerSettings_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.SaveTimerSettings*"></a>
-  <h4 id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_SaveTimerSettings_AdrianMiasik_Components_Core_Settings_TimerSettings_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.SaveTimerSettings(AdrianMiasik.Components.Core.Settings.TimerSettings)">SaveTimerSettings(TimerSettings)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SaveTimerSettings(TimerSettings timerSettings)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AdrianMiasik.Components.Core.Settings.TimerSettings.html">TimerSettings</a></td>
-        <td><span class="parametername">timerSettings</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_WipeSystemSettings.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.WipeSystemSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Settings/UserSettingsSerializer.cs/#L113">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_WipeSystemSettings_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.WipeSystemSettings*"></a>
-  <h4 id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_WipeSystemSettings" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.WipeSystemSettings">WipeSystemSettings()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WipeSystemSettings()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_WipeTimerSettings.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.WipeTimerSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Settings/UserSettingsSerializer.cs/#L121">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_WipeTimerSettings_" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.WipeTimerSettings*"></a>
-  <h4 id="AdrianMiasik_Components_Core_Settings_UserSettingsSerializer_WipeTimerSettings" data-uid="AdrianMiasik.Components.Core.Settings.UserSettingsSerializer.WipeTimerSettings">WipeTimerSettings()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void WipeTimerSettings()</code></pre>
-  </div>
 </article>
           </div>
           
@@ -292,10 +247,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Core_Settings_UserSettingsSerializer.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Settings.UserSettingsSerializer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Core_Settings_UserSettingsSerializer.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.Settings.UserSettingsSerializer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Settings/UserSettingsSerializer.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/Settings/UserSettingsSerializer.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

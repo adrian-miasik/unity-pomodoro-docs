@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace AdrianMiasik.Components.Specific
    ">
-    <meta name="generator" content="docfx 2.59.2.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -83,8 +83,9 @@ The background is our default selection for Unity's EventSystem.</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.Specific.CompletionLabel.html">CompletionLabel</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a> used primarily to update the color of the referenced
-&quot;TIMER COMPLETE&quot; labels via <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a> ColorUpdate. Also used for offsetting
-the labels depending on long break setting. <a class="xref" href="AdrianMiasik.Components.Specific.Settings.html">AdrianMiasik.Components.Specific.Settings</a></p>
+&quot;TIMER COMPLETE&quot; labels via <a class="xref" href="AdrianMiasik.Interfaces.IColorHook.html">IColorHook</a> ColorUpdate.
+This component is used to prompt the user that the timer is finished.
+Also used for offsetting the labels depending on long break setting. <a class="xref" href="AdrianMiasik.Components.Specific.Settings.html">AdrianMiasik.Components.Specific.Settings</a> b</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.Specific.CreditsGhost.html">CreditsGhost</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Base.TimerProgress.html">TimerProgress</a> inheritor used for displaying the authors name of the app. Intended to minimize
@@ -95,9 +96,14 @@ after a couple seconds via the base class.</p>
 (E.g. It's 3:02pm with 3 minutes left on the timer. Thus this will display: &quot;3:05pm&quot;.)</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.Specific.HotkeyDetector.html">HotkeyDetector</a></h4>
-      <section><p>Responsible for our detecting and executing our keyboard shortcut actions.
+      <section><p>Responsible for our detecting and executing our keyboard shortcuts/binding actions.
 Single keys are processed in <code>ProcessKeys()</code>,
 and multi-keys are processed in <code>ProcessKeybinds()</code>.</p>
+</section>
+      <h4><a class="xref" href="AdrianMiasik.Components.Specific.ResolutionDetector.html">ResolutionDetector</a></h4>
+      <section><p>Responsible for detecting when the application window size changes. By default, it checks the current
+windows size every second and compares it with its cache to determine if the window has been resized.
+If the window has been resized it will fire off an action upon checking.</p>
 </section>
       <h4><a class="xref" href="AdrianMiasik.Components.Specific.RightButton.html">RightButton</a></h4>
       <section><p>A <a class="xref" href="AdrianMiasik.Components.Base.ThemeElement.html">ThemeElement</a> button used to play / pause the timer. Implements <a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a>

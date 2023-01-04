@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ClickButton
    ">
-    <meta name="generator" content="docfx 2.59.2.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -81,33 +81,32 @@ Supports animations, click hold curves, unity events, and sound FX (with pitch v
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
-    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
-    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
-    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">UnityEngine.EventSystems.UIBehaviour</span></div>
-    <div class="level6"><span class="xref">UnityEngine.UI.Graphic</span></div>
-    <div class="level7"><span class="xref">UnityEngine.UI.MaskableGraphic</span></div>
-    <div class="level8"><span class="xref">UnityEngine.UI.Image</span></div>
-    <div class="level9"><span class="xref">ClickButton</span></div>
-      <div class="level10"><a class="xref" href="AdrianMiasik.Components.Core.ClickButtonImageIcon.html">ClickButtonImageIcon</a></div>
-      <div class="level10"><a class="xref" href="AdrianMiasik.Components.Core.ClickButtonSVGIcon.html">ClickButtonSVGIcon</a></div>
-      <div class="level10"><a class="xref" href="AdrianMiasik.Components.Core.ClickButtonText.html">ClickButtonText</a></div>
+    <div class="level1"><span class="xref">ClickButton</span></div>
+      <div class="level2"><a class="xref" href="AdrianMiasik.Components.Core.ClickButtonImageIcon.html">ClickButtonImageIcon</a></div>
+      <div class="level2"><a class="xref" href="AdrianMiasik.Components.Core.ClickButtonSVGIcon.html">ClickButtonSVGIcon</a></div>
+      <div class="level2"><a class="xref" href="AdrianMiasik.Components.Core.ClickButtonText.html">ClickButtonText</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPointerDownHandler</span></div>
+    <div><span class="xref">IPointerUpHandler</span></div>
+    <div><span class="xref">IPointerClickHandler</span></div>
+    <div><span class="xref">IPointerExitHandler</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Base.html">AdrianMiasik.Components.Base</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
   <h5 id="AdrianMiasik_Components_Base_ClickButton_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ClickButton : Image, ICanvasElement, IClippable, IMaskable, IMaterialModifier, ISerializationCallbackReceiver, ILayoutElement, ICanvasRaycastFilter, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler, IPointerExitHandler, IEventSystemHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class ClickButton : Image</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_clickHoldScale.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_clickHoldScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_clickHoldScale.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_clickHoldScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L26">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L26">View Source</a>
   </span>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_m_clickHoldScale" data-uid="AdrianMiasik.Components.Base.ClickButton.m_clickHoldScale">m_clickHoldScale</h4>
   <div class="markdown level1 summary"><p>What transform scale do you want the target to scale to on button press?</p>
@@ -134,10 +133,10 @@ Supports animations, click hold curves, unity events, and sound FX (with pitch v
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_clickReleaseScale.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_clickReleaseScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_clickReleaseScale.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_clickReleaseScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L32">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L32">View Source</a>
   </span>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_m_clickReleaseScale" data-uid="AdrianMiasik.Components.Base.ClickButton.m_clickReleaseScale">m_clickReleaseScale</h4>
   <div class="markdown level1 summary"><p>What transform scale (animation over time) do you want the target to scale to on button release/after click?
@@ -165,10 +164,10 @@ Used as a release animation.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_clickSound.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_clickSound%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_clickSound.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_clickSound%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L18">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L18">View Source</a>
   </span>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_m_clickSound" data-uid="AdrianMiasik.Components.Base.ClickButton.m_clickSound">m_clickSound</h4>
   <div class="markdown level1 summary"></div>
@@ -194,10 +193,10 @@ Used as a release animation.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_containerTarget.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_containerTarget%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_containerTarget.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_containerTarget%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L16">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L16">View Source</a>
   </span>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_m_containerTarget" data-uid="AdrianMiasik.Components.Base.ClickButton.m_containerTarget">m_containerTarget</h4>
   <div class="markdown level1 summary"></div>
@@ -223,10 +222,10 @@ Used as a release animation.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_enableClickSound.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_enableClickSound%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_enableClickSound.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_enableClickSound%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L17">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L17">View Source</a>
   </span>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_m_enableClickSound" data-uid="AdrianMiasik.Components.Base.ClickButton.m_enableClickSound">m_enableClickSound</h4>
   <div class="markdown level1 summary"></div>
@@ -252,10 +251,10 @@ Used as a release animation.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_highestPitch.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_highestPitch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_highestPitch.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_highestPitch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L21">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L21">View Source</a>
   </span>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_m_highestPitch" data-uid="AdrianMiasik.Components.Base.ClickButton.m_highestPitch">m_highestPitch</h4>
   <div class="markdown level1 summary"></div>
@@ -281,10 +280,10 @@ Used as a release animation.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_holdRamp.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_holdRamp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_holdRamp.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_holdRamp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L39">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L39">View Source</a>
   </span>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_m_holdRamp" data-uid="AdrianMiasik.Components.Base.ClickButton.m_holdRamp">m_holdRamp</h4>
   <div class="markdown level1 summary"><p>How fast do you want to press/click the button when user is holding down the button? Initially set to be
@@ -313,10 +312,40 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_isPitchVariationOn.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_isPitchVariationOn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_isHoldable.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_isHoldable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L19">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L44">View Source</a>
+  </span>
+  <h4 id="AdrianMiasik_Components_Base_ClickButton_m_isHoldable" data-uid="AdrianMiasik.Components.Base.ClickButton.m_isHoldable">m_isHoldable</h4>
+  <div class="markdown level1 summary"><p>Can the user invoke this button more than once by holding it down?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool m_isHoldable</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_isPitchVariationOn.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_isPitchVariationOn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L19">View Source</a>
   </span>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_m_isPitchVariationOn" data-uid="AdrianMiasik.Components.Base.ClickButton.m_isPitchVariationOn">m_isPitchVariationOn</h4>
   <div class="markdown level1 summary"></div>
@@ -342,10 +371,10 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_lowestPitch.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_lowestPitch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_lowestPitch.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_lowestPitch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L20">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L20">View Source</a>
   </span>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_m_lowestPitch" data-uid="AdrianMiasik.Components.Base.ClickButton.m_lowestPitch">m_lowestPitch</h4>
   <div class="markdown level1 summary"></div>
@@ -371,10 +400,10 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_onClick.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_onClick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_onClick.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_onClick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L44">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L49">View Source</a>
   </span>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_m_onClick" data-uid="AdrianMiasik.Components.Base.ClickButton.m_onClick">m_onClick</h4>
   <div class="markdown level1 summary"></div>
@@ -400,10 +429,10 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_onDown.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_onDown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_onDown.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_onDown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L42">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L47">View Source</a>
   </span>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_m_onDown" data-uid="AdrianMiasik.Components.Base.ClickButton.m_onDown">m_onDown</h4>
   <div class="markdown level1 summary"></div>
@@ -429,10 +458,10 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_onUp.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_onUp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_m_onUp.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.m_onUp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L43">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L48">View Source</a>
   </span>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_m_onUp" data-uid="AdrianMiasik.Components.Base.ClickButton.m_onUp">m_onUp</h4>
   <div class="markdown level1 summary"></div>
@@ -460,10 +489,10 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_CancelHold.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.CancelHold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_CancelHold.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.CancelHold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L137">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L142">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ClickButton_CancelHold_" data-uid="AdrianMiasik.Components.Base.ClickButton.CancelHold*"></a>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_CancelHold" data-uid="AdrianMiasik.Components.Base.ClickButton.CancelHold">CancelHold()</h4>
@@ -475,10 +504,10 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_Hide.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.Hide%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_Hide.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.Hide%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L69">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L74">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ClickButton_Hide_" data-uid="AdrianMiasik.Components.Base.ClickButton.Hide*"></a>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_Hide" data-uid="AdrianMiasik.Components.Base.ClickButton.Hide">Hide()</h4>
@@ -490,10 +519,10 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_Hold.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.Hold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_Hold.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.Hold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L81">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L86">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ClickButton_Hold_" data-uid="AdrianMiasik.Components.Base.ClickButton.Hold*"></a>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_Hold" data-uid="AdrianMiasik.Components.Base.ClickButton.Hold">Hold()</h4>
@@ -505,13 +534,13 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_OnPointerClick_UnityEngine_EventSystems_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.OnPointerClick(UnityEngine.EventSystems.PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_OnPointerClick_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.OnPointerClick(PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L149">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L154">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ClickButton_OnPointerClick_" data-uid="AdrianMiasik.Components.Base.ClickButton.OnPointerClick*"></a>
-  <h4 id="AdrianMiasik_Components_Base_ClickButton_OnPointerClick_UnityEngine_EventSystems_PointerEventData_" data-uid="AdrianMiasik.Components.Base.ClickButton.OnPointerClick(UnityEngine.EventSystems.PointerEventData)">OnPointerClick(PointerEventData)</h4>
+  <h4 id="AdrianMiasik_Components_Base_ClickButton_OnPointerClick_PointerEventData_" data-uid="AdrianMiasik.Components.Base.ClickButton.OnPointerClick(PointerEventData)">OnPointerClick(PointerEventData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -529,7 +558,7 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="xref">PointerEventData</span></td>
         <td><span class="parametername">eventData</span></td>
         <td></td>
       </tr>
@@ -537,13 +566,13 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_OnPointerDown_UnityEngine_EventSystems_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.OnPointerDown(UnityEngine.EventSystems.PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_OnPointerDown_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.OnPointerDown(PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L94">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L99">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ClickButton_OnPointerDown_" data-uid="AdrianMiasik.Components.Base.ClickButton.OnPointerDown*"></a>
-  <h4 id="AdrianMiasik_Components_Base_ClickButton_OnPointerDown_UnityEngine_EventSystems_PointerEventData_" data-uid="AdrianMiasik.Components.Base.ClickButton.OnPointerDown(UnityEngine.EventSystems.PointerEventData)">OnPointerDown(PointerEventData)</h4>
+  <h4 id="AdrianMiasik_Components_Base_ClickButton_OnPointerDown_PointerEventData_" data-uid="AdrianMiasik.Components.Base.ClickButton.OnPointerDown(PointerEventData)">OnPointerDown(PointerEventData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -561,7 +590,7 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="xref">PointerEventData</span></td>
         <td><span class="parametername">eventData</span></td>
         <td></td>
       </tr>
@@ -569,13 +598,13 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_OnPointerExit_UnityEngine_EventSystems_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.OnPointerExit(UnityEngine.EventSystems.PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_OnPointerExit_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.OnPointerExit(PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L232">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L242">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ClickButton_OnPointerExit_" data-uid="AdrianMiasik.Components.Base.ClickButton.OnPointerExit*"></a>
-  <h4 id="AdrianMiasik_Components_Base_ClickButton_OnPointerExit_UnityEngine_EventSystems_PointerEventData_" data-uid="AdrianMiasik.Components.Base.ClickButton.OnPointerExit(UnityEngine.EventSystems.PointerEventData)">OnPointerExit(PointerEventData)</h4>
+  <h4 id="AdrianMiasik_Components_Base_ClickButton_OnPointerExit_PointerEventData_" data-uid="AdrianMiasik.Components.Base.ClickButton.OnPointerExit(PointerEventData)">OnPointerExit(PointerEventData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -593,7 +622,7 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="xref">PointerEventData</span></td>
         <td><span class="parametername">eventData</span></td>
         <td></td>
       </tr>
@@ -601,13 +630,13 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_OnPointerUp_UnityEngine_EventSystems_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.OnPointerUp(UnityEngine.EventSystems.PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_OnPointerUp_PointerEventData_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.OnPointerUp(PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L115">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L120">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ClickButton_OnPointerUp_" data-uid="AdrianMiasik.Components.Base.ClickButton.OnPointerUp*"></a>
-  <h4 id="AdrianMiasik_Components_Base_ClickButton_OnPointerUp_UnityEngine_EventSystems_PointerEventData_" data-uid="AdrianMiasik.Components.Base.ClickButton.OnPointerUp(UnityEngine.EventSystems.PointerEventData)">OnPointerUp(PointerEventData)</h4>
+  <h4 id="AdrianMiasik_Components_Base_ClickButton_OnPointerUp_PointerEventData_" data-uid="AdrianMiasik.Components.Base.ClickButton.OnPointerUp(PointerEventData)">OnPointerUp(PointerEventData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -625,7 +654,7 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="xref">PointerEventData</span></td>
         <td><span class="parametername">eventData</span></td>
         <td></td>
       </tr>
@@ -633,10 +662,10 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_OpenURL_System_String_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.OpenURL(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_OpenURL_System_String_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.OpenURL(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L223">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L233">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ClickButton_OpenURL_" data-uid="AdrianMiasik.Components.Base.ClickButton.OpenURL*"></a>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_OpenURL_System_String_" data-uid="AdrianMiasik.Components.Base.ClickButton.OpenURL(System.String)">OpenURL(String)</h4>
@@ -665,10 +694,10 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_Release.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.Release%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_Release.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.Release%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L86">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L91">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ClickButton_Release_" data-uid="AdrianMiasik.Components.Base.ClickButton.Release*"></a>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_Release" data-uid="AdrianMiasik.Components.Base.ClickButton.Release">Release()</h4>
@@ -680,10 +709,10 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_Show.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.Show%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_Show.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.Show%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L76">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L81">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ClickButton_Show_" data-uid="AdrianMiasik.Components.Base.ClickButton.Show*"></a>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_Show" data-uid="AdrianMiasik.Components.Base.ClickButton.Show">Show()</h4>
@@ -695,10 +724,10 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_Start.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton_Start.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L57">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L62">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Base_ClickButton_Start_" data-uid="AdrianMiasik.Components.Base.ClickButton.Start*"></a>
   <h4 id="AdrianMiasik_Components_Base_ClickButton_Start" data-uid="AdrianMiasik.Components.Base.ClickButton.Start">Start()</h4>
@@ -708,8 +737,19 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">UnityEngine.EventSystems.UIBehaviour.Start()</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPointerDownHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerUpHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerClickHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerExitHandler</span>
+  </div>
 </article>
           </div>
           
@@ -718,10 +758,10 @@ Ideally scenario is incrementing / decrementing our timer digits.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Base_ClickButton.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Base.ClickButton%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L13" class="contribution-link">View Source</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Base/ClickButton.cs/#L13" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

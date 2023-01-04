@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ClickButtonText
    ">
-    <meta name="generator" content="docfx 2.59.2.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -79,16 +79,15 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
-    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
-    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
-    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">UnityEngine.EventSystems.UIBehaviour</span></div>
-    <div class="level6"><span class="xref">UnityEngine.UI.Graphic</span></div>
-    <div class="level7"><span class="xref">UnityEngine.UI.MaskableGraphic</span></div>
-    <div class="level8"><span class="xref">UnityEngine.UI.Image</span></div>
-    <div class="level9"><a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html">ClickButton</a></div>
-    <div class="level10"><span class="xref">ClickButtonText</span></div>
+    <div class="level1"><a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html">ClickButton</a></div>
+    <div class="level2"><span class="xref">ClickButtonText</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPointerDownHandler</span></div>
+    <div><span class="xref">IPointerUpHandler</span></div>
+    <div><span class="xref">IPointerClickHandler</span></div>
+    <div><span class="xref">IPointerExitHandler</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -120,6 +119,9 @@
       <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_m_holdRamp">ClickButton.m_holdRamp</a>
     </div>
     <div>
+      <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_m_isHoldable">ClickButton.m_isHoldable</a>
+    </div>
+    <div>
       <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_m_onDown">ClickButton.m_onDown</a>
     </div>
     <div>
@@ -138,38 +140,38 @@
       <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_Release">ClickButton.Release()</a>
     </div>
     <div>
-      <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerDown_UnityEngine_EventSystems_PointerEventData_">ClickButton.OnPointerDown(PointerEventData)</a>
+      <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerDown_PointerEventData_">ClickButton.OnPointerDown(PointerEventData)</a>
     </div>
     <div>
-      <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerUp_UnityEngine_EventSystems_PointerEventData_">ClickButton.OnPointerUp(PointerEventData)</a>
+      <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerUp_PointerEventData_">ClickButton.OnPointerUp(PointerEventData)</a>
     </div>
     <div>
       <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_CancelHold">ClickButton.CancelHold()</a>
     </div>
     <div>
-      <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerClick_UnityEngine_EventSystems_PointerEventData_">ClickButton.OnPointerClick(PointerEventData)</a>
+      <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerClick_PointerEventData_">ClickButton.OnPointerClick(PointerEventData)</a>
     </div>
     <div>
       <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OpenURL_System_String_">ClickButton.OpenURL(String)</a>
     </div>
     <div>
-      <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerExit_UnityEngine_EventSystems_PointerEventData_">ClickButton.OnPointerExit(PointerEventData)</a>
+      <a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerExit_PointerEventData_">ClickButton.OnPointerExit(PointerEventData)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Core.html">AdrianMiasik.Components.Core</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
   <h5 id="AdrianMiasik_Components_Core_ClickButtonText_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ClickButtonText : ClickButton, ICanvasElement, IClippable, IMaskable, IMaterialModifier, ISerializationCallbackReceiver, ILayoutElement, ICanvasRaycastFilter, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler, IPointerExitHandler, IEventSystemHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class ClickButtonText : ClickButton</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Core_ClickButtonText_m_text.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ClickButtonText.m_text%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Core_ClickButtonText_m_text.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ClickButtonText.m_text%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ClickButtonText.cs/#L11">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ClickButtonText.cs/#L11">View Source</a>
   </span>
   <h4 id="AdrianMiasik_Components_Core_ClickButtonText_m_text" data-uid="AdrianMiasik.Components.Core.ClickButtonText.m_text">m_text</h4>
   <div class="markdown level1 summary"></div>
@@ -188,7 +190,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TMPro.TMP_Text</span></td>
+        <td><span class="xref">TMP_Text</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -197,10 +199,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Core_ClickButtonText_Hide.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ClickButtonText.Hide%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Core_ClickButtonText_Hide.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ClickButtonText.Hide%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ClickButtonText.cs/#L19">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ClickButtonText.cs/#L19">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Core_ClickButtonText_Hide_" data-uid="AdrianMiasik.Components.Core.ClickButtonText.Hide*"></a>
   <h4 id="AdrianMiasik_Components_Core_ClickButtonText_Hide" data-uid="AdrianMiasik.Components.Core.ClickButtonText.Hide">Hide()</h4>
@@ -214,10 +216,10 @@
   <div><a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_Hide">ClickButton.Hide()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Core_ClickButtonText_Show.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ClickButtonText.Show%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Core_ClickButtonText_Show.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ClickButtonText.Show%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ClickButtonText.cs/#L13">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ClickButtonText.cs/#L13">View Source</a>
   </span>
   <a id="AdrianMiasik_Components_Core_ClickButtonText_Show_" data-uid="AdrianMiasik.Components.Core.ClickButtonText.Show*"></a>
   <h4 id="AdrianMiasik_Components_Core_ClickButtonText_Show" data-uid="AdrianMiasik.Components.Core.ClickButtonText.Show">Show()</h4>
@@ -229,6 +231,19 @@
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_Show">ClickButton.Show()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPointerDownHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerUpHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerClickHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerExitHandler</span>
+  </div>
 </article>
           </div>
           
@@ -237,10 +252,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/develop/apiSpec/new?filename=AdrianMiasik_Components_Core_ClickButtonText.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ClickButtonText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/apiSpec/new?filename=AdrianMiasik_Components_Core_ClickButtonText.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.ClickButtonText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/develop/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ClickButtonText.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/30fa9b606b4b0c5c0b1c48528c4c1e51acdef113/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/ClickButtonText.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

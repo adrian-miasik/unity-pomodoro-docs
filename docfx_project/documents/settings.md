@@ -1,4 +1,4 @@
-﻿# Settings
+# Settings
 ## System
 
 | Name                             | Description                                                             | Datatype      | Default | 

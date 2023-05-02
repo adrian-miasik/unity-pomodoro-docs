@@ -161,11 +161,11 @@ references:
   commentId: F:AdrianMiasik.Components.Base.ClickButton.m_onUp
   fullName: AdrianMiasik.Components.Base.ClickButton.m_onUp
   nameWithType: ClickButton.m_onUp
-- uid: AdrianMiasik.Components.Base.ClickButton.OnPointerClick(PointerEventData)
+- uid: AdrianMiasik.Components.Base.ClickButton.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
   name: OnPointerClick(PointerEventData)
-  href: api/AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerClick_PointerEventData_
-  commentId: M:AdrianMiasik.Components.Base.ClickButton.OnPointerClick(PointerEventData)
-  fullName: AdrianMiasik.Components.Base.ClickButton.OnPointerClick(PointerEventData)
+  href: api/AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerClick_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Base.ClickButton.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Base.ClickButton.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
   nameWithType: ClickButton.OnPointerClick(PointerEventData)
 - uid: AdrianMiasik.Components.Base.ClickButton.OnPointerClick*
   name: OnPointerClick
@@ -174,11 +174,11 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Base.ClickButton.OnPointerClick
   nameWithType: ClickButton.OnPointerClick
-- uid: AdrianMiasik.Components.Base.ClickButton.OnPointerDown(PointerEventData)
+- uid: AdrianMiasik.Components.Base.ClickButton.OnPointerDown(UnityEngine.EventSystems.PointerEventData)
   name: OnPointerDown(PointerEventData)
-  href: api/AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerDown_PointerEventData_
-  commentId: M:AdrianMiasik.Components.Base.ClickButton.OnPointerDown(PointerEventData)
-  fullName: AdrianMiasik.Components.Base.ClickButton.OnPointerDown(PointerEventData)
+  href: api/AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerDown_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Base.ClickButton.OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Base.ClickButton.OnPointerDown(UnityEngine.EventSystems.PointerEventData)
   nameWithType: ClickButton.OnPointerDown(PointerEventData)
 - uid: AdrianMiasik.Components.Base.ClickButton.OnPointerDown*
   name: OnPointerDown
@@ -187,11 +187,11 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Base.ClickButton.OnPointerDown
   nameWithType: ClickButton.OnPointerDown
-- uid: AdrianMiasik.Components.Base.ClickButton.OnPointerExit(PointerEventData)
+- uid: AdrianMiasik.Components.Base.ClickButton.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
   name: OnPointerExit(PointerEventData)
-  href: api/AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerExit_PointerEventData_
-  commentId: M:AdrianMiasik.Components.Base.ClickButton.OnPointerExit(PointerEventData)
-  fullName: AdrianMiasik.Components.Base.ClickButton.OnPointerExit(PointerEventData)
+  href: api/AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerExit_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Base.ClickButton.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Base.ClickButton.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
   nameWithType: ClickButton.OnPointerExit(PointerEventData)
 - uid: AdrianMiasik.Components.Base.ClickButton.OnPointerExit*
   name: OnPointerExit
@@ -200,11 +200,11 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Base.ClickButton.OnPointerExit
   nameWithType: ClickButton.OnPointerExit
-- uid: AdrianMiasik.Components.Base.ClickButton.OnPointerUp(PointerEventData)
+- uid: AdrianMiasik.Components.Base.ClickButton.OnPointerUp(UnityEngine.EventSystems.PointerEventData)
   name: OnPointerUp(PointerEventData)
-  href: api/AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerUp_PointerEventData_
-  commentId: M:AdrianMiasik.Components.Base.ClickButton.OnPointerUp(PointerEventData)
-  fullName: AdrianMiasik.Components.Base.ClickButton.OnPointerUp(PointerEventData)
+  href: api/AdrianMiasik.Components.Base.ClickButton.html#AdrianMiasik_Components_Base_ClickButton_OnPointerUp_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Base.ClickButton.OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Base.ClickButton.OnPointerUp(UnityEngine.EventSystems.PointerEventData)
   nameWithType: ClickButton.OnPointerUp(PointerEventData)
 - uid: AdrianMiasik.Components.Base.ClickButton.OnPointerUp*
   name: OnPointerUp
@@ -323,6 +323,12 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Base.Ghost.Initialize
   nameWithType: Ghost.Initialize
+- uid: AdrianMiasik.Components.Base.Ghost.m_fadeProgress
+  name: m_fadeProgress
+  href: api/AdrianMiasik.Components.Base.Ghost.html#AdrianMiasik_Components_Base_Ghost_m_fadeProgress
+  commentId: F:AdrianMiasik.Components.Base.Ghost.m_fadeProgress
+  fullName: AdrianMiasik.Components.Base.Ghost.m_fadeProgress
+  nameWithType: Ghost.m_fadeProgress
 - uid: AdrianMiasik.Components.Base.Ghost.m_icon
   name: m_icon
   href: api/AdrianMiasik.Components.Base.Ghost.html#AdrianMiasik_Components_Base_Ghost_m_icon
@@ -335,6 +341,12 @@ references:
   commentId: F:AdrianMiasik.Components.Base.Ghost.m_text
   fullName: AdrianMiasik.Components.Base.Ghost.m_text
   nameWithType: Ghost.m_text
+- uid: AdrianMiasik.Components.Base.Ghost.m_textContainer
+  name: m_textContainer
+  href: api/AdrianMiasik.Components.Base.Ghost.html#AdrianMiasik_Components_Base_Ghost_m_textContainer
+  commentId: F:AdrianMiasik.Components.Base.Ghost.m_textContainer
+  fullName: AdrianMiasik.Components.Base.Ghost.m_textContainer
+  nameWithType: Ghost.m_textContainer
 - uid: AdrianMiasik.Components.Base.Ghost.StateUpdate(AdrianMiasik.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
   name: StateUpdate(PomodoroTimer.States, Theme)
   href: api/AdrianMiasik.Components.Base.Ghost.html#AdrianMiasik_Components_Base_Ghost_StateUpdate_AdrianMiasik_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_
@@ -348,6 +360,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Base.Ghost.StateUpdate
   nameWithType: Ghost.StateUpdate
+- uid: AdrianMiasik.Components.Base.Ghost.Update
+  name: Update()
+  href: api/AdrianMiasik.Components.Base.Ghost.html#AdrianMiasik_Components_Base_Ghost_Update
+  commentId: M:AdrianMiasik.Components.Base.Ghost.Update
+  fullName: AdrianMiasik.Components.Base.Ghost.Update()
+  nameWithType: Ghost.Update()
+- uid: AdrianMiasik.Components.Base.Ghost.Update*
+  name: Update
+  href: api/AdrianMiasik.Components.Base.Ghost.html#AdrianMiasik_Components_Base_Ghost_Update_
+  commentId: Overload:AdrianMiasik.Components.Base.Ghost.Update
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Base.Ghost.Update
+  nameWithType: Ghost.Update
 - uid: AdrianMiasik.Components.Base.ItemSelector`1
   name: ItemSelector<T>
   href: api/AdrianMiasik.Components.Base.ItemSelector-1.html
@@ -1184,11 +1209,11 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.BlurOverlay.Initialize
   nameWithType: BlurOverlay.Initialize
-- uid: AdrianMiasik.Components.Core.BlurOverlay.OnPointerClick(PointerEventData)
+- uid: AdrianMiasik.Components.Core.BlurOverlay.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
   name: OnPointerClick(PointerEventData)
-  href: api/AdrianMiasik.Components.Core.BlurOverlay.html#AdrianMiasik_Components_Core_BlurOverlay_OnPointerClick_PointerEventData_
-  commentId: M:AdrianMiasik.Components.Core.BlurOverlay.OnPointerClick(PointerEventData)
-  fullName: AdrianMiasik.Components.Core.BlurOverlay.OnPointerClick(PointerEventData)
+  href: api/AdrianMiasik.Components.Core.BlurOverlay.html#AdrianMiasik_Components_Core_BlurOverlay_OnPointerClick_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Core.BlurOverlay.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Core.BlurOverlay.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
   nameWithType: BlurOverlay.OnPointerClick(PointerEventData)
 - uid: AdrianMiasik.Components.Core.BlurOverlay.OnPointerClick*
   name: OnPointerClick
@@ -2139,6 +2164,22 @@ references:
   commentId: T:AdrianMiasik.Components.Core.Containers.SidebarPages
   fullName: AdrianMiasik.Components.Core.Containers.SidebarPages
   nameWithType: SidebarPages
+- uid: AdrianMiasik.Components.Core.Containers.SidebarPages.AddCustomSoundFiles(System.Collections.Generic.List{System.String})
+  name: AddCustomSoundFiles(List<String>)
+  href: api/AdrianMiasik.Components.Core.Containers.SidebarPages.html#AdrianMiasik_Components_Core_Containers_SidebarPages_AddCustomSoundFiles_System_Collections_Generic_List_System_String__
+  commentId: M:AdrianMiasik.Components.Core.Containers.SidebarPages.AddCustomSoundFiles(System.Collections.Generic.List{System.String})
+  name.vb: AddCustomSoundFiles(List(Of String))
+  fullName: AdrianMiasik.Components.Core.Containers.SidebarPages.AddCustomSoundFiles(System.Collections.Generic.List<System.String>)
+  fullName.vb: AdrianMiasik.Components.Core.Containers.SidebarPages.AddCustomSoundFiles(System.Collections.Generic.List(Of System.String))
+  nameWithType: SidebarPages.AddCustomSoundFiles(List<String>)
+  nameWithType.vb: SidebarPages.AddCustomSoundFiles(List(Of String))
+- uid: AdrianMiasik.Components.Core.Containers.SidebarPages.AddCustomSoundFiles*
+  name: AddCustomSoundFiles
+  href: api/AdrianMiasik.Components.Core.Containers.SidebarPages.html#AdrianMiasik_Components_Core_Containers_SidebarPages_AddCustomSoundFiles_
+  commentId: Overload:AdrianMiasik.Components.Core.Containers.SidebarPages.AddCustomSoundFiles
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Containers.SidebarPages.AddCustomSoundFiles
+  nameWithType: SidebarPages.AddCustomSoundFiles
 - uid: AdrianMiasik.Components.Core.Containers.SidebarPages.Initialize(AdrianMiasik.PomodoroTimer,System.Boolean)
   name: Initialize(PomodoroTimer, Boolean)
   href: api/AdrianMiasik.Components.Core.Containers.SidebarPages.html#AdrianMiasik_Components_Core_Containers_SidebarPages_Initialize_AdrianMiasik_PomodoroTimer_System_Boolean_
@@ -2256,6 +2297,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Containers.SidebarPages.RefreshTimerPage
   nameWithType: SidebarPages.RefreshTimerPage
+- uid: AdrianMiasik.Components.Core.Containers.SidebarPages.RemoveCustomAudioFile(System.String)
+  name: RemoveCustomAudioFile(String)
+  href: api/AdrianMiasik.Components.Core.Containers.SidebarPages.html#AdrianMiasik_Components_Core_Containers_SidebarPages_RemoveCustomAudioFile_System_String_
+  commentId: M:AdrianMiasik.Components.Core.Containers.SidebarPages.RemoveCustomAudioFile(System.String)
+  fullName: AdrianMiasik.Components.Core.Containers.SidebarPages.RemoveCustomAudioFile(System.String)
+  nameWithType: SidebarPages.RemoveCustomAudioFile(String)
+- uid: AdrianMiasik.Components.Core.Containers.SidebarPages.RemoveCustomAudioFile*
+  name: RemoveCustomAudioFile
+  href: api/AdrianMiasik.Components.Core.Containers.SidebarPages.html#AdrianMiasik_Components_Core_Containers_SidebarPages_RemoveCustomAudioFile_
+  commentId: Overload:AdrianMiasik.Components.Core.Containers.SidebarPages.RemoveCustomAudioFile
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Containers.SidebarPages.RemoveCustomAudioFile
+  nameWithType: SidebarPages.RemoveCustomAudioFile
 - uid: AdrianMiasik.Components.Core.Containers.SidebarPages.SetSettingDigitFormatDropdown(System.Int32)
   name: SetSettingDigitFormatDropdown(Int32)
   href: api/AdrianMiasik.Components.Core.Containers.SidebarPages.html#AdrianMiasik_Components_Core_Containers_SidebarPages_SetSettingDigitFormatDropdown_System_Int32_
@@ -2321,6 +2375,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Containers.SidebarPages.UpdateSettingsDigitFormatDropdown
   nameWithType: SidebarPages.UpdateSettingsDigitFormatDropdown
+- uid: AdrianMiasik.Components.Core.Containers.SidebarPages.ValidateCustomSoundChoice
+  name: ValidateCustomSoundChoice()
+  href: api/AdrianMiasik.Components.Core.Containers.SidebarPages.html#AdrianMiasik_Components_Core_Containers_SidebarPages_ValidateCustomSoundChoice
+  commentId: M:AdrianMiasik.Components.Core.Containers.SidebarPages.ValidateCustomSoundChoice
+  fullName: AdrianMiasik.Components.Core.Containers.SidebarPages.ValidateCustomSoundChoice()
+  nameWithType: SidebarPages.ValidateCustomSoundChoice()
+- uid: AdrianMiasik.Components.Core.Containers.SidebarPages.ValidateCustomSoundChoice*
+  name: ValidateCustomSoundChoice
+  href: api/AdrianMiasik.Components.Core.Containers.SidebarPages.html#AdrianMiasik_Components_Core_Containers_SidebarPages_ValidateCustomSoundChoice_
+  commentId: Overload:AdrianMiasik.Components.Core.Containers.SidebarPages.ValidateCustomSoundChoice
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Containers.SidebarPages.ValidateCustomSoundChoice
+  nameWithType: SidebarPages.ValidateCustomSoundChoice
 - uid: AdrianMiasik.Components.Core.Containers.ThemeIconContainer
   name: ThemeIconContainer
   href: api/AdrianMiasik.Components.Core.Containers.ThemeIconContainer.html
@@ -2469,11 +2536,11 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Dropdown.DestroyBlocker
   nameWithType: Dropdown.DestroyBlocker
-- uid: AdrianMiasik.Components.Core.Dropdown.OnPointerClick(PointerEventData)
+- uid: AdrianMiasik.Components.Core.Dropdown.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
   name: OnPointerClick(PointerEventData)
-  href: api/AdrianMiasik.Components.Core.Dropdown.html#AdrianMiasik_Components_Core_Dropdown_OnPointerClick_PointerEventData_
-  commentId: M:AdrianMiasik.Components.Core.Dropdown.OnPointerClick(PointerEventData)
-  fullName: AdrianMiasik.Components.Core.Dropdown.OnPointerClick(PointerEventData)
+  href: api/AdrianMiasik.Components.Core.Dropdown.html#AdrianMiasik_Components_Core_Dropdown_OnPointerClick_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Core.Dropdown.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Core.Dropdown.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
   nameWithType: Dropdown.OnPointerClick(PointerEventData)
 - uid: AdrianMiasik.Components.Core.Dropdown.OnPointerClick*
   name: OnPointerClick
@@ -2551,11 +2618,11 @@ references:
   commentId: T:AdrianMiasik.Components.Core.ImageHoverColorChange
   fullName: AdrianMiasik.Components.Core.ImageHoverColorChange
   nameWithType: ImageHoverColorChange
-- uid: AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerEnter(PointerEventData)
+- uid: AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
   name: OnPointerEnter(PointerEventData)
-  href: api/AdrianMiasik.Components.Core.ImageHoverColorChange.html#AdrianMiasik_Components_Core_ImageHoverColorChange_OnPointerEnter_PointerEventData_
-  commentId: M:AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerEnter(PointerEventData)
-  fullName: AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerEnter(PointerEventData)
+  href: api/AdrianMiasik.Components.Core.ImageHoverColorChange.html#AdrianMiasik_Components_Core_ImageHoverColorChange_OnPointerEnter_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
   nameWithType: ImageHoverColorChange.OnPointerEnter(PointerEventData)
 - uid: AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerEnter*
   name: OnPointerEnter
@@ -2564,11 +2631,11 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerEnter
   nameWithType: ImageHoverColorChange.OnPointerEnter
-- uid: AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerExit(PointerEventData)
+- uid: AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
   name: OnPointerExit(PointerEventData)
-  href: api/AdrianMiasik.Components.Core.ImageHoverColorChange.html#AdrianMiasik_Components_Core_ImageHoverColorChange_OnPointerExit_PointerEventData_
-  commentId: M:AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerExit(PointerEventData)
-  fullName: AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerExit(PointerEventData)
+  href: api/AdrianMiasik.Components.Core.ImageHoverColorChange.html#AdrianMiasik_Components_Core_ImageHoverColorChange_OnPointerExit_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
   nameWithType: ImageHoverColorChange.OnPointerExit(PointerEventData)
 - uid: AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerExit*
   name: OnPointerExit
@@ -2795,11 +2862,11 @@ references:
   commentId: F:AdrianMiasik.Components.Core.Items.DoubleDigit.m_onSelection
   fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.m_onSelection
   nameWithType: DoubleDigit.m_onSelection
-- uid: AdrianMiasik.Components.Core.Items.DoubleDigit.OnPointerClick(PointerEventData)
+- uid: AdrianMiasik.Components.Core.Items.DoubleDigit.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
   name: OnPointerClick(PointerEventData)
-  href: api/AdrianMiasik.Components.Core.Items.DoubleDigit.html#AdrianMiasik_Components_Core_Items_DoubleDigit_OnPointerClick_PointerEventData_
-  commentId: M:AdrianMiasik.Components.Core.Items.DoubleDigit.OnPointerClick(PointerEventData)
-  fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.OnPointerClick(PointerEventData)
+  href: api/AdrianMiasik.Components.Core.Items.DoubleDigit.html#AdrianMiasik_Components_Core_Items_DoubleDigit_OnPointerClick_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Core.Items.DoubleDigit.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
   nameWithType: DoubleDigit.OnPointerClick(PointerEventData)
 - uid: AdrianMiasik.Components.Core.Items.DoubleDigit.OnPointerClick*
   name: OnPointerClick
@@ -2808,11 +2875,11 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.OnPointerClick
   nameWithType: DoubleDigit.OnPointerClick
-- uid: AdrianMiasik.Components.Core.Items.DoubleDigit.OnSelect(BaseEventData)
+- uid: AdrianMiasik.Components.Core.Items.DoubleDigit.OnSelect(UnityEngine.EventSystems.BaseEventData)
   name: OnSelect(BaseEventData)
-  href: api/AdrianMiasik.Components.Core.Items.DoubleDigit.html#AdrianMiasik_Components_Core_Items_DoubleDigit_OnSelect_BaseEventData_
-  commentId: M:AdrianMiasik.Components.Core.Items.DoubleDigit.OnSelect(BaseEventData)
-  fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.OnSelect(BaseEventData)
+  href: api/AdrianMiasik.Components.Core.Items.DoubleDigit.html#AdrianMiasik_Components_Core_Items_DoubleDigit_OnSelect_UnityEngine_EventSystems_BaseEventData_
+  commentId: M:AdrianMiasik.Components.Core.Items.DoubleDigit.OnSelect(UnityEngine.EventSystems.BaseEventData)
+  fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.OnSelect(UnityEngine.EventSystems.BaseEventData)
   nameWithType: DoubleDigit.OnSelect(BaseEventData)
 - uid: AdrianMiasik.Components.Core.Items.DoubleDigit.OnSelect*
   name: OnSelect
@@ -2821,11 +2888,11 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.OnSelect
   nameWithType: DoubleDigit.OnSelect
-- uid: AdrianMiasik.Components.Core.Items.DoubleDigit.OnSubmit(BaseEventData)
+- uid: AdrianMiasik.Components.Core.Items.DoubleDigit.OnSubmit(UnityEngine.EventSystems.BaseEventData)
   name: OnSubmit(BaseEventData)
-  href: api/AdrianMiasik.Components.Core.Items.DoubleDigit.html#AdrianMiasik_Components_Core_Items_DoubleDigit_OnSubmit_BaseEventData_
-  commentId: M:AdrianMiasik.Components.Core.Items.DoubleDigit.OnSubmit(BaseEventData)
-  fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.OnSubmit(BaseEventData)
+  href: api/AdrianMiasik.Components.Core.Items.DoubleDigit.html#AdrianMiasik_Components_Core_Items_DoubleDigit_OnSubmit_UnityEngine_EventSystems_BaseEventData_
+  commentId: M:AdrianMiasik.Components.Core.Items.DoubleDigit.OnSubmit(UnityEngine.EventSystems.BaseEventData)
+  fullName: AdrianMiasik.Components.Core.Items.DoubleDigit.OnSubmit(UnityEngine.EventSystems.BaseEventData)
   nameWithType: DoubleDigit.OnSubmit(BaseEventData)
 - uid: AdrianMiasik.Components.Core.Items.DoubleDigit.OnSubmit*
   name: OnSubmit
@@ -2995,6 +3062,19 @@ references:
   commentId: T:AdrianMiasik.Components.Core.Items.Pages.SettingsPage
   fullName: AdrianMiasik.Components.Core.Items.Pages.SettingsPage
   nameWithType: SettingsPage
+- uid: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.AddCustomDropdownSoundOption(UnityEngine.AudioClip,System.String)
+  name: AddCustomDropdownSoundOption(AudioClip, String)
+  href: api/AdrianMiasik.Components.Core.Items.Pages.SettingsPage.html#AdrianMiasik_Components_Core_Items_Pages_SettingsPage_AddCustomDropdownSoundOption_UnityEngine_AudioClip_System_String_
+  commentId: M:AdrianMiasik.Components.Core.Items.Pages.SettingsPage.AddCustomDropdownSoundOption(UnityEngine.AudioClip,System.String)
+  fullName: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.AddCustomDropdownSoundOption(UnityEngine.AudioClip, System.String)
+  nameWithType: SettingsPage.AddCustomDropdownSoundOption(AudioClip, String)
+- uid: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.AddCustomDropdownSoundOption*
+  name: AddCustomDropdownSoundOption
+  href: api/AdrianMiasik.Components.Core.Items.Pages.SettingsPage.html#AdrianMiasik_Components_Core_Items_Pages_SettingsPage_AddCustomDropdownSoundOption_
+  commentId: Overload:AdrianMiasik.Components.Core.Items.Pages.SettingsPage.AddCustomDropdownSoundOption
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.AddCustomDropdownSoundOption
+  nameWithType: SettingsPage.AddCustomDropdownSoundOption
 - uid: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
   name: ColorUpdate(Theme)
   href: api/AdrianMiasik.Components.Core.Items.Pages.SettingsPage.html#AdrianMiasik_Components_Core_Items_Pages_SettingsPage_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_
@@ -3047,6 +3127,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.Refresh
   nameWithType: SettingsPage.Refresh
+- uid: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.RemoveCustomDropdownSoundOption(System.String)
+  name: RemoveCustomDropdownSoundOption(String)
+  href: api/AdrianMiasik.Components.Core.Items.Pages.SettingsPage.html#AdrianMiasik_Components_Core_Items_Pages_SettingsPage_RemoveCustomDropdownSoundOption_System_String_
+  commentId: M:AdrianMiasik.Components.Core.Items.Pages.SettingsPage.RemoveCustomDropdownSoundOption(System.String)
+  fullName: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.RemoveCustomDropdownSoundOption(System.String)
+  nameWithType: SettingsPage.RemoveCustomDropdownSoundOption(String)
+- uid: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.RemoveCustomDropdownSoundOption*
+  name: RemoveCustomDropdownSoundOption
+  href: api/AdrianMiasik.Components.Core.Items.Pages.SettingsPage.html#AdrianMiasik_Components_Core_Items_Pages_SettingsPage_RemoveCustomDropdownSoundOption_
+  commentId: Overload:AdrianMiasik.Components.Core.Items.Pages.SettingsPage.RemoveCustomDropdownSoundOption
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.RemoveCustomDropdownSoundOption
+  nameWithType: SettingsPage.RemoveCustomDropdownSoundOption
 - uid: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.SetDigitFormatDropdown(System.Int32)
   name: SetDigitFormatDropdown(Int32)
   href: api/AdrianMiasik.Components.Core.Items.Pages.SettingsPage.html#AdrianMiasik_Components_Core_Items_Pages_SettingsPage_SetDigitFormatDropdown_System_Int32_
@@ -3099,6 +3192,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.UpdateDigitFormatDropdown
   nameWithType: SettingsPage.UpdateDigitFormatDropdown
+- uid: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.ValidateCustomSoundChoice
+  name: ValidateCustomSoundChoice()
+  href: api/AdrianMiasik.Components.Core.Items.Pages.SettingsPage.html#AdrianMiasik_Components_Core_Items_Pages_SettingsPage_ValidateCustomSoundChoice
+  commentId: M:AdrianMiasik.Components.Core.Items.Pages.SettingsPage.ValidateCustomSoundChoice
+  fullName: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.ValidateCustomSoundChoice()
+  nameWithType: SettingsPage.ValidateCustomSoundChoice()
+- uid: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.ValidateCustomSoundChoice*
+  name: ValidateCustomSoundChoice
+  href: api/AdrianMiasik.Components.Core.Items.Pages.SettingsPage.html#AdrianMiasik_Components_Core_Items_Pages_SettingsPage_ValidateCustomSoundChoice_
+  commentId: Overload:AdrianMiasik.Components.Core.Items.Pages.SettingsPage.ValidateCustomSoundChoice
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Items.Pages.SettingsPage.ValidateCustomSoundChoice
+  nameWithType: SettingsPage.ValidateCustomSoundChoice
 - uid: AdrianMiasik.Components.Core.Items.Pages.TimerPage
   name: TimerPage
   href: api/AdrianMiasik.Components.Core.Items.Pages.TimerPage.html
@@ -3131,6 +3237,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Items.Pages.TimerPage.Refresh
   nameWithType: TimerPage.Refresh
+- uid: AdrianMiasik.Components.Core.Items.Pages.TimerPage.Show(System.Action)
+  name: Show(Action)
+  href: api/AdrianMiasik.Components.Core.Items.Pages.TimerPage.html#AdrianMiasik_Components_Core_Items_Pages_TimerPage_Show_System_Action_
+  commentId: M:AdrianMiasik.Components.Core.Items.Pages.TimerPage.Show(System.Action)
+  fullName: AdrianMiasik.Components.Core.Items.Pages.TimerPage.Show(System.Action)
+  nameWithType: TimerPage.Show(Action)
+- uid: AdrianMiasik.Components.Core.Items.Pages.TimerPage.Show*
+  name: Show
+  href: api/AdrianMiasik.Components.Core.Items.Pages.TimerPage.html#AdrianMiasik_Components_Core_Items_Pages_TimerPage_Show_
+  commentId: Overload:AdrianMiasik.Components.Core.Items.Pages.TimerPage.Show
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Items.Pages.TimerPage.Show
+  nameWithType: TimerPage.Show
 - uid: AdrianMiasik.Components.Core.Items.SidebarRow
   name: SidebarRow
   href: api/AdrianMiasik.Components.Core.Items.SidebarRow.html
@@ -3267,11 +3386,11 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Items.SidebarRow.OnClick
   nameWithType: SidebarRow.OnClick
-- uid: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerEnter(PointerEventData)
+- uid: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
   name: OnPointerEnter(PointerEventData)
-  href: api/AdrianMiasik.Components.Core.Items.SidebarRow.html#AdrianMiasik_Components_Core_Items_SidebarRow_OnPointerEnter_PointerEventData_
-  commentId: M:AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerEnter(PointerEventData)
-  fullName: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerEnter(PointerEventData)
+  href: api/AdrianMiasik.Components.Core.Items.SidebarRow.html#AdrianMiasik_Components_Core_Items_SidebarRow_OnPointerEnter_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
   nameWithType: SidebarRow.OnPointerEnter(PointerEventData)
 - uid: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerEnter*
   name: OnPointerEnter
@@ -3280,11 +3399,11 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerEnter
   nameWithType: SidebarRow.OnPointerEnter
-- uid: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerExit(PointerEventData)
+- uid: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
   name: OnPointerExit(PointerEventData)
-  href: api/AdrianMiasik.Components.Core.Items.SidebarRow.html#AdrianMiasik_Components_Core_Items_SidebarRow_OnPointerExit_PointerEventData_
-  commentId: M:AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerExit(PointerEventData)
-  fullName: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerExit(PointerEventData)
+  href: api/AdrianMiasik.Components.Core.Items.SidebarRow.html#AdrianMiasik_Components_Core_Items_SidebarRow_OnPointerExit_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
   nameWithType: SidebarRow.OnPointerExit(PointerEventData)
 - uid: AdrianMiasik.Components.Core.Items.SidebarRow.OnPointerExit*
   name: OnPointerExit
@@ -3439,6 +3558,12 @@ references:
   commentId: T:AdrianMiasik.Components.Core.Settings.TimerSettings
   fullName: AdrianMiasik.Components.Core.Settings.TimerSettings
   nameWithType: TimerSettings
+- uid: AdrianMiasik.Components.Core.Settings.TimerSettings.m_alarmSoundIndex
+  name: m_alarmSoundIndex
+  href: api/AdrianMiasik.Components.Core.Settings.TimerSettings.html#AdrianMiasik_Components_Core_Settings_TimerSettings_m_alarmSoundIndex
+  commentId: F:AdrianMiasik.Components.Core.Settings.TimerSettings.m_alarmSoundIndex
+  fullName: AdrianMiasik.Components.Core.Settings.TimerSettings.m_alarmSoundIndex
+  nameWithType: TimerSettings.m_alarmSoundIndex
 - uid: AdrianMiasik.Components.Core.Settings.TimerSettings.m_format
   name: m_format
   href: api/AdrianMiasik.Components.Core.Settings.TimerSettings.html#AdrianMiasik_Components_Core_Settings_TimerSettings_m_format
@@ -3738,11 +3863,11 @@ references:
   commentId: F:AdrianMiasik.Components.Core.ToggleSlider.m_onSetToTrueClick
   fullName: AdrianMiasik.Components.Core.ToggleSlider.m_onSetToTrueClick
   nameWithType: ToggleSlider.m_onSetToTrueClick
-- uid: AdrianMiasik.Components.Core.ToggleSlider.OnPointerClick(PointerEventData)
+- uid: AdrianMiasik.Components.Core.ToggleSlider.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
   name: OnPointerClick(PointerEventData)
-  href: api/AdrianMiasik.Components.Core.ToggleSlider.html#AdrianMiasik_Components_Core_ToggleSlider_OnPointerClick_PointerEventData_
-  commentId: M:AdrianMiasik.Components.Core.ToggleSlider.OnPointerClick(PointerEventData)
-  fullName: AdrianMiasik.Components.Core.ToggleSlider.OnPointerClick(PointerEventData)
+  href: api/AdrianMiasik.Components.Core.ToggleSlider.html#AdrianMiasik_Components_Core_ToggleSlider_OnPointerClick_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Core.ToggleSlider.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Core.ToggleSlider.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
   nameWithType: ToggleSlider.OnPointerClick(PointerEventData)
 - uid: AdrianMiasik.Components.Core.ToggleSlider.OnPointerClick*
   name: OnPointerClick
@@ -4121,11 +4246,11 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.Background.Select
   nameWithType: Background.Select
-- uid: AdrianMiasik.Components.Specific.Background.SetSelectionNavigation(Navigation)
+- uid: AdrianMiasik.Components.Specific.Background.SetSelectionNavigation(UnityEngine.UI.Navigation)
   name: SetSelectionNavigation(Navigation)
-  href: api/AdrianMiasik.Components.Specific.Background.html#AdrianMiasik_Components_Specific_Background_SetSelectionNavigation_Navigation_
-  commentId: M:AdrianMiasik.Components.Specific.Background.SetSelectionNavigation(Navigation)
-  fullName: AdrianMiasik.Components.Specific.Background.SetSelectionNavigation(Navigation)
+  href: api/AdrianMiasik.Components.Specific.Background.html#AdrianMiasik_Components_Specific_Background_SetSelectionNavigation_UnityEngine_UI_Navigation_
+  commentId: M:AdrianMiasik.Components.Specific.Background.SetSelectionNavigation(UnityEngine.UI.Navigation)
+  fullName: AdrianMiasik.Components.Specific.Background.SetSelectionNavigation(UnityEngine.UI.Navigation)
   nameWithType: Background.SetSelectionNavigation(Navigation)
 - uid: AdrianMiasik.Components.Specific.Background.SetSelectionNavigation*
   name: SetSelectionNavigation
@@ -4237,11 +4362,11 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.CreditsGhost.Lock
   nameWithType: CreditsGhost.Lock
-- uid: AdrianMiasik.Components.Specific.CreditsGhost.OnPointerEnter(PointerEventData)
+- uid: AdrianMiasik.Components.Specific.CreditsGhost.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
   name: OnPointerEnter(PointerEventData)
-  href: api/AdrianMiasik.Components.Specific.CreditsGhost.html#AdrianMiasik_Components_Specific_CreditsGhost_OnPointerEnter_PointerEventData_
-  commentId: M:AdrianMiasik.Components.Specific.CreditsGhost.OnPointerEnter(PointerEventData)
-  fullName: AdrianMiasik.Components.Specific.CreditsGhost.OnPointerEnter(PointerEventData)
+  href: api/AdrianMiasik.Components.Specific.CreditsGhost.html#AdrianMiasik_Components_Specific_CreditsGhost_OnPointerEnter_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Specific.CreditsGhost.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Specific.CreditsGhost.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
   nameWithType: CreditsGhost.OnPointerEnter(PointerEventData)
 - uid: AdrianMiasik.Components.Specific.CreditsGhost.OnPointerEnter*
   name: OnPointerEnter
@@ -4250,11 +4375,11 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.CreditsGhost.OnPointerEnter
   nameWithType: CreditsGhost.OnPointerEnter
-- uid: AdrianMiasik.Components.Specific.CreditsGhost.OnPointerExit(PointerEventData)
+- uid: AdrianMiasik.Components.Specific.CreditsGhost.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
   name: OnPointerExit(PointerEventData)
-  href: api/AdrianMiasik.Components.Specific.CreditsGhost.html#AdrianMiasik_Components_Specific_CreditsGhost_OnPointerExit_PointerEventData_
-  commentId: M:AdrianMiasik.Components.Specific.CreditsGhost.OnPointerExit(PointerEventData)
-  fullName: AdrianMiasik.Components.Specific.CreditsGhost.OnPointerExit(PointerEventData)
+  href: api/AdrianMiasik.Components.Specific.CreditsGhost.html#AdrianMiasik_Components_Specific_CreditsGhost_OnPointerExit_UnityEngine_EventSystems_PointerEventData_
+  commentId: M:AdrianMiasik.Components.Specific.CreditsGhost.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+  fullName: AdrianMiasik.Components.Specific.CreditsGhost.OnPointerExit(UnityEngine.EventSystems.PointerEventData)
   nameWithType: CreditsGhost.OnPointerExit(PointerEventData)
 - uid: AdrianMiasik.Components.Specific.CreditsGhost.OnPointerExit*
   name: OnPointerExit
@@ -4360,6 +4485,32 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.EndTimestampGhost.FadeIn
   nameWithType: EndTimestampGhost.FadeIn
+- uid: AdrianMiasik.Components.Specific.EndTimestampGhost.OnClick
+  name: OnClick()
+  href: api/AdrianMiasik.Components.Specific.EndTimestampGhost.html#AdrianMiasik_Components_Specific_EndTimestampGhost_OnClick
+  commentId: M:AdrianMiasik.Components.Specific.EndTimestampGhost.OnClick
+  fullName: AdrianMiasik.Components.Specific.EndTimestampGhost.OnClick()
+  nameWithType: EndTimestampGhost.OnClick()
+- uid: AdrianMiasik.Components.Specific.EndTimestampGhost.OnClick*
+  name: OnClick
+  href: api/AdrianMiasik.Components.Specific.EndTimestampGhost.html#AdrianMiasik_Components_Specific_EndTimestampGhost_OnClick_
+  commentId: Overload:AdrianMiasik.Components.Specific.EndTimestampGhost.OnClick
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.EndTimestampGhost.OnClick
+  nameWithType: EndTimestampGhost.OnClick
+- uid: AdrianMiasik.Components.Specific.EndTimestampGhost.Update
+  name: Update()
+  href: api/AdrianMiasik.Components.Specific.EndTimestampGhost.html#AdrianMiasik_Components_Specific_EndTimestampGhost_Update
+  commentId: M:AdrianMiasik.Components.Specific.EndTimestampGhost.Update
+  fullName: AdrianMiasik.Components.Specific.EndTimestampGhost.Update()
+  nameWithType: EndTimestampGhost.Update()
+- uid: AdrianMiasik.Components.Specific.EndTimestampGhost.Update*
+  name: Update
+  href: api/AdrianMiasik.Components.Specific.EndTimestampGhost.html#AdrianMiasik_Components_Specific_EndTimestampGhost_Update_
+  commentId: Overload:AdrianMiasik.Components.Specific.EndTimestampGhost.Update
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.EndTimestampGhost.Update
+  nameWithType: EndTimestampGhost.Update
 - uid: AdrianMiasik.Components.Specific.HotkeyDetector
   name: HotkeyDetector
   href: api/AdrianMiasik.Components.Specific.HotkeyDetector.html
@@ -4379,6 +4530,32 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.HotkeyDetector.Initialize
   nameWithType: HotkeyDetector.Initialize
+- uid: AdrianMiasik.Components.Specific.HotkeyDetector.PauseInputs
+  name: PauseInputs()
+  href: api/AdrianMiasik.Components.Specific.HotkeyDetector.html#AdrianMiasik_Components_Specific_HotkeyDetector_PauseInputs
+  commentId: M:AdrianMiasik.Components.Specific.HotkeyDetector.PauseInputs
+  fullName: AdrianMiasik.Components.Specific.HotkeyDetector.PauseInputs()
+  nameWithType: HotkeyDetector.PauseInputs()
+- uid: AdrianMiasik.Components.Specific.HotkeyDetector.PauseInputs*
+  name: PauseInputs
+  href: api/AdrianMiasik.Components.Specific.HotkeyDetector.html#AdrianMiasik_Components_Specific_HotkeyDetector_PauseInputs_
+  commentId: Overload:AdrianMiasik.Components.Specific.HotkeyDetector.PauseInputs
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.HotkeyDetector.PauseInputs
+  nameWithType: HotkeyDetector.PauseInputs
+- uid: AdrianMiasik.Components.Specific.HotkeyDetector.ResumeInputs
+  name: ResumeInputs()
+  href: api/AdrianMiasik.Components.Specific.HotkeyDetector.html#AdrianMiasik_Components_Specific_HotkeyDetector_ResumeInputs
+  commentId: M:AdrianMiasik.Components.Specific.HotkeyDetector.ResumeInputs
+  fullName: AdrianMiasik.Components.Specific.HotkeyDetector.ResumeInputs()
+  nameWithType: HotkeyDetector.ResumeInputs()
+- uid: AdrianMiasik.Components.Specific.HotkeyDetector.ResumeInputs*
+  name: ResumeInputs
+  href: api/AdrianMiasik.Components.Specific.HotkeyDetector.html#AdrianMiasik_Components_Specific_HotkeyDetector_ResumeInputs_
+  commentId: Overload:AdrianMiasik.Components.Specific.HotkeyDetector.ResumeInputs
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.HotkeyDetector.ResumeInputs
+  nameWithType: HotkeyDetector.ResumeInputs
 - uid: AdrianMiasik.Components.Specific.ResolutionDetector
   name: ResolutionDetector
   href: api/AdrianMiasik.Components.Specific.ResolutionDetector.html
@@ -4594,6 +4771,77 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.Settings.OptionPomodoroCount.Initialize
   nameWithType: OptionPomodoroCount.Initialize
+- uid: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound
+  name: OptionSetAlarmSound
+  href: api/AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.html
+  commentId: T:AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound
+  fullName: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound
+  nameWithType: OptionSetAlarmSound
+- uid: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.AddCustomDropdownSoundOption(UnityEngine.AudioClip,System.String)
+  name: AddCustomDropdownSoundOption(AudioClip, String)
+  href: api/AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.html#AdrianMiasik_Components_Specific_Settings_OptionSetAlarmSound_AddCustomDropdownSoundOption_UnityEngine_AudioClip_System_String_
+  commentId: M:AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.AddCustomDropdownSoundOption(UnityEngine.AudioClip,System.String)
+  fullName: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.AddCustomDropdownSoundOption(UnityEngine.AudioClip, System.String)
+  nameWithType: OptionSetAlarmSound.AddCustomDropdownSoundOption(AudioClip, String)
+- uid: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.AddCustomDropdownSoundOption*
+  name: AddCustomDropdownSoundOption
+  href: api/AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.html#AdrianMiasik_Components_Specific_Settings_OptionSetAlarmSound_AddCustomDropdownSoundOption_
+  commentId: Overload:AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.AddCustomDropdownSoundOption
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.AddCustomDropdownSoundOption
+  nameWithType: OptionSetAlarmSound.AddCustomDropdownSoundOption
+- uid: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.Initialize(AdrianMiasik.PomodoroTimer,System.Boolean)
+  name: Initialize(PomodoroTimer, Boolean)
+  href: api/AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.html#AdrianMiasik_Components_Specific_Settings_OptionSetAlarmSound_Initialize_AdrianMiasik_PomodoroTimer_System_Boolean_
+  commentId: M:AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.Initialize(AdrianMiasik.PomodoroTimer,System.Boolean)
+  fullName: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.Initialize(AdrianMiasik.PomodoroTimer, System.Boolean)
+  nameWithType: OptionSetAlarmSound.Initialize(PomodoroTimer, Boolean)
+- uid: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.Initialize*
+  name: Initialize
+  href: api/AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.html#AdrianMiasik_Components_Specific_Settings_OptionSetAlarmSound_Initialize_
+  commentId: Overload:AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.Initialize
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.Initialize
+  nameWithType: OptionSetAlarmSound.Initialize
+- uid: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.PrintCustomAlarmSoundsDictionary
+  name: PrintCustomAlarmSoundsDictionary()
+  href: api/AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.html#AdrianMiasik_Components_Specific_Settings_OptionSetAlarmSound_PrintCustomAlarmSoundsDictionary
+  commentId: M:AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.PrintCustomAlarmSoundsDictionary
+  fullName: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.PrintCustomAlarmSoundsDictionary()
+  nameWithType: OptionSetAlarmSound.PrintCustomAlarmSoundsDictionary()
+- uid: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.PrintCustomAlarmSoundsDictionary*
+  name: PrintCustomAlarmSoundsDictionary
+  href: api/AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.html#AdrianMiasik_Components_Specific_Settings_OptionSetAlarmSound_PrintCustomAlarmSoundsDictionary_
+  commentId: Overload:AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.PrintCustomAlarmSoundsDictionary
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.PrintCustomAlarmSoundsDictionary
+  nameWithType: OptionSetAlarmSound.PrintCustomAlarmSoundsDictionary
+- uid: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.RemoveCustomDropdownSoundOption(System.String)
+  name: RemoveCustomDropdownSoundOption(String)
+  href: api/AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.html#AdrianMiasik_Components_Specific_Settings_OptionSetAlarmSound_RemoveCustomDropdownSoundOption_System_String_
+  commentId: M:AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.RemoveCustomDropdownSoundOption(System.String)
+  fullName: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.RemoveCustomDropdownSoundOption(System.String)
+  nameWithType: OptionSetAlarmSound.RemoveCustomDropdownSoundOption(String)
+- uid: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.RemoveCustomDropdownSoundOption*
+  name: RemoveCustomDropdownSoundOption
+  href: api/AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.html#AdrianMiasik_Components_Specific_Settings_OptionSetAlarmSound_RemoveCustomDropdownSoundOption_
+  commentId: Overload:AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.RemoveCustomDropdownSoundOption
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.RemoveCustomDropdownSoundOption
+  nameWithType: OptionSetAlarmSound.RemoveCustomDropdownSoundOption
+- uid: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.ValidateAlarmSoundIndex
+  name: ValidateAlarmSoundIndex()
+  href: api/AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.html#AdrianMiasik_Components_Specific_Settings_OptionSetAlarmSound_ValidateAlarmSoundIndex
+  commentId: M:AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.ValidateAlarmSoundIndex
+  fullName: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.ValidateAlarmSoundIndex()
+  nameWithType: OptionSetAlarmSound.ValidateAlarmSoundIndex()
+- uid: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.ValidateAlarmSoundIndex*
+  name: ValidateAlarmSoundIndex
+  href: api/AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.html#AdrianMiasik_Components_Specific_Settings_OptionSetAlarmSound_ValidateAlarmSoundIndex_
+  commentId: Overload:AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.ValidateAlarmSoundIndex
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.Settings.OptionSetAlarmSound.ValidateAlarmSoundIndex
+  nameWithType: OptionSetAlarmSound.ValidateAlarmSoundIndex
 - uid: AdrianMiasik.Components.Specific.Settings.OptionUnityAnalytics
   name: OptionUnityAnalytics
   href: api/AdrianMiasik.Components.Specific.Settings.OptionUnityAnalytics.html
@@ -5216,6 +5464,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.PomodoroTimer.ColorUpdateCreditsBubble
   nameWithType: PomodoroTimer.ColorUpdateCreditsBubble
+- uid: AdrianMiasik.PomodoroTimer.ColorUpdateEndTimestampGhost
+  name: ColorUpdateEndTimestampGhost()
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_ColorUpdateEndTimestampGhost
+  commentId: M:AdrianMiasik.PomodoroTimer.ColorUpdateEndTimestampGhost
+  fullName: AdrianMiasik.PomodoroTimer.ColorUpdateEndTimestampGhost()
+  nameWithType: PomodoroTimer.ColorUpdateEndTimestampGhost()
+- uid: AdrianMiasik.PomodoroTimer.ColorUpdateEndTimestampGhost*
+  name: ColorUpdateEndTimestampGhost
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_ColorUpdateEndTimestampGhost_
+  commentId: Overload:AdrianMiasik.PomodoroTimer.ColorUpdateEndTimestampGhost
+  isSpec: "True"
+  fullName: AdrianMiasik.PomodoroTimer.ColorUpdateEndTimestampGhost
+  nameWithType: PomodoroTimer.ColorUpdateEndTimestampGhost
 - uid: AdrianMiasik.PomodoroTimer.ConformCreditsBubbleToSidebar(System.Single,System.Single)
   name: ConformCreditsBubbleToSidebar(Single, Single)
   href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_ConformCreditsBubbleToSidebar_System_Single_System_Single_
@@ -5630,11 +5891,24 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.PomodoroTimer.SelectAll
   nameWithType: PomodoroTimer.SelectAll
-- uid: AdrianMiasik.PomodoroTimer.SetBackgroundNavigation(Navigation)
+- uid: AdrianMiasik.PomodoroTimer.SetAlarmSound(UnityEngine.AudioClip,System.Boolean)
+  name: SetAlarmSound(AudioClip, Boolean)
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_SetAlarmSound_UnityEngine_AudioClip_System_Boolean_
+  commentId: M:AdrianMiasik.PomodoroTimer.SetAlarmSound(UnityEngine.AudioClip,System.Boolean)
+  fullName: AdrianMiasik.PomodoroTimer.SetAlarmSound(UnityEngine.AudioClip, System.Boolean)
+  nameWithType: PomodoroTimer.SetAlarmSound(AudioClip, Boolean)
+- uid: AdrianMiasik.PomodoroTimer.SetAlarmSound*
+  name: SetAlarmSound
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_SetAlarmSound_
+  commentId: Overload:AdrianMiasik.PomodoroTimer.SetAlarmSound
+  isSpec: "True"
+  fullName: AdrianMiasik.PomodoroTimer.SetAlarmSound
+  nameWithType: PomodoroTimer.SetAlarmSound
+- uid: AdrianMiasik.PomodoroTimer.SetBackgroundNavigation(UnityEngine.UI.Navigation)
   name: SetBackgroundNavigation(Navigation)
-  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_SetBackgroundNavigation_Navigation_
-  commentId: M:AdrianMiasik.PomodoroTimer.SetBackgroundNavigation(Navigation)
-  fullName: AdrianMiasik.PomodoroTimer.SetBackgroundNavigation(Navigation)
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_SetBackgroundNavigation_UnityEngine_UI_Navigation_
+  commentId: M:AdrianMiasik.PomodoroTimer.SetBackgroundNavigation(UnityEngine.UI.Navigation)
+  fullName: AdrianMiasik.PomodoroTimer.SetBackgroundNavigation(UnityEngine.UI.Navigation)
   nameWithType: PomodoroTimer.SetBackgroundNavigation(Navigation)
 - uid: AdrianMiasik.PomodoroTimer.SetBackgroundNavigation*
   name: SetBackgroundNavigation
@@ -5907,6 +6181,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.PomodoroTimer.TriggerTimerSwitch
   nameWithType: PomodoroTimer.TriggerTimerSwitch
+- uid: AdrianMiasik.PomodoroTimer.TryCancelConfirmationDialog
+  name: TryCancelConfirmationDialog()
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_TryCancelConfirmationDialog
+  commentId: M:AdrianMiasik.PomodoroTimer.TryCancelConfirmationDialog
+  fullName: AdrianMiasik.PomodoroTimer.TryCancelConfirmationDialog()
+  nameWithType: PomodoroTimer.TryCancelConfirmationDialog()
+- uid: AdrianMiasik.PomodoroTimer.TryCancelConfirmationDialog*
+  name: TryCancelConfirmationDialog
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_TryCancelConfirmationDialog_
+  commentId: Overload:AdrianMiasik.PomodoroTimer.TryCancelConfirmationDialog
+  isSpec: "True"
+  fullName: AdrianMiasik.PomodoroTimer.TryCancelConfirmationDialog
+  nameWithType: PomodoroTimer.TryCancelConfirmationDialog
 - uid: AdrianMiasik.PomodoroTimer.TryChangeFormat(AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats)
   name: TryChangeFormat(DigitFormat.SupportedFormats)
   href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_TryChangeFormat_AdrianMiasik_Components_Core_Containers_DigitFormat_SupportedFormats_
@@ -5933,6 +6220,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.PomodoroTimer.TryRestart
   nameWithType: PomodoroTimer.TryRestart
+- uid: AdrianMiasik.PomodoroTimer.TrySubmitConfirmationDialog
+  name: TrySubmitConfirmationDialog()
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_TrySubmitConfirmationDialog
+  commentId: M:AdrianMiasik.PomodoroTimer.TrySubmitConfirmationDialog
+  fullName: AdrianMiasik.PomodoroTimer.TrySubmitConfirmationDialog()
+  nameWithType: PomodoroTimer.TrySubmitConfirmationDialog()
+- uid: AdrianMiasik.PomodoroTimer.TrySubmitConfirmationDialog*
+  name: TrySubmitConfirmationDialog
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_TrySubmitConfirmationDialog_
+  commentId: Overload:AdrianMiasik.PomodoroTimer.TrySubmitConfirmationDialog
+  isSpec: "True"
+  fullName: AdrianMiasik.PomodoroTimer.TrySubmitConfirmationDialog
+  nameWithType: PomodoroTimer.TrySubmitConfirmationDialog
 - uid: AdrianMiasik.PomodoroTimer.TrySwitchToBreakTimer
   name: TrySwitchToBreakTimer()
   href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_TrySwitchToBreakTimer

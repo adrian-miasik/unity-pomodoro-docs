@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Settings </title>
+    <title>How to Use Custom Audio </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Settings ">
+    <meta name="title" content="How to Use Custom Audio ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -67,70 +67,45 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="settings">Settings</h1>
+<h1 id="how-to-use-custom-audio">How to Use Custom Audio</h1>
 
-<h2 id="system">System</h2>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Description</th>
-<th>Datatype</th>
-<th>Default</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Enable theme dark mode</td>
-<td>Do you want to use the dark mode variation of the current active theme?</td>
-<td><code>bool</code> Toggle</td>
-<td><code>False</code></td>
-</tr>
-<tr>
-<td>Mute audio when app not in focus</td>
-<td>Should we mute the sound when the application is not in focus?</td>
-<td><code>bool</code> Toggle</td>
-<td><code>False</code></td>
-</tr>
-<tr>
-<td>Enable Unity Analytics</td>
-<td>Do you want to enable the Unity Analytics service?</td>
-<td><code>bool</code> Toggle</td>
-<td><code>True</code></td>
-</tr>
-</tbody>
-</table>
-<h2 id="timer">Timer</h2>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Description</th>
-<th>Datatype</th>
-<th>Default</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Current digit format</td>
-<td>The current timer format.</td>
-<td><code>int</code> DigitFormat</td>
-<td><code>2</code> (HH_MM_SS)</td>
-</tr>
-<tr>
-<td>Enable long breaks</td>
-<td>Enable timer long breaks?</td>
-<td><code>bool</code> Toggle</td>
-<td><code>True</code></td>
-</tr>
-<tr>
-<td>Pomodoro count</td>
-<td>How many pomodoro / tomatoes does the user need to unlock the long break?</td>
-<td><code>int</code> PomodoroCount</td>
-<td><code>4</code></td>
-</tr>
-</tbody>
-</table>
+<p>Custom audio support has been added in <code>v2.5.0</code>.
+If you are using an older version of the application, please update your application to access and use this functionality.</p>
+<ol>
+<li>Locate the <code>StreamingAssets</code> folder for your platform:
+<ul>
+<li>Windows
+<ul>
+<li>64 Bit: <code>unity-pomodoro-2.5.0-windows-desktop-64-bit/Unity Pomodoro_Data/StreamingAssets/</code></li>
+<li>32 Bit: <code>unity-pomodoro-2.5.0-windows-desktop-32-bit/Unity Pomodoro_Data/StreamingAssets/</code></li>
+</ul>
+</li>
+<li>Mac: <code>unity-pomodoro-2.5.0-mac-desktop-64-bit-apple-silicon.app/Contents/Resources/Data/StreamingAssets/</code></li>
+<li>Linux: <code>unity-pomodoro-2.5.0-linux-desktop-64-bit/Unity Pomodoro_Data/StreamingAssets/</code></li>
+</ul>
+</li>
+<li>Drag n' Drop your <strong>.mp3</strong>/<strong>.wav</strong> file(s) into this <code>StreamingAssets</code> directory</li>
+<li>Open Unity Pomodoro</li>
+<li>Navigate to the Settings Page (Menu -&gt; Settings)</li>
+<li>Click the <strong><code>Set alarm sound</code></strong> dropdown
+<ul>
+<li>Your custom audio will populate and show up as a dropdown option here.</li>
+<li>Options suffixed with a &quot;.mp3&quot;/&quot;.wav&quot; indicate custom audio files.</li>
+</ul>
+</li>
+<li>Select your custom audio file.</li>
+<li>Done! You have successfully set your timer to utilize your own custom alarm audio!</li>
+</ol>
+<hr>
+<p><strong>Note:</strong> This has only been tested on the Windows platform.</p>
+<ul>
+<li>If you'd like to better support other platforms please consider becoming a sponsor to fund me some hardware: <a href="https://github.com/sponsors/adrian-miasik">https://github.com/sponsors/adrian-miasik</a></li>
+<li>If you are experiencing any issues, take a look at <a href="https://github.com/adrian-miasik/unity-pomodoro/issues">our issues board</a> to see if anyone else if having a similar issue.</li>
+<li>If there are no open issues describing your problem, please submit a bug report <a href="https://github.com/adrian-miasik/unity-pomodoro/issues/new?assignees=&amp;labels=&amp;template=bug-report-template.md&amp;title=">here</a>.</li>
+</ul>
+<hr>
+<p>Also let me know what custom audio you're using!
+I'd be curious to know what everyone is setting their alarm sounds to :D</p>
 </article>
           </div>
           
@@ -139,7 +114,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro-docs/blob/develop/docfx_project/documents/settings.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro-docs/blob/develop/docfx_project/documents/how-to-use-custom-audio.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

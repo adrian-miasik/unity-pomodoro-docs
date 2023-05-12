@@ -2,6 +2,7 @@
 
 Custom audio support has been added in `v2.5.0`.
 If you are using an older version of the application, please update your application to access and use this functionality.
+Note: This functionality is only available on Desktop Platforms: Windows, Mac, and Linux.
 
 1. Locate the `StreamingAssets` folder for your platform:
 	- Windows
@@ -20,7 +21,7 @@ If you are using an older version of the application, please update your applica
 
 ---
 
-**Note:** This has only been tested on the Windows platform. 
+**Note:** This has only been tested on the Windows platform. Mac & Linux hasn't been tested.
 
 - If you'd like to better support other platforms please consider becoming a sponsor to fund me some hardware: https://github.com/sponsors/adrian-miasik
 - If you are experiencing any issues, take a look at [our issues board](https://github.com/adrian-miasik/unity-pomodoro/issues) to see if anyone else if having a similar issue.

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class AudioMimic
+    <title>Class AndroidNotifications
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class AudioMimic
+    <meta name="title" content="Class AndroidNotifications
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -68,13 +68,13 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Components.Core.AudioMimic">
+            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications">
   
   
-  <h1 id="AdrianMiasik_Components_Core_AudioMimic" data-uid="AdrianMiasik.Components.Core.AudioMimic" class="text-break">Class AudioMimic
+  <h1 id="AdrianMiasik_Components_Specific_Platforms_Android_AndroidNotifications" data-uid="AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications" class="text-break">Class AndroidNotifications
   </h1>
-  <div class="markdown level0 summary"><p>A singleton class that allows us to transfer one <span class="xref">UnityEngine.AudioClip</span> from an about to be hidden/destroyed
-gameobject and play it here instead. Limited to only 1 sound mimic at one time.</p>
+  <div class="markdown level0 summary"><p>Used to serve Android OS level notifications/toasts to the user. Intended to be used with
+<a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a> to queue notifications when necessary.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -84,62 +84,36 @@ gameobject and play it here instead. Limited to only 1 sound mimic at one time.<
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">AudioMimic</span></div>
+    <div class="level5"><span class="xref">AndroidNotifications</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Core.html">AdrianMiasik.Components.Core</a></h6>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Specific.Platforms.Android.html">AdrianMiasik.Components.Specific.Platforms.Android</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="AdrianMiasik_Components_Core_AudioMimic_syntax">Syntax</h5>
+  <h5 id="AdrianMiasik_Components_Specific_Platforms_Android_AndroidNotifications_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AudioMimic : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class AndroidNotifications : MonoBehaviour, ITimerState</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7901ca7f0e350357a190529302427731d0d814f0/apiSpec/new?filename=AdrianMiasik_Components_Core_AudioMimic_Instance.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.AudioMimic.Instance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7901ca7f0e350357a190529302427731d0d814f0/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/AudioMimic.cs/#L11">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Core_AudioMimic_Instance_" data-uid="AdrianMiasik.Components.Core.AudioMimic.Instance*"></a>
-  <h4 id="AdrianMiasik_Components_Core_AudioMimic_Instance" data-uid="AdrianMiasik.Components.Core.AudioMimic.Instance">Instance</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AudioMimic Instance { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AdrianMiasik.Components.Core.AudioMimic.html">AudioMimic</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7901ca7f0e350357a190529302427731d0d814f0/apiSpec/new?filename=AdrianMiasik_Components_Core_AudioMimic_PlaySound_UnityEngine_AudioClip_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.AudioMimic.PlaySound(UnityEngine.AudioClip)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7901ca7f0e350357a190529302427731d0d814f0/apiSpec/new?filename=AdrianMiasik_Components_Specific_Platforms_Android_AndroidNotifications_StateUpdate_AdrianMiasik_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States%2CAdrianMiasik.ScriptableObjects.Theme)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7901ca7f0e350357a190529302427731d0d814f0/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/AudioMimic.cs/#L30">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7901ca7f0e350357a190529302427731d0d814f0/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/Platforms/Android/AndroidNotifications.cs/#L124">View Source</a>
   </span>
-  <a id="AdrianMiasik_Components_Core_AudioMimic_PlaySound_" data-uid="AdrianMiasik.Components.Core.AudioMimic.PlaySound*"></a>
-  <h4 id="AdrianMiasik_Components_Core_AudioMimic_PlaySound_UnityEngine_AudioClip_" data-uid="AdrianMiasik.Components.Core.AudioMimic.PlaySound(UnityEngine.AudioClip)">PlaySound(AudioClip)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="AdrianMiasik_Components_Specific_Platforms_Android_AndroidNotifications_StateUpdate_" data-uid="AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications.StateUpdate*"></a>
+  <h4 id="AdrianMiasik_Components_Specific_Platforms_Android_AndroidNotifications_StateUpdate_AdrianMiasik_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_" data-uid="AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)">StateUpdate(PomodoroTimer.States, Theme)</h4>
+  <div class="markdown level1 summary"><p>Determines what to do with our notifications based on Timer States. So if we return to setup mode,
+we discard our queued notifications, etc...</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PlaySound(AudioClip clipToMimic)</code></pre>
+    <pre><code class="lang-csharp hljs">public void StateUpdate(PomodoroTimer.States state, Theme theme)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -152,12 +126,36 @@ gameobject and play it here instead. Limited to only 1 sound mimic at one time.<
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.AudioClip</span></td>
-        <td><span class="parametername">clipToMimic</span></td>
+        <td><a class="xref" href="AdrianMiasik.PomodoroTimer.States.html">PomodoroTimer.States</a></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AdrianMiasik.ScriptableObjects.Theme.html">Theme</a></td>
+        <td><span class="parametername">theme</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AdrianMiasik.Interfaces.ITimerState.html">ITimerState</a>
+  </div>
 </article>
           </div>
           
@@ -166,10 +164,10 @@ gameobject and play it here instead. Limited to only 1 sound mimic at one time.<
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7901ca7f0e350357a190529302427731d0d814f0/apiSpec/new?filename=AdrianMiasik_Components_Core_AudioMimic.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.AudioMimic%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7901ca7f0e350357a190529302427731d0d814f0/apiSpec/new?filename=AdrianMiasik_Components_Specific_Platforms_Android_AndroidNotifications.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7901ca7f0e350357a190529302427731d0d814f0/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/AudioMimic.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7901ca7f0e350357a190529302427731d0d814f0/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/Platforms/Android/AndroidNotifications.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

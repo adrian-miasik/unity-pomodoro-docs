@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class AudioMimic
+    <title>Class EventSystemSelectionTracker
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class AudioMimic
+    <meta name="title" content="Class EventSystemSelectionTracker
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -68,14 +68,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Components.Core.AudioMimic">
+            <article class="content wrap" id="_content" data-uid="AdrianMiasik.Components.Specific.EventSystemSelectionTracker">
   
   
-  <h1 id="AdrianMiasik_Components_Core_AudioMimic" data-uid="AdrianMiasik.Components.Core.AudioMimic" class="text-break">Class AudioMimic
+  <h1 id="AdrianMiasik_Components_Specific_EventSystemSelectionTracker" data-uid="AdrianMiasik.Components.Specific.EventSystemSelectionTracker" class="text-break">Class EventSystemSelectionTracker
   </h1>
-  <div class="markdown level0 summary"><p>A singleton class that allows us to transfer one <span class="xref">UnityEngine.AudioClip</span> from an about to be hidden/destroyed
-gameobject and play it here instead. Limited to only 1 sound mimic at one time.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -84,32 +82,31 @@ gameobject and play it here instead. Limited to only 1 sound mimic at one time.<
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">AudioMimic</span></div>
+    <div class="level5"><span class="xref">EventSystemSelectionTracker</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Core.html">AdrianMiasik.Components.Core</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AdrianMiasik.Components.Specific.html">AdrianMiasik.Components.Specific</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="AdrianMiasik_Components_Core_AudioMimic_syntax">Syntax</h5>
+  <h5 id="AdrianMiasik_Components_Specific_EventSystemSelectionTracker_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AudioMimic : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class EventSystemSelectionTracker : MonoBehaviour</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7901ca7f0e350357a190529302427731d0d814f0/apiSpec/new?filename=AdrianMiasik_Components_Core_AudioMimic_Instance.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.AudioMimic.Instance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7901ca7f0e350357a190529302427731d0d814f0/apiSpec/new?filename=AdrianMiasik_Components_Specific_EventSystemSelectionTracker_OnSelectionChange.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.EventSystemSelectionTracker.OnSelectionChange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7901ca7f0e350357a190529302427731d0d814f0/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/AudioMimic.cs/#L11">View Source</a>
+    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7901ca7f0e350357a190529302427731d0d814f0/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/EventSystemSelectionTracker.cs/#L12">View Source</a>
   </span>
-  <a id="AdrianMiasik_Components_Core_AudioMimic_Instance_" data-uid="AdrianMiasik.Components.Core.AudioMimic.Instance*"></a>
-  <h4 id="AdrianMiasik_Components_Core_AudioMimic_Instance" data-uid="AdrianMiasik.Components.Core.AudioMimic.Instance">Instance</h4>
+  <h4 id="AdrianMiasik_Components_Specific_EventSystemSelectionTracker_OnSelectionChange" data-uid="AdrianMiasik.Components.Specific.EventSystemSelectionTracker.OnSelectionChange">OnSelectionChange</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AudioMimic Instance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;GameObject, GameObject&gt; OnSelectionChange</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -119,41 +116,7 @@ gameobject and play it here instead. Limited to only 1 sound mimic at one time.<
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="AdrianMiasik.Components.Core.AudioMimic.html">AudioMimic</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7901ca7f0e350357a190529302427731d0d814f0/apiSpec/new?filename=AdrianMiasik_Components_Core_AudioMimic_PlaySound_UnityEngine_AudioClip_.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.AudioMimic.PlaySound(UnityEngine.AudioClip)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7901ca7f0e350357a190529302427731d0d814f0/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/AudioMimic.cs/#L30">View Source</a>
-  </span>
-  <a id="AdrianMiasik_Components_Core_AudioMimic_PlaySound_" data-uid="AdrianMiasik.Components.Core.AudioMimic.PlaySound*"></a>
-  <h4 id="AdrianMiasik_Components_Core_AudioMimic_PlaySound_UnityEngine_AudioClip_" data-uid="AdrianMiasik.Components.Core.AudioMimic.PlaySound(UnityEngine.AudioClip)">PlaySound(AudioClip)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PlaySound(AudioClip clipToMimic)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.AudioClip</span></td>
-        <td><span class="parametername">clipToMimic</span></td>
+        <td><span class="xref">UnityEngine.Events.UnityEvent</span>&lt;<span class="xref">UnityEngine.GameObject</span>, <span class="xref">UnityEngine.GameObject</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -166,10 +129,10 @@ gameobject and play it here instead. Limited to only 1 sound mimic at one time.<
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7901ca7f0e350357a190529302427731d0d814f0/apiSpec/new?filename=AdrianMiasik_Components_Core_AudioMimic.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Core.AudioMimic%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/new/7901ca7f0e350357a190529302427731d0d814f0/apiSpec/new?filename=AdrianMiasik_Components_Specific_EventSystemSelectionTracker.md&amp;value=---%0Auid%3A%20AdrianMiasik.Components.Specific.EventSystemSelectionTracker%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7901ca7f0e350357a190529302427731d0d814f0/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Core/AudioMimic.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/adrian-miasik/unity-pomodoro/blob/7901ca7f0e350357a190529302427731d0d814f0/UnityPomodoro/Assets/AdrianMiasik/Scripts/Components/Specific/EventSystemSelectionTracker.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

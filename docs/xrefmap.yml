@@ -7,31 +7,6 @@ references:
   commentId: N:AdrianMiasik
   fullName: AdrianMiasik
   nameWithType: AdrianMiasik
-- uid: AdrianMiasik.Android
-  name: AdrianMiasik.Android
-  href: api/AdrianMiasik.Android.html
-  commentId: N:AdrianMiasik.Android
-  fullName: AdrianMiasik.Android
-  nameWithType: AdrianMiasik.Android
-- uid: AdrianMiasik.Android.AndroidNotifications
-  name: AndroidNotifications
-  href: api/AdrianMiasik.Android.AndroidNotifications.html
-  commentId: T:AdrianMiasik.Android.AndroidNotifications
-  fullName: AdrianMiasik.Android.AndroidNotifications
-  nameWithType: AndroidNotifications
-- uid: AdrianMiasik.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
-  name: StateUpdate(PomodoroTimer.States, Theme)
-  href: api/AdrianMiasik.Android.AndroidNotifications.html#AdrianMiasik_Android_AndroidNotifications_StateUpdate_AdrianMiasik_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_
-  commentId: M:AdrianMiasik.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
-  fullName: AdrianMiasik.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States, AdrianMiasik.ScriptableObjects.Theme)
-  nameWithType: AndroidNotifications.StateUpdate(PomodoroTimer.States, Theme)
-- uid: AdrianMiasik.Android.AndroidNotifications.StateUpdate*
-  name: StateUpdate
-  href: api/AdrianMiasik.Android.AndroidNotifications.html#AdrianMiasik_Android_AndroidNotifications_StateUpdate_
-  commentId: Overload:AdrianMiasik.Android.AndroidNotifications.StateUpdate
-  isSpec: "True"
-  fullName: AdrianMiasik.Android.AndroidNotifications.StateUpdate
-  nameWithType: AndroidNotifications.StateUpdate
 - uid: AdrianMiasik.Components.Base
   name: AdrianMiasik.Components.Base
   href: api/AdrianMiasik.Components.Base.html
@@ -2426,6 +2401,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.Containers.TomatoCounter.ConsumeTomatoes
   nameWithType: TomatoCounter.ConsumeTomatoes
+- uid: AdrianMiasik.Components.Core.Containers.TomatoCounter.FillAllTomatoes
+  name: FillAllTomatoes()
+  href: api/AdrianMiasik.Components.Core.Containers.TomatoCounter.html#AdrianMiasik_Components_Core_Containers_TomatoCounter_FillAllTomatoes
+  commentId: M:AdrianMiasik.Components.Core.Containers.TomatoCounter.FillAllTomatoes
+  fullName: AdrianMiasik.Components.Core.Containers.TomatoCounter.FillAllTomatoes()
+  nameWithType: TomatoCounter.FillAllTomatoes()
+- uid: AdrianMiasik.Components.Core.Containers.TomatoCounter.FillAllTomatoes*
+  name: FillAllTomatoes
+  href: api/AdrianMiasik.Components.Core.Containers.TomatoCounter.html#AdrianMiasik_Components_Core_Containers_TomatoCounter_FillAllTomatoes_
+  commentId: Overload:AdrianMiasik.Components.Core.Containers.TomatoCounter.FillAllTomatoes
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.Containers.TomatoCounter.FillAllTomatoes
+  nameWithType: TomatoCounter.FillAllTomatoes
 - uid: AdrianMiasik.Components.Core.Containers.TomatoCounter.FillTomato
   name: FillTomato()
   href: api/AdrianMiasik.Components.Core.Containers.TomatoCounter.html#AdrianMiasik_Components_Core_Containers_TomatoCounter_FillTomato
@@ -2644,6 +2632,64 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Core.ImageHoverColorChange.OnPointerExit
   nameWithType: ImageHoverColorChange.OnPointerExit
+- uid: AdrianMiasik.Components.Core.InputLabelText
+  name: InputLabelText
+  href: api/AdrianMiasik.Components.Core.InputLabelText.html
+  commentId: T:AdrianMiasik.Components.Core.InputLabelText
+  fullName: AdrianMiasik.Components.Core.InputLabelText
+  nameWithType: InputLabelText
+- uid: AdrianMiasik.Components.Core.InputLabelText.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  name: ColorUpdate(Theme)
+  href: api/AdrianMiasik.Components.Core.InputLabelText.html#AdrianMiasik_Components_Core_InputLabelText_ColorUpdate_AdrianMiasik_ScriptableObjects_Theme_
+  commentId: M:AdrianMiasik.Components.Core.InputLabelText.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  fullName: AdrianMiasik.Components.Core.InputLabelText.ColorUpdate(AdrianMiasik.ScriptableObjects.Theme)
+  nameWithType: InputLabelText.ColorUpdate(Theme)
+- uid: AdrianMiasik.Components.Core.InputLabelText.ColorUpdate*
+  name: ColorUpdate
+  href: api/AdrianMiasik.Components.Core.InputLabelText.html#AdrianMiasik_Components_Core_InputLabelText_ColorUpdate_
+  commentId: Overload:AdrianMiasik.Components.Core.InputLabelText.ColorUpdate
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.InputLabelText.ColorUpdate
+  nameWithType: InputLabelText.ColorUpdate
+- uid: AdrianMiasik.Components.Core.InputLabelText.Initialize(AdrianMiasik.PomodoroTimer,System.Boolean)
+  name: Initialize(PomodoroTimer, Boolean)
+  href: api/AdrianMiasik.Components.Core.InputLabelText.html#AdrianMiasik_Components_Core_InputLabelText_Initialize_AdrianMiasik_PomodoroTimer_System_Boolean_
+  commentId: M:AdrianMiasik.Components.Core.InputLabelText.Initialize(AdrianMiasik.PomodoroTimer,System.Boolean)
+  fullName: AdrianMiasik.Components.Core.InputLabelText.Initialize(AdrianMiasik.PomodoroTimer, System.Boolean)
+  nameWithType: InputLabelText.Initialize(PomodoroTimer, Boolean)
+- uid: AdrianMiasik.Components.Core.InputLabelText.Initialize*
+  name: Initialize
+  href: api/AdrianMiasik.Components.Core.InputLabelText.html#AdrianMiasik_Components_Core_InputLabelText_Initialize_
+  commentId: Overload:AdrianMiasik.Components.Core.InputLabelText.Initialize
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.InputLabelText.Initialize
+  nameWithType: InputLabelText.Initialize
+- uid: AdrianMiasik.Components.Core.InputLabelText.SetTextColor(UnityEngine.Color)
+  name: SetTextColor(Color)
+  href: api/AdrianMiasik.Components.Core.InputLabelText.html#AdrianMiasik_Components_Core_InputLabelText_SetTextColor_UnityEngine_Color_
+  commentId: M:AdrianMiasik.Components.Core.InputLabelText.SetTextColor(UnityEngine.Color)
+  fullName: AdrianMiasik.Components.Core.InputLabelText.SetTextColor(UnityEngine.Color)
+  nameWithType: InputLabelText.SetTextColor(Color)
+- uid: AdrianMiasik.Components.Core.InputLabelText.SetTextColor*
+  name: SetTextColor
+  href: api/AdrianMiasik.Components.Core.InputLabelText.html#AdrianMiasik_Components_Core_InputLabelText_SetTextColor_
+  commentId: Overload:AdrianMiasik.Components.Core.InputLabelText.SetTextColor
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.InputLabelText.SetTextColor
+  nameWithType: InputLabelText.SetTextColor
+- uid: AdrianMiasik.Components.Core.InputLabelText.StateUpdate(AdrianMiasik.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
+  name: StateUpdate(PomodoroTimer.States, Theme)
+  href: api/AdrianMiasik.Components.Core.InputLabelText.html#AdrianMiasik_Components_Core_InputLabelText_StateUpdate_AdrianMiasik_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_
+  commentId: M:AdrianMiasik.Components.Core.InputLabelText.StateUpdate(AdrianMiasik.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
+  fullName: AdrianMiasik.Components.Core.InputLabelText.StateUpdate(AdrianMiasik.PomodoroTimer.States, AdrianMiasik.ScriptableObjects.Theme)
+  nameWithType: InputLabelText.StateUpdate(PomodoroTimer.States, Theme)
+- uid: AdrianMiasik.Components.Core.InputLabelText.StateUpdate*
+  name: StateUpdate
+  href: api/AdrianMiasik.Components.Core.InputLabelText.html#AdrianMiasik_Components_Core_InputLabelText_StateUpdate_
+  commentId: Overload:AdrianMiasik.Components.Core.InputLabelText.StateUpdate
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Core.InputLabelText.StateUpdate
+  nameWithType: InputLabelText.StateUpdate
 - uid: AdrianMiasik.Components.Core.Items
   name: AdrianMiasik.Components.Core.Items
   href: api/AdrianMiasik.Components.Core.Items.html
@@ -4414,6 +4460,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.CreditsGhost.ResetWidth
   nameWithType: CreditsGhost.ResetWidth
+- uid: AdrianMiasik.Components.Specific.CreditsGhost.Restart
+  name: Restart()
+  href: api/AdrianMiasik.Components.Specific.CreditsGhost.html#AdrianMiasik_Components_Specific_CreditsGhost_Restart
+  commentId: M:AdrianMiasik.Components.Specific.CreditsGhost.Restart
+  fullName: AdrianMiasik.Components.Specific.CreditsGhost.Restart()
+  nameWithType: CreditsGhost.Restart()
+- uid: AdrianMiasik.Components.Specific.CreditsGhost.Restart*
+  name: Restart
+  href: api/AdrianMiasik.Components.Specific.CreditsGhost.html#AdrianMiasik_Components_Specific_CreditsGhost_Restart_
+  commentId: Overload:AdrianMiasik.Components.Specific.CreditsGhost.Restart
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.CreditsGhost.Restart
+  nameWithType: CreditsGhost.Restart
 - uid: AdrianMiasik.Components.Specific.CreditsGhost.SetRightOffset(System.Single)
   name: SetRightOffset(Single)
   href: api/AdrianMiasik.Components.Specific.CreditsGhost.html#AdrianMiasik_Components_Specific_CreditsGhost_SetRightOffset_System_Single_
@@ -4511,6 +4570,18 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.EndTimestampGhost.Update
   nameWithType: EndTimestampGhost.Update
+- uid: AdrianMiasik.Components.Specific.EventSystemSelectionTracker
+  name: EventSystemSelectionTracker
+  href: api/AdrianMiasik.Components.Specific.EventSystemSelectionTracker.html
+  commentId: T:AdrianMiasik.Components.Specific.EventSystemSelectionTracker
+  fullName: AdrianMiasik.Components.Specific.EventSystemSelectionTracker
+  nameWithType: EventSystemSelectionTracker
+- uid: AdrianMiasik.Components.Specific.EventSystemSelectionTracker.OnSelectionChange
+  name: OnSelectionChange
+  href: api/AdrianMiasik.Components.Specific.EventSystemSelectionTracker.html#AdrianMiasik_Components_Specific_EventSystemSelectionTracker_OnSelectionChange
+  commentId: F:AdrianMiasik.Components.Specific.EventSystemSelectionTracker.OnSelectionChange
+  fullName: AdrianMiasik.Components.Specific.EventSystemSelectionTracker.OnSelectionChange
+  nameWithType: EventSystemSelectionTracker.OnSelectionChange
 - uid: AdrianMiasik.Components.Specific.HotkeyDetector
   name: HotkeyDetector
   href: api/AdrianMiasik.Components.Specific.HotkeyDetector.html
@@ -4556,6 +4627,81 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.Components.Specific.HotkeyDetector.ResumeInputs
   nameWithType: HotkeyDetector.ResumeInputs
+- uid: AdrianMiasik.Components.Specific.Platforms.Android
+  name: AdrianMiasik.Components.Specific.Platforms.Android
+  href: api/AdrianMiasik.Components.Specific.Platforms.Android.html
+  commentId: N:AdrianMiasik.Components.Specific.Platforms.Android
+  fullName: AdrianMiasik.Components.Specific.Platforms.Android
+  nameWithType: AdrianMiasik.Components.Specific.Platforms.Android
+- uid: AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications
+  name: AndroidNotifications
+  href: api/AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications.html
+  commentId: T:AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications
+  fullName: AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications
+  nameWithType: AndroidNotifications
+- uid: AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
+  name: StateUpdate(PomodoroTimer.States, Theme)
+  href: api/AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications.html#AdrianMiasik_Components_Specific_Platforms_Android_AndroidNotifications_StateUpdate_AdrianMiasik_PomodoroTimer_States_AdrianMiasik_ScriptableObjects_Theme_
+  commentId: M:AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States,AdrianMiasik.ScriptableObjects.Theme)
+  fullName: AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications.StateUpdate(AdrianMiasik.PomodoroTimer.States, AdrianMiasik.ScriptableObjects.Theme)
+  nameWithType: AndroidNotifications.StateUpdate(PomodoroTimer.States, Theme)
+- uid: AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications.StateUpdate*
+  name: StateUpdate
+  href: api/AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications.html#AdrianMiasik_Components_Specific_Platforms_Android_AndroidNotifications_StateUpdate_
+  commentId: Overload:AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications.StateUpdate
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.Platforms.Android.AndroidNotifications.StateUpdate
+  nameWithType: AndroidNotifications.StateUpdate
+- uid: AdrianMiasik.Components.Specific.Platforms.Steam
+  name: AdrianMiasik.Components.Specific.Platforms.Steam
+  href: api/AdrianMiasik.Components.Specific.Platforms.Steam.html
+  commentId: N:AdrianMiasik.Components.Specific.Platforms.Steam
+  fullName: AdrianMiasik.Components.Specific.Platforms.Steam
+  nameWithType: AdrianMiasik.Components.Specific.Platforms.Steam
+- uid: AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager
+  name: SteamManager
+  href: api/AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.html
+  commentId: T:AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager
+  fullName: AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager
+  nameWithType: SteamManager
+- uid: AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.Initialize
+  name: Initialize()
+  href: api/AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.html#AdrianMiasik_Components_Specific_Platforms_Steam_SteamManager_Initialize
+  commentId: M:AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.Initialize
+  fullName: AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.Initialize()
+  nameWithType: SteamManager.Initialize()
+- uid: AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.Initialize*
+  name: Initialize
+  href: api/AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.html#AdrianMiasik_Components_Specific_Platforms_Steam_SteamManager_Initialize_
+  commentId: Overload:AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.Initialize
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.Initialize
+  nameWithType: SteamManager.Initialize
+- uid: AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.Shutdown
+  name: Shutdown()
+  href: api/AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.html#AdrianMiasik_Components_Specific_Platforms_Steam_SteamManager_Shutdown
+  commentId: M:AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.Shutdown
+  fullName: AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.Shutdown()
+  nameWithType: SteamManager.Shutdown()
+- uid: AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.Shutdown*
+  name: Shutdown
+  href: api/AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.html#AdrianMiasik_Components_Specific_Platforms_Steam_SteamManager_Shutdown_
+  commentId: Overload:AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.Shutdown
+  isSpec: "True"
+  fullName: AdrianMiasik.Components.Specific.Platforms.Steam.SteamManager.Shutdown
+  nameWithType: SteamManager.Shutdown
+- uid: AdrianMiasik.Components.Specific.Platforms.UWP
+  name: AdrianMiasik.Components.Specific.Platforms.UWP
+  href: api/AdrianMiasik.Components.Specific.Platforms.UWP.html
+  commentId: N:AdrianMiasik.Components.Specific.Platforms.UWP
+  fullName: AdrianMiasik.Components.Specific.Platforms.UWP
+  nameWithType: AdrianMiasik.Components.Specific.Platforms.UWP
+- uid: AdrianMiasik.Components.Specific.Platforms.UWP.UWPNotifications
+  name: UWPNotifications
+  href: api/AdrianMiasik.Components.Specific.Platforms.UWP.UWPNotifications.html
+  commentId: T:AdrianMiasik.Components.Specific.Platforms.UWP.UWPNotifications
+  fullName: AdrianMiasik.Components.Specific.Platforms.UWP.UWPNotifications
+  nameWithType: UWPNotifications
 - uid: AdrianMiasik.Components.Specific.ResolutionDetector
   name: ResolutionDetector
   href: api/AdrianMiasik.Components.Specific.ResolutionDetector.html
@@ -5852,6 +5998,32 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.PomodoroTimer.PlaySpawnAnimation
   nameWithType: PomodoroTimer.PlaySpawnAnimation
+- uid: AdrianMiasik.PomodoroTimer.RefreshDigitVisuals
+  name: RefreshDigitVisuals()
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_RefreshDigitVisuals
+  commentId: M:AdrianMiasik.PomodoroTimer.RefreshDigitVisuals
+  fullName: AdrianMiasik.PomodoroTimer.RefreshDigitVisuals()
+  nameWithType: PomodoroTimer.RefreshDigitVisuals()
+- uid: AdrianMiasik.PomodoroTimer.RefreshDigitVisuals*
+  name: RefreshDigitVisuals
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_RefreshDigitVisuals_
+  commentId: Overload:AdrianMiasik.PomodoroTimer.RefreshDigitVisuals
+  isSpec: "True"
+  fullName: AdrianMiasik.PomodoroTimer.RefreshDigitVisuals
+  nameWithType: PomodoroTimer.RefreshDigitVisuals
+- uid: AdrianMiasik.PomodoroTimer.RefreshInputLabel
+  name: RefreshInputLabel()
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_RefreshInputLabel
+  commentId: M:AdrianMiasik.PomodoroTimer.RefreshInputLabel
+  fullName: AdrianMiasik.PomodoroTimer.RefreshInputLabel()
+  nameWithType: PomodoroTimer.RefreshInputLabel()
+- uid: AdrianMiasik.PomodoroTimer.RefreshInputLabel*
+  name: RefreshInputLabel
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_RefreshInputLabel_
+  commentId: Overload:AdrianMiasik.PomodoroTimer.RefreshInputLabel
+  isSpec: "True"
+  fullName: AdrianMiasik.PomodoroTimer.RefreshInputLabel
+  nameWithType: PomodoroTimer.RefreshInputLabel
 - uid: AdrianMiasik.PomodoroTimer.ResetCreditsBubbleSidebarConformity
   name: ResetCreditsBubbleSidebarConformity()
   href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_ResetCreditsBubbleSidebarConformity
@@ -5878,6 +6050,19 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.PomodoroTimer.Restart
   nameWithType: PomodoroTimer.Restart
+- uid: AdrianMiasik.PomodoroTimer.RestartCreditsGhost
+  name: RestartCreditsGhost()
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_RestartCreditsGhost
+  commentId: M:AdrianMiasik.PomodoroTimer.RestartCreditsGhost
+  fullName: AdrianMiasik.PomodoroTimer.RestartCreditsGhost()
+  nameWithType: PomodoroTimer.RestartCreditsGhost()
+- uid: AdrianMiasik.PomodoroTimer.RestartCreditsGhost*
+  name: RestartCreditsGhost
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_RestartCreditsGhost_
+  commentId: Overload:AdrianMiasik.PomodoroTimer.RestartCreditsGhost
+  isSpec: "True"
+  fullName: AdrianMiasik.PomodoroTimer.RestartCreditsGhost
+  nameWithType: PomodoroTimer.RestartCreditsGhost
 - uid: AdrianMiasik.PomodoroTimer.SelectAll
   name: SelectAll()
   href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_SelectAll
@@ -6194,12 +6379,12 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.PomodoroTimer.TryCancelConfirmationDialog
   nameWithType: PomodoroTimer.TryCancelConfirmationDialog
-- uid: AdrianMiasik.PomodoroTimer.TryChangeFormat(AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats)
-  name: TryChangeFormat(DigitFormat.SupportedFormats)
-  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_TryChangeFormat_AdrianMiasik_Components_Core_Containers_DigitFormat_SupportedFormats_
-  commentId: M:AdrianMiasik.PomodoroTimer.TryChangeFormat(AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats)
-  fullName: AdrianMiasik.PomodoroTimer.TryChangeFormat(AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats)
-  nameWithType: PomodoroTimer.TryChangeFormat(DigitFormat.SupportedFormats)
+- uid: AdrianMiasik.PomodoroTimer.TryChangeFormat(AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats,System.Boolean)
+  name: TryChangeFormat(DigitFormat.SupportedFormats, Boolean)
+  href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_TryChangeFormat_AdrianMiasik_Components_Core_Containers_DigitFormat_SupportedFormats_System_Boolean_
+  commentId: M:AdrianMiasik.PomodoroTimer.TryChangeFormat(AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats,System.Boolean)
+  fullName: AdrianMiasik.PomodoroTimer.TryChangeFormat(AdrianMiasik.Components.Core.Containers.DigitFormat.SupportedFormats, System.Boolean)
+  nameWithType: PomodoroTimer.TryChangeFormat(DigitFormat.SupportedFormats, Boolean)
 - uid: AdrianMiasik.PomodoroTimer.TryChangeFormat*
   name: TryChangeFormat
   href: api/AdrianMiasik.PomodoroTimer.html#AdrianMiasik_PomodoroTimer_TryChangeFormat_
@@ -6479,79 +6664,3 @@ references:
   isSpec: "True"
   fullName: AdrianMiasik.ScriptableObjects.Theme.TransferColorElements
   nameWithType: Theme.TransferColorElements
-- uid: AdrianMiasik.Steam
-  name: AdrianMiasik.Steam
-  href: api/AdrianMiasik.Steam.html
-  commentId: N:AdrianMiasik.Steam
-  fullName: AdrianMiasik.Steam
-  nameWithType: AdrianMiasik.Steam
-- uid: AdrianMiasik.Steam.SteamManager
-  name: SteamManager
-  href: api/AdrianMiasik.Steam.SteamManager.html
-  commentId: T:AdrianMiasik.Steam.SteamManager
-  fullName: AdrianMiasik.Steam.SteamManager
-  nameWithType: SteamManager
-- uid: AdrianMiasik.Steam.SteamManager.Initialize
-  name: Initialize()
-  href: api/AdrianMiasik.Steam.SteamManager.html#AdrianMiasik_Steam_SteamManager_Initialize
-  commentId: M:AdrianMiasik.Steam.SteamManager.Initialize
-  fullName: AdrianMiasik.Steam.SteamManager.Initialize()
-  nameWithType: SteamManager.Initialize()
-- uid: AdrianMiasik.Steam.SteamManager.Initialize*
-  name: Initialize
-  href: api/AdrianMiasik.Steam.SteamManager.html#AdrianMiasik_Steam_SteamManager_Initialize_
-  commentId: Overload:AdrianMiasik.Steam.SteamManager.Initialize
-  isSpec: "True"
-  fullName: AdrianMiasik.Steam.SteamManager.Initialize
-  nameWithType: SteamManager.Initialize
-- uid: AdrianMiasik.Steam.SteamManager.Shutdown
-  name: Shutdown()
-  href: api/AdrianMiasik.Steam.SteamManager.html#AdrianMiasik_Steam_SteamManager_Shutdown
-  commentId: M:AdrianMiasik.Steam.SteamManager.Shutdown
-  fullName: AdrianMiasik.Steam.SteamManager.Shutdown()
-  nameWithType: SteamManager.Shutdown()
-- uid: AdrianMiasik.Steam.SteamManager.Shutdown*
-  name: Shutdown
-  href: api/AdrianMiasik.Steam.SteamManager.html#AdrianMiasik_Steam_SteamManager_Shutdown_
-  commentId: Overload:AdrianMiasik.Steam.SteamManager.Shutdown
-  isSpec: "True"
-  fullName: AdrianMiasik.Steam.SteamManager.Shutdown
-  nameWithType: SteamManager.Shutdown
-- uid: AdrianMiasik.UWP
-  name: AdrianMiasik.UWP
-  href: api/AdrianMiasik.UWP.html
-  commentId: N:AdrianMiasik.UWP
-  fullName: AdrianMiasik.UWP
-  nameWithType: AdrianMiasik.UWP
-- uid: AdrianMiasik.UWP.UWPNotifications
-  name: UWPNotifications
-  href: api/AdrianMiasik.UWP.UWPNotifications.html
-  commentId: T:AdrianMiasik.UWP.UWPNotifications
-  fullName: AdrianMiasik.UWP.UWPNotifications
-  nameWithType: UWPNotifications
-- uid: AdrianMiasik.UWP.UWPNotifications.Initialize(AdrianMiasik.Components.Core.Settings.SystemSettings)
-  name: Initialize(SystemSettings)
-  href: api/AdrianMiasik.UWP.UWPNotifications.html#AdrianMiasik_UWP_UWPNotifications_Initialize_AdrianMiasik_Components_Core_Settings_SystemSettings_
-  commentId: M:AdrianMiasik.UWP.UWPNotifications.Initialize(AdrianMiasik.Components.Core.Settings.SystemSettings)
-  fullName: AdrianMiasik.UWP.UWPNotifications.Initialize(AdrianMiasik.Components.Core.Settings.SystemSettings)
-  nameWithType: UWPNotifications.Initialize(SystemSettings)
-- uid: AdrianMiasik.UWP.UWPNotifications.Initialize*
-  name: Initialize
-  href: api/AdrianMiasik.UWP.UWPNotifications.html#AdrianMiasik_UWP_UWPNotifications_Initialize_
-  commentId: Overload:AdrianMiasik.UWP.UWPNotifications.Initialize
-  isSpec: "True"
-  fullName: AdrianMiasik.UWP.UWPNotifications.Initialize
-  nameWithType: UWPNotifications.Initialize
-- uid: AdrianMiasik.UWP.UWPNotifications.ShowToast
-  name: ShowToast()
-  href: api/AdrianMiasik.UWP.UWPNotifications.html#AdrianMiasik_UWP_UWPNotifications_ShowToast
-  commentId: M:AdrianMiasik.UWP.UWPNotifications.ShowToast
-  fullName: AdrianMiasik.UWP.UWPNotifications.ShowToast()
-  nameWithType: UWPNotifications.ShowToast()
-- uid: AdrianMiasik.UWP.UWPNotifications.ShowToast*
-  name: ShowToast
-  href: api/AdrianMiasik.UWP.UWPNotifications.html#AdrianMiasik_UWP_UWPNotifications_ShowToast_
-  commentId: Overload:AdrianMiasik.UWP.UWPNotifications.ShowToast
-  isSpec: "True"
-  fullName: AdrianMiasik.UWP.UWPNotifications.ShowToast
-  nameWithType: UWPNotifications.ShowToast
